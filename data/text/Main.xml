@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+   xmlns:xi="http://www.w3.org/2001/XInclude"
+   xmlns:xlink="http://www.w3.org/1999/xlink">
+   <teiHeader>
+      <fileDesc>
+         
+         <titleStmt>
+            <title>
+               <hi rend="italics">Libro delle nuove e strane e meravigliose cose</hi>Edizione
+               critica digitale</title>
+            <author>Odorico da Pordenone OMin.</author>
+            <respStmt >
+               <resp>Edizione</resp>
+               <persName>Alvise Andreose</persName>
+            </respStmt>
+            <respStmt >
+               <resp>Edizione e codifica</resp>
+               <persName>Irene Reginato</persName>
+            </respStmt>
+         </titleStmt>
+         
+         <publicationStmt>
+            <p>Portale dedicato ai volgarizzamenti italiani della <title xml:lang="latin"><hi
+                     rend="italic">Relatio de mirabilibus Orientalium Tatarorum</hi>di <persName
+                     ref="#Odorigo">Odorico da Pordenone OMin.</persName></title></p>
+         </publicationStmt>
+         
+         <sourceDesc>
+                  <listBibl>
+                     <bibl xml:id="Kaeppeli1970"><author>T. Kaeppeli</author><title><hi
+                              rend="italic">Scriptores Ordinis Praedicatorum Medii
+                           Aevii</hi></title>, <pubPlace/>Roma<publisher/>Ad S.
+                           Sabinae<date/>1970<biblScope>vol.I, p. 393.</biblScope></bibl>
+                     <bibl xml:id="Pomaro1980"><author>G. Pomaro</author><title><hi rend="italic"
+                              >Censimento della Biblioteca di Santa Maria Novella</hi></title>
+                        <editor>"Memorie
+                           domenicane"</editor><biblScope>XI</biblScope><date>1998</date><biblScope>pp.
+                           325-470.</biblScope></bibl>
+                     <bibl xml:id="Monaco1978-1979"><author>L. Monaco</author><title><hi
+                              rend="italic">Censimento della Biblioteca di Santa Maria Novella</hi>I
+                           volgarizzamenti italiani della Relazione di Odorico da
+                           Pordenone</title><editor>"Studi Mediolatini e
+                           Volgari"</editor><biblScope>XXVI</biblScope><date>1978-1979</date><biblScope>pp.
+                           68-69 n. 59</biblScope></bibl>
+                     <bibl xml:id="Kristeller1990"><author>P. O. Kristeller</author><title><hi
+                              rend="italics">Iter Italicum, Accedunt alia
+                           itinera</hi></title><biblScope>vol. IV</biblScope><pubPlace>London -
+                           Leiden</pubPlace><publisher>The Warburg Institute -
+                           Brill</publisher><date>1990</date><biblScope>p. 588</biblScope></bibl>
+                     <bibl xml:id="Wyngaert1929"><editor/>A. Van den Wyngaert
+                           O.F.M.<editor/><title/><hi rend="italics">Sinica Franciscana</hi>,
+                        collegit, ad fidem codicum redegit et annotavit p. A. van den
+                           Wyngaert<pubPlace/>Firenze<publisher/>Quaracchi<date/>1929<biblScope>vol.I</biblScope></bibl>
+                     <bibl xml:id="Reichert1997">
+                        <author>F. Reichert</author>
+                        <title><hi rend="italics">Incontri con la Cina. La scoperta dell'Asia
+                              orientale nel Medioevo</hi></title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Biblioteca francescana</publisher>
+                        <date>1997</date></bibl>
+                     <bibl xml:id="Andreose1996-1997"><author>A. Andreose</author><title><hi
+                              rend="italics">Lo libro dele nove, stranie, meraviose cose</hi>. Il
+                           volgarizzamento dell'<hi rend="italics">Itinerarium</hi>di Odorico da
+                           Pordenone contenuto nel cod. vat. lat. urbin. 1013</title><pubPlace>Tesi
+                           di laurea, Università degli Studi di
+                           Padova</pubPlace><date>1996-1997</date></bibl>
+                     <bibl xml:id="Andreose1998"><author>A. Andreose</author><title><hi
+                              rend="italics">"Lo livro dele nove e stranie meraviose cose". Ricerche
+                              sui volgarizzamenti italiani dell'</hi>Itinerarium<hi rend="italics"
+                              >del beato Odorico da Pordenone</hi></title><editor>"Il Santo. Rivista
+                           francescana di storia dottrina arte"</editor><biblScope>XXXVII,
+                           1-2</biblScope><date>1998</date><biblScope>pp. 36 e
+                        41-48.</biblScope></bibl>
+                     <bibl xml:id="Andreose2000"><author>A. Andreose</author><title><hi
+                              rend="italics">Libro delle nuove e strane e meravigliose
+                           cose</hi></title><pubPlace>Padova</pubPlace><publisher>Centro studi
+                           antoniani</publisher><date>2000.</date></bibl>
+                  </listBibl>
+         </sourceDesc>
+              
+              <sourceDesc>
+            <listPerson>
+               <person xml:id="Odorigo">
+                  <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
+                        >Pordenone</placeName> O.M.</persName>
+               </person>
+               <person xml:id="Noé">
+                  <persName ref="#Noé">Noé, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Job">
+                  <persName ref="#Job">Giobbe, patriarca idumeo protagonista del libro
+                     omonimo.</persName>
+               </person>
+               <person xml:id="Tome">
+                  <persName ref="#Tome">Tommaso, detto Didimo, uno dei dodici apostoli di
+                     Cristo.</persName>
+               </person>
+               <person xml:id="PrestoGiovanni">
+                  <persName ref="#NPresto Giovanni">Prete Gianni, leggendario sovrano cristiano che
+                     la tradizione medievale colloca in Asia, India o Etiopia.</persName>
+               </person>
+               <person xml:id="Francesco">
+                  <persName ref="#Francesco">San Francesco d'Assisi.</persName>
+               </person>
+               <person xml:id="Atanaxio">
+                  <persName ref="#Atanaxio">Atanasio l'Atonita, o Atanasio di Trebisonda (X sec.),
+                     monaco bizantino fondatore della Repubblica del Monte Athos.</persName>
+               </person>
+               <person xml:id="Porro">
+                  <persName ref="#Porro">Poro (IV sec.), sovrano della dinastia dei Paurava,
+                     nell'antica India nord-occidentale.</persName>
+               </person>
+               <person xml:id="Allessandro">
+                  <persName ref="#Allessandro">Alessandro Magno.</persName>
+               </person>
+               <person xml:id="TommasodiTollentino">
+                  <persName ref="#Tommaso di Tollentino">Tommaso da Tolentino (m. Tana, 1321),
+                     missionario francescano martire in India.</persName>
+               </person>
+               <person xml:id="JacopodaPadoa">
+                  <persName ref="#Jacopo da Padoa">Giacomo da Padova (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="DimetrideTofilii">
+                  <persName ref="#DimetrideTofilii">Demetrio da Tiblisi (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="PietrodaSiena">
+                  <persName ref="#Pietro da Siena">Pietro da Siena (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="Magometo">
+                  <persName ref="#NMagometo">Muhammad, profeta dell'Islam.</persName>
+               </person>
+               <person xml:id="Abraam">
+                  <persName ref="#Abraam">Abramo, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Cristofano">
+                  <persName ref="#Cristofano">San Cristoforo (m. 250).</persName>
+               </person>
+               <person xml:id="Adam">
+                  <persName ref="#Adam">Adamo.</persName>
+               </person>
+               <person xml:id="AntoniodaPadua">
+                  <persName ref="#Antonio da Padua">Sant'Antonio da Padova.</persName>
+               </person>
+               <person xml:id="Eva">
+                  <persName ref="#Eva">Eva.</persName>
+               </person>
+               <person xml:id="Vecchiodellamontagna">
+                  <persName ref="#Vecchio della montagna">Ḥasan-i Ṣabbāḥ, maestro della setta
+                     ismailita dei nizariti.</persName>
+               </person>
+               <person xml:id="Cristo">
+                  <persName ref="#Cristo">Gesù Cristo</persName>
+               </person>
+            </listPerson>
+         
+            <listPlace>
+               <place xml:id="Pordenone">
+                  <placeName ref="#Pordenone">Pordenone</placeName>
+                  <location>
+                     <geo>45.956368, 12.661452</geo>
+                  </location>
+                  <note>Pordenone, Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Tollentino">
+                  <placeName ref="#Tollentino">Tolentino</placeName>
+                  <location>
+                     <geo>43.211178, 13.286336</geo>
+                  </location>
+                  <note>Tolentino (MC), Marche, Italia.</note>
+               </place>
+               <place xml:id="Padoa">
+                  <placeName ref="#Padoa">Padova</placeName>
+                  <location>
+                     <geo>45.406435, 11.876761</geo>
+                  </location>
+                  <note>Padova, Veneto, Italia.</note>
+               </place>
+               <place xml:id="Tofilii">
+                  <placeName ref="#Tofilii">Tblisi</placeName>
+                  <location>
+                     <geo>41.715138, 44.827096</geo>
+                  </location>
+                  <note>Tblisi, capitale della Georgia.</note>
+               </place>
+               <place xml:id="Siena">
+                  <placeName ref="#Siena">Tblisi</placeName>
+                  <location>
+                     <geo>43.318809, 11.330757</geo>
+                  </location>
+                  <note>Siena, Toscana, Italia.</note>
+               </place>
+               <place xml:id="Friuli">
+                  <placeName ref="#Friuli">Friuli</placeName>
+                  <location>
+                     <geo>46.225918, 13.103365</geo>
+                  </location>
+                  <note>Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Ytalia">
+                  <placeName ref="#Ytalia">Italia</placeName>
+                  <location>
+                     <geo>441.871940, 12.567380</geo>
+                  </location>
+               </place>
+               <place xml:id="Vinegia">
+                  <placeName ref="#Vinegia">Venezia</placeName>
+                  <location>
+                     <geo>45.440847, 12.315515</geo>
+                     <note>Venezia, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Pisa">
+                  <placeName ref="#Pisa">Pisa</placeName>
+                  <location>
+                     <geo>43.724591, 10.382981</geo>
+                     <note>Pisa, Toscana, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Udine">
+                  <placeName ref="#Udine">Udine</placeName>
+                  <location>
+                     <geo>46.071067, 13.234579</geo>
+                     <note>Udine, Friuli Venezia Giulia, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Trapesonda">
+                  <placeName ref="#Trapesonda">Trebisonda (Trabzon)</placeName>
+                  <location>
+                     <geo>41.002697, 39.716763</geo>
+                     <note>Città della Turchia, capoluogo dell'omonima provincia, sulla costa
+                        nord-orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="ArmeniaMaggiore">
+                  <placeName ref="#Armenia Maggiore"/>
+                  <location>
+                     <geo>40.069099, 45.038189</geo>
+                  </location>
+                  <note>Storicamente, l'Armenia Maggiore coincide con la regione caucasica
+                     delimitata, a nord, dalla valle del Kura (Turchia) a Nord, a sud dal lago di
+                     Van (Turchia orientale), a ovest dalla Colchide (Georgia occidentale), a est
+                     dal mar Caspio.</note>
+               </place>
+               <place xml:id="Torissi">
+                  <placeName ref="#Torissi">Tabriz</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Tabrīz, capoluogo della provincia dell’Azarbaijian.</note>
+                  </location>
+               </place>
+               <place xml:id="Soldania">
+                  <placeName ref="#Soldania"/>
+                  <location>
+                     <geo>36.433988, 48.794642</geo>
+                     <note>Soltaniyeh/Sulṭāniyyah, città iraniana nella provincia di Zanjan, a
+                        nordovest di Teheran.</note>
+                  </location>
+               </place>
+               <place xml:id="Persia">
+                  <placeName ref="#Persia">Persia</placeName>
+                  <location>
+                     <geo>32.427908, 53.688046</geo>
+                     <note>Persia, Iran.</note>
+                  </location>
+               </place>
+               <place xml:id="Cassam">
+                  <placeName ref="#Cassam">Kāshān</placeName>
+                  <location>
+                     <geo>33.991035, 51.423541</geo>
+                     <note>Kāshān, città iraniana nella provincia di Esfahan. </note>
+                  </location>
+               </place>
+               <place xml:id="SecondaYndia">
+                  <placeName ref="#Seconda Yndia">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana, la
+                        "Seconda Yndia" di Odorico indica l'India propriamente detta, ch'egli
+                        situava nella regione dal Golfo Persico al Vietnam meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="IndiaSuperiore">
+                  <placeName ref="#India Superiore">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana,
+                        Odorico indica con "India Superiore" le regioni della Cina meridionale a sud
+                        del Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Grandemare">
+                  <placeName ref="#Grande mare">mar Nero.</placeName>
+                  <location>
+                     <geo>43.413029, 34.299316</geo>
+                  </location>
+               </place>
+               <place xml:id="Çanega">
+                  <placeName ref="#Çanega">Zigana</placeName>
+                  <location>
+                     <geo>40.623056, 39.377778</geo>
+                     <note>Passo di Zigana,valico montano situato sui Monti Pontici nella provincia
+                        di Gümüşhane, vicino al confine con Trebisonda, nella Turchia
+                        nord-orientale. </note>
+                  </location>
+               </place>
+               <place xml:id="Açiron">
+                  <placeName ref="#Açiron">Erzerum</placeName>
+                  <location>
+                     <geo>39.905499, 41.265824</geo>
+                     <note>Odierna Erzerum. Turchia orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Bisacalo">
+                  <placeName ref="#Bisacalo">Aşkale</placeName>
+                  <location>
+                     <geo>339.920188, 40.694704</geo>
+                     <note>Probabilmente Aşkale, distretto della provincia di Erzurum,
+                        Turchia.</note>
+                  </location>
+               </place>
+               <place xml:id="Susis">
+                  <placeName ref="#Susis">Susis</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Dal toponimo biblico "Susi" (Esther 1:2), corrispondente a Tabrīz.</note>
+                  </location>
+               </place>
+               <place xml:id="Geste">
+                  <placeName ref="#Geste">Yazd.</placeName>
+                  <location>
+                     <geo>31.897423, 54.356856</geo>
+                     <note>Yazd, capoluogo dell'omonima provincia iraniana.</note>
+                  </location>
+               </place>
+               <place xml:id="Conio">
+                  <placeName ref="#Conio">Kenareh.</placeName>
+                  <location>
+                     <geo>29.910968, 52.862080</geo>
+                     <note>Forse l'iraniana Kenareh, nella contea di Marvdasht (provincia di
+                        Fars).</note>
+                  </location>
+               </place>
+               <place xml:id="Hus">
+                  <placeName ref="#Hus">Us.</placeName>
+                  <location>
+                     <geo>31.318327, 48.670619</geo>
+                     <note>Denominazione biblica indicante la città di Us, patria di Giobbe (Job
+                        1:1). Identificazione incerta, forse l'iraniana Ahvāz, capoluogo della
+                        provincia del Khūzestān.</note>
+                  </location>
+               </place>
+               <place xml:id="Caldea">
+                  <placeName ref="#Caldea">Caldea.</placeName>
+                  <location>
+                     <geo>32.391690, 44.341584</geo>
+                     <note>Denominazione indicante la valle del Tigri e dell'Eufrate, anche sinonimo
+                        di Babilonia.</note>
+                  </location>
+               </place>
+               <place xml:id="mareOcciano">
+                  <placeName ref="#mare Occiano">Oceano Indiano.</placeName>
+                  <location>
+                     <geo>-33.137551, 81.826172</geo>
+                     <note>Oceano Indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Ormes">
+                  <placeName ref="#Ormes">Hormuz.</placeName>
+                  <location>
+                     <geo>27.092394, 56.451465</geo>
+                     <note>Isola di Hormuz, isola del Golfo Persico al centro dell'omonimo stretto,
+                        parte del territorio iraniano di Hormozgan.</note>
+                  </location>
+               </place>
+               <place xml:id="Tanna">
+                  <placeName ref="#Tana">Thana.</placeName>
+                  <location>
+                     <geo>19.218331, 72.978090</geo>
+                     <note>Thane (o Thana, Tanna), capoluogo del distretto omonimo, collocata
+                        nell'isola di Salsette, nello stato indiano del Maharashtra.</note>
+                  </location>
+               </place>
+               <place xml:id="Aldilo">
+                  <placeName ref="#Aldilo">Dehli.</placeName>
+                  <location>
+                     <geo>28.704059, 77.102490</geo>
+                     <note>Dehli, India.</note>
+                  </location>
+               </place>
+               <place xml:id="Polumbo">
+                  <placeName ref="#Aldilo">Kollam.</placeName>
+                  <location>
+                     <geo>8.893212, 76.614140</geo>
+                     <note>Kollam (o Quilon), capoluogo dell'omonimo distretto indiano, nello stato
+                        federato del Kerala.</note>
+                  </location>
+               </place>
+               <place xml:id="Çaiton">
+                  <placeName ref="#Çaiton">Quánzhōu.</placeName>
+                  <location>
+                     <geo>24.874050, 118.675830</geo>
+                     <note>Ch'üan-chou/Quánzhōu, centro portuale importante nella Cina
+                        meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="Minabar">
+                  <placeName ref="#Minabar">Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Malabar, regione costiera dell'India sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Fadina">
+                  <placeName ref="#Fadina">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città non identificata del Malabar, regione costiera dell'India
+                        sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cingalin">
+                  <placeName ref="#Cingalin">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città del Malabar indiano, forse corrispondente all'odierna Kodungallur
+                        (o Methala o Cranganur/Cranganore).</note>
+                  </location>
+               </place>
+               <place xml:id="Mabar">
+                  <placeName ref="#Mabar">Coromandel.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Coromandel, frangia costiera del sud-est della penisola indiana, negli
+                        stati del Tamil Nadu e dell'Andhra Pradesh.</note>
+                  </location>
+               </place>
+               <place xml:id="Lamen">
+                  <placeName ref="#Lamen">Lamreh.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Villaggio di Lamreh, sulla costa settentrionale di Sumatra. </note>
+                  </location>
+               </place>
+               <place xml:id="Selmetrio">
+                  <placeName ref="#Selmetrio">Sumatra.</placeName>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Antico regno di Sumatra, nella parte meridionale dell'isola.</note>
+                  </location>
+               </place>
+               <place xml:id="Botenigo">
+                  <placeName ref="#Botenigo">Indonesia.</placeName>
+                  <location>
+                     <geo>-0.789275, 113.921327</geo>
+                     <note>Località non identificata nell'arcipelago indonesiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Janua">
+                  <placeName ref="#Janua">Giava.</placeName>
+                  <location>
+                     <geo>-7.614529, 110.712246</geo>
+                     <note>Isola indonesiana di Giava (Jawa), tra Sumatra e Bali.</note>
+                  </location>
+               </place>
+               <place xml:id="Talamasin">
+                  <placeName ref="#Talamasin">talamasin.</placeName>
+                  <location>
+                     <note>Località non identificata.</note>
+                  </location>
+               </place>
+               <place xml:id="Çampa">
+                  <placeName ref="#Çampa"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Foço">
+                  <placeName ref="#Foço"/>
+                  <location>
+                     <geo>26.074508, 119.296494</geo>
+                     <note>Fuzhou, capitale della provincia del Fujian, nella Cina orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cunsai">
+                  <placeName ref="#Cunsai"/>
+                  <location>
+                     <geo>30.274085, 120.155070</geo>
+                     <note>Hangzhou, capitale della provincia cinese Zhejiang, sulla costa
+                        orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Chilenso">
+                  <placeName ref="#Chilenso">Nanchino.</placeName>
+                  <location>
+                     <geo>34.797260, 114.307310</geo>
+                     <note>Kāifēng (Nanchino),una città-prefettura nella provincia cinese dello
+                        Henan.</note>
+                  </location>
+               </place>
+               <place xml:id="Ianni">
+                  <placeName ref="#Ianni"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Cambellec">
+                  <placeName ref="#Cambellec"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Khanbaliq, nome turco dell'odierna Beijing/Pechino.</note>
+                  </location>
+               </place>
+               <place xml:id="Taido">
+                  <placeName ref="#Taido"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Città costruita nel 1267 a nordest di Khanbaliq e denominata Ta-tu,
+                        'grande capitale'.</note>
+                  </location>
+               </place>
+               <place xml:id="Gattaio">
+                  <placeName ref="#Gattaio"/>
+                  <location>
+                     <note>Catay, la Cina settentrionale (a nord del Fiume Giallo).</note>
+                  </location>
+               </place>
+               <place xml:id="Tibet">
+                  <placeName ref="#Tibet"/>
+                  <location>
+                     <geo>29.646923, 91.117212</geo>
+                     <note>Tibet, regione storico-geografica dell'Asia orientale, attualmente
+                        annessa dalla Cina.</note>
+                  </location>
+               </place>
+               <place xml:id="Milestert">
+                  <placeName ref="#Milestert"/>
+                  <location>
+                     <note>Toponimo inventato, derivante dalla corruzione dell'arabo "mulhid",
+                        'eretico'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ponto">
+                  <placeName ref="#Ponto"/>
+                  <location>
+                     <geo>45.301672, -73.220689</geo>
+                     <note>Regione storica nella zona nordorientale dell'Asia Minore</note>
+                  </location>
+               </place>
+               <place xml:id="Allesandria">
+                  <placeName ref="#Allesandria"/>
+                  <location>
+                     <geo>31.200092, 29.918739</geo>
+                     <note>Alessandria d'Egitto.</note>
+                  </location>
+               </place>
+               <place xml:id="Marcha">
+                  <placeName ref="#Marcha"/>
+                  <location>
+                     <geo>43.615830, 13.518915</geo>
+                     <note>La Marca Anconitana, dove si trova Tolentino.</note>
+                  </location>
+               </place>
+               <place xml:id="Mecha">
+                  <placeName ref="#Mecha"/>
+                  <location>
+                     <geo>21.389082, 39.857912</geo>
+                     <note>La Mecca, capoluogo dell'omonima provincia, nella regione dell'Hegiaz
+                        dell'attuale Arabia Saudita occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Somatra">
+                  <placeName ref="#Somatra"/>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Sumatra (o Sumatera), la terza isola più grande dell'arcipelago
+                        Indonesiano dopo Nuova Guinea e Borneo.</note>
+                  </location>
+               </place>
+               <place xml:id="Partain">
+                  <placeName ref="#Partain"/>
+                  <location>
+                     <geo>1.136704, 104.425753</geo>
+                     <note>Forse l'isola indonesiana di Bintain, a sud di Singapore.</note>
+                  </location>
+               </place>
+               <place xml:id="mareMorto">
+                  <placeName ref="#mare Morto">mar Morto.</placeName>
+                  <location>
+                     <geo>31.559029, 35.473189</geo>
+                  </location>
+               </place>
+               <place xml:id="Dodin">
+                  <placeName ref="#Dodin"/>
+                  <location>
+                     <note>Isola dell'Oceano Indiano di incerta localizzazione.</note>
+                  </location>
+               </place>
+               <place xml:id="Trevigi">
+                  <placeName ref="#Trevigi"/>
+                  <location>
+                     <geo>45.666889, 12.243044</geo>
+                     <note>Treviso, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Vinçenza">
+                  <placeName ref="#Vinçenza"/>
+                  <location>
+                     <geo>45.542487, 11.533628</geo>
+                     <note>Vicenza, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Çescalam">
+                  <placeName ref="#Çescalam"/>
+                  <location>
+                     <geo>23.129110, 113.264385</geo>
+                     <note>Attuale Canton (Guangzhou, grande città costiera del sud della Cina,
+                        capoluogo della provincia del Guangdong.</note>
+                  </location>
+               </place>
+               <place xml:id="Bologna">
+                  <placeName ref="#Bologna"/>
+                  <location>
+                     <geo>44.494887, 11.342616</geo>
+                  </location>
+               </place>
+               <place xml:id="Talaig">
+                  <placeName ref="#Talaig"/>
+                  <location>
+                     <geo>29.720415, 112.650141</geo>
+                     <note>Nome mongolo dello Yangtsze, il Fiume Azzurro.</note>
+                  </location>
+               </place>
+               <place xml:id="TerraPiemeorum">
+                  <placeName ref="#Terra Piemeorum"/>
+                  <location>
+                     <note>La 'terra dei Pigmei'.</note>
+                  </location>
+               </place>
+               <place xml:id="Cachan">
+                  <placeName ref="#Cachan"/>
+                  <location>
+                     <geo>37.111780, 79.913210</geo>
+                     <note>Forse Khotan, città del Turkestan cinese.</note>
+                  </location>
+               </place>
+               <place xml:id="Mençu">
+                  <placeName ref="#Mençu"/>
+                  <location>
+                     <geo>32.189590, 119.425000</geo>
+                     <note>Chen-kiang,città e porto fluviale della Cina, sulle rive dello
+                        Yangtze.</note>
+                  </location>
+               </place>
+               <place xml:id="Loncin">
+                  <placeName ref="#Loncin"/>
+                  <location>
+                     <geo>31.298974, 120.585297</geo>
+                     <note>Suzhou, città cinese che si trova nella provincia dello Jiangsu.</note>
+                  </location>
+               </place>
+               <place xml:id="Karamoran">
+                  <placeName ref="#Karamoran"/>
+                  <location>
+                     <geo>37.726962, 107.611922</geo>
+                     <note>Nome mongolo dello Huang He, il Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Po">
+                  <placeName ref="#Po"/>
+                  <location>
+                     <geo>44.919889, 9.718583</geo>
+                     <note>Fiume Po'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ferara">
+                  <placeName ref="#Ferara"/>
+                  <location>
+                     <geo>44.838124, 11.619787</geo>
+                     <note>Ferrara, Emilia Romagna, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Suçumaccho">
+                  <placeName ref="#Suçumaccho"/>
+                  <location>
+                     <geo>36.617290, 101.777820</geo>
+                     <note>Xīníng, capitale della provincia cinese di Qinghai.</note>
+                  </location>
+               </place>
+               <place xml:id="MonteVerde">
+                  <placeName ref="#Monte Verde"/>
+                  <location>
+                     <note>Rilievo collinare che, stando a Polo (Devisement dou Monde, LXXXIV 24),
+                        fu ricoperto di pietre verdi dal Gran Khan.</note>
+                  </location>
+               </place>
+               <place xml:id="Necoveran">
+                  <placeName ref="#Necoveran"/>
+                  <location>
+                     <geo>10.744887, 92.499992</geo>
+                     <note>Isole Nicobare, arcipelago dell'oceano indiano orientale, a sud-est del
+                        subcontinente indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Sillan">
+                  <placeName ref="#Sillan">Ceylon.</placeName>
+                  <location>
+                     <geo>7.873054, 80.771797</geo>
+                     <note>Isola di Ceylon, dal 1972 Repubblica Socialista Indipendente dello Sri
+                        Lanka.</note>
+                  </location>
+               </place>
+               <place xml:id="Chausun">
+                  <placeName ref="#Chausun"/>
+                  <location>
+                     <geo>34.341574, 108.939770</geo>
+                     <note>Xi'an, capoluogo della provincia dello Shaanxi nella Cina e città
+                        sub-provinciale.</note>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+         
+      </fileDesc>
+   </teiHeader>
+
+   <text>
+      <group>
+      <xi:include href="Odorico_Crit_noID.xml"/>
+         <xi:include href="Odorico_Diplo_noID.xml"/>
+         <xi:include href="UR_DiploInterpretative.xml"/>
+      </group>
+   </text>
+   
+</TEI>

@@ -1,0 +1,1649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="Ur_DiploInterpretative">
+               <hi rend="italics">Libro delle nuove e strane e meravigliose cose</hi>Edizione
+               critica digitale</title>
+            <author>Odorico da Pordenone OMin.</author>
+            <respStmt xml:id="IReginato">
+               <resp>Edizione e codifica</resp>
+               <persName ref="#IReginato">Irene Reginato</persName>
+            </respStmt>
+            <respStmt xml:id="AAndreose">
+               <resp>Revisione</resp>
+               <persName ref="#AAndreose">Alvise Andreose</persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Portale dedicato ai volgarizzamenti italiani della <title xml:lang="latin"><hi
+                     rend="italics">Relatio de mirabilibus Orientalium Tatarorum</hi>di <persName
+                     ref="#Odorigo">Odorico da Pordenone OMin.</persName></title></p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Città del Vaticano</country>
+                  <repository>Biblioteca Apostolica Vaticana</repository>
+                  <idno>Urb. Lat. 1013</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem>
+                     <locus from="1r"/>
+                     <title type="supplied">Racconto di un giovane posseduto dal demonio e liberato
+                        per intercessione della Vergine</title>
+                     <note>Il testo è acefalo per caduta di una carta</note>
+                     <incipit><locus from="1r"/>"Sì chadde chon lei per forza
+                        charnalmente"</incipit>
+                     <explicit><locus from="1r"/>"non fue mai dapoi molestato dal
+                        demonio"</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="1r" to="1v"/>
+                     <title>"Leggenda di un rozignuolo"</title>
+                     <incipit><locus from="1r"/>"E si dice che fue uno archator, lo quale avea preso
+                        no ruzignuolo"</incipit>
+                     <explicit><locus from="1v"/>"e Boetie dice non credere ad ogni
+                        parola"</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="1v"/>
+                     <note>Tre proverbi</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="2r" to="2v"/>
+                     <title type="supplied">Frottola</title>
+                     <incipit><locus from="22r"/>"L'un pensiero mi dicie sì e l'altro no E l'altro
+                        sì e l'altro no: Che farò, che pur dirò?</incipit>
+                     <explicit><locus from="2v"/>"E tal si fa far prova partendo l'altrui torta. Nel
+                        testo chioçi chi vuole ch'iòe fatto il testo. Deo gratias, amen.</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="3r" to="28v"/>
+                     <title>Volgarizzamento odoriciano</title>
+                     <incipit><locus from="3r"/>"Comencemo i capitoli delo libro dele nuove e
+                        stranie e meravioxe cose che frar <persName ref="#Odorigo"
+                           >Odorigo</persName> de <placeName>Friul</placeName>del'ordine d'i fra
+                        Menori trovò de là da mar, fato in <placeName>Venexia"</placeName></incipit>
+                     <explicit><locus from="28v"/><orig>Am Am</orig><reg>"Amen
+                        Amen"</reg></explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="29r" to="32r"/>
+                     <title type="supplied">Precetti religiosi</title>
+                     <incipit><locus from="29r" to="30r"/>"Questi sono li articoli della fede. Lo
+                        primo sì è che io creda ch'ell'è solo un Dio (...)"</incipit>
+                     <note>Seguono:"Li articholi della divinitade", "Li X comandamenti della
+                        leggie","Li VII sagramenti della chieça", "Li doni dello Spirito Sancto",
+                        "Le VII virtù principali", "Le VII huopre della misericordia", e altri
+                        precetti morali, ex. "la paura del mondo che de' vegnire".</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="31r" to="32r"/>
+                     <title type="supplied">Laude alla vergine in terza rima</title>
+                     <incipit><locus from="31r"/>"Questa sì è l'Ave Maria disposta. Ave Maria,
+                        Vergine senpre santa, Tu sola dengna si' che llo Spirito Sancto Per angelico
+                        verbo in te s'inpianta (...)"</incipit>
+                     <explicit><locus from="32r"/>"ch'el pecchato sia da noi defunto E 'l misserere
+                        no ne sia neghò".</explicit>
+                     <note><bibl>Stornaiolo 1921, 5</bibl>rimanda per tale componimento a
+                              <bibl><author>Fè d'Ostiani</author><title><hi rend="italics">Di un
+                                 codice laudario</hi></title><publisher>Brescia, 1893</publisher>pp.
+                           34-35.</bibl></note>
+                  </msItem>
+                  <msItem>
+                     <locus from="32v"/>
+                     <title type="supplied">Quattro note di argomento diverso</title>
+                     <note n="1">Arrivo di <persName ref="#Carlo di Boemia">Carlo
+                              di<placeName>Boemia</placeName></persName>nei pressi di
+                           <placeName>Verona</placeName>"adìe<date/>domenega XVII de çugno de
+                        1368</note>
+                     <note n="2">Nascita di <persName ref="#Bartolamea"
+                              ><orig>Btolamea</orig><reg>Bartolamea</reg></persName><date>la notte
+                           tra il 18 e il 19 settembre 1374</date></note>
+                     <note n="3">Guerra tra <persName ref="#Bernabò Visconti">Bernabò
+                           Visconti</persName>e<placeName>Verona</placeName>avvenuta <date>tra
+                           aprile 1378 e maggio 1379</date></note>
+                     <note n="4">Contratto vergato
+                           <orig>i</orig><reg>in</reg><orig>fatoia</orig><reg>fatoria</reg>del
+                        magnifico signoro <orig>messee</orig><reg>messere</reg><persName
+                           ref="#Antonio dala Schala">Antonio dala Schala</persName>in data <date>18
+                           aprile 1383</date></note>
+                     <note>In tali note si nomina due volte (ma sempre in terza persona) un
+                           tal<persName ref="#Jacomo Dalbò">"Jacomo Dalbò"</persName>, che potrebbe
+                        esserne l'estensore.</note>
+                  </msItem>
+                  <msItem>
+                     <locus from="33r" to="33v"/>
+                     <title type="supplied">Formula magica</title>
+                     <incipit><locus from="33"/>"Questa orattione àe questa vertude che chiuncha
+                        andasse per meço li suoi nemici e dicesse questa orattione"</incipit>
+                     <explicit><locus from="33v"/>"per lo soprascritto modo"</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="34r" to="42v"/>
+                     <title type="supplied">Scritto di medicina e di fisiologia</title>
+                     <note><bibl>Stornaiolo 1921, 6</bibl>lo definisce <title xml:lang="latin">"De
+                           sanitate tuenda, libellorum quattuor tantum libri 1 capita I-VIII
+                           priora"</title></note>
+                     <note>Testo preceduto da un proemio</note>
+                     <incipit><note>Incipit del proemio</note><locus from="42r"/>"Domenedio per la
+                        sua grande possanza, tutto lo mondo estabelì, primieramente fecie lo cielo
+                        (...)"</incipit>
+                     <explicit><note>Explicit del proemio</note>"e la prima partita averà
+                        l'infrascritti chapitoli"</explicit>
+                     <note>Segue l'indice dei capitoli, che si conclude a f. 35r. L'opera inizia a
+                        f. 35v</note>
+                     <incipit><locus from="35v"/><note>Incipit dell'opera</note>"Perciò che noi
+                        avemo ditto de sopra che noi volemo parlare d'alchune partite di fizicha
+                        (...)"</incipit>
+                     <explicit><locus from="43v"/><note>Explcit dell'opera</note>"si cambia molte
+                        volte il corpo di calore in freddo".</explicit>
+                  </msItem>
+                  <msItem>
+                     <locus from="50r" to="52r"/>
+                     <title type="supplied">Volgarizzamento del<title xml:lang="latin"><hi
+                              rend="italics">De regimine sanitatis</hi></title>di<persName
+                           ref="#Taddeo Alderotti">Taddeo Alderotti</persName></title>
+                     <note>Il testo è mutilo alla fine.</note>
+                     <incipit><locus from="50r"/>"Questo libro sì è fatto per lo valentissimo e
+                        savissimo maestro Taddeo di Firenze. Perché passibile in mirabile stae la
+                        condittione del'umano corpo (...)"</incipit>
+                     <explicit><locus from="52r"/>"delli corpi humani s'ingenerano"</explicit>
+                     <note>Cfr.<bibl><author>Francesco Zambrini</author><title><hi rend="italics"
+                                 >Libello per conservare la sanità del corpo fatto per Maestro
+                                 Taddeo da Firenze. Testo inedito del buon secolo della lingua
+                                 toscana</hi></title><publisher>Imola,
+                        1852</publisher></bibl></note>
+                  </msItem>
+                  <msItem>
+                     <locus from="52v" to="55v"/>
+                     <title type="supplied">Cronaca della vittoria dei comuni italiani sul <persName
+                           ref="#Barbarossa">Barbarossa</persName></title>
+                     <note>Il testo è parzialmente in latino e parzialmente in volgare, ed è mutilo
+                        alla fine.</note>
+                     <incipit><locus from="52v"/>"Come l'imparador Barbarossa fu sconfitto dal
+                        comune di <placeName>Venexia</placeName>[A]nno milleno centeno septuageno
+                        settemo donis claruit urbs Veneta.</incipit>
+                     <explicit><locus from="55v"/>"lo qual personalmente accompagna messere lo
+                        papa".</explicit>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc form="codex">
+                     <supportDesc material="paper">
+                        <support><p><material/>Ms. cartaceo. con <watermark>filigrana del tipo <q
+                                    xml:lang="french">"Cercle traversé ou surmonté par un trait se
+                                    terminant en croix latine (...)"</q></watermark>cfr.
+                                 <bibl>Briquet n. 2939</bibl>, localizzata a <placeName>Verona
+                                 (1350), Treviso (1351-57), Bologna, (1353)</placeName>visibile
+                              nelle carte<locus>15, 16/29, 18/27, 31/33a, 37/40, 38/39, 45/52,
+                                 46/51, 48/49</locus>c</p></support>
+                        <extent>II+57+I carte <note>La numerazione delle carte va da 1 a 55, in
+                              quanto i numeri 30 e 33 si ripetono nella forma 30a e 33a, cfr. <hi
+                                 rend="italics">infra.</hi></note>
+                           <dimensions scope="all" type="leaf" unit="mm">
+                              <height>273</height>
+                              <width>194</width>
+                           </dimensions>
+                           <dimensions type="ruled">
+                              <height scope="most">verificare in loco</height>
+                              <width scope="most">verificare in loco</width>
+                           </dimensions>
+                        </extent>
+                        <foliation><p>Numerazione moderna (precedente al restauro) ad inchiostro,
+                              posta in alto a destra; ad essa si aggiunge una seconda numerazione
+                              (successiva al restauro), effettuata da una mano diversa, che aggiunge
+                              i numeri 15, 30a e 33a. Infine, una terza mano ha ritoccato a matita i
+                              numeri che non risultavano più leggibili.</p></foliation>
+                        <collation><p>Il codice è composto da 5 fascicoli irregolari. <list>
+                                 <item>Il fasc. I consta di 16 ff. 1-15 (meno la prima carta,
+                                    caduta) il primo f. è caduto</item>
+                                 <item>Il fasc. II consta di 14 ff.16-29</item>
+                                 <item>Il fasc. III consta di 8 ff. 30-35</item>
+                                 <item>Il fasc. 4 consta di 6 ff. 36-41</item>
+                                 <item>ll fasc. 5 consta di 14 ff. 42-5</item>
+                              </list></p></collation>
+                        <condition>Sono state restaurate (forse già nel <date>secolo .XIX></date>)
+                           le carte 15, 16, 30, 50-55, nei margini destro e sinistro</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1">Scritto a piena pagina, con un minimo di 30 e un massimo
+                           di 40 righe per f.<note>Il testo è preceduto da due prologhi e
+                              dall'indice delle rubriche; è poi diviso in 50 capitoli, dotati di
+                              rubrica.</note></layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc hands="4">
+                     <handNote xml:id="mano1" scope="major"><p>Una prima mano è responsabile della
+                           prima parte del codice, <locus from="1r" to="32v">alle carte
+                           1-32</locus>, che realizza in una <term>scrittura cancelleresca ad uso
+                              librario</term>, di tipo <term>posato</term> alle carte <locus
+                              from="1r" to="30v"/> e di tipo <term>semicorsivo</term> alle carte
+                              <locus from="29r-32v"/></p></handNote>
+                     <handNote xml:id="mano2" scope="minor"><p>La seconda mano s'individua a <locus
+                              from="33r" to="33v">f. 33r-33v</locus>; anch'essa di tipo
+                              <term>cancelleresco ad uso librario</term>di
+                           tipo<term>corsivo</term></p></handNote>
+                     <handNote xml:id="mano3" scope="major"><p>La terza mano realizza le carte
+                              <locus from="34r" to="43v">34r-43v</locus>, sempre in <term>scrittura
+                              cancelleresca libraria</term>ma <term>posata</term></p></handNote>
+                     <handNote xml:id="mano4" scope="major"><p>La quarta mano è responsabile
+                           dell'ultima parte del codice, <locus from="44v" to="55v">alle carte
+                              44v-3255v</locus>, scritte secondo il medesimo tipo di <term>scrittura
+                              cancelleresca libraria</term> e
+                        <term>semicorsiva.</term></p></handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="initials"><p>Iniziali decorate a <locus>ff. 3r, 5r,
+                           34r</locus></p></decoNote>
+                     <decoNote type="initials"><p>Iniziali di capitolo e rubriche in rosso a <locus
+                              from="1r" to="32v">ff.1r-32v</locus></p></decoNote>
+                     <decoNote type="initials"><p>Iniziali di capitolo alternate rosse e blu alle
+                           carte <locus from="34r" to="52r">34r-52r</locus></p></decoNote>
+                     <decoNote type="drawings"><p>Il testo di Odorico è ornato da 17 disegni,
+                           collocati alle carte <locus>7r, 8v, 9r, 10r, 10v, 13v, 15v, 17r, 19r,
+                              20r, 22r, 23.r, 24r, 25v, 26r, 26v, 28r.</locus>; per una descrizione
+                           si veda <bibl>Wyngaert 1929, pp.401-402</bibl>; i disegni sono riprodotti
+                           in <bibl>Monaco, 1990, figg. 2-4, 6-12 e 14.</bibl></p></decoNote>
+                  </decoDesc>
+                  <additions><p>Alla <locus>c. II</locus> si trova una striscia di pergamena,
+                        probabilmente l'antico dorso del codice, con la scritta <q>"Fr. Odorigo el
+                           Friuole delle nuove e miravigliose cose dell'India del 1331. Item un
+                           trattato di Fisica et alcuni secreti di ms. Tadeo di Fiorenza.
+                        1013"</q></p></additions>
+                  <bindingDesc>
+                     <binding contemporary="false">
+                        <p>Legatura in pergamena rigida, moderna.</p>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>Descrizione stabilita a partire da <bibl>Andreose 1996-1997</bibl>e
+                              <bibl>Andreose 2000</bibl></source>
+                     </recordHist>
+                  </adminInfo>
+                  <surrogates><title>Riproduzione ad alta definizione a colori</title><ptr
+                        target="https://digi.vatlib.it/view/MSS_Urb.lat.1013"/>
+                  </surrogates>
+                  <listBibl>
+                     <bibl xml:id="Wyngaert1929"><editor/>A. Van den Wyngaert
+                           O.F.M.<editor/><title/><hi rend="italics">Sinica Franciscana</hi>,
+                        collegit, ad fidem codicum redegit et annotavit p. A. van den
+                           Wyngaert<pubPlace/>Firenze<publisher/>Quaracchi<date/>1929<biblScope>vol.I</biblScope></bibl>
+                     <bibl xml:id="Reichert1997">
+                        <author>F. Reichert</author>
+                        <title><hi rend="italics">Incontri con la Cina. La scoperta dell'Asia
+                              orientale nel Medioevo</hi></title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Biblioteca francescana</publisher>
+                        <date>1997</date></bibl>
+                     <bibl xml:id="Andreose1996-1997"><author>A. Andreose</author><title><hi
+                              rend="italics">Lo libro dele nove, stranie, meraviose cose</hi>. Il
+                           volgarizzamento dell'<hi rend="italics">Itinerarium</hi>di Odorico da
+                           Pordenone contenuto nel cod. vat. lat. urbin. 1013</title><pubPlace>Tesi
+                           di laurea, Università degli Studi di
+                           Padova</pubPlace><date>1996-1997</date></bibl>
+                     <bibl xml:id="Andreose1998"><author>A. Andreose</author><title><hi
+                              rend="italics">"Lo livro dele nove e stranie meraviose cose". Ricerche
+                              syu volgarizzamenti italiani dell'</hi>Itinerarium<hi rend="italics"
+                              >del beato Odoico da Pordenone</hi></title><editor>"Il Santo. Rivista
+                           francescana di storia dottrina arte"</editor><biblScope>XXXVII,
+                           1-2</biblScope><date>1998</date><biblScope>pp. 311-350</biblScope></bibl>
+                     <bibl xml:id="Andreose2000"><author>A. Andreose</author><title><hi
+                              rend="italics">Libro delle nuove e strane e meravigliose
+                           cose</hi></title><pubPlace>Padova</pubPlace><publisher>Centro studi
+                           antoniani</publisher><date>2000.</date></bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <listPerson>
+               <person xml:id="Odorigo">
+                  <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
+                        >Pordenone</placeName> O.M.</persName>
+               </person>
+               <person xml:id="Noé">
+                  <persName ref="#Noé">Noé, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Job">
+                  <persName ref="#Job">Giobbe, patriarca idumeo protagonista del libro
+                     omonimo.</persName>
+               </person>
+               <person xml:id="Tome">
+                  <persName ref="#Tome">Tommaso, detto Didimo, uno dei dodici apostoli di
+                     Cristo.</persName>
+               </person>
+               <person xml:id="PrestoGiovanni">
+                  <persName ref="#NPresto Giovanni">Prete Gianni, leggendario sovrano cristiano che
+                     la tradizione medievale colloca in Asia, India o Etiopia.</persName>
+               </person>
+               <person xml:id="Francesco">
+                  <persName ref="#Francesco">San Francesco d'Assisi.</persName>
+               </person>
+               <person xml:id="Atanaxio">
+                  <persName ref="#Atanaxio">Atanasio l'Atonita, o Atanasio di Trebisonda (X sec.),
+                     monaco bizantino fondatore della Repubblica del Monte Athos.</persName>
+               </person>
+               <person xml:id="Porro">
+                  <persName ref="#Porro">Poro (IV sec.), sovrano della dinastia dei Paurava,
+                     nell'antica India nord-occidentale.</persName>
+               </person>
+               <person xml:id="Allessandro">
+                  <persName ref="#Allessandro">Alessandro Magno.</persName>
+               </person>
+               <person xml:id="TommasodiTollentino">
+                  <persName ref="#Tommaso di Tollentino">Tommaso da Tolentino (m. Tana, 1321),
+                     missionario francescano martire in India.</persName>
+               </person>
+               <person xml:id="JacopodaPadoa">
+                  <persName ref="#Jacopo da Padoa">Giacomo da Padova (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="DimetrideTofilii">
+                  <persName ref="#DimetrideTofilii">Demetrio da Tiblisi (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="PietrodaSiena">
+                  <persName ref="#Pietro da Siena">Pietro da Siena (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="Magometo">
+                  <persName ref="#NMagometo">Muhammad, profeta dell'Islam.</persName>
+               </person>
+               <person xml:id="Abraam">
+                  <persName ref="#Abraam">Abramo, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Cristofano">
+                  <persName ref="#Cristofano">San Cristoforo (m. 250).</persName>
+               </person>
+               <person xml:id="Adam">
+                  <persName ref="#Adam">Adamo.</persName>
+               </person>
+               <person xml:id="AntoniodaPadua">
+                  <persName ref="#Antonio da Padua">Sant'Antonio da Padova.</persName>
+               </person>
+               <person xml:id="Eva">
+                  <persName ref="#Eva">Eva.</persName>
+               </person>
+               <person xml:id="Vecchiodellamontagna">
+                  <persName ref="#Vecchio della montagna">Ḥasan-i Ṣabbāḥ, maestro della setta
+                     ismailita dei nizariti.</persName>
+               </person>
+               <person xml:id="Cristo">
+                  <persName ref="#Cristo">Gesù Cristo</persName>
+               </person>
+            </listPerson>
+            <listPlace>
+               <place xml:id="Pordenone">
+                  <placeName ref="#Pordenone">Pordenone</placeName>
+                  <location>
+                     <geo>45.956368, 12.661452</geo>
+                  </location>
+                  <note>Pordenone, Italia</note>
+               </place>
+               <place xml:id="Tollentino">
+                  <placeName ref="#Tollentino">Tollentino</placeName>
+                  <location>
+                     <geo>43.211178, 13.286336</geo>
+                  </location>
+                  <note>Tolentino (MC), Marche, Italia</note>
+               </place>
+               <place xml:id="Padoa">
+                  <placeName ref="#Padoa">Padoa</placeName>
+                  <location>
+                     <geo>45.406435, 11.876761</geo>
+                  </location>
+                  <note>Padova, Veneto, Italia</note>
+               </place>
+               <place xml:id="Tofilii">
+                  <placeName ref="#Tofilii">Tofilii</placeName>
+                  <location>
+                     <geo>41.715138, 44.827096</geo>
+                  </location>
+                  <note>Tblisi, capitale della Georgia</note>
+               </place>
+               <place xml:id="Siena">
+                  <placeName ref="#Siena">Siena</placeName>
+                  <location>
+                     <geo>43.318809, 11.330757</geo>
+                  </location>
+                  <note>Siena, Toscana, Italia</note>
+               </place>
+               <place xml:id="Friuli">
+                  <placeName ref="#Friuli">Friuli</placeName>
+                  <location>
+                     <geo>46.225918, 13.103365</geo>
+                  </location>
+                  <note>Friuli Venezia Giulia, Italia</note>
+               </place>
+               <place xml:id="Ytalia">
+                  <placeName ref="#Ytalia">Ytalia</placeName>
+                  <location>
+                     <geo>441.871940, 12.567380</geo>
+                  </location>
+                  <note>Italia</note>
+               </place>
+               <place xml:id="Vinegia">
+                  <placeName ref="#Vinegia">Vinegia</placeName>
+                  <location>
+                     <geo>45.440847, 12.315515</geo>
+                     <note>Venezia, Veneto, Italia</note>
+                  </location>
+               </place>
+               <place xml:id="Pisa">
+                  <placeName ref="#Pisa">Pisa</placeName>
+                  <location>
+                     <geo>43.724591, 10.382981</geo>
+                     <note>Pisa, Toscana, Italia</note>
+                  </location>
+               </place>
+               <place xml:id="Udine">
+                  <placeName ref="#Udine">Udine</placeName>
+                  <location>
+                     <geo>46.071067, 13.234579</geo>
+                     <note>Udine, Friuli Venezia Giulia, Italia</note>
+                  </location>
+               </place>
+               <place xml:id="Trapesonda">
+                  <placeName ref="#Trapesonda">Trapesonda</placeName>
+                  <location>
+                     <geo>41.002697, 39.716763</geo>
+                     <note>Trebisonda (Trapzon), capoluogo dell'omonima provincia, sulla costa
+                        nord-orientale turca.</note>
+                  </location>
+               </place>
+               <place xml:id="ArmeniaMaggiore">
+                  <placeName ref="#Armenia Maggiore">Armenia Maggiore</placeName>
+                  <location>
+                     <geo>40.069099, 45.038189</geo>
+                  </location>
+                  <note>
+                     <p>Storicamente, l'Armenia Maggiore coincide con la regione caucasica
+                        delimitata, a nord, dalla valle del Kura (Turchia) a Nord, a sud dal lago di
+                        Van (Turchia orientale), a ovest dalla Colchide (Georgia occidentale), a est
+                        dal mar Caspio</p>
+                     <p>Cf. <ref
+                           target="https://risorse-esterne.edizionicafoscari.it/lemmi/Armenia.html"
+                        />
+                     </p>
+                  </note>
+               </place>
+               <place xml:id="Torissi">
+                  <placeName ref="#Torissi">Torissi</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Tabrīz, capoluogo della provincia dell’Azarbaijian.</note>
+                  </location>
+               </place>
+               <place xml:id="Soldania">
+                  <placeName ref="#Soldania">Soldania</placeName>
+                  <location>
+                     <geo>36.433988, 48.794642</geo>
+                     <note>Soltaniyeh/Sulṭāniyyah, città iraniana nella provincia di Zanjan, a
+                        nordovest di Teheran</note>
+                  </location>
+               </place>
+               <place xml:id="Persia">
+                  <placeName ref="#Persia">Persia</placeName>
+                  <location>
+                     <geo>32.427908, 53.688046</geo>
+                     <note>Persia, Iran</note>
+                  </location>
+               </place>
+               <place xml:id="Cassam">
+                  <placeName ref="#Cassam">Cassam</placeName>
+                  <location>
+                     <geo>33.991035, 51.423541</geo>
+                     <note>Kāshān, città iraniana nella provincia di Esfahan</note>
+                  </location>
+               </place>
+               <place xml:id="SecondaYndia">
+                  <placeName ref="#Seconda Yndia">Seconda Yndia</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note><p>Seguendo la classica tripartizione medievale della regione indiana, la
+                           "Seconda Yndia" di Odorico indica l'India propriamente detta, ch'egli
+                           situava nella regione dal Golfo Persico al Vietnam meridionale</p><p><ref
+                              type="bibl" target="#Andreose2000"/></p>
+                     </note>
+                  </location>
+               </place>
+               <place xml:id="IndiaSuperiore">
+                  <placeName ref="#India Superiore">India Superiore</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana,
+                        Odorico indica con "India Superiore" le regioni della Cina meridionale a sud
+                        del Fiume Giallo</note>
+                  </location>
+               </place>
+               <place xml:id="Grandemare">
+                  <placeName ref="#Grande mare">Grande mare</placeName>
+                  <location>
+                     <geo>43.413029, 34.299316</geo>
+                  </location>
+                  <note>mar Nero</note>
+               </place>
+               <place xml:id="Çanega">
+                  <placeName ref="#Çanega">Çanega</placeName>
+                  <location>
+                     <geo>40.623056, 39.377778</geo>
+                     <note>Passo di Zigana,valico montano situato sui Monti Pontici nella provincia
+                        di Gümüşhane, vicino al confine con Trebisonda, nella Turchia
+                        nord-orientale</note>
+                  </location>
+               </place>
+               <place xml:id="Açiron">
+                  <placeName ref="#Açiron">Açiron</placeName>
+                  <location>
+                     <geo>39.905499, 41.265824</geo>
+                     <note>Odierna Erzerum. Turchia orientale</note>
+                  </location>
+               </place>
+               <place xml:id="Bisacalo">
+                  <placeName ref="#Bisacalo">Bisacalo</placeName>
+                  <location>
+                     <geo>339.920188, 40.694704</geo>
+                     <note>Probabilmente Aşkale, distretto della provincia di Erzurum,
+                        Turchia</note>
+                  </location>
+               </place>
+               <place xml:id="Susis">
+                  <placeName ref="#Susis">Susis</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Dal toponimo biblico "Susi" (Esther 1:2), corrispondente a Tabrīz</note>
+                  </location>
+               </place>
+               <place xml:id="Geste">
+                  <placeName ref="#Geste">Geste</placeName>
+                  <location>
+                     <geo>31.897423, 54.356856</geo>
+                     <note>Yazd, capoluogo dell'omonima provincia iraniana</note>
+                  </location>
+               </place>
+               <place xml:id="Conio">
+                  <placeName ref="#Conio">Conio</placeName>
+                  <location>
+                     <geo>29.910968, 52.862080</geo>
+                     <note>Forse l'iraniana Kenareh, nella contea di Marvdasht (provincia di
+                        Fars)</note>
+                  </location>
+               </place>
+               <place xml:id="Hus">
+                  <placeName ref="#Hus">Hus</placeName>
+                  <location>
+                     <geo>31.318327, 48.670619</geo>
+                     <note>Denominazione biblica indicante la città di Us, patria di Giobbe (Job
+                        1:1). Identificazione incerta, forse l'iraniana Ahvāz, capoluogo della
+                        provincia del Khūzestān</note>
+                  </location>
+               </place>
+               <place xml:id="Caldea">
+                  <placeName ref="#Caldea">Caldea</placeName>
+                  <location>
+                     <geo>32.391690, 44.341584</geo>
+                     <note>Denominazione indicante la valle del Tigri e dell'Eufrate, anche sinonimo
+                        di Babilonia</note>
+                  </location>
+               </place>
+               <place xml:id="mareOcciano">
+                  <placeName ref="#mare Occiano">mare Occiano</placeName>
+                  <location>
+                     <geo>-33.137551, 81.826172</geo>
+                     <note>Oceano Indiano</note>
+                  </location>
+               </place>
+               <place xml:id="Ormes">
+                  <placeName ref="#Ormes">Ormes</placeName>
+                  <location>
+                     <geo>27.092394, 56.451465</geo>
+                     <note>Isola di Hormuz, isola del Golfo Persico al centro dell'omonimo stretto,
+                        parte del territorio iraniano di Hormozgan</note>
+                  </location>
+               </place>
+               <place xml:id="Tanna">
+                  <placeName ref="#Tana">Thana.</placeName>
+                  <location>
+                     <geo>19.218331, 72.978090</geo>
+                     <note>Thane (o Thana, Tanna), capoluogo del distretto omonimo, collocata
+                        nell'isola di Salsette, nello stato indiano del Maharashtra</note>
+                  </location>
+               </place>
+               <place xml:id="Aldilo">
+                  <placeName ref="#Aldilo">Dehli</placeName>
+                  <location>
+                     <geo>28.704059, 77.102490</geo>
+                     <note>Dehli, India</note>
+                  </location>
+               </place>
+               <place xml:id="Polumbo">
+                  <placeName ref="#Aldilo">Kollam.</placeName>
+                  <location>
+                     <geo>8.893212, 76.614140</geo>
+                     <note>Kollam (o Quilon), capoluogo dell'omonimo distretto indiano, nello stato
+                        federato del Kerala<ref type="bibl" target="#AAndreose"/></note>
+                  </location>
+               </place>
+               <place xml:id="Çaiton">
+                  <placeName ref="#Çaiton">Çaiton</placeName>
+                  <location>
+                     <geo>24.874050, 118.675830</geo>
+                     <note>Ch'üan-chou/Quánzhōu, centro portuale importante nella Cina
+                        meridionale</note>
+                  </location>
+               </place>
+               <place xml:id="Minabar">
+                  <placeName ref="#Minabar">Minabar</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Malabar, regione costiera dell'India sud-occidentale</note>
+                  </location>
+               </place>
+               <place xml:id="Fadina">
+                  <placeName ref="#Fadina">Fadina</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città non identificata del Malabar, regione costiera dell'India
+                        sud-occidentale</note>
+                  </location>
+               </place>
+               <place xml:id="Cingalin">
+                  <placeName ref="#Cingalin">Cingalin</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città del Malabar indiano, forse corrispondente all'odierna Kodungallur
+                        (o Methala o Cranganur/Cranganore)</note>
+                  </location>
+               </place>
+               <place xml:id="Mabar">
+                  <placeName ref="#Mabar">Mabar</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Coromandel, frangia costiera del sud-est della penisola indiana, negli
+                        stati del Tamil Nadu e dell'Andhra Pradesh</note>
+                  </location>
+               </place>
+               <place xml:id="Lamen">
+                  <placeName ref="#Lamen">Lamen</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Villaggio di Lamreh, sulla costa settentrionale di Sumatra</note>
+                  </location>
+               </place>
+               <place xml:id="Selmetrio">
+                  <placeName ref="#Selmetrio">Sumatra</placeName>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Antico regno di Sumatra, nella parte meridionale dell'isola</note>
+                  </location>
+               </place>
+               <place xml:id="Botenigo">
+                  <placeName ref="#Botenigo">Indonesia</placeName>
+                  <location>
+                     <geo>-0.789275, 113.921327</geo>
+                     <note>Località non identificata nell'arcipelago indonesiano</note>
+                  </location>
+               </place>
+               <place xml:id="Janua">
+                  <placeName ref="#Janua">Janua</placeName>
+                  <location>
+                     <geo>-7.614529, 110.712246</geo>
+                     <note>Isola indonesiana di Giava (Jawa), tra Sumatra e Bali</note>
+                  </location>
+               </place>
+               <place xml:id="Talamasin">
+                  <placeName ref="#Talamasin">Talamasin</placeName>
+                  <location>
+                     <note>Località non identificata</note>
+                  </location>
+               </place>
+               <place xml:id="Çampa">
+                  <placeName ref="#Çampa">Çampa</placeName>
+                  <location>
+                     <geo>16.812913, 107.108177</geo>
+                     <note>Antico regno di Champa, oggi corrispondente al Vitenam
+                        centro-meridionale</note>
+                  </location>
+               </place>
+               <place xml:id="Foço">
+                  <placeName ref="#Foço">Foço</placeName>
+                  <location>
+                     <geo>26.074508, 119.296494</geo>
+                     <note>Fuzhou, capitale della provincia del Fujian, nella Cina orientale</note>
+                  </location>
+               </place>
+               <place xml:id="Cunsai">
+                  <placeName ref="#Cunsai">Cunsai</placeName>
+                  <location>
+                     <geo>30.274085, 120.155070</geo>
+                     <note>Hangzhou, capitale della provincia cinese Zhejiang, sulla costa
+                        orientale</note>
+                  </location>
+               </place>
+               <place xml:id="Chilenso">
+                  <placeName ref="#Chilenso">Chilenso</placeName>
+                  <location>
+                     <geo>34.797260, 114.307310</geo>
+                     <note>Kāifēng (Nanchino), città-prefettura nella provincia cinese dello
+                        Henan</note>
+                  </location>
+               </place>
+               <place xml:id="Ianni">
+                  <placeName ref="#Ianni">Ianni</placeName>
+                  <location>
+                     <geo>32.394210, 119.412966</geo>
+                     <note>Yangzhou, città prefettura nella provincia cinese dello Jiangsu</note>
+                  </location>
+               </place>
+               <place xml:id="Cambellec">
+                  <placeName ref="#Cambellec">Cambellec</placeName>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Khanbaliq, nome turco dell'odierna Beijing/Pechino</note>
+                  </location>
+               </place>
+               <place xml:id="Taido">
+                  <placeName ref="#Taido">Taido</placeName>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Città costruita nel 1267 a nordest di Khanbaliq e denominata Ta-tu,
+                        'grande capitale'</note>
+                  </location>
+               </place>
+               <place xml:id="Gattaio">
+                  <placeName ref="#Gattaio">Gattaio</placeName>
+                  <location>
+                     <note>Catay, la Cina settentrionale (a nord del Fiume Giallo)</note>
+                  </location>
+               </place>
+               <place xml:id="Tibet">
+                  <placeName ref="#Tibet">Tibet</placeName>
+                  <location>
+                     <geo>29.646923, 91.117212</geo>
+                     <note>Tibet, regione storico-geografica dell'Asia orientale, attualmente
+                        annessa dalla Cina</note>
+                  </location>
+               </place>
+               <place xml:id="Milestert">
+                  <placeName ref="#Milestert">Milestert</placeName>
+                  <location>
+                     <note>Toponimo inventato, derivante dalla corruzione dell'arabo "mulhid",
+                        'eretico'</note>
+                  </location>
+               </place>
+               <place xml:id="Ponto">
+                  <placeName ref="#Ponto">Ponto</placeName>
+                  <location>
+                     <geo>45.301672, -73.220689</geo>
+                     <note>Ponto, regione storica nella zona nordorientale dell'Asia Minore</note>
+                  </location>
+               </place>
+               <place xml:id="Allesandria">
+                  <placeName ref="#Allesandria">Allesandria</placeName>
+                  <location>
+                     <geo>31.200092, 29.918739</geo>
+                     <note>Alessandria d'Egitto.</note>
+                  </location>
+               </place>
+               <place xml:id="Marcha">
+                  <placeName ref="#Marcha">Marcha</placeName>
+                  <location>
+                     <geo>43.615830, 13.518915</geo>
+                     <note>La Marca Anconitana, dove si trova Tolentino</note>
+                  </location>
+               </place>
+               <place xml:id="Mecha">
+                  <placeName ref="#Mecha">Mecha</placeName>
+                  <location>
+                     <geo>21.389082, 39.857912</geo>
+                     <note>La Mecca, capoluogo dell'omonima provincia, nella regione dell'Hegiaz
+                        dell'attuale Arabia Saudita occidentale</note>
+                  </location>
+               </place>
+               <place xml:id="Somatra">
+                  <placeName ref="#Somatra">Somatra</placeName>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Sumatra (o Sumatera), la terza isola più grande dell'arcipelago
+                        Indonesiano dopo Nuova Guinea e Borneo</note>
+                  </location>
+               </place>
+               <place xml:id="Partain">
+                  <placeName ref="#Partain">Partain</placeName>
+                  <location>
+                     <geo>1.136704, 104.425753</geo>
+                     <note>Forse l'isola indonesiana di Bintain, a sud di Singapore</note>
+                  </location>
+               </place>
+               <place xml:id="mareMorto">
+                  <placeName ref="#mare Morto">mare Morto</placeName>
+                  <location>
+                     <geo>31.559029, 35.473189</geo>
+                     <note>mar Morto</note>
+                  </location>
+               </place>
+               <place xml:id="Dodin">
+                  <placeName ref="#Dodin">Dodin</placeName>
+                  <location>
+                     <note>Isola dell'Oceano Indiano di incerta localizzazione</note>
+                  </location>
+               </place>
+               <place xml:id="Trevigi">
+                  <placeName ref="#Trevigi">Trevigi</placeName>
+                  <location>
+                     <geo>45.666889, 12.243044</geo>
+                     <note>Treviso, Italia</note>
+                  </location>
+               </place>
+               <place xml:id="Vinçenza">
+                  <placeName ref="#Vinçenza">Vinçenza</placeName>
+                  <location>
+                     <geo>45.542487, 11.533628</geo>
+                     <note>Vicenza, Italia</note>
+                  </location>
+               </place>
+               <place xml:id="Çescalam">
+                  <placeName ref="#Çescalam">Çescalam</placeName>
+                  <location>
+                     <geo>23.129110, 113.264385</geo>
+                     <note>Attuale Canton (Guangzhou, grande città costiera del sud della Cina,
+                        capoluogo della provincia del Guangdong</note>
+                  </location>
+               </place>
+               <place xml:id="Bologna">
+                  <placeName ref="#Bologna">Bologna</placeName>
+                  <location>
+                     <geo>44.494887, 11.342616</geo>
+                  </location>
+               </place>
+               <place xml:id="Talaig">
+                  <placeName ref="#Talaig">Talaig</placeName>
+                  <location>
+                     <geo>29.720415, 112.650141</geo>
+                     <note>Nome mongolo dello Yangtsze, il Fiume Azzurro</note>
+                  </location>
+               </place>
+               <place xml:id="TerraPiemeorum">
+                  <placeName ref="#Terra Piemeorum">Terra Piemeorum</placeName>
+                  <location>
+                     <note>La 'terra dei Pigmei'</note>
+                  </location>
+               </place>
+               <place xml:id="Cachan">
+                  <placeName ref="#Cachan">Cachan</placeName>
+                  <location>
+                     <geo>37.111780, 79.913210</geo>
+                     <note>Forse Khotan, città del Turkestan cinese</note>
+                  </location>
+               </place>
+               <place xml:id="Mençu">
+                  <placeName ref="#Mençu">Mençu</placeName>
+                  <location>
+                     <geo>32.189590, 119.425000</geo>
+                     <note>Chen-kiang,città e porto fluviale della Cina, sulle rive dello
+                        Yangtze</note>
+                  </location>
+               </place>
+               <place xml:id="Loncin">
+                  <placeName ref="#Loncin">Loncin</placeName>
+                  <location>
+                     <geo>31.298974, 120.585297</geo>
+                     <note>Suzhou, città cinese che si trova nella provincia dello Jiangsu</note>
+                  </location>
+               </place>
+               <place xml:id="Karamoran">
+                  <placeName ref="#Karamoran">Karamoran</placeName>
+                  <location>
+                     <geo>37.726962, 107.611922</geo>
+                     <note>Nome mongolo dello Huang He, il Fiume Giallo</note>
+                  </location>
+               </place>
+               <place xml:id="Po">
+                  <placeName ref="#Po">Po'</placeName>
+                  <location>
+                     <geo>44.919889, 9.718583</geo>
+                     <note>Fiume Po'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ferara">
+                  <placeName ref="#Ferara">Ferara</placeName>
+                  <location>
+                     <geo>44.838124, 11.619787</geo>
+                     <note>Ferrara, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Suçumaccho">
+                  <placeName ref="#Suçumaccho">Suçumaccho</placeName>
+                  <location>
+                     <geo>36.617290, 101.777820</geo>
+                     <note>Xīníng, capitale della provincia cinese di Qinghai.</note>
+                  </location>
+               </place>
+               <place xml:id="MonteVerde">
+                  <placeName ref="#Monte Verde">Monte Verde</placeName>
+                  <location>
+                     <note>Rilievo collinare che, stando a Polo (Devisement dou Monde, LXXXIV 24),
+                        fu ricoperto di pietre verdi dal Gran Khan</note>
+                  </location>
+               </place>
+               <place xml:id="Necoveran">
+                  <placeName ref="#Necoveran">Necoveram</placeName>
+                  <location>
+                     <geo>10.744887, 92.499992</geo>
+                     <note>Isole Nicobare, arcipelago dell'oceano indiano orientale, a sud-est del
+                        subcontinente indiano</note>
+                  </location>
+               </place>
+               <place xml:id="Sillan">
+                  <placeName ref="#Sillan">Ceylon.</placeName>
+                  <location>
+                     <geo>7.873054, 80.771797</geo>
+                     <note>Isola di Ceylon, dal 1972 Repubblica Socialista Indipendente dello Sri
+                        Lanka</note>
+                  </location>
+               </place>
+               <place xml:id="Chausun">
+                  <placeName ref="#Chausun">Chausun</placeName>
+                  <location>
+                     <geo>34.341574, 108.939770</geo>
+                     <note>Xi'an, capoluogo della provincia dello Shaanxi nella Cina e città
+                        sub-provinciale</note>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <handNotes>
+            <handNote xml:id="hand1" scribe="anonimo"><locus from="1r" to="32v">ff.
+               1-32</locus></handNote>
+            <handNote xml:id="hand2" scribe="anonimo"><locus from="33r" to="33v">ff.
+               1-32</locus></handNote>
+            <handNote xml:id="hand3" scribe="anonimo"><locus from="34r" to="43v">ff.
+               1-32</locus></handNote>
+            <handNote xml:id="hand4" scribe="anonimo"><locus from="44r" to="55v">ff.
+               1-32</locus></handNote>
+         </handNotes>
+      </profileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Esercitazine di codifica testo in versi e immagine</p>
+         </projectDesc>
+      </encodingDesc>
+   </teiHeader>
+   <facsimile xml:id="Ur_fac_libro">
+      <surface xml:id="Ur_surf_3r" corresp="#Ur_fol_3r"/>
+      <surface xml:id="Ur_surf_3v" corresp="#Ur_fol_3v"/>
+      <surface xml:id="Ur_surf_4r" corresp="#Ur_fol_4r"/>
+      <surface xml:id="Ur_surf_4v" corresp="#Ur_fol_4v"/>
+      <surface xml:id="Ur_surf_5r" corresp="#Ur_fol_5r"/>
+      <surface xml:id="Ur_surf_5v" corresp="#Ur_fol_5v"/>
+      <surface xml:id="Ur_surf_6r" corresp="#Ur_fol_6r"/>
+      <surface xml:id="Ur_surf_6v" corresp="#Ur_fol_6v"/>
+      <surface xml:id="Ur_surf_7r" corresp="#Ur_fol_7r"/>
+      <surface xml:id="Ur_surf_7v" corresp="#Ur_fol_7v"/>
+      <surface xml:id="Ur_surf_8r" corresp="#Ur_fol_8r"/>
+      <surface xml:id="Ur_surf_8v" corresp="#Ur_fol_8v"/>
+      <surface xml:id="Ur_surf_9r" corresp="#Ur_fol_9r"/>
+      <surface xml:id="Ur_surf_9v" corresp="#Ur_fol_9v"/>
+      <surface xml:id="Ur_surf_10r" corresp="#Ur_fol_10r"/>
+      <surface xml:id="Ur_surf_10v" corresp="#Ur_fol_10v"/>
+      <surface xml:id="Ur_surf_11r" corresp="#Ur_fol_11r"/>
+      <surface xml:id="Ur_surf_11v" corresp="#Ur_fol_11v"/>
+      <surface xml:id="Ur_surf_12r" corresp="#Ur_fol_12r"/>
+      <surface xml:id="Ur_surf_12v" corresp="#Ur_fol_12v"/>
+      <surface xml:id="Ur_surf_13r" corresp="#Ur_fol_13r"/>
+      <surface xml:id="Ur_surf_13v" corresp="#Ur_fol_13v"/>
+      <surface xml:id="Ur_surf_14r" corresp="#Ur_fol_14r"/>
+      <surface xml:id="Ur_surf_14v" corresp="#Ur_fol_14v"/>
+      <surface xml:id="Ur_surf_15r" corresp="#Ur_fol_15r"/>
+      <surface xml:id="Ur_surf_15v" corresp="#Ur_fol_15v"/>
+      <surface xml:id="Ur_surf_16r" corresp="#Ur_fol_16r"/>
+      <surface xml:id="Ur_surf_16v" corresp="#Ur_fol_16v"/>
+      <surface xml:id="Ur_surf_17r" corresp="#Ur_fol_17r"/>
+      <surface xml:id="Ur_surf_17v" corresp="#Ur_fol_17v"/>
+      <surface xml:id="Ur_surf_18r" corresp="#Ur_fol_18r"/>
+      <surface xml:id="Ur_surf_18v" corresp="#Ur_fol_18v"/>
+      <surface xml:id="Ur_surf_19r" corresp="#Ur_fol_19r"/>
+      <surface xml:id="Ur_surf_19v" corresp="#Ur_fol_19v"/>
+      <surface xml:id="Ur_surf_20r" corresp="#Ur_fol_20r"/>
+      <surface xml:id="Ur_surf_20v" corresp="#Ur_fol_20v"/>
+      <surface xml:id="Ur_surf_21r" corresp="#Ur_fol_21r"/>
+      <surface xml:id="Ur_surf_21v" corresp="#Ur_fol_21v"/>
+      <surface xml:id="Ur_surf_22r" corresp="#Ur_fol_22r"/>
+      <surface xml:id="Ur_surf_22v" corresp="#Ur_fol_22v"/>
+      <surface xml:id="Ur_surf_23r" corresp="#Ur_fol_23r"/>
+      <surface xml:id="Ur_surf_23v" corresp="#Ur_fol_23v"/>
+      <surface xml:id="Ur_surf_24r" corresp="#Ur_fol_24r"/>
+      <surface xml:id="Ur_surf_24v" corresp="#Ur_fol_24v"/>
+      <surface xml:id="Ur_surf_25r" corresp="#Ur_fol_25r"/>
+      <surface xml:id="Ur_surf_25v" corresp="#Ur_fol_25v"/>
+      <surface xml:id="Ur_surf_26r" corresp="#Ur_fol_26r"/>
+      <surface xml:id="Ur_surf_26v" corresp="#Ur_fol_26v"/>
+      <surface xml:id="Ur_surf_27r" corresp="#Ur_fol_27r"/>
+      <surface xml:id="Ur_surf_27v" corresp="#Ur_fol_27v"/>
+      <surface xml:id="Ur_surf_28r" corresp="#Ur_fol_28r"/>
+      <surface xml:id="Ur_surf_28v" corresp="#Ur_fol_28v"/>
+   </facsimile>
+   <facsimile>
+      <surface type="drawing" n="1" xml:id="Disegno1" start="7r">
+         <graphic url="Urb.lat.1013_0019_fa_0007r_m.jpg" width="897px" height="1286px"/>
+         <zone ulx="160" uly="138" lrx="688" lry="471"/>
+         <note>Il disegno è accompagnato dalla legenda <q><hi rend="italics">De Caldea in
+                  Tramontana</hi></q></note>
+      </surface>
+   </facsimile>
+   <text n="Odorico_Critical" xml:id="UR_Corto">
+
+      <front>
+         <head type="main">Libro delle nuove e strane e meravigliose cose</head>
+      </front>
+      <body>
+         <pb n="3r" xml:id="Ur_fol_3r" facs="data\images\single\Ur_fol_3r.jpg"/>
+         <div type="prologue" n="1" corresp="#prol1">
+            <head>
+               <hi rend="italics">Prologo</hi>
+            </head>
+            <ab n="1" corresp="com00.1"><ptr target="https://digi.vatlib.it/view/MSS_Urb.lat.1013"
+               />[f. 3r] Comencemo i capitoli de <title>lo libro de le nove e stranie e meravioxe
+                  cose</title>, che frar <persName ref="#Odorigo">Odorigo de <placeName
+                     ref="#Friuli">Friul</placeName></persName> del’ordine d’i fra’ Menori trovò de
+               là da mar, fato in <placeName>Venexia,</placeName> over ch’elo fe’ scrivere sciando
+               di là tornado, dobiando andar al Papa per multiplicare le meraviose cose. </ab>
+            <ab n="2" corresp="com00.2"> E poi, de là tornado, entendia d’andar al paradixo
+               diliçian, e là finir la soa vita segondo la voluntade de Dio.</ab>
+            <ab n="3" corresp="com00.3"> E andando ello a corte, ello se amalò a
+                  <placeName>Pixa,</placeName> e cognoscando el termene dela soa vita era vegnudo,
+               voiando morire in la soa patria, sì tornò a Venesia, e po’ andò in
+                  <placeName>Friul</placeName>ad <placeName>Udene,</placeName> e là finì santamente
+               la soa vita.</ab>
+         </div>
+         <div type="contents" corresp="#contents">
+            <head>Indice dei capitoli</head>
+            <list>
+               <item n="1" corresp="#item1">i. De <placeName>Trabisonda</placeName> e del’homo chi
+                  conduxia IIIIM <choice>
+                     <abbr>pnixe</abbr>
+                     <expan>pernixe</expan>
+                  </choice>
+                  <choice>
+                     <abbr>p</abbr>
+                     <expan>per</expan>
+                  </choice>aier.</item>
+               <item n="2" corresp="#item2">ii. De <placeName>Arminia Maçor,</placeName>ch’è la più
+                  alta terra che un sapia al mondo.</item>
+               <item n="3" corresp="#item3">iii. Del <geogName>monte d'Arminia,</geogName>, là dov'è
+                  l'archa da <persName ref="#Noè">Noè.</persName></item>
+               <item n="4" corresp="#item4">iv. De <placeName>Torixe</placeName>e del<geogName>monte
+                     de Sal.</geogName></item>
+               <item n="5" corresp="#item5">v. De <placeName>Soldania</placeName>o' demora <choice>
+                     <abbr>l'impador</abbr>
+                     <expan>l'imperador</expan>
+                  </choice>di <placeName>Persia.</placeName></item>
+               <item n="6" corresp="#item6">vi. De <placeName>Cassan,</placeName>citade d'i III
+                  magi.</item>
+               <item n="7" corresp="#item7">vii. De <placeName>Test,</placeName>o’ è <geogName>’l
+                     mare Arenoxo</geogName>,ch’algun <choice>
+                     <abbr>ian</abbr>
+                     <expan>cristian</expan>
+                  </choice> no li pò <choice>
+                     <abbr>viv</abbr>
+                     <expan>viver</expan>
+                  </choice>oltra l’anno </item>
+               <item n="8" corresp="#item8">viii. De <placeName>Comio,</placeName>che le soe mur
+                  volgie L mia.</item>
+               <item n="9" corresp="#item9">viiii. Dela tera de <placeName>Iopo,</placeName>che li <choice>
+                     <abbr>hoi<expan>homini</expan></abbr>
+                  </choice> filano e le femene no.</item>
+               <item n="10" corresp="#item10">x. De <placeName>Caldea,</placeName>e dela tore Babel,
+                  o’ li homini vano conçadi como va qua le femene, e le femene vano <choice>
+                     <abbr>despe</abbr>
+                     <expan>despete.</expan>
+                  </choice></item>
+               <item n="11" corresp="#item11">xi. De <placeName>India</placeName> e del
+                     <geogName>mar Ocian</geogName>chi circonda la tera.</item>
+               <item n="12" corresp="#item12">xii. Dela <placeName>Tana d'India</placeName> ov’è <choice>
+                     <abbr>divse</abbr>
+                     <expan>diverse</expan>
+                  </choice> generation d’animali, ch’i cani piglia li sorci.</item>
+            </list>
+            <pb n="3v" xml:id="Ur_fol_3v" facs="data\images\single\Ur_fol_3v.jpg"/>
+            <list>
+               <item n="13" corresp="#item13">[f. 3v] xiii. Dela <placeName>Tana,</placeName>ove fo
+                  marturiadi IIII frar <choice>
+                     <abbr>minoi</abbr>
+                     <expan>minori</expan>
+                  </choice>minori.</item>
+               <item n="14" corresp="#item14">xiiii. Como fra <persName ref="#Odorigo"
+                     >Odorigo</persName> ave le osse di III fra martori.</item>
+               <item n="15" corresp="#item15">xv. De’ miracoli di questi IIII fra.</item>
+               <item n="16" corresp="#item16">xvi. De <placeName>Palombo</placeName>e dela nave
+                  ov’era suso IIC <choice>
+                     <abbr>hoi</abbr>
+                     <expan>homeni</expan>
+                  </choice>, e como fra <persName ref="#Odorigo">Odorigo</persName> li andò susso in
+                     <placeName>India Superior</placeName>.</item>
+               <item n="17" corresp="#item17">xvii. Del'<placeName><choice>
+                        <abbr>impio</abbr>
+                        <expan>imperio</expan>
+                     </choice>Minabar,</placeName>o’ nasse lo pever in lo gran bosco, chi volçe
+                  XVIII çornade.</item>
+               <item n="18" corresp="#item18">xviii. Di presso <placeName>Polombo</placeName>o’
+                  nasse lo cençavro e le noxe moscade, e adorano lo bo <choice>
+                     <abbr>p</abbr>
+                     <expan>per</expan>
+                  </choice> so dio, e lo <choice>
+                     <abbr>ho</abbr>
+                     <expan>homo</expan>
+                  </choice> morto bruxa cola mogliere viva</item>
+               <item n="19" corresp="#item19">xviiii. Delo regno <placeName>Mabar</placeName>ov’è lo
+                  corpo di san <persName ref="#Tome">Tomaso <choice>
+                        <abbr>applo</abbr>
+                        <expan>appostolo</expan>
+                     </choice></persName>, e del’ydole e de la soa clesia ch’è tuta d’oro
+                  puro.</item>
+               <item n="20" corresp="#item20">xx. Dela ysola <surplus reason="repeated"
+                     >{ysola}</surplus> là o’ se perde la tramontana, li homeni e le femen<supplied
+                     reason="missing">[e]</supplied> mança carne humana e fa crudele cose, e vano
+                  nudi.</item>
+               <item n="21" corresp="#item21">xxi. Delo regno <placeName>Salmetro</placeName> e
+                     <placeName>Botenigo.</placeName>
+               </item>
+               <item n="22" corresp="#item22">xxii. Del’ixola <placeName>Iana</placeName> o’ nase li
+                  garoffali e meleghette ed èli un palaço d’oro e d’argento e piere preciose.</item>
+               <item n="23" corresp="#item23">xxiii. Dela contrada <placeName>Talamasin</placeName>
+                  o’ è albori che fa farina e tosigo e miel.</item>
+               <item n="24" corresp="#item24">xxiiii. Delo regno <placeName>Canpa</placeName>, o’ è
+                  molte cose incredibile e spaventevele.</item>
+               <item n="25" corresp="#item25">xxv. Del'ysola <placeName>Nicoveran</placeName> o’ li
+                  homeni e le femene àno cavi de can e va nudi.</item>
+               <item n="26" corresp="#item26">xxvi. Del'ysola <placeName>Salam</placeName> o’ è gran
+                  multitudine de bestie salvaçe e molte piere preciose.</item>
+               <item n="27" corresp="#item27">xxvii. Del'ysola <placeName>Doydun</placeName>là o’ el
+                  pare mança el figlio el fio el pare, el marido la moier, e la moier lo
+                  marido.</item>
+               <item n="28" corresp="#item28">xxviiii. Dela <placeName>Grande India</placeName>chi à
+                  XXIIIIM ysole e LXIIII re di corona.</item>
+               <item n="29" corresp="#item29">xxviiiii. Dela provincia del <placeName/><choice>
+                     <abbr>Maçi</abbr>
+                     <expan>Mançi</expan>
+                  </choice>, ch’è sul’<placeName>India Superior</placeName>, et à IIM citade sotto
+                  di sì.</item></list></div>
+               <pb n="4r" xml:id="Ur_fol_4r" facs="data\images\single\Ur_fol_4r.jpg"/>
+               <div><list><item n="30" corresp="#item30">[f. 4r] xxx. Dela nobel cità
+                     <placeName>Gaytum</placeName>, là dove sono molte novitade.</item>
+               <item n="31" corresp="#item31">xxxi. Dela cità <placeName>Fuçço</placeName>, ov’è le
+                  galine sì grande ch’àno <choice>
+                     <abbr>p</abbr>
+                     <expan>per</expan>
+                  </choice>pene lana como à le piegore, e altre novitade.</item>
+               <item n="32" corresp="#item32">xxxii. De la grandissima e meraveiosa citade clamada
+                     <placeName>Cassam,</placeName><gloss>‘citade de <choice>
+                        <sic>cele</sic>
+                        <corr>celo</corr>
+                     </choice>'</gloss>, chi à XVIM ponti.</item>
+               <item n="33" corresp="#item33">xxxiii. De la gran citade
+                     <placeName>Chilenso</placeName> che volce le soe mure XL mia, e à IIIC LX ponti
+                  de piera.</item>
+               <item n="34" corresp="#item34">34. De la citade <placeName>Iani</placeName>, ov’è
+                  IIIC e LXXXM fogi e altre novitade grandissime asai.</item>
+               <item n="35" corresp="#item35">35. De la nobel cità e anticha
+                     <placeName>Canbalech</placeName>
+                  <add place="above">e</add>
+                  <placeName>Taydo</placeName>
+                  <choice>
+                     <sic>conçonto</sic>
+                     <corr>conçonta</corr>
+                  </choice>,in la <choice>
+                     <abbr>pvicia</abbr>
+                     <expan>provincia</expan>
+                  </choice>del <placeName>Cataio</placeName>, e volce LX mia; e qua è la sedia
+                     <supplied reason="missing">[d]</supplied>el Grande Can, con altre meraveiose
+                  cose.</item>
+               <item n="36" corresp="#item36">36. Del nobel e principal palaço in lo qual sta la
+                  sedia del Gran Can, lo qual à XXIIII colone d’oro e molte altre cose
+                  preciosissime.</item>
+               <item n="37" corresp="#item37">37. Como lo Gran Can sta in la soa sedia <choice>
+                     <abbr>impiale</abbr>
+                     <expan>imperiale</expan>
+                  </choice> con li soi fioli, e ’l so parentado stano ordinadi ali soi pei.</item>
+               <item n="38" corresp="#item38">38.Deli XXIIIIM baroni incoronadi chi <choice>
+                     <abbr>svi</abbr>
+                     <expan>servi</expan>
+                  </choice> al Gran Can ali so’ convidi; e deli IIC e LXXXM çogolar e guardiani,
+                  d’oxeli e de cani e de bestie salvadighe.</item>
+               <item n="39" corresp="#item39">39. Del meravioso modo como el Gran Can va da una
+                  terra a l’altra e del’asenada gente chi ’l guida.</item>
+               <item n="40" corresp="#item40">40. De la grandeça del’impero del Gran Can e
+                  del’ordene como ven la novela de XXX çornade lonçi.</item>
+               <item n="41" corresp="#item41">41. Del meraveioso modo como el Gran Can va a
+                  caciar.<placeName/>.</item>
+               <item n="42" corresp="#item42">42. Dele IIII stranie gran feste ch’el Gran Can fa
+                  ogni anno, e dele nove e stranie cose che se fano in quele feste a la soa
+                  corte.</item>
+               <pb n="4v" xml:id="Ur_fol_4v" facs="data\images\single\Ur_fol_4v.jpg"/>
+               <item n="43" corresp="#item43">xliii. Deli <geogName>monti Caspeos</geogName> o’
+                  nasse melloni che se trova dentro una bestiola a modo d’agnello.</item>
+               <item n="44" corresp="#item44">xliiii. Dela tera del <persName ref="#Presto Giovanni"
+                     >Presto Çane</persName> e de la provintia <placeName>Cassi</placeName> o’ nasse
+                  lo riobarbaro.</item>
+               <item n="45" corresp="#item45">xlv. De <placeName>Tibet</placeName>, gran regno che è
+                  neli fin d’<placeName>India <choice>
+                        <abbr>Supiore</abbr>
+                        <expan>Superiore</expan>
+                     </choice></placeName>, o’ no spande sangue human nì d’animali, e de molte altre
+                  incredibille cosse.</item>
+               <item n="46" corresp="#item46">46. xlvi. De la provintia del
+                     <placeName>Mançi</placeName> e del precioso palaço o’ è lo poço d’oro e
+                  d’argento, e dele meravioxe cose e <choice>
+                     <sic>none</sic>
+                     <corr>nove</corr>
+                  </choice> che <choice>
+                     <sic>auquà</sic>
+                     <corr>qua</corr>
+                  </choice>sse fa.</item>
+               <item n="47" corresp="#item47">xlvii. De la contrada de
+                     <placeName>Milesterte</placeName> o’ lo <persName ref="#Vecchio della montagna"
+                     >Vechio dala montagna</persName> habita, e dele novitade ch’el fa.</item>
+               <item n="48" corresp="#item48">xlviii. De la grattia che Dio dà ali fra menori in
+                  quela contrada.</item>
+               <item n="49" corresp="#item49">xlviiii. De le meraveie chi è in vale sovra el
+                     <geogName>Flume <choice>
+                        <sic>deli</sic>
+                        <corr>dele</corr>
+                     </choice> deliçi<supplied reason="missing">[e]</supplied>.</geogName></item>
+               <item n="50" corresp="#item50"><surplus>{x}</surplus>l. De la testemoniança e
+                  ffermeça che <persName ref="#Odorigo">fra Odorigo</persName>
+                  <choice>
+                     <abbr>pdto</abbr>
+                     <expan>predicto</expan>
+                  </choice> vete queste cose e disselle e ffélle scrivere provandole utintichamente
+                  esser state <choice>
+                     <sic>vero</sic>
+                     <corr>vere</corr>
+                  </choice>. Amen.</item>
+            </list>
+         </div>
+         <div type="prologue" n="2" corresp="prol2">
+            <pb n="5r" xml:id="Ur_fol_5r" facs="data\images\single\Ur_fol_5r.jpg"/>
+            <ab n="1" corresp="#com0.1"><supplied reason="missing">[I]</supplied>ncomencemo lo libro
+               dele nove, stranie e meraviose cose che fra <persName ref="#Odorigo"
+                  >Odorigo</persName> de <placeName>Friul</placeName>, del’ordine d’i fra menori
+               disse ch’avia trovado in le III indie, e molti altri regnami e paessi en li quali eli
+               fo personalmente XIIIIor ani in tuto.</ab>
+            <ab n="2" corresp="#com0.2">Al’ultimo fin fo sancto, con molto miracoli, in Udene de
+               Friul nel’ano del Signore MCCCXXXI a dì IIII di çener fem gracia al so corpo.</ab>
+         </div>
+         <div type="Chapter" n="1" corresp="#chap.1">
+            <head><hi rend="rubric">Capitollo primo.</hi><hi rend="rubric">D</hi>e
+                  <placeName>Trabisonda</placeName>e del’homo chi conduxia IIIIM <choice>
+                  <abbr>pnixe</abbr>
+                  <expan>pernixe</expan>
+               </choice> per aere.</head>
+            <ab n="1" corresp="#com1.1">Con ço sia cosa ch’a molti sia narado e dito diverse e nove
+               stranie cose delle usance e condition del mondo, <choice>
+                  <sic>stranii</sic>
+                  <corr>stranio</corr>
+               </choice> e intero, è a ssaver io, fra <persName ref="#Odorigo">Odorigho</persName>
+               de <placeName>Friul</placeName>, del’ordine d’i fra menori, ch’io trapassà lo
+                  <geogName>Gran Mare</geogName>, e andà in <placeName>Trabisonda</placeName>, che
+               antichamente era clamada Porto.<ab/>
+               <ab n="2" corresp="#com1.2">È terra ben posta e <surplus>{in}</surplus>sida, et
+                     <supplied>[è]</supplied> scala a <choice>
+                     <abbr>Psiani</abbr>
+                     <expan>Persiani</expan>
+                  </choice> e a Mediani, e a tuti queli d’oltra mare. </ab>
+               <ab n="3" corresp="#com1.3"><choice>
+                     <abbr>I</abbr>
+                     <expan>In</expan>
+                  </choice>questa terra vidi una cosa che molto me plaque. </ab>
+               <ab n="4" corresp="#com1.4">Eo viti un homo chi conduxia plu de IIIIM <choice>
+                     <abbr>pnise</abbr>
+                     <expan>pernise</expan>
+                  </choice>; e’ vegnia <choice>
+                     <abbr>p</abbr>
+                     <expan>per</expan>
+                  </choice> terra, e quele <choice>
+                     <abbr>pnise</abbr>
+                     <expan>pernise</expan>
+                  </choice> vegnia per aiere.</ab>
+               <ab n="5" corresp="#com1.5">E quel’<choice>
+                     <abbr>ho</abbr>
+                     <expan>homo</expan>
+                  </choice>, i le menava da un castello ch’à nome <placeName>Gaveça</placeName>,
+                  longi da <placeName>Tribisonda</placeName> III çornade. </ab>
+               <ab n="6" corresp="#com1.6">E queste choice> <abbr>pnise</abbr>
+                  <expan>pernise</expan> era sì uxade: quando l’omo dormia o çasia o possava, elle
+                  se aconçava tute a modo de galine.</ab>
+               <ab n="7" corresp="#com1.7">E per questo modo le conduxia in
+                     <placeName>Trabisonda</placeName> al palaço de’ re. </ab>
+               <ab n="8" corresp="#com1.8">E l’<choice>
+                     <abbr>impador</abbr>
+                     <expan>imperador</expan>
+                  </choice> tolea quel ch’el volia; l’omo tornava de là le altre o’ ello le avia
+                  tolette. </ab>
+               <ab n="9" corresp="#com1.9">In questa <placeName>Tribisonda</placeName>, sovra la
+                  porta dela citade, è lo corpo d’<persName ref="#Atanaxio"
+                  >Athanasio</persName>.</ab>
+            </ab>
+         </div>
+         <div type="Chapter" n="2">
+            <head>
+               <hi rend="rubric">De <placeName>Arminia Maçor</placeName>, chi è la più alta tera che
+                  un sapia al mondo. Capitollo ii</hi>
+            </head>
+            <ab n="1" corresp="#com2.1"><pb n="5v" xml:id="Ur_fol_5v"
+                  facs="data\images\single\Ur_fol_5v.jpg"/>Io me partì de
+                  <placeName>Trabisonda</placeName> e andà in <placeName>Arminia Maçore</placeName>
+               a una citade che si clama <placeName>Ariron</placeName>, chi è molto bona e grassa <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice> li tempi passadi, mo <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice> li Tartari e <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice> li saraxini fo molto destruta.</ab>
+            <ab n="2" corresp="#com2.2">E abondava molto pan e carne e altre vituarie.</ab>
+            <ab n="3" corresp="#com2.3">Ell’è molto freda: la çente dixe ch’el’è più fredda terra <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice>
+               <choice>
+                  <abbr>avetura</abbr>
+                  <expan>aventura</expan>
+               </choice> che un sapia al mondo.</ab>
+            <ab n="4" corresp="#com2.4">Et à molte bone aque.</ab>
+            <ab n="5" corresp="#com2.5">La raxon è questa, che le ven de queste aque sì eseno de
+                  <placeName>Eufrates</placeName>, lo qual fiume va da lonçi da questa citade una
+               çornada. </ab>
+            <ab n="6" corresp="#com2.6">E <surplus>{a}</surplus>quela citade è a meça via ad andar a
+                  <placeName>Torixes</placeName>.</ab>
+         </div>
+         <div type="Chapter" n="3">
+            <head><hi rend="rubric"/>Del <placeName>monte d’Armenia</placeName> o’ è l’archa da Noè. <choice>
+                  <abbr>Cap</abbr>
+                  <expan>Capitollo</expan>
+               </choice> 3.</head>
+            <ab n="1" corresp="#com3.1">D’<placeName>Arriron</placeName> me partì e andà a uno monte
+               che si clama <placeName>Bisatralo</placeName>. </ab>
+            <ab n="2" corresp="#com3.2">In questa contrada è ’l monte o’ è l’arca da Noé; e quel
+               monte no è troppo alto: voluntera ne seria montado se la mia <choice>
+                  <abbr>copaga</abbr>
+                  <expan>compagnia</expan>
+               </choice> avesse voludo, ma eli no volse aspetar.</ab>
+            <ab n="3" corresp="#com3.3">Ma ben è vero che la <choice>
+                  <abbr>çete</abbr>
+                  <expan>çente</expan>
+               </choice> dele contrade m disiano che alchun <choice>
+                  <abbr>no</abbr>
+                  <expan>non</expan>
+               </choice> porave montar su quel monte: <choice>
+                  <abbr>no</abbr>
+                  <expan>non</expan>
+               </choice> par che plaqua a Dio.</ab>
+         </div>
+         <div type="Chapter" n="4">
+            <head><hi rend="rubric"/>De <placeName>Torixe</placeName> e del monte dala sale. <choice>
+                  <abbr>Cap</abbr>
+                  <expan>Capitollo</expan>
+               </choice> IIII.</head>
+            <ab n="1" corresp="#com4.1">De questa contrada me partì e andà a
+                  <placeName>Torixe</placeName>, chi è gran cità riale.</ab>
+            <ab n="2" corresp="#com4.2">Antichamente era clamada Susis, <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> laqual se dixia chi era l’arboro secho, in una clesia di saraxini.</ab>
+            <ab n="3" corresp="#com4.3">E questo <placeName>Torixe</placeName> è maçor e plù nobel
+               citade <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice> merchandaria ch’altra cità che sia al mondo.</ab>
+            <ab n="4" corresp="#com4.4">El no è cossa da mançar nì de <choice>
+                  <abbr>merchandaia</abbr>
+                  <expan>merchandaria</expan>
+               </choice> che no se trove <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> quella cità, che quasi è incredibile de quelle cosse che qui se trova.</ab>
+            <ab n="5" corresp="#com4.5">Ela è molto ben posta, sì che quasi a tuto lo mondo responde <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice>
+               <choice>
+                  <abbr>mercandaia</abbr>
+                  <expan>mercandaria</expan>
+               </choice>.</ab>
+            <ab n="6" corresp="#com4.6">Li <choice>
+                  <abbr>xian</abbr>
+                  <expan>cristian</expan>
+               </choice> diseno che quelo <choice>
+                  <abbr>impador</abbr>
+                  <expan>imper<pb n="6r" xml:id="Ur_fol_6r" facs="data\images\single\Ur_fol_6r.jpg"
+                     />[6r]ador</expan>
+               </choice> a più d’entrada di quela citade che no à lo re di
+                  <placeName>França</placeName> de tuto lo so regname.</ab>
+            <ab n="7" corresp="#com4.7">Apreso questa citade è un monte di sale; tuti queli de la
+               citade n’à grande habundantia: ciaschun ne tol quanta el vuole sença pagamento.</ab>
+            <ab n="8" corresp="#com4.8">E molti cristiani sono <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> questa citade de tute generation; e li saraxini che li habita eno <choice>
+                  <abbr>signoi</abbr>
+                  <expan>signori</expan>
+               </choice>.</ab>
+            <ab n="9" corresp="#com4.9">E molte altre cose eno <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> questa cità, che seria molte da notare.</ab>
+         </div>
+         <div type="Chapter" n="5">
+            <head><hi rend="rubric"/>De <placeName>Soldania</placeName> o’ sta l’<choice>
+                  <abbr>impador</abbr>
+                  <expan>imperador</expan>
+               </choice> di <placeName><choice>
+                     <abbr>psia</abbr>
+                     <expan>Persia</expan>
+                  </choice></placeName>. <choice>
+                  <abbr>Cap</abbr>
+                  <expan>Capitollo</expan>
+               </choice> 5.</head>
+            <ab n="1" corresp="#com5.1">De <placeName>Toris</placeName> me partì e andà per X
+               çornade, e çonsi a una cità che se clama <placeName>Soldania</placeName>, o’ sta l’<choice>
+                  <abbr>impador</abbr>
+                  <expan>imperador</expan>
+               </choice> di <placeName>Persia</placeName> in lo tenpo d’istade, e d’enverno va a una
+               contrada ch’è sovr’al mare e v’è clamada lo mar Bachue</ab>
+            <ab n="2" corresp="#com5.2">Questa citade è grande e à bone aque.</ab>
+            <ab n="3" corresp="#com5.3">E a quella citade se portan le gran mercadandie che se vende
+               a queli de <placeName>Cassam</placeName>.</ab>
+         </div>
+         <div type="Chapter" n="6">
+            <head><hi rend="rubric"/>De <placeName>Cassam</placeName>, <surplus>{e}</surplus> citade
+               d’i III magi. <choice>
+                  <abbr>Cap</abbr>
+                  <expan>Capitollo</expan>
+               </choice> 6.</head>
+            <ab n="1" corresp="#com6.1">De <placeName>So<supplied>[l]</supplied>dania</placeName> me
+               partì <choice>
+                  <abbr>co</abbr>
+                  <expan>con</expan>
+               </choice> le caravane çoé con le conpagnie d’algune <choice>
+                  <abbr>psone</abbr>
+                  <expan>persone</expan>
+               </choice>, e andà verso <placeName>India</placeName>.</ab>
+            <ab n="2" corresp="#com6.2">E così andando <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice> molte çornade, arivà alla citade d’i III magi, chi se clama
+                  <placeName>Cassam</placeName>, citade reale e de grande honor, mo li Tartari la
+               destruçe.</ab>
+            <ab n="3" corresp="#com6.3">Ela è molto abondada di pan e de vin e de molti altri
+               beni.</ab>
+            <ab n="4" corresp="#com6.4">Da questa citade infine in <placeName>Ierupsalem</placeName>
+               è ben L çornade; li magi li andè no <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice> vertude humana: meraveiosamente.</ab>
+            <ab n="5" corresp="#com6.5">Molte cose sono <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> questa citade che <choice>
+                  <abbr>no</abbr>
+                  <expan>non</expan>
+               </choice> bisognano dire.</ab>
+         </div>
+         <div type="Chapter" n="7">
+            <head><hi rend="rubric"/>De <placeName>Gest</placeName> o’ è ’l <placeName>mar
+                  Arenoxo</placeName>; alchun <choice>
+                  <abbr>xian</abbr>
+                  <expan>cristian</expan>
+               </choice> no li pò <choice>
+                  <abbr>vive</abbr>
+                  <expan>vivere</expan>
+               </choice> plù d’<supplied>[uno]</supplied> anno. <pb n="6v" xml:id="Ur_fol_6v"
+                  facs="data\images\single\Ur_fol_6v.jpg"/>[6v] <choice>
+                  <abbr>Cap</abbr>
+                  <expan>Capitollo</expan>
+               </choice> 7</head>
+            <ab n="1" corresp="#com7.1">De <placeName>Cassam</placeName> me partì e andà a una
+               citade che se clama <placeName>Gest</placeName>.</ab>
+            <ab n="2" corresp="#com7.2">Da questa citade al <placeName>mar Renoxo</placeName> è una
+               çornada (ch’è molto <choice>
+                  <abbr>pigoloso</abbr>
+                  <expan>perigoloso</expan>
+               </choice>).</ab>
+            <ab n="3" corresp="#com7.3">In questa citade è ubertà de vianda e de tuti li altri beni,
+               spetialmente de fighe e d’uva passa; è verde como herba ed è minuda, qui sì n’è più
+               cha in altra <choice>
+                  <abbr>pte</abbr>
+                  <expan>parte</expan>
+               </choice>.</ab>
+            <ab n="4" corresp="#com7.4">Questa citade è la terça menor che lo <choice>
+                  <abbr>impador</abbr>
+                  <expan>imperador</expan>
+               </choice> e <placeName>Persia</placeName> poscieda <supplied>[in]</supplied> tuto lo
+               so regno, de la qual citade, dixi li saraxini, che alchun <choice>
+                  <abbr>xian</abbr>
+                  <expan>cristian</expan>
+               </choice> no li pò viver plu cha uno anno.</ab>
+            <ab n="5" corresp="#com7.5">Molte cose sono <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> quella citade che no à mestier de dir.</ab>
+         </div>
+         <div type="Chapter" n="8">
+            <head><hi rend="rubric"/>Di <placeName>Conio</placeName>, che le soe mure volce L mia. <choice>
+                  <abbr>Cap</abbr>
+                  <expan>Capitollo</expan>
+               </choice> 8.</head>
+            <ab n="1" corresp="#com8.1">Di <placeName>Gesto</placeName> mi partì e andà per molte
+               terre e citade, e andò a una citade che se cliama <placeName>Conio</placeName>, chi è
+               gran citade che per li tenpi passadi fé gran danno a
+               <placeName>Roma</placeName>.</ab>
+            <ab n="2" corresp="#com8.2">Le soe mura volçe L mia; anchora sono li palaçi in tera
+               çitadi.</ab>
+            <ab n="3" corresp="#com8.3">Et è molto abundada de <choice>
+                  <abbr>vituaia</abbr>
+                  <expan>vituaria</expan>
+               </choice>.</ab>
+         </div>
+         <div type="Chapter" n="9">
+            <head>
+               <hi rend="rubric">Di <placeName>Chus</placeName>, tera de <persName ref="#Job"
+                     >Iob</persName>, o’ li <choice>
+                     <abbr>hoi</abbr>
+                     <expan>homini</expan>
+                  </choice> fila e le femene no. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitollo</expan>
+                  </choice> 9.</hi>
+            </head>
+            <ab n="1" corresp="#com9.1">Di <placeName>Conio</placeName> mi partì passando tere e
+               citade, e vene ala tera di Iob, chi se clama <placeName>Chus</placeName>, che è molto
+               bella e grassa de tute <choice>
+                  <abbr>vituaie</abbr>
+                  <expan>vituarie</expan>
+               </choice>.</ab>
+            <ab n="2" corresp="#com9.2">Apresso questa terra è lli monti molto belli pascoli e eo <choice>
+                  <abbr>no</abbr>
+                  <expan>non</expan>
+               </choice> vitti may de mior.</ab>
+            <ab n="3" corresp="#com9.3">Et è molto ben habundada, e qua se trova molte <choice>
+                  <abbr>pnixe</abbr>
+                  <expan>pernixe</expan>
+               </choice>: ben X <choice>
+                  <abbr>p</abbr>
+                  <expan>per</expan>
+               </choice> men d’un grosso.</ab>
+            <ab n="4" corresp="#com9.4">In questa <choice>
+                  <abbr>cotrada</abbr>
+                  <expan>contrada</expan>
+               </choice> son molti beli vechi, e qua li <choice>
+                  <abbr>hoi</abbr>
+                  <expan>homini</expan>
+               </choice> filano e le femene no.</ab>
+            <ab n="5" corresp="#com9.5">Questa tera responde al Chan Grande.</ab>
+            <p facs="#Disegno1"/>
+         </div>
+         <div type="Chapter" n="10">
+            <head><hi rend="rubric"/><pb n="7r" xml:id="Ur_fol_7r"
+                  facs="data\images\single\Ur_fol_7r.jpg"/>De <placeName>Caldea</placeName> in la
+                  <placeName>tramontana</placeName>, di <placeName>Candia</placeName> e de la tore
+               di Babel, o’ li <choice>
+                  <abbr>hoi</abbr>
+                  <expan>homeni</expan>
+               </choice> va conçadi e le femene no. <choice>
+                  <abbr>Cap</abbr>
+                  <expan>Capitollo</expan>
+               </choice> X.</head>
+            <ab n="1" corresp="#com10.1">De <placeName>Chus</placeName> me <choice>
+                  <abbr>pti'</abbr>
+                  <expan/>
+               </choice>parti' e andà in <placeName>Caldea</placeName> chi è <choice>
+                  <abbr>gra</abbr>
+                  <expan>gran</expan>
+               </choice> regno, e andà appresso la tore di Babel forsi IIII çornade.</ab>
+            <ab n="2" corresp="#com10.2">In questa <placeName>Caldea</placeName> è soa <choice>
+                  <abbr>ppria</abbr>
+                  <expan>propria</expan>
+               </choice> lengua, belli <choice>
+                  <abbr>hoi</abbr>
+                  <expan>homini</expan>
+               </choice> e brute femene.</ab>
+            <ab n="3" corresp="#com10.3">E vano li <choice>
+                  <abbr>hoi</abbr>
+                  <expan>homini</expan>
+               </choice> conçadi como qua da nu’ <choice>
+                  <abbr>vano</abbr>
+                  <expan>vanno</expan>
+               </choice> le femene, e portano <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> cavo veli d’oro e de <choice>
+                  <abbr>ple</abbr>
+                  <expan>perle</expan>
+               </choice>; e le femene portano solamente una vil chamixa e no le çunge al genochio,
+               le maneghe longhe e larghe fin <choice>
+                  <abbr>i</abbr>
+                  <expan>in</expan>
+               </choice> tera; e vano descalçe e no portano treçe; e queste femene portano brache
+               fin in terra e portano li capili sparti entorno.</ab>
+            <ab n="4" corresp="#com10.4">Si como li <choice>
+                  <abbr>hoi</abbr>
+                  <expan>homini</expan>
+               </choice> vano qua da noi domando le femene, così vano qui le femene domando li
+               homini e vaghiçando.</ab>
+            <ab n="5" corresp="#com10.5">E altre cose li sono che seriano desoneste a dir.</ab>
+         </div>
+      </body>
+   </text>
+</TEI>
