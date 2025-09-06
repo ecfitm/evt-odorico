@@ -24,7 +24,7 @@
             "label": "MULTIPLE_RECENSIONS",
             "icon": "mode-versions",
             "viewMode": "versions",
-            "visible": true
+            "visible": false
         },
         {
             "label": "IMAGE_TEXT",
@@ -36,25 +36,25 @@
             "label": "TEXT_TEXT",
             "icon": "mode-txtTxt",
             "viewMode": "txtTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "COLLATION",
             "icon": "mode-collation",
             "viewMode": "collation",
-            "visible": true
+            "visible": false
         },
         {
             "label": "SOURCE_TEXT",
             "icon": "mode-srcTxt",
             "viewMode": "srcTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "3DHOP",
             "icon": "mode-tdhop",
             "viewMode": "tdhop",
-            "visible": true
+            "visible": false
         }
     ],
     "defaultEdition": "critical",
