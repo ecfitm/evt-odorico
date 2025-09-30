@@ -5,7 +5,7 @@
     "dataUrl": "data/text/UR_Diplo-interpretative.xml",
     "analoguesUrl": "",
     "sourcesTextsUrl": "data/text/sources/",
-    "singleImagesUrl": "data/images/single",
+    "singleImagesUrl": "data/images/single/",
     "enableXMLdownload": true,
     "visCollTextUrl": "",
     "visCollStyleUrl": "",
