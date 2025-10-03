@@ -139,7 +139,7 @@
                   <lem><placeName ref="#Vinegia">Vinegia</placeName></lem>
                   <rdg wit="#UR">Venesia</rdg>
                </app> e poi nandòe <app>
-                  <lem>in <placeName ref="Udine">Udine</placeName> di <placeName ref="Friuli">
+                  <lem>in <placeName ref="Udine" fix="fix-ml">Udine</placeName><span fix="fix-ml">di</span><placeName ref="Friuli" fix="fix-ml">
                         Friuli</placeName></lem>
                   <rdg wit="#UR">in Friul ad Udene </rdg>
                   <rdg wit="#M">in Udine di Friullj </rdg>

@@ -50,3 +50,7 @@ span.quote sup.iconbis-evt_quote-left,
 span.quote sup.iconbis-evt_quote-right {
 	display: none;
 }
+
+[data-fix="fix-ml"] {
+  margin-left: 5px;
+}
