@@ -305,7 +305,7 @@
                </additional>
             </msDesc>
 
-                        <listPerson>
+            <listPerson>
                <person xml:id="Odorigo">
                   <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
                         >Pordenone</placeName> O.M.</persName>
