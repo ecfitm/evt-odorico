@@ -52,5 +52,12 @@ span.quote sup.iconbis-evt_quote-right {
 }
 
 [data-fix="fix-ml"] {
-  margin-left: 5px;
+	margin-left: 5px;
+}
+
+.sic {
+	text-decoration: line-through;
+}
+.corr {
+	background-color: #c1e1c1;
 }
