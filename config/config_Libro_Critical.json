@@ -3,10 +3,9 @@
     "webSite": "",
     "logoUrl": "data/icons/myLogo.jpg",
     "dataUrl": "data/text/Libro_Critical.xml",
-    "sourcesUrl": "data/text/sources.xml",
-    "analoguesUrl": "data/text/analogues.xml",
+    "analoguesUrl": "",
     "sourcesTextsUrl": "data/text/sources/",
-    "singleImagesUrl": "data/images/single",
+    "singleImagesUrl": "data/images/single/",
     "enableXMLdownload": true,
     "visCollTextUrl": "",
     "visCollStyleUrl": "",
@@ -25,37 +24,37 @@
             "label": "MULTIPLE_RECENSIONS",
             "icon": "mode-versions",
             "viewMode": "versions",
-            "visible": true
+            "visible": false
         },
         {
             "label": "IMAGE_TEXT",
             "icon": "mode-imgTxt",
             "viewMode": "imgTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "TEXT_TEXT",
             "icon": "mode-txtTxt",
             "viewMode": "txtTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "COLLATION",
             "icon": "mode-collation",
             "viewMode": "collation",
-            "visible": true
+            "visible": false
         },
         {
             "label": "SOURCE_TEXT",
             "icon": "mode-srcTxt",
             "viewMode": "srcTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "3DHOP",
             "icon": "mode-tdhop",
             "viewMode": "tdhop",
-            "visible": true
+            "visible": false
         }
     ],
     "defaultEdition": "critical",
@@ -71,13 +70,13 @@
             "value": "diplomatic",
             "label": "Diplomatic",
             "title": "Diplomatic edition",
-            "visible": false
+            "visible": true
         },
         {
             "value": "interpretative",
             "label": "Interpretative",
             "title": "Interpretative edition",
-            "visible": false
+            "visible": true
         }
     ],
     "showDocumentSelector": false,

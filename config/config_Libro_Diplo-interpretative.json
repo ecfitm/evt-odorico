@@ -3,29 +3,28 @@
     "webSite": "",
     "logoUrl": "data/icons/myLogo.jpg",
     "dataUrl": "data/text/Libro_Diplo-interpretative.xml",
-    "sourcesUrl": "data/text/sources.xml",
-    "analoguesUrl": "data/text/analogues.xml",
+    "analoguesUrl": "",
     "sourcesTextsUrl": "data/text/sources/",
-    "singleImagesUrl": "data/images/single",
+    "singleImagesUrl": "data/images/single/",
     "enableXMLdownload": true,
     "visCollTextUrl": "",
     "visCollStyleUrl": "",
     "visCollSvg": "",
     "visCollImageList": "",
     "visCollDataModel": "",
-    "defaultViewMode": "readingTxt",
+    "defaultViewMode": "imgTxt",
     "availableViewModes": [
         {
             "label": "READING_TEXT",
             "icon": "reading-txt",
             "viewMode": "readingTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "MULTIPLE_RECENSIONS",
             "icon": "mode-versions",
             "viewMode": "versions",
-            "visible": true
+            "visible": false
         },
         {
             "label": "IMAGE_TEXT",
@@ -37,19 +36,19 @@
             "label": "TEXT_TEXT",
             "icon": "mode-txtTxt",
             "viewMode": "txtTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "COLLATION",
             "icon": "mode-collation",
             "viewMode": "collation",
-            "visible": true
+            "visible": false
         },
         {
             "label": "SOURCE_TEXT",
             "icon": "mode-srcTxt",
             "viewMode": "srcTxt",
-            "visible": true
+            "visible": false
         },
         {
             "label": "3DHOP",
@@ -58,14 +57,14 @@
             "visible": false
         }
     ],
-    "defaultEdition": "interpretative",
+    "defaultEdition": "critical",
     "showEditionLevelSelector": true,
     "availableEditionLevel": [
         {
             "value": "critical",
             "label": "Critical",
             "title": "Critical edition",
-            "visible": false
+            "visible": true
         },
         {
             "value": "diplomatic",
@@ -123,15 +122,15 @@
     "skipWitnesses": "",
     "maxWitsLoadTogether": 5,
     "witnessesGroups": [],
-    "showInlineCriticalApparatus": true,
+    "showInlineCriticalApparatus": false,
     "showInlineSources": false,
     "showInlineAnalogues": false,
     "showReadingExponent": true,
     "toolHeatMap": true,
     "versions": [
-        "vitaCL",
-        "vitaCL1",
-        "epitaffi"
+        "Co",
+        "Ur",
+        "Latino"
     ],
     "listDef": "<listWit>, <listChange>",
     "versionDef": "<witness>, <change>",
@@ -142,23 +141,12 @@
     "analogueDef": "<seg>,<ref[type=parallelPassage]>",
     "possibleLemmaFilters": "",
     "possibleVariantFilters": "resp",
-    "variantColorLight": "",
+  "variantColorLight": "",
     "variantColorDark": "",
     "heatmapColor": "",
-    "variantColors": {
-        "type": {
-            "lessicographic": "rgb(108, 145, 207)",
-            "orthographic": "rgb(91, 204, 203)",
-            "punctuation": "rgb(248, 253, 136)",
-            "spelling": "rgb(255, 117, 118)",
-            "grammatical": "rgb(229, 103, 175)",
-            "lexical": "rgb(171, 104, 206)",
-            "repetition": "rgb(132, 113, 209)",
-            "transposition": "rgb(255, 192, 126)",
-            "other": "rgb(100, 230, 121)"
-        },
-        "cause": {"unknown": "rgb(125, 125, 125)"}
-    },
+    "variantColors": "",
+   
+        
     "defaultBibliographicStyle": "Chicago",
     "allowedBibliographicStyles": {
         "Chicago": {
