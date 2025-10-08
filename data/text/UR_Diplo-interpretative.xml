@@ -1066,10 +1066,10 @@
                <item n="2" corresp="#item2">ii. De <placeName ref="#Armenia Maggiore">Arminia
                      Maçor,</placeName>ch’è la più alta terra che un sapia al mondo.</item>
                <item n="3" corresp="#item3">iii. Del <geogName>monte d'<placeName
-                        ref="#Arminia Maggiore">Arminia</placeName>,</geogName>, là dov'è l'archa da
+                        ref="#Arminia Maggiore">Arminia</placeName></geogName>, là dov'è l'archa da
                      <persName ref="#Noè">Noè.</persName></item>
                <item n="4" corresp="#item4">iv. De <placeName ref="#Torissi">Torixe</placeName>e
-                     del<geogName>monte de Sal.</geogName></item>
+                     del <geogName> monte de Sal.</geogName></item>
                <item n="5" corresp="#item5">v. De <placeName ref="#Soldania">Soldania</placeName>o'
                   demora <choice>
                      <abbr>l'impador</abbr>
@@ -1119,7 +1119,7 @@
                      <abbr>hoi</abbr>
                      <expan>homeni</expan>
                   </choice>, e como fra <persName ref="#Odorigo">Odorigo</persName> li andò susso in
-                     <placeName ref="#India Superiore">India Superior</placeName>.</item>
+                     <placeName ref="#India Superiore">India Superior.</placeName></item>
                <item n="17" corresp="#item17">xvii. Del'<choice>
                      <abbr>impio</abbr>
                      <expan>imperio</expan>
@@ -1132,7 +1132,7 @@
                   </choice> so dio, e lo <choice>
                      <abbr>ho</abbr>
                      <expan>homo</expan>
-                  </choice> morto bruxa cola mogliere viva</item>
+                  </choice> morto bruxa cola mogliere viva.</item>
                <item n="19" corresp="#item19">xviiii. Delo regno <placeName ref="#Mabar"
                      >Mabar</placeName>ov’è lo corpo di san <persName ref="#Tome">Tomaso <choice>
                         <abbr>applo</abbr>
@@ -1152,7 +1152,7 @@
                <item n="23" corresp="#item23">xxiii. Dela contrada <placeName ref="#Talamasin"
                      >Talamasin</placeName> o’ è albori che fa farina e tosigo e miel.</item>
                <item n="24" corresp="#item24">xxiiii. Delo regno <placeName ref="#çampa"
-                     >Canpa</placeName>, o’ è molte cose incredibile e spaventevele.</item>
+                     >Canpa,</placeName> o’ è molte cose incredibile e spaventevele.</item>
                <item n="25" corresp="#item25">xxv. Del'ysola <placeName ref="#Necoveran"
                      >Nicoveran</placeName> o’ li homeni e le femene àno cavi de can e va
                   nudi.</item>
@@ -1165,9 +1165,9 @@
                <item n="28" corresp="#item28">xxviiii. Dela <placeName ref="Seconda Yndia">Grande
                      India</placeName>chi à XXIIIIM ysole e LXIIII re di corona.</item>
                <item n="29" corresp="#item29">xxviiiii. Dela provincia del <placeName ref="#Mançi"/><choice>
-                     <abbr>Maçi</abbr>
+                     <abbr>Maçi,</abbr>
                      <expan>Mançi</expan>
-                  </choice>, ch’è sul’<placeName ref="#India Superiore">India Superior</placeName>,
+                  </choice> ch’è sul’<placeName ref="#India Superiore">India Superior,</placeName>
                   et à IIM citade sotto di sì.</item>
             </list>
          </div>
@@ -1175,17 +1175,17 @@
          <div>
             <list>
                <item n="30" corresp="#item30">[f. 4r] xxx. Dela nobel cità <placeName ref="#çaiton"
-                     >Gaytum</placeName>, là dove sono molte novitade.</item>
+                     >Gaytum,</placeName> là dove sono molte novitade.</item>
                <item n="31" corresp="#item31">xxxi. Dela cità <placeName ref="#Foço"
-                     >Fuçço</placeName>, ov’è le galine sì grande ch’àno <choice>
+                     >Fuçço,</placeName> ov’è le galine sì grande ch’àno <choice>
                      <abbr>p</abbr>
                      <expan>per</expan>
                   </choice>pene lana como à le piegore, e altre novitade.</item>
                <item n="32" corresp="#item32">xxxii. De la grandissima e meraveiosa citade clamada
                      <placeName ref="#Cassam">Cassam,</placeName><gloss>‘citade de <choice>
                         <sic>cele</sic>
-                        <corr>celo</corr>
-                     </choice>'</gloss>, chi à XVIM ponti.</item>
+                        <corr>celo'</corr>
+                     </choice></gloss>, chi à XVIM ponti.</item>
                <item n="33" corresp="#item33">xxxiii. De la gran citade <placeName ref="#Chilenso"
                      >Chilenso</placeName> che volce le soe mure XL mia, e à IIIC LX ponti de
                   piera.</item>
@@ -1222,7 +1222,7 @@
                <item n="40" corresp="#item40">40. De la grandeça del’impero del Gran Can e
                   del’ordene como ven la novela de XXX çornade lonçi.</item>
                <item n="41" corresp="#item41">41. Del meraveioso modo como el Gran Can va a
-                  caciar.<placeName/>.</item>
+                  caciar.<placeName/></item>
                <item n="42" corresp="#item42">42. Dele IIII stranie gran feste ch’el Gran Can fa
                   ogni anno, e dele nove e stranie cose che se fano in quele feste a la soa
                   corte.</item>
@@ -1233,11 +1233,11 @@
                <item n="44" corresp="#item44">xliiii. Dela tera del <persName ref="#Presto Giovanni"
                      >Presto Çane</persName> e de la provintia <placeName ref="#Cassam"
                      >Cassi</placeName> o’ nasse lo riobarbaro.</item>
-               <item n="45" corresp="#item45">xlv. De <placeName ref="#Tibet">Tibet</placeName>,
+               <item n="45" corresp="#item45">xlv. De <placeName ref="#Tibet">Tibet,</placeName>
                   gran regno che è neli fin d’<placeName ref="#India">India <choice>
                         <abbr>Supiore</abbr>
-                        <expan>Superiore</expan>
-                     </choice></placeName>, o’ no spande sangue human nì d’animali, e de molte altre
+                        <expan>Superiore,</expan>
+                     </choice></placeName> o’ no spande sangue human nì d’animali, e de molte altre
                   incredibille cosse.</item>
                <item n="46" corresp="#item46">46. xlvi. De la provintia del <placeName ref="#Mançi"
                      >Mançi</placeName> e del precioso palaço o’ è lo poço d’oro e d’argento, e dele
@@ -1257,7 +1257,7 @@
                      <geogName>Flume <choice>
                         <sic>deli</sic>
                         <corr>dele</corr>
-                     </choice> deliçi<supplied reason="missing">[e]</supplied>.</geogName></item>
+                     </choice> deliçi<supplied reason="missing">[e]</supplied>.</geogName></item> 
                <item n="50" corresp="#item50"><surplus>{x}</surplus>l. De la testemoniança e
                   ffermeça che <persName ref="#Odorigo">fra Odorigo</persName>
                   <choice>
@@ -1265,9 +1265,9 @@
                      <expan>predicto</expan>
                   </choice> vete queste cose e disselle e ffélle scrivere provandole utintichamente
                   esser state <choice>
-                     <sic>vero</sic>
+                     <sic>vero<./sic>
                      <corr>vere</corr>
-                  </choice>. Amen.</item>
+                  </choice> Amen.</item>
             </list>
          </div>
          <div type="prologue" n="2" corresp="prol2">
