@@ -6,8 +6,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:id="Odorico_DiploInterpretative"> <hi rend="italic">Libro delle nuove e strane e meravigliose cose. Edizione critica
-               digitale</hi></title>
+            <title xml:id="Odorico_DiploInterpretative">
+               <hi rend="italic">Libro delle nuove e strane e meravigliose cose. Edizione critica
+                  digitale</hi></title>
             <author>Odorico da Pordenone OMin.</author>
             <respStmt ref="#AAndreose">
                <resp>Edizione</resp>
@@ -18,7 +19,7 @@
                <persName ref="#IReginato">Irene Reginato</persName>
             </respStmt>
          </titleStmt>
-         
+
          <publicationStmt>
             <p>Portale dedicato ai volgarizzamenti italiani della <hi rend="italic">Relatio de
                   mirabilibus Orientalium Tatarorum</hi>di <persName ref="#Odorigo">Odorico da
@@ -59,9 +60,11 @@
                      <title type="suppliedl"><locus from="71r"><hi rend="italic">Libro delle nuove e
                               strane e meravilliose cose.</hi></locus></title>
                      <note>Volgarizzamento dell'<hi rend="italic">Itinerarium</hi>di <persName
-                           ref="#Odorigo">Odorico da Pordenone.</persName></note>
+                           ref="#Odorigo">Odorico da <placeName ref="#Porto Naoni"
+                              >Pordenone</placeName>.</persName></note>
                      <incipit><locus from="1r"/>Cominciano i capitoli de‧libro delle nuove e strane
-                        e meravilliose cose, che fra’ Odorigo di Friuli, dell’ordine de’ fra Minori
+                        e meravilliose cose, che fra’ <persName ref="#Odorigo">Odorigo</persName> di
+                           <placeName ref="#Friuli">Friuli</placeName>, dell’ordine de’ fra Minori
                         trovòe di là da mare</incipit>
                      <explicit><locus from="97r"/>mi dispongho di morire e di vivere secondo la
                         volontà di Dio.</explicit>
@@ -76,7 +79,7 @@
                      <note>Tre proverbi</note>
                      <incipit><locus from="97r"/></incipit>
                      <explicit><locus from="100v"/>disse k'avea più ge<ex>n</ex>te ke tucta
-                           <placeName>Ytalia.</placeName></explicit>
+                           <placeName ref="#Ytalia">Ytalia.</placeName></explicit>
                   </msItem>
                </msContents>
                <physDesc>
@@ -168,7 +171,7 @@
                </additional>
             </msDesc>
 
-            <listPerson>
+                        <listPerson>
                <person xml:id="Odorigo">
                   <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
                         >Pordenone</placeName> O.M.</persName>
@@ -886,9 +889,9 @@
       <surface xml:id="Co_surf_100r" corresp="#Co_fol_100r"/>
       <surface xml:id="Co_surf_100v" corresp="#Co_fol_100v"/>
    </facsimile>
-   
+
    <text n="1" corresp="#Libro_crit" xml:id="Libro_dip">
-      
+
       <front>
          <head type="main">Libro delle nuove e strane e meravigliose cose</head>
       </front>
@@ -898,27 +901,28 @@
             <head><title type="supplied"><hi rend="italics">[f. 71ra] Prologo I</hi></title></head>
             <ab n="1" corresp="com00.1">Cominciano i capitoli de‧<title>libro delle nuove e strane e
                   meravilliose cose</title>, che frate <persName ref="#Odorigo"> Odorigo</persName>
-               di <placeName>Friuli</placeName> dell’ordine de’ <add place="above" resp="#hand3"
-                  cert="high">fra</add> Minori trovòe di là da mare, facto in
-                  <placeName>Vinegia</placeName> hov’elli fece scrivere questo libro essendo di là
-               tornato e dovendo andare al papa <choice>
+               di <placeName ref="#Friuli">Friuli</placeName> dell’ordine de’ <add place="above"
+                  resp="#hand3" cert="high">fra</add> Minori trovòe di là da mare, facto in
+                  <placeName ref="#Vinegia">Vinegia</placeName> hov’elli fece scrivere questo libro
+               essendo di là tornato e dovendo andare al papa <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> notificarli queste e altre meravilliose cose. </ab>
-            <ab n="2" corresp="com00.2"> E poi, di là tornato, intendea d’andare al
-                  <placeName>Paradiso <choice>
+            <ab n="2" corresp="com00.2"> E poi, di là tornato, intendea d’andare al <placeName
+                  ref="#Paradiso Deliciarum">Paradiso <choice>
                      <abbr>Delitiar</abbr>
                      <expan>Delitiarum</expan>
                   </choice></placeName> e <choice>
                   <abbr>qne</abbr>
                   <expan>quine</expan>
                </choice> finire la sua vita secondo la volontà di Dio. </ab>
-            <ab n="3" corresp="com00.3"> Poi andando a corte, infermò a <placeName>Pisa</placeName>;
-               e conoscendo che’l he termine della s<del rend="vertically strikethrough"
-                  resp="#hand3" cert="medium">a</del>ua vita era venuto, volendo morire nella sua
-                  patr<add place="above" resp="#hand1" cert="high">i</add>a, ritornò si tornò a
-                  <placeName>Vinegia</placeName> e poi nandòe in <placeName>Udine</placeName> di
-                  <placeName> Friuli</placeName> e quivi <choice>
+            <ab n="3" corresp="com00.3"> Poi andando a corte, infermò a <placeName ref="#Pisa"
+                  >Pisa</placeName>; e conoscendo che’l he termine della s<del
+                  rend="vertically strikethrough" resp="#hand3" cert="medium">a</del>ua vita era
+               venuto, volendo morire nella sua patr<add place="above" resp="#hand1" cert="high"
+                  >i</add>a, ritornò si tornò a <placeName ref="#Vinegia">Vinegia</placeName> e poi
+               nandòe in <placeName ref="#Udine">Udine</placeName> di <placeName ref="#Friuli">
+                  Friuli</placeName> e quivi <choice>
                   <abbr>santamete</abbr>
                   <expan>santamente</expan>
                </choice> finiò. </ab>
@@ -930,8 +934,8 @@
                </title>
             </head>
             <list>
-               <item n="1" corresp="#item1">⁋ Di <placeName>Trapesonda</placeName> In Trapisonda e
-                  del <choice>
+               <item n="1" corresp="#item1">⁋ Di <placeName ref="#Trapesonda">Trapesonda</placeName>
+                  In Trapisonda e del <choice>
                      <abbr>ho</abbr>
                      <expan>hom</expan>
                   </choice> che <choice>
@@ -944,57 +948,59 @@
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> I.</item>
-               <item n="2" corresp="#item2">⁋ f. 71rb]Di <placeName>Armenia Maggiore</placeName>,
-                  ch’è la più alta terra che si abiti nel mondo. Capitolo II.</item>
-               <item n="3" corresp="#item3">⁋ Del <geogName>monte
-                  d’<placeName>Ermenia</placeName></geogName> ov’è l’archa di <persName
-                     ref="#Noè">Noè</persName>. <choice>
-                        <abbr>Cap</abbr>
-                        <expan>Capitolo</expan>
-                     </choice> III.</item>
-               <item n="4" corresp="#item4">⁋ Di <placeName>Torissi</placeName> e del
-                  <geogName>monte del sale</geogName> ch’è <choice>
+               <item n="2" corresp="#item2">⁋ [f. 71rb]Di <placeName ref="#Armenia Maggiore">Armenia
+                     Maggiore</placeName>, ch’è la più alta terra che si abiti nel mondo. Capitolo
+                  II.</item>
+               <item n="3" corresp="#item3">⁋ Del <geogName>monte d’<placeName
+                        ref="#Armenia Maggiore">Ermenia</placeName></geogName> ov’è l’archa di
+                     <persName ref="#Noè">Noè</persName>. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> III.</item>
+               <item n="4" corresp="#item4">⁋ Di <placeName ref="#Torissi">Torissi</placeName> e del
+                     <geogName>monte del sale</geogName> ch’è <choice>
                      <abbr>qne</abbr>
                      <expan>quine</expan>
                   </choice>. <choice>
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> IIII.</item>
-               <item n="5" corresp="#item5">⁋ Di <placeName>Soldania</placeName> ove dimora lo <choice>
-                  <abbr>peradore</abbr>
-                  <expan>‘mperadore</expan>
-               </choice> di <placeName><choice>
-                  <abbr>Psia</abbr>
-                  <expan>Persia</expan>
-               </choice></placeName>. <choice>
-                  <abbr>Cap</abbr>
-                  <expan>Capitolo</expan>
-               </choice> V .</item>
-               <item n="6" corresp="#item6">⁋ Di <placeName><choice>
-                  <abbr>Cassa</abbr>
-                  <expan>Cassam</expan>
-               </choice></placeName>, cittade de’ tre magi. Capitolo VI.</item>
-               <item n="7" corresp="#item7">⁋ Di <placeName>Geste</placeName>, ov’è lo
-                  <geogName>mare Arenoso</geogName>, e nullo <choice>
+               <item n="5" corresp="#item5">⁋ Di <placeName ref="#Soldania">Soldania</placeName> ove
+                  dimora lo <choice>
+                     <abbr>peradore</abbr>
+                     <expan>‘mperadore</expan>
+                  </choice> di <placeName ref="#Persia"><choice>
+                        <abbr>Psia</abbr>
+                        <expan>Persia</expan>
+                     </choice></placeName>. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> V .</item>
+               <item n="6" corresp="#item6">⁋ Di <placeName ref="Cassam"><choice>
+                        <abbr>Cassa</abbr>
+                        <expan>Cassam</expan>
+                     </choice></placeName>, cittade de’ tre magi. Capitolo VI.</item>
+               <item n="7" corresp="#item7">⁋ Di <placeName ref="Geste">Geste</placeName>, ov’è lo
+                     <geogName ref="#mare Arenoso">mare Arenoso</geogName>, e nullo <choice>
                      <abbr>xiano</abbr>
                      <expan>cristiano</expan>
                   </choice> vi può vivere oltra I <choice>
                      <abbr>ano</abbr>
                      <expan>anno</expan>
                   </choice>. Capitolo VII.</item>
-               <item n="8" corresp="#item8">⁋ Di <placeName>Conio cittade</placeName>, che lle suoi
-                  mura gira <!-- Alvise2000 corregge in gira<no> -->L millia. <choice>
+               <item n="8" corresp="#item8">⁋ Di <placeName ref="#Conio">Conio cittade</placeName>,
+                  che lle suoi mura gira <!-- Alvise2000 corregge in gira<no> -->L millia. <choice>
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> VIII.</item>
-               <item n="9" corresp="#item9">⁋ Della <placeName>terra di <persName ref="#Job"
-                  >Job</persName></placeName>, ch’è nominata <placeName>Hus</placeName>, ov’è
-                  la manna e li uomini filanoe lle <choice>
+               <item n="9" corresp="#item9">⁋ Della <placeName ref="#Terra di Job">terra di
+                        <persName ref="#Job">Job</persName></placeName>, ch’è nominata <placeName
+                     ref="#Hus">Hus</placeName>, ov’è la manna e li uomini filanoe lle <choice>
                      <abbr>femine</abbr>
                      <expan>femmine</expan>
                   </choice> no. Capitolo VIIII.</item>
-               <item n="10" corresp="#item10">⁋ Di <placeName>Caldea</placeName> e della torre
-                  Babel, nella quale li uomini <choice>
+               <item n="10" corresp="#item10">⁋ Di <placeName ref="#Caldea">Caldea</placeName> e
+                  della torre Babel, nella quale li uomini <choice>
                      <abbr>vano</abbr>
                      <expan>vanno</expan>
                   </choice> ornati come tra noi le <choice>
@@ -1007,8 +1013,8 @@
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> X.</item>
-               <item n="11" corresp="#item11">⁋ Di <placeName>India</placeName> e del <geogName>mare
-                  Occiano</geogName>, che <choice>
+               <item n="11" corresp="#item11">⁋ Di <placeName ref="#India">India</placeName> e del
+                     <geogName ref="#mare Occiano">mare Occiano</geogName>, che <choice>
                      <abbr>circuda</abbr>
                      <expan>circunda</expan>
                   </choice> la <choice>
@@ -1018,13 +1024,339 @@
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> XI.</item>
-               <item n="12" corresp="#item12">⁋ Di <placeName><choice>
-                  <abbr>Tana</abbr>
-                  <expan>Tanna</expan>
-               </choice></placeName> d’<placeName>India</placeName>, ove sono <choice>
-                  <abbr>divse</abbr>
-                  <expan>diverse</expan>
-               </choice> generationi d’animali e </item>
+               <item n="12" corresp="#item12">⁋ Di <placeName ref="#Tanna"><choice>
+                        <abbr>Tana</abbr>
+                        <expan>Tanna</expan>
+                     </choice></placeName> d’<placeName ref="#India">India</placeName>, ove sono <choice>
+                     <abbr>divse</abbr>
+                     <expan>diverse</expan>
+                  </choice> generationi d’animali e <pb n="71v" xml:id="Co_fol_71v"
+                     facs="data\images\single\Co_fol_71v.jpg"/> [f. 71va] li cani piallano i topi. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XII.</item>
+               <item n="13" xml:id="item13">⁋ Di <placeName ref="#Tanna"><choice>
+                        <abbr>Tana</abbr>
+                        <expan>Tanna</expan>
+                     </choice></placeName>, nella quale fuorono passionati quattro frati minor, e
+                  del loro martirio. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XIII. </item>
+               <item n="14" xml:id="item14">⁋ De’ miracoli di questi IIII martiri. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XIIII. </item>
+               <item n="15" xml:id="item15">⁋ Come questo frate <persName ref="#Odorigo"
+                     >Odorigo</persName> ebbe l’ossa di questi martiri, e avendo fatti molti
+                  miracoli portolle ne l’<placeName ref="#India Superiore">India <choice>
+                        <abbr>Supiore</abbr>
+                        <expan>Superiore</expan>
+                     </choice></placeName>. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XV.</item>
+               <item n="16" xml:id="item16">⁋ Di <placeName ref="#Polumbo"><choice>
+                        <abbr>Polubo</abbr>
+                        <expan>Polumbo</expan>
+                     </choice></placeName> e della nave che v’avea suso VIIc huomini, e come frate
+                     <persName ref="#Odorigo">Oderigo</persName> v’<choice>
+                     <abbr>adò</abbr>
+                     <expan>andò</expan>
+                  </choice> suso nell’<placeName ref="#India Superiore">India <choice>
+                        <abbr>Supiore</abbr>
+                        <expan>Superiore</expan>
+                     </choice></placeName>. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XVI.</item>
+               <item n="17" xml:id="item17">⁋ Dello <choice>
+                     <abbr>perio</abbr>
+                     <expan>’mperio</expan>
+                  </choice><placeName ref="#Minabar">Minabar</placeName>, ove nasce il pepe in uno
+                  boscho grande che <choice>
+                     <abbr>cotiene</abbr>
+                     <expan>contiene</expan>
+                  </choice> in sé XVIII giornate. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XVII. </item>
+               <item n="18" xml:id="item18">⁋ Di <placeName ref="Polumbo"><choice>
+                        <abbr>Polubo</abbr>
+                        <expan>Polumbo</expan>
+                     </choice></placeName>, nel quale nasce il gengevo; e adorano il bue <choice>
+                     <abbr>p</abbr>
+                     <expan>per</expan>
+                  </choice> dio, e l’uomo morto ardeno colla mollie viva e altre stolte cose. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XVIII.</item>
+               <item n="19" xml:id="item19">⁋ De‧regno <placeName ref="#Mabar">Mabar</placeName>,
+                  nel quale è lo corpo di <choice>
+                     <abbr>sato</abbr>
+                     <expan>santo</expan>
+                  </choice>
+                  <persName ref="#Tome">Tome</persName> apostolo e dell’idolo e della sua ecclesia
+                  tutta d’oro puro e di [f. 71vb] molte stolte cose. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XVIIII.</item>
+               <item n="20" xml:id="item20">⁋ De<supplied reason="omitted-in-original" cert="high"
+                     >[ll]</supplied>’isola <placeName ref="#Lamen">Lamen</placeName> ove <choice>
+                     <abbr>pdeo</abbr>
+                     <expan>perdéo</expan>
+                  </choice> la tramontana, ove li huomini e lle femine <choice>
+                     <abbr>vano</abbr>
+                     <expan>vanno</expan>
+                  </choice> nudi e mangiano <choice>
+                     <abbr>cane</abbr>
+                     <expan>carne</expan>
+                  </choice> humana e <choice>
+                     <abbr>fano</abbr>
+                     <expan>fanno</expan>
+                  </choice> molte altre istolte e incedibili e crudeli cose. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XX.</item>
+               <item n="21" xml:id="item21">⁋ De’ regno <placeName ref="#Selmetrio"
+                     >Selmetrio</placeName> e <placeName ref="#Botenigo">Botenigo</placeName>. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXI. </item>
+               <item n="22" xml:id="item22">⁋ Dell’isola <placeName ref="#Janua">Janua</placeName>,
+                  nella quale nascono garofali e noci moscate e altre molte spetie, ed èvi uno
+                  palaçço d’oro e d’argento e di pietre pretiose. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXII.</item>
+               <item n="23" xml:id="item23">⁋ Della <choice>
+                     <abbr>cotrada</abbr>
+                     <expan>contrada</expan>
+                  </choice>
+                  <placeName ref="#Talamasin">Talamasim</placeName>, ove si trovano albori che
+                  producono farina e mele e vino e tossico e altre meravilliose cose. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXIII.</item>
+               <item n="24" xml:id="item24">⁋ Dello regno <placeName ref="Çampa">Çampa</placeName> e
+                  di molte incredibili cose e spaventevoli e meravilliose che quivi sono. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXIV. </item>
+               <item n="25" xml:id="item25">⁋ Dell’isola <placeName ref="#Necoveran"><choice>
+                        <abbr>Necovera</abbr>
+                        <expan>Necoveran</expan>
+                     </choice></placeName>, ove li u<add place="above" resp="#hand3" cert="medium"
+                     >o</add>mini e lle femine ànno capi canini e vanno nudi. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXV.</item>
+               <item n="26" xml:id="item26"><pb n="72r" xml:id="Co_fol_72r"
+                     facs="data\images\single\Co_fol_72r.jpg"/> [f. 72ra] Della isola <placeName
+                     ref="#Sillan">Sillan</placeName>, nella quale sono moltitudine d’animali
+                  salvatichi e molte pretre pretiose. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXVI.</item>
+               <item n="27" xml:id="item27">⁋ Della grande ysola <placeName ref="#Dodin"
+                     >Dodin</placeName>, ove lo padre <choice>
+                     <abbr>magia</abbr>
+                     <expan>mangia</expan>
+                  </choice> il filliuolo e‧l filliuolo il padre suo , <choice>
+                     <abbr>magia</abbr>
+                     <expan>mangia</expan>
+                  </choice> lo marito la mollie e lla moglie il marito. Capitolo XXVII.</item>
+               <item n="28" xml:id="item28">⁋ Della <placeName ref="#Seconda Yndia">Seconda
+                     Yndia</placeName>, che àe XXIIIIM d’<choice>
+                     <sic>isola</sic>
+                     <corr resp="#M #UR">isole</corr>
+                  </choice> e LXIIII re. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXVIII. </item>
+               <item n="29" xml:id="item29">⁋ Dell’<placeName ref="#India Superiore">India <choice>
+                        <abbr>Supiore</abbr>
+                        <expan>Superiore</expan>
+                     </choice></placeName> e della <choice>
+                     <abbr>pvincia</abbr>
+                     <expan>provincia</expan>
+                  </choice> del <placeName ref="#Mançi">Mançi</placeName> e molte altre novitadi. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXVIIII. </item>
+               <item n="30" xml:id="item30">⁋ Della nobile città <placeName ref="#Çaiton"
+                     >Çaiton</placeName>, ove son molte novitadi. Capitolo XXX .</item>
+               <item n="31" xml:id="item31">⁋ Della città <placeName ref="#Foço">Foço</placeName>,
+                  ove sono galli e galline grandissime che ànno <choice>
+                     <abbr>p</abbr>
+                     <expan>per</expan>
+                  </choice>
+                  <choice>
+                     <abbr>pene</abbr>
+                     <expan>penne</expan>
+                  </choice> lana come <choice>
+                     <abbr>àno</abbr>
+                     <expan>ànno</expan>
+                  </choice> le pecore e d’altre molte <surplus reason="repeated">{molte}</surplus>
+                  novità. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXXI.</item>
+               <item n="32" xml:id="item32">⁋ Della grandissima e meravilliosa città <placeName
+                     ref="#Cunsai">Cunsai</placeName> cioè ‘città di cielo’, ove sono XIIM <choice>
+                     <abbr>poti</abbr>
+                     <expan>ponti</expan>
+                  </choice> e molte novitadi. Capitolo XXXII. </item>
+               <item n="33" xml:id="item33">⁋ Della grande città <placeName ref="#Chilenso"
+                     >Chilenso</placeName>, [f. 72rb] le cui mura girano XL millia, e àe CCCLX
+                  ponti. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXXIII.</item>
+               <item n="34" xml:id="item34">⁋ Della città <placeName ref="#Ianni">Ianni</placeName>,
+                  nella quale àe quattrocento ottanta millia di fuochi , e d’altra città ove sono
+                  molte novitadi. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXXIIII. </item>
+               <item n="35" xml:id="item35">⁋ Della nobile e antica <placeName ref="#Cambellech"><choice>
+                        <abbr>Cabellec</abbr>
+                        <expan>Cambellech</expan>
+                     </choice></placeName> e <placeName ref="#Taido">Taido</placeName> insieme <choice>
+                     <abbr>giunte</abbr>
+                     <expan>congiunte</expan>
+                  </choice>, che è nella provincia del <placeName ref="#Gattaio"
+                  >Gattaio</placeName>, e girano intorno LX millia; e qui è la sedia del Gran Cane. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXXV.</item>
+               <item n="36" xml:id="item36">⁋ Del nobile palaçço principale nel quale sta la sedia
+                  del Grande Cane, nel quale sono XXIIII <choice>
+                     <abbr>colone</abbr>
+                     <expan>colonne</expan>
+                  </choice> d’oro, e molte altre nobili cose. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXXXVI.</item>
+               <item n="37" xml:id="item37">⁋ Come il <choice>
+                     <abbr>grade</abbr>
+                     <expan>Grande</expan>
+                  </choice> Cane sta sula sua sedia <choice>
+                     <abbr>impiale</abbr>
+                     <expan>imperiale</expan>
+                  </choice> e i suoi filliuoli e parentado segono ordinatamente a piedi di lui. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXXVII.</item>
+               <item n="38" xml:id="item38">⁋ Delle XIIII millia di <choice>
+                     <sic>boroi</sic>
+                     <corr>baroni</corr>
+                  </choice> incoronati che <choice>
+                     <abbr>svono</abbr>
+                     <expan>servono</expan>
+                  </choice> al Grande Cane ne’ suoi <choice>
+                     <abbr>coviti</abbr>
+                     <expan>conviti</expan>
+                  </choice> e delle IICLXXX millia di giocolari e guardatori deli IIC e LXXXM
+                  çogolar e guardiani, d’i cani e delle bestie salvatiche e uccelli<pb n="72v"
+                     break="no" xml:id="Co_fol_72v" facs="data\images\single\Co_fol_72v.jpg"/> [f.
+                  72va] che àe nella sua corte. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XXXVIIII. </item>
+               <item n="39" xml:id="item39">⁋ Del meravillioso modo come il Grande Cane cavalca da
+                  una terra ad altra, e della <choice>
+                     <abbr>ifinita</abbr>
+                     <expan>infinita</expan>
+                  </choice>
+                  <choice>
+                     <abbr>gete</abbr>
+                     <expan>gente</expan>
+                  </choice> che seguita. <supplied reason="omitted-in-original" cert="high"
+                     >[Capitolo]</supplied> 39.</item>
+               <item n="40" xml:id="item40">⁋ Della grandeça dello <choice>
+                     <abbr>perio</abbr>
+                     <expan>’mperio</expan>
+                  </choice> del <choice>
+                     <abbr>grade</abbr>
+                     <expan>Grande</expan>
+                  </choice> Cane, e dell’ordine come in uno die sae le novelle di XXX giornate alla
+                  lunga. Capitolo XL.</item>
+               <item n="41" xml:id="item41">⁋ Del meravillioso modo come il Grande Cane vae a
+                  cacciare. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLI.</item>
+               <item n="42" xml:id="item42">⁋ Delle IIII grandi feste che il Grande Cane <add
+                     place="above" resp="#hand1" cert="low">fae</add> ogn’anno <surplus
+                     reason="wrong-position">{cap<expan>itolo</expan>XLII</surplus>} e delle nuove e
+                  strane cose che si fanno in quelle feste nella sua corte. <supplied
+                     reason="restored">[Capitolo XLII]</supplied>.</item>
+               <item n="43" xml:id="item43">⁋ Delli <geogName ref="#monti Caspeos">monti
+                     Caspeos</geogName>, ove nascono i poponi, ove si trova dentro una bestiula a
+                  modo d’agnello. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLIII. </item>
+               <item n="44"> ⁋ Della terra del <persName ref="Presto Giovanni">Presto
+                     Giovanni</persName> e della provincia <placeName ref="#Chausun"
+                     >Chausun</placeName>, ove nasce il malo barbaro. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLIIII.</item>
+               <item n="45" xml:id="item45">⁋ Di <placeName ref="#Tibet">Tibet,</placeName> grande
+                  regno che è <app>
+                     <lem>nella</lem>
+                     <rdg wit="#UR">neli</rdg>
+                  </app> fine d’<placeName ref="#India Superiore">India <choice>
+                        <abbr>Supiore</abbr>
+                        <expan>Superiore</expan>
+                     </choice></placeName> [f. 72vb] ove <choice>
+                     <abbr>no</abbr>
+                     <expan>non</expan>
+                  </choice> si sparge sangue humano né d’animale, <del rend="excised" resp="#hand1"
+                     cert="high">n</del>e di molte altre cose stolte e incredibili che quine si
+                  fanno. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLV.</item>
+               <item n="46" xml:id="item46">⁋ Della provincia del <placeName ref="#Mançi">Mançi
+                  </placeName>e del pretioso palaçço ch’avea lo spaçço d’oro e d’argento, e delle
+                  cose meravilliose e novitadi incredibili che <choice>
+                     <abbr>qne</abbr>
+                     <expan>quine</expan>
+                  </choice> sono e si fanno. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLVI.</item>
+               <item n="47" xml:id="item47">⁋ Della contrada <placeName ref="#Milestert"
+                     >Milestert</placeName>, ove il <persName ref="#Vecchio della montagna">vecchio
+                     della montagna</persName> abitava, e delle novitadi ch’elli faceva. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLVII. </item>
+               <item n="48" xml:id="item48">⁋ Della <choice>
+                     <abbr>gra</abbr>
+                     <expan>gratia</expan>
+                  </choice> che Dio diede a frati minori in quella <choice>
+                     <abbr>cotrada</abbr>
+                     <expan>contrada</expan>
+                  </choice>. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLVIII. </item>
+               <item n="49" xml:id="item49">⁋ Delle meravillie che sono in una valle posta sopra’l
+                  fiume chiamato il fiume delle delitie. <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> XLVIIII.</item>
+               <item n="50" xml:id="item50">⁋ Della testimoniança e fermeçça che frate <persName
+                     ref="#Odorigo">Odoricho</persName> preditto, che vide queste cose, dissele e
+                  fecele scrivere, àe date a queste cose approvandole altenticamente vere
+                  <!-- Alvise2000 corregge in "esser state vere" --> . <choice>
+                     <abbr>Cap</abbr>
+                     <expan>Capitolo</expan>
+                  </choice> L.</item>
             </list>
          </div>
          <pb n="73r" xml:id="Co_fol_73r" facs="data\images\single\Co_fol_73r.jpg"/>
@@ -1038,8 +1370,8 @@
                   cert="medium">e</add>si nelle quali elli fue <choice>
                   <abbr>psonalmente</abbr>
                   <expan>personalmente</expan>
-               </choice> XIIII anni, il cui ultimo fine fue santo con molti miracoli in
-                  <placeName>Udine</placeName>in <placeName>Friuli</placeName> nel <choice>
+               </choice> XIIII anni, il cui ultimo fine fue santo con molti miracoli in <placeName
+                  ref="#Udine">Udine</placeName>in <placeName>Friuli</placeName> nel <choice>
                   <abbr>ano</abbr>
                   <expan>anno</expan>
                </choice>
@@ -1050,8 +1382,8 @@
             <ab n="1" corresp="com0.2">E quine giace il suo corpo.</ab>
          </div>
          <div type="Chapter" n="1" corresp="chap.1">
-            <head><hi rend="rubric">Di <placeName>Trabesonda</placeName> e del hom che conducea per
-                  are pernici IIIIM</hi></head>
+            <head><hi rend="rubric">Di <placeName ref="#Trapesonda">Trabesonda</placeName> e del hom
+                  che conducea per are pernici IIIIM</hi></head>
             <ab n="1" corresp="com1.1">Con ciò sia cosa che, per molti sia narrato e dicto di <choice>
                   <abbr>divse</abbr>
                   <expan>diverse</expan>
@@ -1066,15 +1398,17 @@
                   <expan>sapere</expan>
                </choice> io frate <persName ref="#Odorigo">Odorigo</persName>
                   di<placeName>Friuli</placeName> dell’ordine de' <add place="above" resp="#hand3"
-                  cert="high">frati</add> Minori, ch’io trappassai lo <geogName ref="#Grande mare">Grande mare</geogName> e andai in
-                  <placeName>Trapesonda</placeName>, che anticamente era chiamata
-                  <placeName>Ponto</placeName>.</ab>
-            <ab n="2" corresp="com1.2"> [f. 73rb] La quale <placeName>Trapesonda</placeName> è terra
-               molto bene posta e sita. Ed è <del rend="excised" resp="#hand1" cert="high"
-                  >sala</del> schala a <choice>
-                  <abbr>Psia</abbr>
-                  <expan>Persia </expan>
-               </choice>e Media, e a tutti quelli d’Oltramare.</ab>
+                  cert="high">frati</add> Minori, ch’io trappassai lo <geogName ref="#Grande mare"
+                  >Grande mare</geogName> e andai in <placeName ref="#Trapesonda"
+                  >Trapesonda</placeName>, che anticamente era chiamata <placeName ref="#Ponto"
+                  >Ponto</placeName>.</ab>
+            <ab n="2" corresp="com1.2"> [f. 73rb] La quale <placeName ref="#Trapesonda"
+                  >Trapesonda</placeName> è terra molto bene posta e sita. Ed è <del rend="excised"
+                  resp="#hand1" cert="high">sala</del> schala a <placeName ref="#Persia"><choice>
+                     <abbr>Psia</abbr>
+                     <expan>Persia </expan>
+                  </choice></placeName>e <placeName ref="#Media">Media</placeName>, e a tutti quelli
+               d’Oltramare.</ab>
             <ab n="3" corresp="com1.3">In questa terra vidi alcuna cosa che mi piaqque molto.</ab>
             <ab n="4" corresp="com1.4">Vidi uno <choice>
                   <abbr>hoo</abbr>
@@ -1095,8 +1429,9 @@
                </choice> are volavano, le quali quello <choice>
                   <abbr>hoo</abbr>
                   <expan>huomo</expan>
-               </choice> menava da uno castello che si chiama <placeName>Çanega</placeName>, di
-               lungi da <placeName>Trabesonda</placeName> tre giornate.</ab>
+               </choice> menava da uno castello che si chiama <placeName ref="#Çanega"
+                  >Çanega</placeName>, di lungi da <placeName ref="#Trapesonda"
+                  >Trabesonda</placeName> tre giornate.</ab>
             <ab n="6" corresp="com1.6">Queste <choice>
                   <abbr>pnici</abbr>
                   <expan>pernici</expan>
@@ -1163,7 +1498,8 @@
             <ab n="1" corresp="com2.1">Di <placeName>Trabesonda</placeName> mi <choice>
                   <abbr>ptì</abbr>
                   <expan>parti’</expan>
-               </choice> e andai in <placeName>Armenia Magiore</placeName> a una città che si chiama <placeName><choice>
+               </choice> e andai in <placeName ref="#Armenia Maggiore">Armenia Magiore</placeName> a
+               una città che si chiama <placeName ref="#Açiron"><choice>
                      <abbr>Açiro</abbr>
                      <expan>Açiron</expan>
                   </choice></placeName>.</ab>
@@ -1193,8 +1529,9 @@
                </choice> s’abiti nel mondo.</ab>
             <ab n="5" corresp="com2.5">In questa terra àe molto buone aqque.</ab>
             <ab n="6" corresp="com2.6">La ragione è questa, che lle vene di quest’aqque pare che
-               eschano del fiume Eufrate<add place="above" resp="#hand3" cert="low">s</add>, lo
-               quale fiume viene presso una giornata a quella città.</ab>
+               eschano del fiume <geogName ref="#Eufrates">Eufrates</geogName><add place="above"
+                  resp="#hand3" cert="low"/>, lo quale fiume viene presso una giornata a quella
+               città.</ab>
             <ab n="7" corresp="com2.7">E questa città è a meça via ad <choice>
                   <abbr>adare</abbr>
                   <expan>andare</expan>
@@ -1206,10 +1543,11 @@
             <ab n="3" corresp="com3.1"><subst>
                   <del type="strikethrough" resp="#hand3" cert="medium">M</del>
                   <add place="left margin" resp="#hand3" cert="medium">D</add>
-               </subst>’<placeName>Açiron</placeName> mi parti’ e andai a uno <choice>
+               </subst>’<placeName ref="#Açiron">Açiron</placeName> mi parti’ e andai a uno <choice>
                   <abbr>mote</abbr>
                   <expan>monte</expan>
-               </choice> che si chiama [f. 73vb] <placeName>Bisacalo</placeName>.</ab>
+               </choice> che si chiama [f. 73vb] <placeName ref="#Bisacalo"
+               >Bisacalo</placeName>.</ab>
             <ab n="2" corresp="com3.2">In questa contrada è quello monte sul quale è l’arca Noè, nel
                quale monte, con <choice>
                   <abbr>co</abbr>
@@ -1239,24 +1577,27 @@
                </choice> che no pare che piaccia al altissimo Dio.</ab>
          </div>
          <div type="Chapter" n="4" xml:id="chap.4">
-            <head><hi rend="rubric">Di <placeName>Torissi</placeName> e del monte del sale che v’è.
-                  Capitolo IIII</hi></head>
+            <head><hi rend="rubric">Di <placeName ref="#Torissi">Torissi</placeName> e del <geogName
+                     ref="#monte del sale">monte del sale</geogName> che v’è. Capitolo
+               IIII</hi></head>
             <ab n="1" corresp="com4.1">Di questa <choice>
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
                </choice> mi <choice>
                   <abbr>pti’</abbr>
                   <expan>parti’</expan>
-               </choice>e andai a <placeName>Torissi</placeName>.</ab>
+               </choice>e andai a <placeName ref="#Torissi">Torissi</placeName>.</ab>
             <ab n="2" corresp="com4.2"><choice>
                   <sic>In questo</sic>
                   <corr>Questo</corr>
-               </choice> Torissi è testé grande città reale che <choice>
+               </choice>
+               <placeName ref="#Torissi">Torissi</placeName> è testé grande città reale che <choice>
                   <abbr>aticamente</abbr>
                   <expan>anticamente</expan>
-               </choice> era chiamata <placeName>Susis</placeName>, della quale si dicea che v’era
-               l’arbore seccho in una chiesa di saracini. </ab>
-            <ab n="3" corresp="com4.3">Questa città di Torissi è milliore e più nobile<choice>
+               </choice> era chiamata <placeName ref="#Susis">Susis</placeName>, della quale si
+               dicea che v’era l’arbore seccho in una chiesa di saracini. </ab>
+            <ab n="3" corresp="com4.3">Questa città di <placeName ref="#Torissi">Torissi</placeName>
+               è milliore e più nobile<choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice>
@@ -1283,7 +1624,9 @@
             <ab n="7" corresp="com4.7">Li cristiani dicono che quello <choice>
                   <abbr>impadore</abbr>
                   <expan>imperadore</expan>
-               </choice> àe più entrata di quella città che llo re di Francia <choice>
+               </choice> àe più entrata di quella città che llo re di <placeName ref="#Francia"
+                  >Francia</placeName>
+               <choice>
                   <abbr>no</abbr>
                   <expan>non</expan>
                </choice> à di tutto il suo reame.</ab>
@@ -1307,29 +1650,30 @@
                </choice> a narrare.</ab>
          </div>
          <div type="Chapter" n="5" corresp="chap.5">
-            <head><hi rend="rubric">[f. 74rb] Di <placeName>Soldania</placeName>, ove dimora lo
-                     ’<supplied>m</supplied>peradore di <placeName>Persia</placeName>. <choice>
+            <head><hi rend="rubric">[f. 74rb] Di <placeName ref="#Soldania">Soldania</placeName>,
+                  ove dimora lo ’<supplied>m</supplied>peradore di <placeName ref="#Persia"
+                     >Persia</placeName>. <choice>
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> V.</hi></head>
-            <ab n="1" corresp="com5.1">E di <placeName>Torissi</placeName> mi <choice>
+            <ab n="1" corresp="com5.1">E di <placeName ref="#Torissi">Torissi</placeName> mi <choice>
                   <abbr>pti'</abbr>
                   <expan>parti’</expan>
                </choice> e andai <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
-               </choice> X giornate, e trovai una città ke si chiama
-                  <placeName>Soldania.</placeName></ab>
+               </choice> X giornate, e trovai una città ke si chiama <placeName ref="#Soldania"
+                  >Soldania.</placeName></ab>
             <ab n="2" corresp="com5.2">In <choice>
                   <abbr>qsta</abbr>
                   <expan>questa</expan>
                </choice> dimora lo <choice>
                   <abbr>pdore</abbr>
                   <expan>’<supplied>m</supplied>peradore</expan>
-               </choice> di <choice>
-                  <abbr>Psia</abbr>
-                  <expan>Persia</expan>
-               </choice> nel <choice>
+               </choice> di <placeName ref="#Persia"><choice>
+                     <abbr>Psia</abbr>
+                     <expan>Persia</expan>
+                  </choice></placeName> nel <choice>
                   <abbr>tepo</abbr>
                   <expan>tempo</expan>
                </choice> d’istate; e d’<choice>
@@ -1340,7 +1684,8 @@
                   <expan>contrada</expan>
                </choice> ke <supplied resp="#IReginato" reason="omitted-in-original"
                   evidence="internal" source="#M #UR #An #Ba #Lu #Man #Va">è sopra uno mare
-                  che</supplied> ke si chiama <placeName>Mare di Bacuc</placeName>.</ab>
+                  che</supplied> ke si chiama <placeName ref="#mare di Bacuc">mare di
+                  Bacuc</placeName>.</ab>
             <ab n="3" corresp="com5.3">Questa città è <choice>
                   <abbr>grade</abbr>
                   <expan>grande</expan>
@@ -1357,7 +1702,7 @@
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> VI.</hi></head>
-            <ab n="1" corresp="com6.1">Di <placeName>Soldania</placeName> mi <choice>
+            <ab n="1" corresp="com6.1">Di <placeName ref="#Soldania">Soldania</placeName> mi <choice>
                   <abbr>pti</abbr>
                   <expan>parti’</expan>
                </choice>
@@ -1389,7 +1734,7 @@
                   <abbr>i</abbr>
                   <expan>in</expan>
                </choice>
-               <placeName>Gerusalem</placeName> àe bene <choice>
+               <placeName ref="#Gerusalem">Gerusalem</placeName> àe bene <choice>
                   <abbr>ciquanta</abbr>
                   <expan>cinquanta</expan>
                </choice>
@@ -1409,17 +1754,19 @@
                narare.</ab>
          </div>
          <div type="Chapter" n="7" corresp="chap.7">
-            <head><hi rend="rubric">Di <placeName>Gest</placeName>, ov’è il <placeName>Mare
-                     Arenoso</placeName>, e nullo cristiano vi puote vivere oltra uno anno. <choice>
+            <head><hi rend="rubric">Di <placeName ref="#Geste">Gest</placeName>, ov’è il <placeName
+                     ref="#mare Arenoso">mare Arenoso</placeName>, e nullo cristiano vi puote vivere
+                  oltra uno anno. <choice>
                      <abbr>Cap</abbr>
                      <expan>Capitollo</expan>
                   </choice> VII.</hi></head>
-            <ab n="1" corresp="com7.1">Di <placeName>Cassam</placeName> mi <choice>
+            <ab n="1" corresp="com7.1">Di <placeName ref="#Cassam">Cassam</placeName> mi <choice>
                   <abbr>prti'</abbr>
                   <expan>parti’</expan>
-               </choice> e andai a una città che si chiama <placeName> Gest</placeName>. </ab>
-            <ab n="1" corresp="com7.2">Da questa città al <placeName>Mare Arenoso</placeName> àe I
-               giornata ch’è molto <choice>
+               </choice> e andai a una città che si chiama <placeName ref="#Geste">
+               Gest</placeName>. </ab>
+            <ab n="1" corresp="com7.2">Da questa città al <geogName ref="#mare Arenoso">mare
+                  Arenoso</geogName> àe I giornata ch’è molto <choice>
                   <abbr>picolo</abbr>
                   <expan>pericolo</expan>
                </choice>. </ab>
@@ -1434,18 +1781,19 @@
                   <expan>parte</expan>
                </choice> del mondo. </ab>
             <ab n="1" corresp="com7.5">Questa città è la <surplus reason="repeated">è la</surplus>
-               terça milliore che llo mperadore di <placeName>Persia</placeName> possega in tutto lo
-               suo regno . </ab>
-            <ab n="1" corresp="com7.6">Della quale città dicono i saracini che nullo cristiano vi può
-               vivere più d’uno anno. </ab>
+               terça milliore che llo mperadore di <placeName ref="#Persia">Persia</placeName>
+               possega in tutto lo suo regno . </ab>
+            <ab n="1" corresp="com7.6">Della quale città dicono i saracini che nullo cristiano vi
+               può vivere più d’uno anno. </ab>
             <ab n="1" corresp="com7.7">E molte cose sono in questa città che non è necessità di
                scrivere.</ab>
          </div>
          <div type="Chapter" n="8" corresp="chap.8">
-            <head><hi rend="rubric">Di <placeName>Conio</placeName>, città le cui mura [f. 74vb]
-                  girano L millia. Capitolo VIII.</hi></head>
-            <ab n="1" corresp="com8.1">Di <placeName>Gest</placeName> mi parti’ e andai per molte
-               terre e città, e andai a una città che si chiama <placeName>Conio</placeName>. </ab>
+            <head><hi rend="rubric">Di <placeName ref="#Conio">Conio</placeName>, città le cui mura
+                  [f. 74vb] girano L millia. Capitolo VIII.</hi></head>
+            <ab n="1" corresp="com8.1">Di <placeName ref="#Gest">Gest</placeName> mi parti’ e andai
+               per molte terre e città, e andai a una città che si chiama <placeName ref="#Conio"
+                  >Conio</placeName>. </ab>
             <ab n="2" corresp="com8.2">Questo <placeName><choice>
                      <sic>Conia</sic>
                      <corr>Conio</corr>
@@ -1462,7 +1810,7 @@
             <ab n="3" corresp="com8.3">Abonda di molta vituallia.</ab>
          </div>
          <div type="Chapter" n="9" corresp="chap.9">
-            <head><hi rend="rubric">Di <placeName>Hus</placeName>, <choice>
+            <head><hi rend="rubric">Di <placeName ref="#Hus">Hus</placeName>, <choice>
                      <abbr>tra</abbr>
                      <expan>terra </expan>
                   </choice>di <persName ref="#Job">Job</persName>, ov’è <choice>
@@ -1478,8 +1826,8 @@
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> VIIII. </hi></head>
-            <ab n="1" corresp="com9.1">Di <placeName>Conio</placeName> mi parti’ e, trapassando per
-               terre e città, veni alla <placeName><choice>
+            <ab n="1" corresp="com9.1">Di <placeName ref="#Conio">Conio</placeName> mi parti’ e,
+               trapassando per terre e città, veni alla <placeName><choice>
                      <abbr>tra</abbr>
                      <expan>terra </expan>
                   </choice> di <persName ref="#Job">Job</persName></placeName>, che si chiama
@@ -1518,12 +1866,12 @@
                   <abbr>femine</abbr>
                   <expan>femmine</expan>
                </choice>. </ab>
-            <ab n="6" corresp="com9.6">Questa terra corresponde al capo della
-                  <placeName>Caldea</placeName> verso tramontana. </ab>
+            <ab n="6" corresp="com9.6">Questa terra corresponde al capo della <placeName
+                  ref="#Caldea">Caldea</placeName> verso tramontana. </ab>
          </div>
          <div type="Chapter" n="10" corresp="chap.10">
-            <head><hi rend="rubric">Di <placeName>Caldea</placeName> e della torre Babel, nella
-                  quale li <choice>
+            <head><hi rend="rubric">Di <placeName ref="#Caldea">Caldea</placeName> e della torre
+                     <placeName ref="#Babel">Babel</placeName>, nella quale li <choice>
                      <abbr>hoi</abbr>
                      <expan>homeni</expan>
                   </choice>
@@ -1537,15 +1885,15 @@
                      <abbr>vano</abbr>
                      <expan>vanno</expan>
                   </choice> despecte. <supplied>Capitolo</supplied>X.</hi></head>
-            <ab n="1" corresp="com10.1">Di <placeName>Hus</placeName> mi parti’ e andai in
-                  <placeName>Caldea</placeName>, che è <choice>
+            <ab n="1" corresp="com10.1">Di <placeName ref="#Hus">Hus</placeName> mi parti’ e andai
+               in <placeName ref="#Caldea">Caldea</placeName>, che è <choice>
                   <abbr>grade</abbr>
                   <expan>grande</expan>
                </choice> regno e andai presso alla <choice>
                   <abbr>tore</abbr>
                   <expan>torre</expan>
                </choice> Babel forsi quattro giornate.</ab>
-            <ab n="2" corresp="com10.2">In questa <placeName>Caldea</placeName> àe <choice>
+            <ab n="2" corresp="com10.2">In questa <placeName ref="#Caldea">Caldea</placeName> àe <choice>
                   <abbr>ppria</abbr>
                   <expan>propria</expan>
                </choice>
@@ -1606,7 +1954,7 @@
                </choice>e <choice>
                   <abbr>vaghegiadoli</abbr>
                   <expan>vaghegiandoli</expan>
-               </choice> .</ab>
+               </choice>.</ab>
             <ab n="5" corresp="com10.5">Molte altre cose vi sono che serebbe lungo a nararle. </ab>
          </div>
          <div type="Chapter" n="11" corresp="chap.11">
@@ -1622,9 +1970,10 @@
                dattali fano libre XLII per meno d’uno veniçano grosso.</ab>
             <ab n="4" corresp="com11.4">E molte altre cose quine sono che no bisogna di
                scrivere.</ab>
-            <ab n="5" corresp="com11.5">Di questa <placeName>India</placeName>, partendomi e
-               trappassando per molte contrade, venni al <placeName>mare Occeano</placeName>, e lla
-               prima terra che trovai si chiama <placeName>Ormes</placeName>.</ab>
+            <ab n="5" corresp="com11.5">Di questa <placeName ref="#India">India</placeName>,
+               partendomi e trappassando per molte contrade, venni al <placeName ref="#mare Occiano"
+                  >mare Occeano</placeName>, e lla prima terra che trovai si chiama <placeName
+                  ref="#Ormes">Ormes</placeName>.</ab>
             <ab n="6" corresp="com11.6">Questa terra è grande e bene murada e di molte e grandi
                mercantantie, e avi tanto caldo.</ab>
             <ab n="7" corresp="com11.7">Ed è sì grande il caldo, che i testicoli, cioè i collioni
@@ -1637,21 +1986,22 @@
                nullo ferro avea.</ab>
          </div>
          <div type="Chapter" n="12" corresp="chap.12">
-            <head><hi rend="rubric">Di Tanna d’<choice>
-                     <abbr>Idia</abbr>
-                     <expan>India</expan>
-                  </choice>, ove sono diverse <choice>
+            <head><hi rend="rubric">Di <placeName ref="#Tanna">Tanna</placeName> d’<placeName
+                     ref="#India"><choice>
+                        <abbr>Idia</abbr>
+                        <expan>India</expan>
+                     </choice></placeName>, ove sono diverse <choice>
                      <abbr>genationi</abbr>
                      <expan>generationi</expan>
                   </choice> d’animali, e’ cani vi pilliano i topi. <choice>
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> XII.</hi></head>
-            <ab n="1" corresp="com12.1">Di <placeName>Ormes</placeName> mi parti’ su <choice>
+            <ab n="1" corresp="com12.1">Di <placeName ref="#Ormes">Ormes</placeName> mi parti’ su <choice>
                   <abbr>qsto</abbr>
                   <expan>questo</expan>
-               </choice> navilio che si chiama Jasse, e andai a <placeName>Tanna</placeName> in
-               XXVIII dì, nella quale <choice>
+               </choice> navilio che si chiama Jasse, e andai a <placeName ref="#Tanna"
+                  >Tanna</placeName> in XXVIII dì, nella quale <choice>
                   <abbr>tera</abbr>
                   <expan>terra</expan>
                </choice> fuoron <choice>
@@ -1664,9 +2014,9 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> la fede di <persName ref="#Cristo"><choice>
-                  <abbr>xo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName> .</ab>
+                     <abbr>xo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName> .</ab>
             <ab n="2" corresp="com12.2">Questa <choice>
                   <abbr>tera</abbr>
                   <expan>terra</expan>
@@ -1749,16 +2099,17 @@
                scrivere.</ab>
          </div>
          <div type="Chapter" n="13" corresp="chap.13">
-            <head><hi rend="rubric">Di <placeName>Tanna</placeName>, ove li III frati minori fuoro
-                  passionati, e della lor passion. <supplied>Capitolo </supplied>XIII.</hi></head>
-            <ab n="1" corresp="com13.1">Nella ditta terra <placeName>Tanna</placeName>, quatro frati
-               minori fuorono passionati e ricevetero martiro<choice>
+            <head><hi rend="rubric">Di <placeName ref="#Tanna">Tanna</placeName>, ove li III frati
+                  minori fuoro passionati, e della lor passion. <supplied>Capitolo
+                  </supplied>XIII.</hi></head>
+            <ab n="1" corresp="com13.1">Nella ditta terra <placeName ref="#Tanna">Tanna</placeName>,
+               quatro frati minori fuorono passionati e ricevetero martiro<choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> l’amore e fede di <persName ref="#Cristo"><choice>
-                  <abbr>xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName>.<pb n="76r" break="no" xml:id="Co_fol_76r"
+                     <abbr>xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName>.<pb n="76r" break="no" xml:id="Co_fol_76r"
                   facs="data\images\single\Co_fol_76r.jpg"/></ab>
             <ab n="2" corresp="com13.2">[f. 76ra]<choice>
                   <abbr>p</abbr>
@@ -1766,8 +2117,8 @@
                </choice> questo modo, essendo i <choice>
                   <abbr>dti</abbr>
                   <expan>ditti</expan>
-               </choice> frati in <placeName>Ormes</placeName>, fecero pacto co una nave nella quale
-               voleano ire a <placeName><choice>
+               </choice> frati in <placeName ref="#Ormes">Ormes</placeName>, fecero pacto co una
+               nave nella quale voleano ire a <placeName ref="#Polumbo"><choice>
                      <abbr>Polubo</abbr>
                      <expan>Polumbo</expan>
                   </choice></placeName>.</ab>
@@ -1777,7 +2128,7 @@
                </choice> questa nave fuoron portati <choice>
                   <abbr>cotra</abbr>
                   <expan>contra</expan>
-               </choice> lor volontà fine a <placeName><choice>
+               </choice> lor volontà fine a <placeName ref="#Tanna"><choice>
                      <abbr>Tana</abbr>
                      <expan>Tanna</expan>
                   </choice></placeName>, nella quale sono XV case di <choice>
@@ -1794,8 +2145,8 @@
             <ab n="6" corresp="com13.6">E questo cadì domandò questa femmina s’ella potrebe provare
                quello ch’ella dicea, e ella rispuose che IIII rabani franchi, cioè religiosi, erano
                presenti nella sua casa.</ab>
-            <ab n="7" corresp="com13.7">Uno d’<placeName>Allesandria</placeName>, quine
-               principalmente era, che pregò il cadì che mandasse per costoro.</ab>
+            <ab n="7" corresp="com13.7">Uno d’<placeName ref="#Allesandria">Allesandria</placeName>,
+               quine principalmente era, che pregò il cadì che mandasse per costoro.</ab>
             <ab n="8" corresp="com13.8">E costui si dicea ch’era di grande scientia e di grande <choice>
                   <orig><del>scientia</del> scrittura</orig>
                   <reg>scrittura</reg>
@@ -1813,17 +2164,18 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> loro; e frate <persName ref="#Tommaso di Tollentino">Tommaso di <placeName
-                     ref="#Tollentino">Tollentino</placeName></persName>, della
-                  <placeName>Marcha</placeName>, e frate <persName ref="#Jacopo da Padoa">Jacopo da
-                     <placeName ref="#Padoa">Padoa</placeName></persName>, e frate <persName ref="#Dimetri de Tofilii">Dimetri de
-                     Tofilii<add place="above">s</add></persName>, giorgiano, ch’era frate laico, <choice>
+                     ref="#Tollentino">Tollentino</placeName></persName>, della <placeName
+                  ref="#Marcha">Marcha</placeName>, e frate <persName ref="#Jacopo da Padoa">Jacopo
+                  da <placeName ref="#Padoa">Padoa</placeName></persName>, e frate <persName
+                  ref="#Dimetri de Tofilii">Dimetri de Tofilii<add place="above">s</add></persName>,
+               giorgiano, ch’era frate laico, <choice>
                   <abbr>sappiedo</abbr>
                   <expan>sappiendo</expan>
                </choice> la lingua, i quali andoro <choice>
                   <abbr>qne</abbr>
                   <expan>quine</expan>
                </choice> e lasciaro a casa frate <persName ref="#Pietro da Siena">Pietro da
-                  <placeName>Siena</placeName></persName>, aciò che <choice>
+                     <placeName ref="#Siena">Siena</placeName></persName>, aciò che <choice>
                   <abbr>guadasse</abbr>
                   <expan>guardasse</expan>
                </choice> le cose.</ab>
@@ -1834,9 +2186,9 @@
                   <abbr>dicedo</abbr>
                   <expan>dicendo</expan>
                </choice> che <persName ref="#Cristo"><choice>
-                  <abbr>xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName>
+                     <abbr>xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName>
                <choice>
                   <abbr>no</abbr>
                   <expan>non</expan>
@@ -1850,8 +2202,8 @@
                   <abbr>ho</abbr>
                   <expan>hom</expan>
                </choice>.</ab>
-            <ab n="12" corresp="com13.12">A’ quali frate
-                     <persName ref="#Tommaso di Tollentino"><abbr>Tomaso</abbr><expan>Tommaso</expan></persName>
+            <ab n="12" corresp="com13.12">A’ quali frate <persName ref="#Tommaso di Tollentino"
+                     ><abbr>Tomaso</abbr><expan>Tommaso</expan></persName>
                <choice>
                   <abbr>pvò</abbr>
                   <expan>provò</expan>
@@ -1864,9 +2216,9 @@
                   <expan>per</expan>
                </choice>
                <abbr>exepli</abbr><expan>exempli</expan> che <persName ref="#Cristo"><choice>
-                  <abbr>xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName> era dio e <choice>
+                     <abbr>xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName> era dio e <choice>
                   <abbr>ho</abbr>
                   <expan>hom</expan>
                </choice>, e in <choice>
@@ -1897,8 +2249,8 @@
                </choice>, <choice>
                   <abbr>comiciò</abbr>
                   <expan>cominciò</expan>
-               </choice> a gridare e dire: «Che di’ tu di <persName ref="#Magometo">Magometo</persName>? Che di’ tu
-               di lui?».</ab>
+               </choice> a gridare e dire: «Che di’ tu di <persName ref="#Magometo"
+                  >Magometo</persName>? Che di’ tu di lui?».</ab>
             <ab n="14" corresp="com13.14">I saracini ànno questa <choice>
                   <abbr>usaça</abbr>
                   <expan>usança</expan>
@@ -1924,15 +2276,15 @@
                </choice> questo, rispusero <pb n="76v" break="no" xml:id="Co_fol_76v"
                   facs="data\images\single\Co_fol_76v.jpg"/> [f. 76va] i frati: «Se noi ti proveremo
                che <persName ref="#Cristo"><choice>
-                  <abbr>xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName> è Dio e <choice>
+                     <abbr>xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName> è Dio e <choice>
                   <abbr>ho</abbr>
                   <expan>hom</expan>
                </choice>, e che <persName ref="#Cristo"><choice>
-                  <abbr>xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName> diede legge in <choice>
+                     <abbr>xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName> diede legge in <choice>
                   <abbr>tera</abbr>
                   <expan>terra</expan>
                </choice>, e <persName ref="#Magometo">Magometto</persName>
@@ -1946,21 +2298,22 @@
                   <abbr>cotraria</abbr>
                   <expan>contraria</expan>
                </choice>, se tu se’ savio, puoi sapere quello ch’è di lui.»</ab>
-            <ab n="16" corresp="com13.16">E quello cadì il domandò e disse: «Che di’ tu di
-                  <persName ref="#Magometo">Magometto</persName>?»; e tutti li altri saracini ad alta voce gridavano
-               e diceano: «Che di’ tu di <persName ref="#Magometo">Magometo</persName>? Che di’ tu di
-                  <persName ref="#Magometo">Magometto</persName>?».</ab>
+            <ab n="16" corresp="com13.16">E quello cadì il domandò e disse: «Che di’ tu di <persName
+                  ref="#Magometo">Magometto</persName>?»; e tutti li altri saracini ad alta voce
+               gridavano e diceano: «Che di’ tu di <persName ref="#Magometo">Magometo</persName>?
+               Che di’ tu di <persName ref="#Magometo">Magometto</persName>?».</ab>
             <ab n="17" corresp="com13.17">Rispuose frate <persName ref="#Tommaso di Tollentino"><choice>
                      <abbr>Tomaso</abbr>
                      <expan>Tommaso</expan>
                   </choice></persName>: «<choice>
                   <abbr>Tato</abbr>
                   <expan>Tanto</expan>
-               </choice> potreste voi dire “Che di’ tu di <persName ref="#Magometo">Magometto</persName>, che di’ tu
-               di <persName ref="#Magometo">Magometto</persName>?” ch’io mi vergongnerei di tacere. Poiché voi
-               volete ch’io vi rispond<del>o</del><add rend="overwritten" resp="#hand1">a</add>,
-               dicovi che <persName ref="#Magometo">Magometto</persName> fue filiulo del diaulo ed è posto in
-                  i<supplied>n</supplied>ferno, e no solamente elli, ma tutti coloro che questa fede <choice>
+               </choice> potreste voi dire “Che di’ tu di <persName ref="#Magometo"
+                  >Magometto</persName>, che di’ tu di <persName ref="#Magometo"
+                  >Magometto</persName>?” ch’io mi vergongnerei di tacere. Poiché voi volete ch’io
+               vi rispond<del>o</del><add rend="overwritten" resp="#hand1">a</add>, dicovi che
+                  <persName ref="#Magometo">Magometto</persName> fue filiulo del diaulo ed è posto
+               in i<supplied>n</supplied>ferno, e no solamente elli, ma tutti coloro che questa fede <choice>
                   <abbr>tegono</abbr>
                   <expan>tengono</expan>
                </choice> e oservano, <choice>
@@ -2051,8 +2404,8 @@
                   <abbr>corseo</abbr>
                   <expan>corsero</expan>
                </choice> a vedere questo.</ab>
-            <ab n="25" corresp="com13.25">E i ditti frati fuoron menati sulla piaçça della città, ove
-               fue acceso<choice>
+            <ab n="25" corresp="com13.25">E i ditti frati fuoron menati sulla piaçça della città,
+               ove fue acceso<choice>
                   <abbr>gradissimo</abbr>
                   <expan>grandissimo</expan>
                </choice> fuoco.</ab>
@@ -2079,10 +2432,11 @@
             <ab n="27" corresp="com13.27">E <choice>
                   <abbr>icotenete</abbr>
                   <expan>incontenente </expan>
-               </choice> IIII saracini presero frate Jacopo da Padoa e voleva‧lo gittare nel
+               </choice> IIII saracini presero frate <persName ref="#Jacopo da Padoa">Jacopo da
+                     <placeName ref="#Padoa">Padoa</placeName></persName> e voleva‧lo gittare nel
                fuoco.</ab>
-            <ab n="28" corresp="com13.28">E frate Jacopo dicea loro: «Lasatemi andare, k’io anderò
-               bene nel fuoco.»</ab>
+            <ab n="28" corresp="com13.28">E frate <persName ref="#Jacopo da Padoa">Jacopo</persName>
+               dicea loro: «Lasatemi andare, k’io anderò bene nel fuoco.»</ab>
             <ab n="29" corresp="com13.29">Ellino no vollero udire le suoi parole, ma<choice>
                   <abbr>icotenete</abbr>
                   <expan>incontenente </expan>
@@ -2101,7 +2455,8 @@
                </choice> tutto fuco fue <choice>
                   <abbr>cosuato</abbr>
                   <expan>consumato</expan>
-               </choice>, questo frate Jacopo stava colle mani suoi agiunte sopra’l fuoco, <choice>
+               </choice>, questo frate <persName ref="#Jacopo da Padoa">Jacopo</persName> stava
+               colle mani suoi agiunte sopra’l fuoco, <choice>
                   <abbr>glorificado</abbr>
                   <expan>glorificando</expan>
                </choice> e <choice>
@@ -2139,15 +2494,16 @@
                   <expan>sconcia</expan>
                </choice> cosa a offenderli. Bene veggiamo ora che lla sua fede è buona e
                santa.»</ab>
-            <ab n="34" corresp="com13.34">E così fue chiamato questo frate Jacopo da quello fuoco
-               sano e salvo.</ab>
+            <ab n="34" corresp="com13.34">E così fue chiamato questo frate <persName
+                  ref="#Jacopo da Padoa">Jacopo</persName> da quello fuoco sano e salvo.</ab>
             <ab n="35" corresp="com13.35">Vedendo questo, il cadì <choice>
                   <abbr>comiciò</abbr>
                   <expan>cominciò</expan>
                </choice> a gridare ad alta voce, <choice>
                   <abbr>dicedo</abbr>
                   <expan>dicendo</expan>
-               </choice>: «Non è santo! Non è santo, ma la tonica ch’àe indosso è della lana della <placeName><choice>
+               </choice>: «Non è santo! Non è santo, ma la tonica ch’àe indosso è della lana della
+                  <placeName ref="#Terra d'Abraam"><choice>
                      <abbr>tera</abbr>
                      <expan>terra</expan>
                   </choice> d’<persName ref="#Abraam">Abraam</persName></placeName>! E <choice>
@@ -2156,18 +2512,19 @@
                </choice> sia spolliato nudo e sia messo nel fuoco!»</ab>
             <ab n="36" corresp="com13.36">Allora venero i sa<pb n="77v" break="no"
                   xml:id="Co_fol_77v" facs="data\images\single\Co_fol_77v.jpg"/>[f. 77va]racini, e a
-               doppio crebero il fuocho, e spolliaro frate <persName ref="#Jacopo da Padoa">Jacopo</persName>, e làvarli
-               molto il corpo, e unserlo molto d’olio; e acciò che’l fuoco, gittaro sopra le legne
-               grande <choice>
+               doppio crebero il fuocho, e spolliaro frate <persName ref="#Jacopo da Padoa"
+                  >Jacopo</persName>, e làvarli molto il corpo, e unserlo molto d’olio; e acciò
+               che’l fuoco, gittaro sopra le legne grande <choice>
                   <abbr>quatità</abbr>
                   <expan>quantità</expan>
                </choice> d’olio.</ab>
-            <ab n="37" corresp="com13.37">E così puosero frate <persName ref="#Jacopo da Padoa">Jacopo</persName> in meço
-               del fuoco.</ab>
+            <ab n="37" corresp="com13.37">E così puosero frate <persName ref="#Jacopo da Padoa"
+                  >Jacopo</persName> in meço del fuoco.</ab>
             <ab n="38" corresp="com13.38">Frate <persName ref="#Tommaso di Tollentino"><choice>
                      <abbr>Tomaso</abbr>
                      <expan>Tommaso</expan>
-                  </choice></persName> e frate <persName ref="#Dimetri de Tofilii">Demetrio</persName> stavano di fuori <choice>
+                  </choice></persName> e frate <persName ref="#Dimetri de Tofilii"
+                  >Demetrio</persName> stavano di fuori <choice>
                   <abbr>ginochioi</abbr>
                   <expan>ginochioni</expan>
                </choice> in oratione e devotione grandissima.</ab>
@@ -2191,8 +2548,8 @@
             <ab n="42" corresp="com13.42">Vedendo questo, lo melic, cioè la podestà, <choice>
                   <abbr>qsto</abbr>
                   <expan>questo</expan>
-               </choice> miracolo, chiamò frate <persName ref="#Jacopo da Padoa">Jacopo</persName> del fuco, ed elli uscìo
-               del fuoco, e vestisi de’ suoi vestimenti.</ab>
+               </choice> miracolo, chiamò frate <persName ref="#Jacopo da Padoa">Jacopo</persName>
+               del fuco, ed elli uscìo del fuoco, e vestisi de’ suoi vestimenti.</ab>
             <ab n="43" corresp="com13.43">E allora disse lo mellich: «Vedete frati, andate <choice>
                   <abbr>co</abbr>
                   <expan>con</expan>
@@ -2260,8 +2617,8 @@
             <ab n="49" corresp="com13.49">E dimorando <choice>
                   <abbr>qne</abbr>
                   <expan>quine</expan>
-               </choice>, il cadì andò a lo melich e dixe: «Che fai tu? La lege di
-                  <persName ref="#Magometo">Magometo</persName> è distrutta. Questi religiosi <choice>
+               </choice>, il cadì andò a lo melich e dixe: «Che fai tu? La lege di <persName
+                  ref="#Magometo">Magometo</persName> è distrutta. Questi religiosi <choice>
                   <abbr>frachi</abbr>
                   <expan>franchi</expan>
                </choice> andranno predicando <choice>
@@ -2286,13 +2643,14 @@
                   <expan>contrada</expan>
                </choice>. E ’l popolo àe già veduto ch’elli sono usciti due volte del fuoco essendo
                entrati e usciti no sono arsi. E così cateuno si farà cristiano e lla legge di
-                  <persName ref="#Magometo">Magometo</persName> fie distrutta. E <persName ref="#Magometo">Macometto</persName>
-               comanda nell’Arcorano che chi uccide uno cristiano abbia cotanto merito come s’elli
-               andasse alla <placeName>Mecha</placeName>.» </ab>
+                  <persName ref="#Magometo">Magometo</persName> fie distrutta. E <persName
+                  ref="#Magometo">Macometto</persName> comanda nell’Arcorano che chi uccide uno
+               cristiano abbia cotanto merito come s’elli andasse alla <placeName ref="#Mecha"
+                  >Mecha</placeName>.» </ab>
             <ab n="50" corresp="com13.50">E dovete sapere che l’Arcorano è così legge de’ saracini
                come il Vangelo è lege de’ cristiani; <placeName>Meccha</placeName> è ove giace il
-               corpo di <persName ref="#Magometo">Magometto</persName>, al quale vanno i saracini come li cristiani
-               vanno al sepolcro.</ab>
+               corpo di <persName ref="#Magometo">Magometto</persName>, al quale vanno i saracini
+               come li cristiani vanno al sepolcro.</ab>
             <ab n="51" corresp="com13.51">Allora rispuose lo mellich al cadì: «Fa’ come ti
                piace.»</ab>
             <ab n="52" corresp="com13.52">E incontenente quello cadì ebe IIII homini armati e
@@ -2355,11 +2713,13 @@
                   </choice></persName>, giunte in<pb n="78v" break="no" xml:id="Co_fol_78v"
                   facs="data\images\single\Co_fol_78v.jpg"/>[f. 78va]sieme le mani e in croce, e
                disteso il collo, lo moçamento del collo volentieri sostenne.</ab>
-            <ab n="62" corresp="com13.62">Frate <persName ref="#Jacopo da Padoa">Jacopo</persName>, l’uno di loro, il <choice>
+            <ab n="62" corresp="com13.62">Frate <persName ref="#Jacopo da Padoa">Jacopo</persName>,
+               l’uno di loro, il <choice>
                   <abbr>pcosse</abbr>
                   <expan>percosse</expan>
                </choice> sul capo e fessello fine alli occhi, e poi li moççò il capo.</ab>
-            <ab n="63" corresp="com13.63">Frate <persName ref="#Dimetri de Tofilii">Demetrio</persName> fue <choice>
+            <ab n="63" corresp="com13.63">Frate <persName ref="#Dimetri de Tofilii"
+                  >Demetrio</persName> fue <choice>
                   <abbr>pcosso</abbr>
                   <expan>percosso</expan>
                </choice>d’uno <choice>
@@ -2390,10 +2750,11 @@
                   <abbr>avenero</abbr>
                   <expan>avennero</expan>
                </choice>, che tutti si credettero alpostutto morire.</ab>
-            <ab n="66" corresp="com13.66">Quella nave che lli dovea portare a <choice>
-                  <abbr>Polubo</abbr>
-                  <expan>Polumbo</expan>
-               </choice> li portò a <placeName><choice>
+            <ab n="66" corresp="com13.66">Quella nave che lli dovea portare a <placeName
+                  ref="#Polumbo"><choice>
+                     <abbr>Polubo</abbr>
+                     <expan>Polumbo</expan>
+                  </choice></placeName> li portò a <placeName ref="#Tanna"><choice>
                      <abbr>Tana</abbr>
                      <expan>Tanna</expan>
                   </choice></placeName>, mala lor vollia, allora quella nave fue <choice>
@@ -2409,8 +2770,9 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> far torre le loro cose.</ab>
-            <ab n="68" corresp="com13.68">E allora fue trovato frate <persName ref="#Pietro da Siena">Piero da
-                     <placeName ref="#Siena">Siena</placeName></persName>, il quarto [f. 78vb]<choice>
+            <ab n="68" corresp="com13.68">E allora fue trovato frate <persName
+                  ref="#Pietro da Siena">Piero da <placeName ref="#Siena"
+                  >Siena</placeName></persName>, il quarto [f. 78vb]<choice>
                   <abbr>copagno</abbr>
                   <expan>compagno</expan>
                </choice>, e preserlo e menarlo al cadì.</ab>
@@ -2422,8 +2784,8 @@
                   <abbr>gradi</abbr>
                   <expan>grandi</expan>
                </choice> cose s’elli volesse negare la sua fede.</ab>
-            <ab n="70" corresp="com13.70">Allora questo frate <persName ref="#Pietro da Siena">Pietro</persName> si facea
-               beffe di loro maravilliosamente.</ab>
+            <ab n="70" corresp="com13.70">Allora questo frate <persName ref="#Pietro da Siena"
+                  >Pietro</persName> si facea beffe di loro maravilliosamente.</ab>
             <ab n="71" corresp="com13.71">Allora il cominciaro a <choice>
                   <abbr>tormetare</abbr>
                   <expan>tormentare</expan>
@@ -2492,8 +2854,8 @@
             <ab n="1" corresp="com14.1">Quello dì che questi IIII frati fuorono passionati, quello
                melich andò a dormire.</ab>
             <ab n="2" corresp="com14.2">Essendo nel letto, questi frati li
-               appa<supplied>r</supplied>veno, essendo risplendenti come il sole, avendo una spada
-               nelle mani; e faceano vista di volerlo talliare e divider per meço.</ab>
+                  appa<supplied>r</supplied>veno, essendo risplendenti come il sole, avendo una
+               spada nelle mani; e faceano vista di volerlo talliare e divider per meço.</ab>
             <ab n="3" corresp="com14.3">Allora cominciò a gridare ad alta voce, alle cui voci tutta
                la sua famillia quine trasse a lui domandandolo <choice>
                   <abbr>qllo</abbr>
@@ -2615,8 +2977,8 @@
                   <abbr>tore</abbr>
                   <expan>torre</expan>
                </choice> loro la vita?».</ab>
-            <ab n="14" corresp="com14.14">Allora il fe’ talliare con tutta la sua <del rend="espunto"
-                  >familia</del> casa.</ab>
+            <ab n="14" corresp="com14.14">Allora il fe’ talliare con tutta la sua <del
+                  rend="espunto">familia</del> casa.</ab>
             <ab n="15" corresp="com14.15">In questa terra àe una usança che mai no vi si sepellisce
                nullo corpo, ma lassasi il corpo in quelle <choice>
                   <abbr>capagne</abbr>
@@ -2636,13 +2998,14 @@
                </choice>, presero li corpi loro e puoserli sotterra.</ab>
          </div>
          <div type="Chapter" n="15" corresp="chap.15">
-            <head><hi rend="rubric">Come questo frate <persName ref="#Odorigo">Odorigo</persName> ebbe li ossa di
-                  questi martiri, e avendo fatti molti miracoli portolle nell’<placeName>India
-                     Superiore</placeName>. <choice>
+            <head><hi rend="rubric">Come questo frate <persName ref="#Odorigo">Odorigo</persName>
+                  ebbe li ossa di questi martiri, e avendo fatti molti miracoli portolle
+                     nell’<placeName>India Superiore</placeName>. <choice>
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> XV.</hi></head>
-            <ab n="1" corresp="com15.1">Allora io, frate <persName ref="#Odorigo">Odorigo</persName>, andai <choice>
+            <ab n="1" corresp="com15.1">Allora io, frate <persName ref="#Odorigo"
+               >Odorigo</persName>, andai <choice>
                   <abbr>qne</abbr>
                   <expan>quine</expan>
                </choice> e ricevetti l’ossa loro, e portolle nell’India Superiore a uno luogo di
@@ -2739,10 +3102,11 @@
                   <abbr>avene</abbr>
                   <expan>avenne</expan>
                </choice>.</ab>
-            <ab n="15" corresp="com15.15">Andando a una città che si chiama <choice>
-                  <abbr>Polubo</abbr>
-                  <expan>Polumbo</expan>
-               </choice>, ove nasce il pepe, l’aqqua ci <choice>
+            <ab n="15" corresp="com15.15">Andando a una città che si chiama <placeName
+                  ref="#Polumbo"><choice>
+                     <abbr>Polubo</abbr>
+                     <expan>Polumbo</expan>
+                  </choice></placeName>, ove nasce il pepe, l’aqqua ci <choice>
                   <abbr>vene</abbr>
                   <expan>venne</expan>
                </choice> meno.</ab>
@@ -2829,20 +3193,21 @@
                </choice> li meriti di questi frati, e <choice>
                   <abbr>giugemo</abbr>
                   <expan>giungemo</expan>
-               </choice> a <choice>
-                  <abbr>Polubo</abbr>
-                  <expan>Polumbo</expan>
-               </choice>.</ab>
+               </choice> a <placeName ref="#Polumbo"><choice>
+                     <abbr>Polubo</abbr>
+                     <expan>Polumbo</expan>
+                  </choice></placeName>.</ab>
          </div>
          <div type="Chapter" n="16" corresp="chap.16">
-            <head><hi rend="rubric">Di <placeName>Polumbo</placeName> e della nave ke vi avea suso
-                  VIIc huomini, e come frate <persName ref="#Odorigo">Odorigo</persName> v’andò suso
+            <head><hi rend="rubric">Di <placeName ref="#Polumbo
+               ">Polumbo</placeName> e della nave ke vi avea suso VIIc huomini, e come
+                  frate <persName ref="#Odorigo">Odorigo</persName> v’andò suso
                      nell'<placeName>India Superiore</placeName>.</hi></head>
             <ab n="1" corresp="com16.1">Ancho ci <choice>
                   <abbr>avene</abbr>
                   <expan>avenne</expan>
                </choice> un altro miracolo.</ab>
-            <ab n="2" corresp="com16.2">E fumo in <placeName><choice>
+            <ab n="2" corresp="com16.2">E fumo in <placeName ref="#Polumbo"><choice>
                      <abbr>Polubo</abbr>
                      <expan>Polumbo</expan>
                   </choice></placeName>.</ab>
@@ -2855,10 +3220,10 @@
                </choice> andare nell’<placeName>India <choice>
                      <abbr>supiore</abbr>
                      <expan>Superiore</expan>
-                  </choice></placeName> a una città ke si chiama <placeName>Çaiton</placeName>, ove
-               sono <pb n="80v" xml:id="Co_fol_80v" facs="data\images\single\Co_fol_80v.jpg"/>[f.
-               80va]due luoghi di nostri frati, aciò che noi ponessimo queste
-                  reliq<supplied>u</supplied>e nel luogo de’ frati.</ab>
+                  </choice></placeName> a una città ke si chiama <placeName ref="#Çaiton"
+                  >Çaiton</placeName>, ove sono <pb n="80v" xml:id="Co_fol_80v"
+                  facs="data\images\single\Co_fol_80v.jpg"/>[f. 80va]due luoghi di nostri frati,
+               aciò che noi ponessimo queste reliq<supplied>u</supplied>e nel luogo de’ frati.</ab>
             <ab n="4" corresp="com16.4">In questa nave erano bene DCC <choice>
                   <abbr>hoi</abbr>
                   <expan>huomini</expan>
@@ -2916,11 +3281,11 @@
                </choice> Dio, portamo l’ossa, e no ci ne potero mai impedire.</ab>
          </div>
          <div type="Chapter" n="17" corresp="chap.17">
-            <head><hi rend="rubric">Dello ’<supplied>m</supplied>perio
-                     <placeName>Minabar</placeName> ove nasce il pepe in uno bosco grande ke
-                  contiene XVIII giornate. Capitolo XVII.</hi></head>
-            <ab n="17" corresp="com17.1">Nello ’<supplied>m</supplied>perio
-                  <placeName>Minabar</placeName>, nel quale g<supplied>i</supplied>ungemo, e
+            <head><hi rend="rubric">Dello ’<supplied>m</supplied>perio <placeName ref="#Minabar"
+                     >Minabar</placeName> ove nasce il pepe in uno bosco grande ke contiene XVIII
+                  giornate. Capitolo XVII.</hi></head>
+            <ab n="17" corresp="com17.1">Nello ’<supplied>m</supplied>perio <placeName
+                  ref="#Minabar">Minabar</placeName>, nel quale g<supplied>i</supplied>ungemo, e
                i‧null’altra parte del mondo se no <choice>
                   <abbr>qne</abbr>
                   <expan>quine</expan>
@@ -2931,8 +3296,9 @@
                </choice> in sé bene XVIII <choice>
                   <abbr>gionate</abbr>
                   <expan>giornate</expan>
-               </choice>, nella quale sono due cittadi: una che àe nome
-                  <placeName>Fadina</placeName> e l’autra <placeName>Cingalin</placeName>.</ab>
+               </choice>, nella quale sono due cittadi: una che àe nome <placeName ref="#Fadina"
+                  >Fadina</placeName> e l’autra <placeName ref="#Cingalin"
+               >Cingalin</placeName>.</ab>
             <ab n="17" corresp="com17.3">In questa <choice>
                   <abbr>Fladina</abbr>
                   <expan><placeName>Flandina</placeName></expan>
@@ -2989,8 +3355,8 @@
                </choice>.</ab>
          </div>
          <div type="Chapter" n="18" corresp="chap.18">
-            <head><hi rend="rubric">Di <placeName>Polumbo</placeName>, nel quale nasce il
-                     geng<supplied>i</supplied>ovo, e adorano il bue <choice>
+            <head><hi rend="rubric">Di <placeName ref="#Polumbo">Polumbo</placeName>, nel quale
+                  nasce il geng<supplied>i</supplied>ovo, e adorano il bue <choice>
                      <abbr>p</abbr>
                      <expan>per</expan>
                   </choice> dio, e ll’uomo <choice>
@@ -3004,7 +3370,7 @@
                   <abbr>vso</abbr>
                   <expan>verso</expan>
                </choice> meriço, di fuori dal bosco <surplus>v<expan>er</expan>so meriço</surplus>,
-               àe una città che si chiama <placeName><choice>
+               àe una città che si chiama <placeName ref="#Polumbo"><choice>
                      <abbr>Polubo</abbr>
                      <expan>Polumbo</expan>
                   </choice></placeName>, nella quale nasce il milliore ge<supplied>n</supplied>gevo
@@ -3063,8 +3429,8 @@
                   <abbr>domada</abbr>
                   <expan>domanda</expan>
                </choice> molte volte il sangue di XL vergini.</ab>
-            <ab n="1" corresp="com18.11">Al quale ydolo così si votano li uomini e lle femine, i loro
-               filiuoli e filliuole, e promettono di <choice>
+            <ab n="1" corresp="com18.11">Al quale ydolo così si votano li uomini e lle femine, i
+               loro filiuoli e filliuole, e promettono di <choice>
                   <abbr>dali</abbr>
                   <expan>darli</expan>
                </choice>
@@ -3146,8 +3512,8 @@
                </choice>.</ab>
          </div>
          <div type="Chapter" n="19" corresp="chap.19">
-            <head><hi rend="rubric">De‧regno <placeName>Mabar</placeName>, nel quale è lo corpo di
-                  santo <persName ref="#Tome">Tome</persName>
+            <head><hi rend="rubric">De‧regno <placeName ref="#Mabar">Mabar</placeName>, nel quale è
+                  lo corpo di santo <persName ref="#Tome">Tome</persName>
                   <choice>
                      <abbr>aplo</abbr>
                      <expan>apostolo</expan>
@@ -3156,9 +3522,10 @@
                      <abbr>Cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> XVIIII.</hi></head>
-            <ab n="1" corresp="com19.1">Di questo regno fine a Mabar sono X giornate.</ab>
-            <ab n="1" corresp="com19.2">E in capo di queste X giornate è un altro regno che si chiama
-                  <placeName>Mabar</placeName>, ch’è e gra[f. 81vb]nde regno e <choice>
+            <ab n="1" corresp="com19.1">Di questo regno fine a <placeName ref="#Mabar"
+                  >Mabar</placeName> sono X giornate.</ab>
+            <ab n="1" corresp="com19.2">E in capo di queste X giornate è un altro regno che si
+               chiama <placeName ref="#Mabar">Mabar</placeName>, ch’è e gra[f. 81vb]nde regno e <choice>
                   <abbr>cotiene</abbr>
                   <expan>contiene</expan>
                </choice> in sé molte cittadi.</ab>
@@ -3500,7 +3867,7 @@
                </choice>.</ab>
          </div>
          <div type="Chapter" n="20" corresp="chap.20">
-            <head><hi rend="rubric">Dell’isola <placeName>Lamen</placeName>, ove <choice>
+            <head><hi rend="rubric">Dell’isola <placeName ref="#Lamen">Lamen</placeName>, ove <choice>
                      <abbr>pdeo</abbr>
                      <expan>perdéo</expan>
                   </choice> la tramontana, ove li <choice>
@@ -3543,7 +3910,7 @@
             <ab n="2" corresp="com20.2">E veni a una <choice>
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
-               </choice> che si chiama <placeName>Lamen</placeName>.</ab>
+               </choice> che si chiama <placeName ref="#Lamen">Lamen</placeName>.</ab>
             <ab n="3" corresp="com20.3">In questa <choice>
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
@@ -3573,8 +3940,8 @@
             <ab n="5" corresp="com20.5">Costoro si facevano molte beffe di me <choice>
                   <abbr>dicedo</abbr>
                   <expan>dicendo</expan>
-               </choice> che Dio avea fatto <persName ref="#Adam">Adam</persName> nudo e io mi vestiva a mala
-               vollia di Dio.</ab>
+               </choice> che Dio avea fatto <persName ref="#Adam">Adam</persName> nudo e io mi
+               vestiva a mala vollia di Dio.</ab>
             <ab n="6" xml:id="com20.6">In questa <choice>
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
@@ -3652,13 +4019,14 @@
                </choice> che no‧lle scrivo.</ab>
          </div>
          <div type="Chapter" n="21" corresp="chap.21">
-            <head><hi rend="rubric">De regno Selmetro e Botenigo. Cap<expan>itolo</expan>
-               XXI.</hi></head>
+            <head><hi rend="rubric">De regno <placeName ref="#Selmetrio">Selmetro</placeName> e
+                     <placeName ref="#Botenigo">Botenigo</placeName>. Cap<expan>itolo</expan>
+                  XXI.</hi></head>
             <ab n="1" corresp="com21.1">In questa ysola verso meriço è un <app>
                   <lem>altro</lem>
                   <rdg wit="#Ur"/>
-               </app> regno ch’à nome <placeName>Somoltra</placeName>, nel quale àe una generatione
-               di genti che cateuno huomo e <choice>
+               </app> regno ch’à nome <placeName ref="#Somoltra">Somoltra</placeName>, nel quale àe
+               una generatione di genti che cateuno huomo e <choice>
                   <abbr>femina</abbr>
                   <expan>femmina</expan>
                </choice> si segnano bene in XII luoghi nella faccia.</ab>
@@ -3689,8 +4057,9 @@
                </choice> questo regno che no‧lle scrivo.</ab>
          </div>
          <div type="Chapter" n="22" corresp="chap.22">
-            <head><hi rend="rubric">Dell’isola <placeName>Janua</placeName>, nella quale nascono
-                  garofal e noci moscade e altre molte spetie, ed èvi uno palaçço d’oro e d’<choice>
+            <head><hi rend="rubric">Dell’isola <placeName ref="#Janua">Janua</placeName>, nella
+                  quale nascono garofal e noci moscade e altre molte spetie, ed èvi uno palaçço
+                  d’oro e d’<choice>
                      <abbr>argeto</abbr>
                      <expan>argento</expan>
                   </choice> e di pietre <choice>
@@ -3716,8 +4085,8 @@
                   <abbr>secoda</abbr>
                   <expan>seconda</expan>
                </choice> milliore ysola che sia in <placeName>Yndia</placeName>.</ab>
-            <ab n="5" corresp="com22.5">Quine nascono garofani e cubebe e melaghette e noci moscate e
-               molte altre speçie.</ab>
+            <ab n="5" corresp="com22.5">Quine nascono garofani e cubebe e melaghette e noci moscate
+               e molte altre speçie.</ab>
             <ab n="6" corresp="com22.6">E in questa àe <choice>
                   <abbr>grade</abbr>
                   <expan>grande </expan>
@@ -3753,7 +4122,8 @@
             <ab n="12" corresp="com22.12">E il <choice>
                   <abbr>grade</abbr>
                   <expan>grande</expan>
-               </choice> cane del <placeName>Gattaio</placeName> molte volte fue in capo a battallia <choice>
+               </choice> cane del <placeName ref="#Gattaio">Gattaio</placeName> molte volte fue in
+               capo a battallia <choice>
                   <abbr>co</abbr>
                   <expan>con</expan>
                </choice> lui e <choice>
@@ -3773,9 +4143,9 @@
             <ab n="1" corresp="com23.1">Al lato a questa <choice>
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
-               </choice>, <supplied reason="missing">è un'altra</supplied> che si chiama
-                  <placeName>Partain</placeName>, che altre la chiama <placeName>Ta[f.
-                  83vb]lamassin</placeName>.</ab>
+               </choice>, <supplied reason="missing">è un'altra</supplied> che si chiama <placeName
+                  ref="#Partain">Partain</placeName>, che altre la chiama <placeName
+                  ref="#Talamasin">Ta[f. 83vb]lamassin</placeName>.</ab>
             <ab n="2" corresp="com23.2">Questo re àe molte ysole sotto di sé.</ab>
             <ab n="3" corresp="com23.3">In <choice>
                   <abbr>qsta</abbr>
@@ -3827,8 +4197,8 @@
                   <expan>quinde</expan>
                </choice> escie uno liquore a modo di colla, il quale liquore mettono in sacchi fatti
                di follie, e lasso‧lo così al sole XV die.</ab>
-            <ab n="8" corresp="com23.8">E in capo di XV dì è fatto farina, il quale tegnono due dì in
-               aqqua marina, e poi la lavano coll’aqqua dolce.</ab>
+            <ab n="8" corresp="com23.8">E in capo di XV dì è fatto farina, il quale tegnono due dì
+               in aqqua marina, e poi la lavano coll’aqqua dolce.</ab>
             <ab n="9" corresp="com23.9">E così ne <choice>
                   <abbr>fano</abbr>
                   <expan>fanno</expan>
@@ -3858,7 +4228,8 @@
                </choice> di <choice>
                   <abbr>vso</abbr>
                   <expan>verso</expan>
-               </choice> meçodì è il <placeName>mare Morto</placeName>, la cui aqqua sempre <choice>
+               </choice> meçodì è il <placeName ref="#mare Morto">mare Morto</placeName>, la cui
+               aqqua sempre <choice>
                   <abbr>core</abbr>
                   <expan>corre</expan>
                </choice>
@@ -3963,7 +4334,7 @@
                </choice> questa cagione nolle vollio scrivere.</ab>
          </div>
          <div type="Chapter" n="24" corresp="chap.24">
-            <head><hi rend="rubric">De‧regno <placeName><choice>
+            <head><hi rend="rubric">De‧regno <placeName ref="#çampa"><choice>
                         <abbr>Capa</abbr>
                         <expan>Çampa</expan>
                      </choice></placeName> e di molte <choice>
@@ -3978,7 +4349,7 @@
                   </choice> XXIIII.</hi></head>
             <ab n="1" corresp="com24.1">Al lato a questo regno molte giornate è un al<pb n="84v"
                   xml:id="Co_fol_84v" facs="data\images\single\Co_fol_84v.jpg"/>[f. 84va]tro regno
-               ch’à nome <placeName>Çampa</placeName>.</ab>
+               ch’à nome <placeName ref="#çampa">Çampa</placeName>.</ab>
             <ab n="2" corresp="com24.2">Questa <choice>
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
@@ -4065,9 +4436,11 @@
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
                </choice> una testugine magiore, ke lla magiore trafune della chiesa di <choice>
-                     <abbr>sato</abbr>
-                     <expan>santo</expan>
-                  </choice> <persName ref="#Antonio da Padua">Antonio da <placeName ref="#Padoa">Padua</placeName></persName>.</ab>
+                  <abbr>sato</abbr>
+                  <expan>santo</expan>
+               </choice>
+               <persName ref="#Antonio da Padua">Antonio da <placeName ref="#Padoa"
+                     >Padua</placeName></persName>.</ab>
             <ab n="12" corresp="com24.12">E molte altre cose incredibili vi si truovano che no‧lle
                vollio scrivere.</ab>
             <ab n="13" corresp="com24.13"><choice>
@@ -4231,7 +4604,8 @@
                </choice> Cane, <choice>
                   <abbr>ipadore</abbr>
                   <expan>imperadore</expan>
-               </choice> de’ Tartari dal Gattaio l’à voluta, ne <choice>
+               </choice> de’ Tartari dal <placeName ref="#Gattaio">Gattaio</placeName> l’à voluta,
+               ne <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> pecunia ne <choice>
@@ -4250,8 +4624,8 @@
             <ab n="14" corresp="com25.14">E molte altre cose vi sono ch’io no‧lle scrivo.</ab>
          </div>
          <div type="Chapter" n="26" corresp="chap.26">
-            <head><hi rend="rubric">Della isola <placeName>Sillan</placeName>, nella quale sono
-                  moltitudine d’animali salvatiche, e <choice>
+            <head><hi rend="rubric">Della isola <placeName ref="#Sillan">Sillan</placeName>, nella
+                  quale sono moltitudine d’animali salvatiche, e <choice>
                      <abbr>tate</abbr>
                      <expan>tante</expan>
                   </choice> pietre pretiose. Capitolo XXVI.</hi></head>
@@ -4266,7 +4640,8 @@
                </choice> è uno grandissimo monte, del quale dicono le <choice>
                   <abbr>geti</abbr>
                   <expan>genti</expan>
-               </choice> che <persName ref="#Adam">Adamo</persName> vi pianse lo filiuolo bene cento anni.</ab>
+               </choice> che <persName ref="#Adam">Adamo</persName> vi pianse lo filiuolo bene cento
+               anni.</ab>
             <ab n="3" corresp="com26.3">In meço del <choice>
                   <abbr>mote</abbr>
                   <expan>monte</expan>
@@ -4280,8 +4655,9 @@
                </choice>, ma àvi <choice>
                   <abbr>grade</abbr>
                   <expan>grande</expan>
-               </choice> aqqua, la quale dicono quelle genti che son lagrime che
-                  <persName ref="#Adam">Adam</persName> e <persName ref="#Eva">Eva</persName> feccero e sparsero.</ab>
+               </choice> aqqua, la quale dicono quelle genti che son lagrime che <persName
+                  ref="#Adam">Adam</persName> e <persName ref="#Eva">Eva</persName> feccero e
+               sparsero.</ab>
             <ab n="4" corresp="com26.4">La qual cosa non è vera, <choice>
                   <abbr>po</abbr>
                   <expan>però</expan>
@@ -4375,16 +4751,17 @@
                </app> che no sono da scrivere.</ab>
          </div>
          <div type="Chapter" n="27" corresp="chap.27">
-            <head><hi rend="rubric">Della grande ysola <placeName>Dodin</placeName>, ove lo padre
-                  mangia il filliolo e‧l filliuolo lo padre, el marito la mollie e lla mollie lo
-                  marito. Capitolo XXVII.</hi></head>
+            <head><hi rend="rubric">Della grande ysola <placeName ref="#Dodin">Dodin</placeName>,
+                  ove lo padre mangia il filliolo e‧l filliuolo lo padre, el marito la mollie e lla
+                  mollie lo marito. Capitolo XXVII.</hi></head>
             <ab n="1" corresp="com27.1">Partendomi da questa ysola andai <choice>
                   <abbr>vso</abbr>
                   <expan>verso</expan>
                </choice> Oriente, e <choice>
                   <abbr>veni</abbr>
                   <expan>venni</expan>
-               </choice> a una grande ysola che si chiama <placeName>Dodin></placeName>, che vale <choice>
+               </choice> a una grande ysola che si chiama <placeName ref="#Dodin"
+               >Dodin></placeName>, che vale <choice>
                   <abbr>tato</abbr>
                   <expan>tanto</expan>
                </choice> a dire <choice>
@@ -4477,8 +4854,8 @@
                   <abbr>tato</abbr>
                   <expan>tanto</expan>
                </choice>.</ab>
-            <ab n="10" corresp="com27.10">Se aviene che questo ydolo dice che debba morire, allora il
-               prete vae allo ‘<supplied>n</supplied>fermo, e <choice>
+            <ab n="10" corresp="com27.10">Se aviene che questo ydolo dice che debba morire, allora
+               il prete vae allo ‘<supplied>n</supplied>fermo, e <choice>
                   <abbr>pogolli</abbr>
                   <expan>pongo‧lli</expan>
                </choice> uno <choice>
@@ -4581,8 +4958,8 @@
                </choice> dire che mi volessero credere.</ab>
          </div>
          <div type="Chapter" n="28" corresp="chap.28">
-            <head><hi rend="rubric">Della <placeName>Seconda Yndia </placeName>ke è XXIIII ysole e
-                  LXIIII re. Capitolo XXVIII.</hi></head>
+            <head><hi rend="rubric">Della <placeName ref="#Seconda Yndia">Seconda Yndia
+                  </placeName>ke è XXIIII ysole e LXIIII re. Capitolo XXVIII.</hi></head>
             <ab n="1" corresp="com28.1">Molte novitadi sono in <placeName>
                   <choice>
                      <abbr>Idia</abbr>
@@ -4637,8 +5014,9 @@
             <head><hi rend="rubric">Dell’<placeName>India <choice>
                         <abbr>supiore</abbr>
                         <expan>Superiore</expan>
-                     </choice></placeName> e della provincia del <placeName>Mançi</placeName>, ke a
-                  II citadi. <supplied>Capitolo</supplied> XXVIIII.</hi></head>
+                     </choice></placeName> e della provincia del <placeName ref="#Mançi"
+                     >Mançi</placeName>, ke a II citadi. <supplied>Capitolo</supplied>
+               XXVIIII.</hi></head>
             <ab n="1" corresp="com29.1">A l’<placeName>India <choice>
                      <abbr>supiore</abbr>
                      <expan>Superiore</expan>
@@ -4649,9 +5027,9 @@
                   <abbr>p</abbr>
                   <!-- 28r VA -->
                   <expan>per</expan>
-               </choice> lo <placeName>mare Occeano</placeName> molti dì, venni alla nobile
-               provincia del <placeName>Mançi</placeName>, la quale chiamiamo <placeName>India
-                     Sup<supplied>er</supplied>iore</placeName>.</ab>
+               </choice> lo <placeName ref="#mare Occiano">mare Occeano</placeName> molti dì, venni
+               alla nobile provincia del <placeName ref="#Mançi">Mançi</placeName>, la quale
+               chiamiamo <placeName>India Sup<supplied>er</supplied>iore</placeName>.</ab>
             <ab n="2" corresp="com29.2">Onde <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
@@ -4671,7 +5049,7 @@
                </choice>, che questa <choice>
                   <abbr>pvincia</abbr>
                   <expan>provincia</expan>
-               </choice> del <placeName><choice>
+               </choice> del <placeName ref="#Mançi"><choice>
                      <abbr>maçi</abbr>
                      <expan>Mançi</expan>
                   </choice></placeName> àe <choice>
@@ -4684,8 +5062,8 @@
                </choice> sono <choice>
                   <abbr>gradi</abbr>
                   <expan>grandi</expan>
-               </choice> quelle cittadi che né <placeName>Trivigi</placeName> né
-                  <placeName>Vincença</placeName>
+               </choice> quelle cittadi che né <placeName ref="#Trivigi">Trivigi</placeName> né
+                  <placeName ref="#Vincença">Vincença</placeName>
                <choice>
                   <abbr>no</abbr>
                   <expan>non</expan>
@@ -4747,7 +5125,8 @@
             <ab n="9" corresp="com29.9">In questa <choice>
                   <abbr>pvincia</abbr>
                   <expan>provincia</expan>
-               </choice> la prima città ch’io trovai si chiama <placeName>Cescalam</placeName>.</ab>
+               </choice> la prima città ch’io trovai si chiama <placeName ref="#Cescalam"
+                  >Cescalam</placeName>.</ab>
             <ab n="10" corresp="com29.10">Questa città <choice>
                   <abbr>secodo</abbr>
                   <expan>secondo</expan>
@@ -4757,7 +5136,8 @@
                </choice> bene <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
-               </choice> tre Vinegie, di lu<supplied>n</supplied>gi dal mare una giornata.</ab>
+               </choice> tre <placeName ref="#Vinegia">Vinegie</placeName>, di
+                  lu<supplied>n</supplied>gi dal mare una giornata.</ab>
             <ab n="11" corresp="com29.11">Ed è posta sopra uno fiume la cui <pb n="87ra"
                   xml:id="Co_fol_87r" facs="data\images\single\Co_fol_87r.jpg"/> [87ra] aqqua <choice>
                   <abbr>p</abbr>
@@ -4766,7 +5146,7 @@
             <ab n="12" corresp="com29.12"> Tutto il popolo di questa città e <choice>
                   <abbr>pvincia</abbr>
                   <expan>provincia</expan>
-               </choice> di tutto questo <placeName><choice>
+               </choice> di tutto questo <placeName ref="#Mançi"><choice>
                      <abbr>maçi</abbr>
                      <expan>Mançi</expan>
                   </choice></placeName> e <placeName>India<choice>
@@ -4852,8 +5232,8 @@
                </choice> d’ogni vittuallia.</ab>
          </div>
          <div type="Chapter" n="30" corresp="chap.30">
-            <head><hi rend="rubric">Della nobile città ke si chiama <placeName>Çaiton</placeName>,
-                  ove sono mollte novitadi. <choice>
+            <head><hi rend="rubric">Della nobile città ke si chiama <placeName ref="#Çaiton"
+                     >Çaiton</placeName>, ove sono mollte novitadi. <choice>
                      <abbr>cap</abbr>
                      <expan>Capitolo</expan>
                   </choice> XXX.</hi></head>
@@ -4870,8 +5250,8 @@
             <ab n="2" corresp="com30.2">E <choice>
                   <abbr>veni</abbr>
                   <expan>venni</expan>
-               </choice> a una nobile cittad<supplied>e</supplied> ch’àe nome
-                  <placeName>Çaiton</placeName>, nella quale i nostri frati minori ànno due
+               </choice> a una nobile cittad<supplied>e</supplied> ch’àe nome <placeName
+                  ref="#Çaiton">Çaiton</placeName>, nella quale i nostri frati minori ànno due
                luoghii.</ab>
             <ab n="3" corresp="com30.3">E in questa <choice>
                   <abbr>tera</abbr>
@@ -4881,9 +5261,9 @@
                   <expan>per</expan>
                </choice>
                <persName ref="#Cristo"><choice>
-                  <abbr>xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName>.</ab>
+                     <abbr>xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName>.</ab>
             <ab n="4" corresp="com30.4">In questa <choice>
                   <abbr>tera</abbr>
                   <expan>terra</expan>
@@ -4901,15 +5281,16 @@
             <ab n="6" corresp="com30.6">Questa città è grande <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
-               </choice> due volte <placeName>Bologna</placeName>.</ab>
-            <ab n="7" corresp="com30.7">In questa città sono molti monesteri di religiosi che adorano
-               l’idoli.</ab>
+               </choice> due volte <placeName ref="#Bologna">Bologna</placeName>.</ab>
+            <ab n="7" corresp="com30.7">In questa città sono molti monesteri di religiosi che
+               adorano l’idoli.</ab>
             <ab n="8" corresp="com30.8">Nell’uno de’ quali avea bene IIM religiosi che aveano bene
                XIM ydoli, i quali erano sì <choice>
                   <abbr>gradi</abbr>
                   <expan>grandi</expan>
-               </choice> che quello che tra loro era minore era grande com uno san <persName ref="#Cristofano"> <pb
-                     n="87v" xml:id="Co_fol_87v" facs="data\images\single\Co_fol_87v.jpg"/> [f.
+               </choice> che quello che tra loro era minore era grande com uno san <persName
+                  ref="#Cristofano">
+                  <pb n="87v" xml:id="Co_fol_87v" facs="data\images\single\Co_fol_87v.jpg"/> [f.
                   87va] Cristofano</persName>
                <choice>
                   <abbr>grade</abbr>
@@ -4966,7 +5347,7 @@
                </choice> che no‧lle scrivo.</ab>
          </div>
          <div type="Chapter" n="31" corresp="chap.31">
-            <head><hi rend="rubric">Della città <placeName>Foço</placeName>, ove sono <choice>
+            <head><hi rend="rubric">Della città <placeName ref="#Foço">Foço</placeName>, ove sono <choice>
                      <abbr>gradi</abbr>
                      <expan>grandi</expan>
                   </choice> galli e galline, li <choice>
@@ -4992,8 +5373,8 @@
                </choice> città <choice>
                   <abbr>veni</abbr>
                   <expan>venni</expan>
-               </choice> verso oriente a una città che si chiama <placeName>Foço</placeName>, che
-               gira bene XXX millia.</ab>
+               </choice> verso oriente a una città che si chiama <placeName ref="#Foço"
+                  >Foço</placeName>, che gira bene XXX millia.</ab>
             <ab n="2" corresp="com31.2">Quine sono i magiori galli che siano al mondo e lle galline
                sono <choice>
                   <abbr>biache</abbr>
@@ -5193,8 +5574,7 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> lo simile modo.</ab>
-            <ab n="26" corresp="com31.26">E [f. 88rb] tornava poi nella tina
-               dell’aqqua calda <choice>
+            <ab n="26" corresp="com31.26">E [f. 88rb] tornava poi nella tina dell’aqqua calda <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice>
@@ -5209,8 +5589,9 @@
                <head><hi rend="rubric">Della <choice>
                         <abbr>grade</abbr>
                         <expan>grande</expan>
-                     </choice> e meravilliosa città chiamata <placeName>Cunsai</placeName>, cioè
-                     dittà di cielo, cioè città di cielo, ove sono XIIM ponti e molte novitadi. <choice>
+                     </choice> e meravilliosa città chiamata <placeName ref="#Cunsai"
+                        >Cunsai</placeName>, cioè dittà di cielo, cioè città di cielo, ove sono XIIM
+                     ponti e molte novitadi. <choice>
                         <abbr>Cap</abbr>
                         <expan>Capitolo</expan>
                      </choice> XXXII</hi></head>
@@ -5223,8 +5604,8 @@
                   </choice> a una <choice>
                      <abbr>grade</abbr>
                      <expan>grande</expan>
-                  </choice> e meravilliosa città chiamata <placeName>Cunsai</placeName>, che vuole
-                  dire <choice>
+                  </choice> e meravilliosa città chiamata <placeName ref="#Cunsai"
+                     >Cunsai</placeName>, che vuole dire <choice>
                      <abbr>i</abbr>
                      <expan>in</expan>
                   </choice> nostra lingua città di cielo.</ab>
@@ -5253,17 +5634,17 @@
                   cateuna <choice>
                      <abbr>pota</abbr>
                      <expan>porta</expan>
-                  </choice> a VIII millia àe cittadi magiori che <placeName>Padoa</placeName> e
-                     <placeName>Vinegia</placeName>. </ab>
+                  </choice> a VIII millia àe cittadi magiori che <placeName ref="#Padoa"
+                     >Padoa</placeName> e <placeName ref="#Vinegia">Vinegia</placeName>. </ab>
                <ab n="6" corresp="com32.6">Nella <choice>
                      <abbr>qle</abbr>
                      <expan>quale</expan>
                   </choice> andamo VI e VII di per uno di quelli borghi che no vedea in alcun essere
                   andato.</ab>
-               <ab n="7" corresp="com32.7">Questa città è in aqqua di lagune come Vinegia e àe più di
-                  XIIm ponti. </ab>
-               <ab n="8" corresp="com32.8">E in cateuno ponte stanno guardie che gurdano la città per
-                  lo grande cane.</ab>
+               <ab n="7" corresp="com32.7">Questa città è in aqqua di lagune come <placeName
+                     ref="#Vinegia">Vinegia</placeName> e àe più di XIIm ponti. </ab>
+               <ab n="8" corresp="com32.8">E in cateuno ponte stanno guardie che gurdano la città
+                  per lo grande cane.</ab>
                <ab n="9" corresp="com32.9">Allato a <choice>
                      <abbr>qsta</abbr>
                      <expan>questa</expan>
@@ -5332,7 +5713,7 @@
                <ab n="19" corresp="com32.19">E di tutte altre vittuallie aè quine grande copia.</ab>
                <ab n="20" corresp="com32.20">Questa è città reale, nella quale dimorava <pb n="88v"
                      xml:id="Co_fol_88v" facs="data\images\single\Co_fol_88v.jpg"/>[f. 88va] lo re
-                  del <placeName>Mançi</placeName>.</ab>
+                  del <placeName ref="#Mançi">Mançi</placeName>.</ab>
                <ab n="21" corresp="com32.21">In <choice>
                      <abbr>qsta</abbr>
                      <expan>questa</expan>
@@ -5482,7 +5863,7 @@
                         <expan/>
                      </choice>Capitolo XXXIII</hi></head>
                <ab n="1" corresp="com33.1">Partendomi di questa città per VI giornate, ven[n]i a una
-                  grande città che si chiama <placeName>Chilenso</placeName>. </ab>
+                  grande città che si chiama <placeName ref="#Chilenso">Chilenso</placeName>. </ab>
                <ab n="2" corresp="com33.2">I muri di <choice>
                      <abbr>qsta</abbr>
                      <expan>questa</expan>
@@ -5497,7 +5878,7 @@
                <ab n="4" corresp="com33.4">Questa città fu la <choice>
                      <abbr>pma</abbr>
                      <expan>prima</expan>
-                  </choice> sedia de re del <placeName><choice>
+                  </choice> sedia de re del <placeName ref="#Mançi"><choice>
                         <abbr>Maçi</abbr>
                         <expan>Mançi</expan>
                      </choice></placeName>, ne la quale soleva dimorare.</ab>
@@ -5519,21 +5900,21 @@
                   </choice> a uno <choice>
                      <abbr>grade</abbr>
                      <expan>grande</expan>
-                  </choice> fiume che si chiama <placeName>Talaig</placeName>.</ab>
+                  </choice> fiume che si chiama <placeName ref="#Talaig">Talaig</placeName>.</ab>
                <ab n="8" corresp="com33.8">Ed è lo magiore fiume che sia nel mondo.</ab>
                <ab n="9" corresp="com33.9">Ov’elli è più stretto, è largo bene VII millia.</ab>
                <ab n="10" corresp="com33.10">Questo fiume trapassai <choice>
                      <abbr>p</abbr>
                      <expan>per</expan>
-                  </choice> meço la <placeName><choice>
+                  </choice> meço la <placeName ref="#Terra Piemeorum"><choice>
                         <abbr>tera</abbr>
                         <expan>terra</expan>
                      </choice>
                      <choice>
                         <abbr>Piemo</abbr>
                         <expan>Piemeorum</expan>
-                     </choice></placeName>, la cui contrada si chiama <placeName>Cacham</placeName>,
-                  ched è delle magiori e più belle città del <choice>
+                     </choice></placeName>, la cui contrada si chiama <placeName ref="#cacham"
+                     >Cacham</placeName>, ched è delle magiori e più belle città del <choice>
                      <abbr>modo</abbr>
                      <expan>mondo</expan>
                   </choice>.</ab>
@@ -5644,8 +6025,7 @@
                <ab n="1" corresp="com34.6">Onde <choice>
                      <abbr>comado</abbr>
                      <expan>comandò</expan>
-                  </choice> il signore di questa città che là stava al [f. 89vb] popolo
-                  di <choice>
+                  </choice> il signore di questa città che là stava al [f. 89vb] popolo di <choice>
                      <abbr>qlla</abbr>
                      <expan>quella</expan>
                   </choice> terra CC tuman, acciò che no avessero caro. </ab>
@@ -5717,7 +6097,8 @@
                   <choice>
                      <abbr>grade</abbr>
                      <expan>grande</expan>
-                  </choice> fiume del <placeName>Talai</placeName>, è un’altra città che si chiama <placeName><choice>
+                  </choice> fiume del <placeName>Talai</placeName>, è un’altra città che si chiama
+                     <placeName ref="#Mençu"><choice>
                         <abbr>Meçu</abbr>
                         <expan>Mençu</expan>
                      </choice></placeName>.</ab>
@@ -5768,10 +6149,12 @@
                   </choice> aqqua dolce <choice>
                      <abbr>veni</abbr>
                      <expan>venni</expan>
-                  </choice> a una città che si chiama <placeName>Loncin</placeName>.</ab>
+                  </choice> a una città che si chiama <placeName ref="#Loncin"
+                  >Loncin</placeName>.</ab>
                <ab n="1" corresp="com34.17">Questa citta è fon<pb n="90r" xml:id="Co_fol_90r"
                      facs="data\images\single\Co_fol_90r.jpg"/>[f. 90ra]data sopra uno fiume che si
-                  chiama <placeName>Ka<supplied>[r]</supplied>amoran</placeName>.</ab>
+                  chiama <placeName ref="#Karamoran"
+                  >Ka<supplied>[r]</supplied>amoran</placeName>.</ab>
                <ab n="1" corresp="com34.18">Questo fiume passa <choice>
                      <abbr>p</abbr>
                      <expan>per</expan>
@@ -5785,8 +6168,8 @@
                   </choice> si <choice>
                      <abbr>rope</abbr>
                      <expan>rompe</expan>
-                  </choice>, sì come lo <placeName>Po’</placeName> che passa per
-                     <placeName>Ferara</placeName>.</ab>
+                  </choice>, sì come lo <geogName ref="#Po">Po</geogName> che passa per <placeName
+                     ref="#Ferara">Ferara</placeName>.</ab>
                <ab n="1" corresp="com34.19">Andando così <choice>
                      <abbr>p</abbr>
                      <expan>per</expan>
@@ -5805,7 +6188,8 @@
                   </choice> a una <choice>
                      <abbr>grade</abbr>
                      <expan>grande</expan>
-                  </choice> città ke si chiama <placeName>Suçumaccho</placeName>.</ab>
+                  </choice> città ke si chiama <placeName ref="#Suçumaccho"
+                  >Suçumaccho</placeName>.</ab>
                <ab n="1" corresp="com34.20">Questa cttà àe maggiore <choice>
                      <abbr>abodaça</abbr>
                      <expan>abondança</expan>
@@ -5837,8 +6221,8 @@
                         <placeName>Cabellec</placeName> e <placeName>Taydo</placeName>, insieme <choice>
                         <abbr>coiute</abbr>
                         <expan>coniunte</expan>
-                     </choice>, ched è nella provincia del <placeName>Gattaio</placeName>, che
-                     girano LX millia, ov’è la sedia del Gran Cane. <choice>
+                     </choice>, ched è nella provincia del <placeName ref="#Gattaio"
+                        >Gattaio</placeName>, che girano LX millia, ov’è la sedia del Gran Cane. <choice>
                         <abbr>Cap</abbr>
                         <expan>Capitolo</expan>
                      </choice> XXXV</hi></head>
@@ -5855,9 +6239,8 @@
                   </choice> oriente e venni alla nobile città di
                   <placeName>Cabellec</placeName>.</ab>
                <ab n="2" corresp="com35.2">Questa città è molto anticha ed è nella provincia del
-                     <placeName>Gattaio</placeName>.</ab>
-               <ab n="3" corresp="com35.3">Questa città presero i Tartari e [f. 90rb] presso
-                  a <choice>
+                     <placeName ref="#Gattaio">Gattaio</placeName>.</ab>
+               <ab n="3" corresp="com35.3">Questa città presero i Tartari e [f. 90rb] presso a <choice>
                      <abbr>qsta</abbr>
                      <expan>questa</expan>
                   </choice> città meço milio fecero una città che lla chiamoron
@@ -6215,9 +6598,9 @@
             </div>
             <div type="Chapter" n="38" corresp="chap.38">
                <head><hi rend="rubric">Delle XIIIIm de baroni incoronati che servono al Grande Cane
-                     ne’ suoi conviti e delle CC [f. 91rb]LXXX millia di giocolari
-                     e guardatori di kani e delle bestie e uccelli ch’àe nella sua corte. Capitolo
-                     XXXVIII</hi></head>
+                     ne’ suoi conviti e delle CC [f. 91rb]LXXX millia di giocolari e guardatori di
+                     kani e delle bestie e uccelli ch’àe nella sua corte. Capitolo
+                  XXXVIII</hi></head>
                <ab n="1" corresp="com38.1">Quando questo signore Grande Cane fa alcuno <choice>
                      <abbr>covito</abbr>
                      <expan>convito</expan>
@@ -6271,7 +6654,8 @@
                      <abbr>rispode</abbr>
                      <expan>risponde</expan>
                   </choice>. </ab>
-               <ab n="5" corresp="com38.5">Ed io, frate <persName ref="#Odorigo">Odorigo</persName>, fui bene tre <choice>
+               <ab n="5" corresp="com38.5">Ed io, frate <persName ref="#Odorigo">Odorigo</persName>,
+                  fui bene tre <choice>
                      <abbr>ani</abbr>
                      <expan>anni</expan>
                   </choice> in <choice>
@@ -6332,8 +6716,8 @@
                      <abbr>tuma</abbr>
                      <expan>tuman</expan>
                   </choice>.</ab>
-               <ab n="9" corresp="com38.9">Sì che tra giocolari e guardatori de kani e delle bestie e
-                  delli uccelli sono XXVIII <choice>
+               <ab n="9" corresp="com38.9">Sì che tra giocolari e guardatori de kani e delle bestie
+                  e delli uccelli sono XXVIII <choice>
                      <abbr>tuma</abbr>
                      <expan>tuman</expan>
                   </choice> ke <choice>
@@ -6405,8 +6789,8 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> questo [f. 91vb] modo. </ab>
-            <ab n="4" corresp="com39.4">Elli àe quattro exerciti cioè schiere di kavalieri a cavallo,
-               che ll’una schiera li va dinançi uno dì, lo <choice>
+            <ab n="4" corresp="com39.4">Elli àe quattro exerciti cioè schiere di kavalieri a
+               cavallo, che ll’una schiera li va dinançi uno dì, lo <choice>
                   <abbr>secodo</abbr>
                   <expan>secondo</expan>
                </choice> va l’autro dì, il <choice>
@@ -6596,8 +6980,8 @@
                   <abbr>C</abbr>
                   <expan>Capitolo </expan>
                </choice>XL.</head>
-            <ab n="1" corresp="com40.1">[f. 92rb] Questo singnore Grande Cane,
-               lo suo inperio àe diviso in XII parti, e chateuna di <choice>
+            <ab n="1" corresp="com40.1">[f. 92rb] Questo singnore Grande Cane, lo suo inperio àe
+               diviso in XII parti, e chateuna di <choice>
                   <abbr>qste</abbr>
                   <expan>queste</expan>
                </choice> parti si chiama XII singo.</ab>
@@ -6608,7 +6992,7 @@
                <choice>
                   <abbr>pti</abbr>
                   <expan>parti</expan>
-               </choice> è il <placeName>Mançi</placeName> che àe sotto di sé duo milia <choice>
+               </choice> è il <placeName ref="#Mançi">Mançi</placeName> che àe sotto di sé duo milia <choice>
                   <abbr>gradi</abbr>
                   <expan>grandi</expan>
                </choice> cittadi. </ab>
@@ -6768,7 +7152,8 @@
                   <abbr>qsti</abbr>
                   <expan>questi</expan>
                </choice>. </ab>
-            <ab n="14" corresp="com40.14">E così fanno li autri fine che sono giunti al signore.</ab>
+            <ab n="14" corresp="com40.14">E così fanno li autri fine che sono giunti al
+               signore.</ab>
             <ab n="15" corresp="com40.15">Onde nulla cosa si può fare nel suo <choice>
                   <abbr>inpio</abbr>
                   <expan>inperio</expan>
@@ -7153,8 +7538,8 @@
                   <abbr>biachi</abbr>
                   <expan>bianchi</expan>
                </choice>.</ab>
-            <ab n="26" corresp="com42.26">E allora grida una voce e dice: «Cotali di cotale parentado
-               aparechio cotale milliaia overo centenara di kavalli al signore». </ab>
+            <ab n="26" corresp="com42.26">E allora grida una voce e dice: «Cotali di cotale
+               parentado aparechio cotale milliaia overo centenara di kavalli al signore». </ab>
             <ab n="27" corresp="com42.27">E allora sono apparechiati certi che menano questi cavalli
                aparechiati <choice>
                   <abbr>dinaçi</abbr>
@@ -7170,8 +7555,8 @@
                   <abbr>quati</abbr>
                   <expan>quanti</expan>
                </choice> elino danno.</ab>
-            <ab n="28" corresp="com42.28">E allora sono altri baroni che portano i presenti e doni da
-               parte d’altri baroni.</ab>
+            <ab n="28" corresp="com42.28">E allora sono altri baroni che portano i presenti e doni
+               da parte d’altri baroni.</ab>
             <ab n="29" corresp="com42.29">E allora tutti principali de' monasterii vegnono <choice>
                   <abbr>co</abbr>
                   <expan>con</expan>
@@ -7277,8 +7662,8 @@
             <ab n="38" corresp="com.48.38">E nelle suoi mani viene tutto il tesoro.</ab>
          </div>
          <div type="Chapter" n="43" corresp="chap.43">
-            <head><hi rend="rubric"/>Delli <placeName>monti Caspeos</placeName> que nascono poponi ne’ quali si trova
-               dentro una bestiula fatta a modo di agnello, e albori ke <choice>
+            <head><hi rend="rubric"/>Delli <placeName>monti Caspeos</placeName> que nascono poponi
+               ne’ quali si trova dentro una bestiula fatta a modo di agnello, e albori ke <choice>
                   <abbr>fano</abbr>
                   <expan>fanno</expan>
                </choice> uccelli. <choice>
@@ -7313,12 +7698,13 @@
                   <abbr>qlla</abbr>
                   <expan>quella</expan>
                </choice> karne e ànno il popone.</ab>
-            <ab n="4" corresp="com43.4">Questo puote essere così vero sì com’è vero che in <placeName><choice>
+            <ab n="4" corresp="com43.4">Questo puote essere così vero sì com’è vero che in
+                  <placeName ref="#Ibernia"><choice>
                      <abbr>Ibnia</abbr>
                      <expan>Ibernia</expan>
-                  </choice></placeName>, ne‧reame d’<placeName>Inghilterra</placeName> overo di
-                  <placeName>Scotia</placeName> overo d’<placeName>Erlanda</placeName>, sono albori
-               ke <choice>
+                  </choice></placeName>, ne‧reame d’<placeName ref="#Inghilterra"
+                  >Inghilterra</placeName> overo di <placeName ref="#Scotia">Scotia</placeName>
+               overo d’<placeName ref="#Erlanda">Erlanda</placeName>, sono albori ke <choice>
                   <abbr>fano</abbr>
                   <expan>fanno</expan>
                </choice> uccelli.</ab>
@@ -7355,8 +7741,8 @@
                   <abbr>pti</abbr>
                   <expan>parti</expan>
                </choice> l’una ke di lui si dice.</ab>
-            <ab n="2" corresp="com44.2">La sua città principale si chiama
-                  <placeName ref="#Chosan">Chosan</placeName>.</ab>
+            <ab n="2" corresp="com44.2">La sua città principale si chiama <placeName ref="#Chosan"
+                  >Chosan</placeName>.</ab>
             <ab n="3" corresp="com44.3">E migliore città è <placeName><choice>
                      <abbr>Vicentia</abbr>
                      <expan>Vincen[f. 94rb]tia</expan>
@@ -7428,8 +7814,8 @@
                </choice> Kane ch’avemo ditto di sopra.</ab>
          </div>
          <div type="Chapter" n="45" corresp="chap.45">
-            <head><hi rend="rubric"/>Del grande regno di <placeName>Tibet</placeName> ked è nella
-               fine dell’<placeName>India <choice>
+            <head><hi rend="rubric"/>Del grande regno di <placeName ref="#Tibet">Tibet</placeName>
+               ked è nella fine dell’<placeName ref="#India">India <choice>
                      <abbr>supiore</abbr>
                      <expan>superiore</expan>
                   </choice></placeName>, ove <choice>
@@ -7459,7 +7845,7 @@
                </choice> provincia, venni à uno <choice>
                   <abbr>grade</abbr>
                   <expan>grande</expan>
-               </choice> regno ke si chiama <placeName>Tibet</placeName>. </ab>
+               </choice> regno ke si chiama <placeName ref="#Tibet">Tibet</placeName>. </ab>
             <ab n="2" corresp="com45.2">Questo è <choice>
                   <abbr>grade</abbr>
                   <expan>grande</expan>
@@ -7626,7 +8012,7 @@
             <head><hi rend="rubric"/>Della <choice>
                   <abbr>pvincia</abbr>
                   <expan>provincia</expan>
-               </choice> del <placeName><choice>
+               </choice> del <placeName ref="#Mançi"><choice>
                      <abbr>maçi</abbr>
                      <expan>Mançi</expan>
                   </choice></placeName> e <supplied>[del]</supplied> pretioso palaçço e delle
@@ -7640,8 +8026,8 @@
             <ab n="1" corresp="com46.1"> Nella <choice>
                   <abbr>provicia</abbr>
                   <expan/>
-               </choice>provincia del Mançi venni a llato al piede d’uno palagio d’un huomo popolare
-               la cui vita è per questo modo.</ab>
+               </choice>provincia del <placeName ref="#Mançi">Mançi</placeName> venni a llato al
+               piede d’uno palagio d’un huomo popolare la cui vita è per questo modo.</ab>
             <ab n="2" corresp="com46.2">Elli àe L donçelle <choice>
                   <abbr>vgini</abbr>
                   <expan>vergini</expan>
@@ -7762,7 +8148,7 @@
                </choice> si <choice>
                   <abbr>pala</abbr>
                   <expan>parla</expan>
-               </choice> ke in questo <placeName><choice>
+               </choice> ke in questo <placeName ref="#Mançi"><choice>
                      <abbr>Maçi</abbr>
                      <expan>Mançi</expan>
                   </choice></placeName> sono quattro <choice>
@@ -7773,7 +8159,7 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> lo modo k’è questi.</ab>
-            <ab n="12" corresp="com46.13">La nobilità di questo <placeName><choice>
+            <ab n="12" corresp="com46.13">La nobilità di questo <placeName ref="#Mançi"><choice>
                      <abbr>Maçi</abbr>
                      <expan>Mançi</expan>
                   </choice></placeName> si è dell’uomini avere l’<choice>
@@ -7801,10 +8187,12 @@
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
                </choice>
-               <placeName>Mileterre</placeName> ove lo <persName ref="#Vecchio della montagna">Vecchio della <pb n="95v"
-                  xml:id="Co_fol_95v" facs="data\images\single\Co_fol_95v.jpg"/>[f. 95va] montagna</persName>
+               <placeName>Mileterre</placeName> ove lo <persName ref="#Vecchio della montagna"
+                  >Vecchio della <pb n="95v" xml:id="Co_fol_95v"
+                     facs="data\images\single\Co_fol_95v.jpg"/>[f. 95va] montagna</persName>
                habitava, e delle novitadi k’elli facea. <supplied>Capitolo</supplied> XLVII.</head>
-            <ab n="1" corresp="com47.1">Partendomi delle terre del <persName ref="#Presto Giovanni">Prete <choice>
+            <ab n="1" corresp="com47.1">Partendomi delle terre del <persName ref="#Presto Giovanni"
+                  >Prete <choice>
                      <abbr>Giovani</abbr>
                      <expan>Giovanni</expan>
                   </choice></persName> e <choice>
@@ -7828,10 +8216,11 @@
             <ab n="3" corresp="com47.3">In questa <choice>
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
-               </choice> si dicea k’era uno ke si chiamava il <persName ref="#Vecchio della montagna">Vecchio della <choice>
-                  <abbr>motagna</abbr>
-                  <expan>montangna</expan>
-               </choice></persName>.</ab>
+               </choice> si dicea k’era uno ke si chiamava il <persName
+                  ref="#Vecchio della montagna">Vecchio della <choice>
+                     <abbr>motagna</abbr>
+                     <expan>montangna</expan>
+                  </choice></persName>.</ab>
             <ab n="4" corresp="com47.4">Elli avea fatto tra due <choice>
                   <abbr>moti</abbr>
                   <expan>monti</expan>
@@ -7855,8 +8244,8 @@
                </choice> erano poste bellissime donçelle vergini delle più belle del mondo e cavalli
                bellissimi e tutte quelle cose che potessero delectare corpo humano.</ab>
             <ab n="6" corresp="com47.6">E facea dire ke questo luogo era paradiso.</ab>
-            <ab n="7" corresp="com47.7">E quand’elli vedea uno giovane d’alcuno valore, elli lo ponea
-               in questo suo paradiso nel quale facea andare <choice>
+            <ab n="7" corresp="com47.7">E quand’elli vedea uno giovane d’alcuno valore, elli lo
+               ponea in questo suo paradiso nel quale facea andare <choice>
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice>
@@ -7905,14 +8294,16 @@
             <ab n="10" corresp="com47.10">E allora pregava <choice>
                   <abbr>continuamete</abbr>
                   <expan>continuamente</expan>
-               </choice> questo <persName ref="#Vecchio della montagna">Vecchio della montagna</persName> ke llo facesse ritornare in <choice>
+               </choice> questo <persName ref="#Vecchio della montagna">Vecchio della
+                  montagna</persName> ke llo facesse ritornare in <choice>
                   <abbr>qllo</abbr>
                   <expan>quello</expan>
                </choice> paradiso ov’era prima.</ab>
             <ab n="11" corresp="com47.11">E allora <choice>
                   <abbr>qsto</abbr>
                   <expan>questo</expan>
-               </choice> <persName ref="#Vecchio della montagna">vecchio</persName> li diceva: «<choice>
+               </choice>
+               <persName ref="#Vecchio della montagna">vecchio</persName> li diceva: «<choice>
                   <abbr>Qne</abbr>
                   <expan>Quine</expan>
                </choice> no puoi andare se tu no uccidi <choice>
@@ -7967,11 +8358,11 @@
             <ab n="12" corresp="com47.16"><choice>
                   <abbr>Vededo</abbr>
                   <expan>Vedendo</expan>
-               </choice> questo, li Tartari vennero a questa cittade nella quale questo <persName ref="#Vecchio della montagna">Vecchio
-               della <choice>
-                  <abbr>motagna</abbr>
-                  <expan>montangna</expan>
-               </choice></persName> era, e assediarla.</ab>
+               </choice> questo, li Tartari vennero a questa cittade nella quale questo <persName
+                  ref="#Vecchio della montagna">Vecchio della <choice>
+                     <abbr>motagna</abbr>
+                     <expan>montangna</expan>
+                  </choice></persName> era, e assediarla.</ab>
             <ab n="12" corresp="com47.17">E <choice>
                   <abbr>quide</abbr>
                   <expan>quinde</expan>
@@ -7986,9 +8377,9 @@
                   <abbr>co</abbr>
                   <expan>con</expan>
                </choice> questo <persName ref="#Vecchio della montagna">Vecchio della <choice>
-                  <abbr>motagna</abbr>
-                  <expan>montangna</expan>
-               </choice></persName> no presero.</ab>
+                     <abbr>motagna</abbr>
+                     <expan>montangna</expan>
+                  </choice></persName> no presero.</ab>
             <ab n="12" corresp="com47.18">E poi lo legaro e fecerlo morire di mala morte.</ab>
          </div>
          <div type="Chapter" n="48" corresp="chap.48">
@@ -8006,11 +8397,10 @@
                </choice> Dio àe data <choice>
                   <abbr>qsta</abbr>
                   <expan>questa</expan>
-               </choice> graça a’ frati minori che nella <choice>
-                  <abbr>grade</abbr>
-                  <expan>grande</expan>
-               </choice>
-               <placeName>Tartaria</placeName> elli <choice>
+               </choice> graça a’ frati minori che nella <placeName ref="#Grande Tartaria"><choice>
+                     <abbr>grade</abbr>
+                     <expan>Grande</expan>
+                  </choice> Tartaria</placeName> elli <choice>
                   <abbr>ano</abbr>
                   <expan>ànno</expan>
                </choice> così <choice>
@@ -8041,8 +8431,8 @@
                   <abbr>fano</abbr>
                   <expan>fanno</expan>
                </choice> bapteçare.</ab>
-            <ab n="5" corresp="com48.5">E allora i frati pillino li loro yd[f. 96rb]oli di
-               feltro k’ellino <choice>
+            <ab n="5" corresp="com48.5">E allora i frati pillino li loro yd[f. 96rb]oli di feltro
+               k’ellino <choice>
                   <abbr>ano</abbr>
                   <expan>ànno</expan>
                </choice>.</ab>
@@ -8099,7 +8489,7 @@
             <ab n="3" corresp="com49.3">Nel quale luogo vidi <choice>
                   <abbr>divsi</abbr>
                   <expan>diversi</expan>
-            </choice> strumenti che <pb n="96v" corresp="Co_fol_96v"
+               </choice> strumenti che <pb n="96v" corresp="Co_fol_96v"
                   facs="data\images\single\Co_fol_96v.jpg"/>[f. 96va] <choice>
                   <abbr>qne</abbr>
                   <expan>quine</expan>
@@ -8221,8 +8611,8 @@
                </choice> del diaulo d’inferno.</ab>
          </div>
          <div type="Chapter" n="50" corresp="chap.50">
-            <head><hi rend="rubric"/>Della testimoniança e fermeçça che frate
-                  <persName ref="#Odorigo">Odorigo</persName> preditto, ke vide e disse e fece scrivere queste
+            <head><hi rend="rubric"/>Della testimoniança e fermeçça che frate <persName
+                  ref="#Odorigo">Odorigo</persName> preditto, ke vide e disse e fece scrivere queste
                cose, àe date a <choice>
                   <abbr>qste</abbr>
                   <expan>queste</expan>
@@ -8238,8 +8628,8 @@
                   <expan>Capitolo</expan>
                </choice> L</head>
             <ab n="1" corresp="com50.1">Io, frate <persName ref="#Odorigo">Odorigo</persName> di
-                  <placeName ref="#Friuli">Friuli</placeName>, di una terra ke si kiama <placeName>Porto
-                  Naoni</placeName>, dell’ordine de’ frati minori, testifico e <choice>
+                  <placeName ref="#Friuli">Friuli</placeName>, di una terra ke si kiama
+                  <placeName>Porto Naoni</placeName>, dell’ordine de’ frati minori, testifico e <choice>
                   <abbr>testimoniaça</abbr>
                   <expan>testimoniança</expan>
                </choice> rendo e rispondo al mio ministro <choice>
@@ -8304,10 +8694,11 @@
       <body>
          <div type="prologue" n="3" corresp="pro3">
             <head><title><hi rend="italics">Prologo delle ’<supplied>[n]</supplied>frascripte
-                     meravilliose cose che’l preditto frate <persName ref="#Odorigo">Odorigo</persName> avea lasate
-                     di fare scrivere. </hi></title></head>
-            <ab n="1" corresp="com000.1">Per cagione ke’l ditto frate <persName ref="#Odorigo">Odorigo</persName>
-               disse a boca molte meravilliose cose ch’avea trovate, vedute e udite da <choice>
+                     meravilliose cose che’l preditto frate <persName ref="#Odorigo"
+                        >Odorigo</persName> avea lasate di fare scrivere. </hi></title></head>
+            <ab n="1" corresp="com000.1">Per cagione ke’l ditto frate <persName ref="#Odorigo"
+                  >Odorigo</persName> disse a boca molte meravilliose cose ch’avea trovate, vedute e
+               udite da <choice>
                   <abbr>psone</abbr>
                   <expan>persone</expan>
                </choice> degne di fede ne’ ditti paesi ov’elli era stato, le <choice>
@@ -8330,8 +8721,9 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> altra cagione, ònne scripte qui appresso alquante ch’io li udii dire uno
-               die una sera ch’io fui co‧llui a <placeName>Santo Francesco delle Vingne</placeName>,
-               luogo de’ frati minori di <placeName>Vinegia</placeName>, stando a cena a lato a llui <choice>
+               die una sera ch’io fui co‧llui a <placeName>Santo <persName ref="#Francesco"
+                     >Francesco</persName> delle Vingne</placeName>, luogo de’ frati minori di
+                  <placeName ref="#Vinegia">Vinegia</placeName>, stando a cena a lato a llui <choice>
                   <abbr>magiado</abbr>
                   <expan>mangiando</expan>
                </choice>
@@ -8353,10 +8745,9 @@
                </choice>, nella quale andò nell’<placeName><choice>
                      <abbr>Idia</abbr>
                      <expan>India</expan>
-                  </choice>
-                  [f.
-                  97rb] Superiore</placeName>, agiunse e disse ke lla ditta nave avea XVIII vele: le
-               quattro, overo cinque erano le principali e magiori ke l’autre, e aveavi su <choice>
+                  </choice> [f. 97rb] Superiore</placeName>, agiunse e disse ke lla ditta nave avea
+               XVIII vele: le quattro, overo cinque erano le principali e magiori ke l’autre, e
+               aveavi su <choice>
                   <abbr>ciqueceto</abbr>
                   <expan>cinquecento</expan>
                </choice> kamere.</ab>
@@ -8449,11 +8840,11 @@
                </choice> veniçano disse <choice>
                   <abbr>ragionado</abbr>
                   <expan>ragionando</expan>
-               </choice> insieme delle meravilliose cose k’avamo udite da frate
-                  <persName ref="#Odorigo">Odorigo</persName>, mi disse <choice>
+               </choice> insieme delle meravilliose cose k’avamo udite da frate <persName
+                  ref="#Odorigo">Odorigo</persName>, mi disse <choice>
                   <abbr>qsto</abbr>
                   <expan>questo</expan>
-               </choice> veniçano k’avea veduto al <placeName>Torissi</placeName> uno <choice>
+               </choice> veniçano k’avea veduto al <placeName ref="#Torissi">Torissi</placeName> uno <choice>
                   <abbr>hoo</abbr>
                   <expan>huomo</expan>
                </choice> morto inbalsamato <choice>
@@ -8468,8 +8859,8 @@
                </choice> a modo di <choice>
                   <abbr>hoo</abbr>
                   <expan>huomo</expan>
-               </choice> e dietro a modo di kane come avea ditto frate
-               <persName ref="#Odorigo">Odorigo</persName>.</ab>
+               </choice> e dietro a modo di kane come avea ditto frate <persName ref="#Odorigo"
+                  >Odorigo</persName>.</ab>
          </div>
          <div type="Chapter" n="III" corresp="chap.III">
             <ab n="1" corresp="comIII.1">Sopra quello k’è scripto nel XVIII capitolo, di
@@ -8520,8 +8911,8 @@
                   <abbr>mota</abbr>
                   <expan>monta</expan>
                </choice> su e siedevi su una sedia, e‧l marito morto l’è messo in grenbo.</ab>
-            <ab n="4" corresp="comIII.4">E poi è messo fuoco in [f. 97vb] queste legne, e arde e muore
-               la mollie viva col marito <choice>
+            <ab n="4" corresp="comIII.4">E poi è messo fuoco in [f. 97vb] queste legne, e arde e
+               muore la mollie viva col marito <choice>
                   <abbr>moto</abbr>
                   <expan>morto</expan>
                </choice>.</ab>
@@ -8536,7 +8927,7 @@
          </div>
          <div type="Chapter" n="IV" corresp="chap.IV">
             <ab n="1" corresp="comIV.1">Sopra quello k’è scripto nel XX capitolo, dell’isola
-                  <placeName>Lamen</placeName>, <choice>
+                  <placeName ref="#Lamen">Lamen</placeName>, <choice>
                   <abbr>aiuse</abbr>
                   <expan>ag<supplied>[i]</supplied>un</expan>
                </choice>se e disse ke, <choice>
@@ -8617,9 +9008,9 @@
                   <expan>singnore</expan>
                </choice>.</ab>
             <ab n="4" corresp="comIV.4">Poi fra<pb n="98r" xml:id="Co_fol_98a"
-                  facs="data\images\single\Co_fol_98r.jpg"/>[f. 98ra]te
-                  <persName ref="#Odorigo">Hodorigo</persName> e molti ke erano sulla nave smontaro in terra e
-               andaro veggendo la <choice>
+                  facs="data\images\single\Co_fol_98r.jpg"/>[f. 98ra]te <persName ref="#Odorigo"
+                  >Hodorigo</persName> e molti ke erano sulla nave smontaro in terra e andaro
+               veggendo la <choice>
                   <abbr>tera</abbr>
                   <expan>terra</expan>
                </choice>.</ab>
@@ -8763,7 +9154,8 @@
             <ab n="2" corresp="comVIII.2">E in fermeçça di ciò, dico k’io trovai <choice>
                   <abbr>scpto</abbr>
                   <expan>scripto</expan>
-               </choice> in uno libro ke si chiama <title>“Lo speculo de’ re di <placeName><choice>
+               </choice> in uno libro ke si chiama <title>“Lo speculo de’ re di <placeName
+                     ref="#Francia"><choice>
                         <abbr>Fracia</abbr>
                         <expan>Francia</expan>
                      </choice></placeName>”</title>, ke frati minori k’erano andati in
@@ -8814,13 +9206,13 @@
                   <abbr>ughie</abbr>
                   <expan>unghie</expan>
                </choice> del dito grosso delle mani, d’a<supplied>[m]</supplied>dordue overo
-               dell’una, grande e talvolta a modo d’uccello.</ab>
+               dell’una, grande e ravolta a modo d’uccello.</ab>
             <ab n="7" corresp="comVIII.7">E questi erano tra loro reputati più nobile che lli
                autri.</ab>
          </div>
          <div type="Chapter" n="IX" corresp="chap.IX">
-            <ab n="1" corresp="comIX.1">E disse ke fue in una co<supplied>[n]</supplied>trada e paese
-               ke lla gente v’è pessima e ke, se ll’uomo non è bene reo tra lloro di fare <choice>
+            <ab n="1" corresp="comIX.1">E disse ke fue in una co<supplied>[n]</supplied>trada e
+               paese ke lla gente v’è pessima e ke, se ll’uomo non è bene reo tra lloro di fare <choice>
                   <abbr>gradi</abbr>
                   <expan>grandi</expan>
                </choice> mali, no lli <choice>
@@ -8830,9 +9222,7 @@
             <ab n="2" corresp="comIX.2">E <choice>
                   <abbr>quado</abbr>
                   <expan>quando</expan>
-               </choice>
-               [f. 98vb]
-               maggiori mali fae, <choice>
+               </choice> [f. 98vb] maggiori mali fae, <choice>
                   <abbr>tato</abbr>
                   <expan>tanto</expan>
                </choice> li fanno magiori honori, ed à maggiore e più honorevile mollie.</ab>
@@ -8872,7 +9262,7 @@
                </choice> tutta la borsa e lle <choice>
                   <abbr>ptegnentie</abbr>
                   <expan>partegnentie</expan>
-               </choice>, e pollo su uno tallieri e presentalo alla filliuola del padre, la <choice>
+               </choice>, e po·llo su uno tallieri e presentalo alla filliuola del padre, la <choice>
                   <abbr>qle</abbr>
                   <expan>quale</expan>
                </choice> elli <choice>
@@ -8882,8 +9272,8 @@
                   <abbr>p</abbr>
                   <expan>per</expan>
                </choice> mollie.</ab>
-            <ab n="7" corresp="comIX.7">Il padre prende questo presente e fallo insalare e acconciare
-               che no si <choice>
+            <ab n="7" corresp="comIX.7">Il padre prende questo presente e fallo insalare e
+               acconciare che no si <choice>
                   <abbr>coropa</abbr>
                   <expan>corompa</expan>
                </choice>, e fane una corona alla filliuola e dalla <choice>
@@ -8929,9 +9319,9 @@
                   <expan>quando</expan>
                </choice> alcuno forestieri di questi vi capita, è pregato dal padre che vengna a
                spulcellare la filiola.</ab>
-            <ab n="4" corresp="comX.4">E questo frate <persName ref="#Odorigo">Hodorigo</persName> disse ke fue
-               pregato da uno di quelli huomini molto strettamente ke venisse a spulcellare la
-               filliuola.</ab>
+            <ab n="4" corresp="comX.4">E questo frate <persName ref="#Odorigo">Hodorigo</persName>
+               disse ke fue pregato da uno di quelli huomini molto strettamente ke venisse a
+               spulcellare la filliuola.</ab>
             <ab n="5" corresp="comX.5">Ed elli, <choice>
                   <abbr>negadoli</abbr>
                   <expan>negandoli</expan>
@@ -8990,7 +9380,8 @@
                   <abbr>itorno</abbr>
                   <expan>intorno</expan>
                </choice> a llui.</ab>
-            <ab n="5" corresp="comXI.5">Questo frate <persName ref="#Odorigo">Hodorigo</persName> era <choice>
+            <ab n="5" corresp="comXI.5">Questo frate <persName ref="#Odorigo">Hodorigo</persName>
+               era <choice>
                   <abbr>co</abbr>
                   <expan>con</expan>
                </choice> molti <choice>
@@ -9005,16 +9396,18 @@
                   <abbr>icotro</abbr>
                   <expan>incontro</expan>
                </choice> per farli reverença.</ab>
-            <ab n="7" corresp="comXI.7">Come il Gran Cane li vidde, e vidde la croce col crocifisso <persName ref="#Cristo"><choice>
-                  <abbr>Xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName>, <choice>
+            <ab n="7" corresp="comXI.7">Come il Gran Cane li vidde, e vidde la croce col crocifisso
+                  <persName ref="#Cristo"><choice>
+                     <abbr>Xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName>, <choice>
                   <abbr>incotenente</abbr>
                   <expan>incontenente</expan>
-               </choice> discese della sua sedia e ginocchioni fece reverentia alla croce di <persName ref="#Cristo"><choice>
-                  <abbr>Xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName>.</ab>
+               </choice> discese della sua sedia e ginocchioni fece reverentia alla croce di
+                  <persName ref="#Cristo"><choice>
+                     <abbr>Xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName>.</ab>
             <ab n="8" corresp="comXI.8">E stette uno peçço in oratione <pb n="99v"
                   xml:id="Co_fol_99v" facs="data\images\single\Co_fol_99v.jpg"/>[f. 99va] <choice>
                   <abbr>pcotendo</abbr>
@@ -9081,9 +9474,9 @@
                </choice> XXXM Giorgiani a kavallo.</ab>
             <ab n="16" corresp="comXI.16">Costoro, come videro l’ansengna della croce e del
                crocifisso <persName ref="#Cristo"><choice>
-                  <abbr>Xpo</abbr>
-                  <expan>Cristo</expan>
-               </choice></persName>, <choice>
+                     <abbr>Xpo</abbr>
+                     <expan>Cristo</expan>
+                  </choice></persName>, <choice>
                   <abbr>incotenete</abbr>
                   <expan>incontenente</expan>
                </choice> subitamente fuoro tutti a uno tratto <choice>
@@ -9100,7 +9493,7 @@
                   <abbr>gradi</abbr>
                   <expan>grandi</expan>
                </choice> voci e reverença.</ab>
-            <ab n="17" corresp="comXI.17">E stati ke fuorono [f. 99vb] uno poco in oratione, lo
+            <ab n="17" corresp="comXI.17">E stati ke fuorono [f. 99vb] uno pezzo in oratione, lo
                vescovo li segnò e <choice>
                   <abbr>bndisse</abbr>
                   <expan>benedisse</expan>
@@ -9112,7 +9505,8 @@
                   <abbr>grade</abbr>
                   <expan>grande</expan>
                </choice> Kane.</ab>
-            <ab n="19" corresp="comXI.19">E frate <persName ref="#Odorigo">Hodorigo</persName> e’ suoi andorono <choice>
+            <ab n="19" corresp="comXI.19">E frate <persName ref="#Odorigo">Hodorigo</persName> e’
+               suoi andorono <choice>
                   <abbr>i</abbr>
                   <expan>in</expan>
                </choice> loro viaggio.</ab>
@@ -9143,7 +9537,7 @@
                   <abbr>cotrada</abbr>
                   <expan>contrada</expan>
                </choice>
-               <placeName>Talamasin</placeName> àe ysole ove si truovano albori ke <choice>
+               <placeName ref="#Talamasin">Talamasin</placeName> àe ysole ove si truovano albori ke <choice>
                   <abbr>fano</abbr>
                   <expan>fanno</expan>
                </choice> veleno k’è il pigio tossico ke sia al <choice>
@@ -9236,16 +9630,15 @@
                </choice> sa scrivere, k’era più <choice>
                   <abbr>lugo</abbr>
                   <expan>lungo</expan>
-               </choice> ke [f. 100rb] largo, e aveavi suso alcuni
-               segni <choice>
+               </choice> ke [f. 100rb] largo, e aveavi suso alcuni segni <choice>
                   <abbr>oveo</abbr>
                   <expan>overo</expan>
                </choice> karattari ke disse ke erano lettere ke’l <choice>
                   <abbr>Grade</abbr>
                   <expan>Grande</expan>
                </choice> Cane v’avea fatte fare. </ab>
-            <ab n="2" corresp="comXIV.2">E disse ke ll’avea regato d’<placeName>India</placeName> del
-               paese del Gran Cane.</ab>
+            <ab n="2" corresp="comXIV.2">E disse ke ll’avea regato d’<placeName>India</placeName>
+               del paese del Gran Cane.</ab>
             <ab n="3" corresp="comXIV.3">E disse ke <choice>
                   <abbr>qsta</abbr>
                   <expan>questa</expan>
@@ -9348,11 +9741,11 @@
                </choice>.</ab>
          </div>
          <div type="Chapter" n="XV" corresp="chap.XV">
-            <ab n="1" corresp="comXV.1">Sopra quello k’è scripto nel XXXII capitolo, di
-                  <placeName>Cunsai</placeName>, disse k’avea più <choice>
+            <ab n="1" corresp="comXV.1">Sopra quello k’è scripto nel XXXII capitolo, di <placeName
+                  ref="#Cunsai">Cunsai</placeName>, disse k’avea più <choice>
                   <abbr>gete</abbr>
                   <expan>gente</expan>
-               </choice> ke tutta <placeName>Ytalia</placeName>.</ab>
+               </choice> ke tutta <placeName ref="#Ytalia">Ytalia</placeName>.</ab>
          </div>
       </body>
    </text>
