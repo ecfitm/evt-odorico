@@ -1,0 +1,1010 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="Odorico_Critical">
+               <hi rend="italics">Libro delle nuove e strane e meravigliose cose</hi>Edizione
+               critica.</title>
+            <author>Odorico da Pordenone OMin.</author>
+            <respStmt xml:id="AAndreose">
+               <resp>Edizione</resp>
+               <persName>Alvise Andreose</persName>
+            </respStmt>
+            <respStmt xml:id="IReginato">
+               <resp>Edizione e codifica</resp>
+               <persName>Irene Reginato</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <p>Portale dedicato ai volgarizzamenti italiani della <title xml:lang="latin"><hi
+                     rend="italic">Relatio de mirabilibus Orientalium Tatarorum</hi>di <persName
+                     ref="#Odorigo">Odorico da Pordenone OMin.</persName></title></p>
+
+         </publicationStmt>
+         
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="CO">Firenze, Biblioteca Nazionale Centrale, Conventi Soppressi
+                     C.7.1170.<note>Ms. base.</note></witness>
+               <witness xml:id="UR">Città del Vaticano, Biblioteca Apostolica Vaticana, Urbinate
+                  Lat. 1013.</witness>
+               <witness xml:id="M">Venezia, Biblioteca Nazionale Marciana, ms. it. cl. XI n° 32
+                  (6672).</witness>
+               <witness xml:id="An">Roma, Biblioteca Angelica, ms. n° 2212.</witness>
+               <witness xml:id="Ba">Città del Vaticano, Biblioteca Apostolica Vaticana, Barberiniano
+                  lat. 4048. </witness>
+               <witness xml:id="Lu">Lucca, Biblioteca Statale, ms. 1296 (<hi rend="italic">olim</hi>
+                  Lucchesini 26).</witness>
+               <witness xml:id="Man">Mantova, Biblioteca Comunale, ms. 448 <hi rend="italic"
+                     >olim</hi> E.I.10). </witness>
+               <witness xml:id="Va">Città del Vaticano, Biblioteca Apostolica Vaticana,Conventi
+                  Soppressi C.7.1170.</witness>
+            </listWit>  
+            
+            <listPerson>
+               <person xml:id="Odorigo">
+                  <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
+                        >Pordenone</placeName> O.M.</persName>
+               </person>
+               <person xml:id="Noé">
+                  <persName ref="#Noé">Noé, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Job">
+                  <persName ref="#Job">Giobbe, patriarca idumeo protagonista del libro
+                     omonimo.</persName>
+               </person>
+               <person xml:id="Tome">
+                  <persName ref="#Tome">Tommaso, detto Didimo, uno dei dodici apostoli di
+                     Cristo.</persName>
+               </person>
+               <person xml:id="PrestoGiovanni">
+                  <persName ref="#NPresto Giovanni">Prete Gianni, leggendario sovrano cristiano che
+                     la tradizione medievale colloca in Asia, India o Etiopia.</persName>
+               </person>
+               <person xml:id="Francesco">
+                  <persName ref="#Francesco">San Francesco d'Assisi.</persName>
+               </person>
+               <person xml:id="Atanaxio">
+                  <persName ref="#Atanaxio">Atanasio l'Atonita, o Atanasio di Trebisonda (X sec.),
+                     monaco bizantino fondatore della Repubblica del Monte Athos.</persName>
+               </person>
+               <person xml:id="Porro">
+                  <persName ref="#Porro">Poro (IV sec.), sovrano della dinastia dei Paurava,
+                     nell'antica India nord-occidentale.</persName>
+               </person>
+               <person xml:id="Allessandro">
+                  <persName ref="#Allessandro">Alessandro Magno.</persName>
+               </person>
+               <person xml:id="TommasodiTollentino">
+                  <persName ref="#Tommaso di Tollentino">Tommaso da Tolentino (m. Tana, 1321),
+                     missionario francescano martire in India.</persName>
+               </person>
+               <person xml:id="JacopodaPadoa">
+                  <persName ref="#Jacopo da Padoa">Giacomo da Padova (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="DimetrideTofilii">
+                  <persName ref="#DimetrideTofilii">Demetrio da Tiblisi (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="PietrodaSiena">
+                  <persName ref="#Pietro da Siena">Pietro da Siena (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="Magometo">
+                  <persName ref="#NMagometo">Muhammad, profeta dell'Islam.</persName>
+               </person>
+               <person xml:id="Abraam">
+                  <persName ref="#Abraam">Abramo, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Cristofano">
+                  <persName ref="#Cristofano">San Cristoforo (m. 250).</persName>
+               </person>
+               <person xml:id="Adam">
+                  <persName ref="#Adam">Adamo.</persName>
+               </person>
+               <person xml:id="AntoniodaPadua">
+                  <persName ref="#Antonio da Padua">Sant'Antonio da Padova.</persName>
+               </person>
+               <person xml:id="Eva">
+                  <persName ref="#Eva">Eva.</persName>
+               </person>
+               <person xml:id="Vecchiodellamontagna">
+                  <persName ref="#Vecchio della montagna">Ḥasan-i Ṣabbāḥ, maestro della setta
+                     ismailita dei nizariti.</persName>
+               </person>
+               <person xml:id="Cristo">
+                  <persName ref="#Cristo">Gesù Cristo</persName>
+               </person>
+            </listPerson>
+         
+            <listPlace>
+               <place xml:id="Pordenone">
+                  <placeName ref="#Pordenone">Pordenone</placeName>
+                  <location>
+                     <geo>45.956368, 12.661452</geo>
+                  </location>
+                  <note>Pordenone, Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Tollentino">
+                  <placeName ref="#Tollentino">Tolentino</placeName>
+                  <location>
+                     <geo>43.211178, 13.286336</geo>
+                  </location>
+                  <note>Tolentino (MC), Marche, Italia.</note>
+               </place>
+               <place xml:id="Padoa">
+                  <placeName ref="#Padoa">Padova</placeName>
+                  <location>
+                     <geo>45.406435, 11.876761</geo>
+                  </location>
+                  <note>Padova, Veneto, Italia.</note>
+               </place>
+               <place xml:id="Tofilii">
+                  <placeName ref="#Tofilii">Tblisi</placeName>
+                  <location>
+                     <geo>41.715138, 44.827096</geo>
+                  </location>
+                  <note>Tblisi, capitale della Georgia.</note>
+               </place>
+               <place xml:id="Siena">
+                  <placeName ref="#Siena">Tblisi</placeName>
+                  <location>
+                     <geo>43.318809, 11.330757</geo>
+                  </location>
+                  <note>Siena, Toscana, Italia.</note>
+               </place>
+               <place xml:id="Friuli">
+                  <placeName ref="#Friuli">Friuli</placeName>
+                  <location>
+                     <geo>46.225918, 13.103365</geo>
+                  </location>
+                  <note>Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Ytalia">
+                  <placeName ref="#Ytalia">Italia</placeName>
+                  <location>
+                     <geo>441.871940, 12.567380</geo>
+                  </location>
+               </place>
+               <place xml:id="Vinegia">
+                  <placeName ref="#Vinegia">Venezia</placeName>
+                  <location>
+                     <geo>45.440847, 12.315515</geo>
+                     <note>Venezia, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Pisa">
+                  <placeName ref="#Pisa">Pisa</placeName>
+                  <location>
+                     <geo>43.724591, 10.382981</geo>
+                     <note>Pisa, Toscana, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Udine">
+                  <placeName ref="#Udine">Udine</placeName>
+                  <location>
+                     <geo>46.071067, 13.234579</geo>
+                     <note>Udine, Friuli Venezia Giulia, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Trapesonda">
+                  <placeName ref="#Trapesonda">Trebisonda (Trabzon)</placeName>
+                  <location>
+                     <geo>41.002697, 39.716763</geo>
+                     <note>Città della Turchia, capoluogo dell'omonima provincia, sulla costa
+                        nord-orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="ArmeniaMaggiore">
+                  <placeName ref="#Armenia Maggiore"/>
+                  <location>
+                     <geo>40.069099, 45.038189</geo>
+                  </location>
+                  <note>Storicamente, l'Armenia Maggiore coincide con la regione caucasica
+                     delimitata, a nord, dalla valle del Kura (Turchia) a Nord, a sud dal lago di
+                     Van (Turchia orientale), a ovest dalla Colchide (Georgia occidentale), a est
+                     dal mar Caspio.</note>
+               </place>
+               <place xml:id="Torissi">
+                  <placeName ref="#Torissi">Tabriz</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Tabrīz, capoluogo della provincia dell’Azarbaijian.</note>
+                  </location>
+               </place>
+               <place xml:id="Soldania">
+                  <placeName ref="#Soldania"/>
+                  <location>
+                     <geo>36.433988, 48.794642</geo>
+                     <note>Soltaniyeh/Sulṭāniyyah, città iraniana nella provincia di Zanjan, a
+                        nordovest di Teheran.</note>
+                  </location>
+               </place>
+               <place xml:id="Persia">
+                  <placeName ref="#Persia">Persia</placeName>
+                  <location>
+                     <geo>32.427908, 53.688046</geo>
+                     <note>Persia, Iran.</note>
+                  </location>
+               </place>
+               <place xml:id="Cassam">
+                  <placeName ref="#Cassam">Kāshān</placeName>
+                  <location>
+                     <geo>33.991035, 51.423541</geo>
+                     <note>Kāshān, città iraniana nella provincia di Esfahan. </note>
+                  </location>
+               </place>
+               <place xml:id="SecondaYndia">
+                  <placeName ref="#Seconda Yndia">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana, la
+                        "Seconda Yndia" di Odorico indica l'India propriamente detta, ch'egli
+                        situava nella regione dal Golfo Persico al Vietnam meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="IndiaSuperiore">
+                  <placeName ref="#India Superiore">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana,
+                        Odorico indica con "India Superiore" le regioni della Cina meridionale a sud
+                        del Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Grandemare">
+                  <placeName ref="#Grande mare">mar Nero.</placeName>
+                  <location>
+                     <geo>43.413029, 34.299316</geo>
+                  </location>
+               </place>
+               <place xml:id="Çanega">
+                  <placeName ref="#Çanega">Zigana</placeName>
+                  <location>
+                     <geo>40.623056, 39.377778</geo>
+                     <note>Passo di Zigana,valico montano situato sui Monti Pontici nella provincia
+                        di Gümüşhane, vicino al confine con Trebisonda, nella Turchia
+                        nord-orientale. </note>
+                  </location>
+               </place>
+               <place xml:id="Açiron">
+                  <placeName ref="#Açiron">Erzerum</placeName>
+                  <location>
+                     <geo>39.905499, 41.265824</geo>
+                     <note>Odierna Erzerum. Turchia orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Bisacalo">
+                  <placeName ref="#Bisacalo">Aşkale</placeName>
+                  <location>
+                     <geo>339.920188, 40.694704</geo>
+                     <note>Probabilmente Aşkale, distretto della provincia di Erzurum,
+                        Turchia.</note>
+                  </location>
+               </place>
+               <place xml:id="Susis">
+                  <placeName ref="#Susis">Susis</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Dal toponimo biblico "Susi" (Esther 1:2), corrispondente a Tabrīz.</note>
+                  </location>
+               </place>
+               <place xml:id="Geste">
+                  <placeName ref="#Geste">Yazd.</placeName>
+                  <location>
+                     <geo>31.897423, 54.356856</geo>
+                     <note>Yazd, capoluogo dell'omonima provincia iraniana.</note>
+                  </location>
+               </place>
+               <place xml:id="Conio">
+                  <placeName ref="#Conio">Kenareh.</placeName>
+                  <location>
+                     <geo>29.910968, 52.862080</geo>
+                     <note>Forse l'iraniana Kenareh, nella contea di Marvdasht (provincia di
+                        Fars).</note>
+                  </location>
+               </place>
+               <place xml:id="Hus">
+                  <placeName ref="#Hus">Us.</placeName>
+                  <location>
+                     <geo>31.318327, 48.670619</geo>
+                     <note>Denominazione biblica indicante la città di Us, patria di Giobbe (Job
+                        1:1). Identificazione incerta, forse l'iraniana Ahvāz, capoluogo della
+                        provincia del Khūzestān.</note>
+                  </location>
+               </place>
+               <place xml:id="Caldea">
+                  <placeName ref="#Caldea">Caldea.</placeName>
+                  <location>
+                     <geo>32.391690, 44.341584</geo>
+                     <note>Denominazione indicante la valle del Tigri e dell'Eufrate, anche sinonimo
+                        di Babilonia.</note>
+                  </location>
+               </place>
+               <place xml:id="mareOcciano">
+                  <placeName ref="#mare Occiano">Oceano Indiano.</placeName>
+                  <location>
+                     <geo>-33.137551, 81.826172</geo>
+                     <note>Oceano Indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Ormes">
+                  <placeName ref="#Ormes">Hormuz.</placeName>
+                  <location>
+                     <geo>27.092394, 56.451465</geo>
+                     <note>Isola di Hormuz, isola del Golfo Persico al centro dell'omonimo stretto,
+                        parte del territorio iraniano di Hormozgan.</note>
+                  </location>
+               </place>
+               <place xml:id="Tanna">
+                  <placeName ref="#Tana">Thana.</placeName>
+                  <location>
+                     <geo>19.218331, 72.978090</geo>
+                     <note>Thane (o Thana, Tanna), capoluogo del distretto omonimo, collocata
+                        nell'isola di Salsette, nello stato indiano del Maharashtra.</note>
+                  </location>
+               </place>
+               <place xml:id="Aldilo">
+                  <placeName ref="#Aldilo">Dehli.</placeName>
+                  <location>
+                     <geo>28.704059, 77.102490</geo>
+                     <note>Dehli, India.</note>
+                  </location>
+               </place>
+               <place xml:id="Polumbo">
+                  <placeName ref="#Aldilo">Kollam.</placeName>
+                  <location>
+                     <geo>8.893212, 76.614140</geo>
+                     <note>Kollam (o Quilon), capoluogo dell'omonimo distretto indiano, nello stato
+                        federato del Kerala.</note>
+                  </location>
+               </place>
+               <place xml:id="Çaiton">
+                  <placeName ref="#Çaiton">Quánzhōu.</placeName>
+                  <location>
+                     <geo>24.874050, 118.675830</geo>
+                     <note>Ch'üan-chou/Quánzhōu, centro portuale importante nella Cina
+                        meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="Minabar">
+                  <placeName ref="#Minabar">Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Malabar, regione costiera dell'India sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Fadina">
+                  <placeName ref="#Fadina">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città non identificata del Malabar, regione costiera dell'India
+                        sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cingalin">
+                  <placeName ref="#Cingalin">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città del Malabar indiano, forse corrispondente all'odierna Kodungallur
+                        (o Methala o Cranganur/Cranganore).</note>
+                  </location>
+               </place>
+               <place xml:id="Mabar">
+                  <placeName ref="#Mabar">Coromandel.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Coromandel, frangia costiera del sud-est della penisola indiana, negli
+                        stati del Tamil Nadu e dell'Andhra Pradesh.</note>
+                  </location>
+               </place>
+               <place xml:id="Lamen">
+                  <placeName ref="#Lamen">Lamreh.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Villaggio di Lamreh, sulla costa settentrionale di Sumatra. </note>
+                  </location>
+               </place>
+               <place xml:id="Selmetrio">
+                  <placeName ref="#Selmetrio">Sumatra.</placeName>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Antico regno di Sumatra, nella parte meridionale dell'isola.</note>
+                  </location>
+               </place>
+               <place xml:id="Botenigo">
+                  <placeName ref="#Botenigo">Indonesia.</placeName>
+                  <location>
+                     <geo>-0.789275, 113.921327</geo>
+                     <note>Località non identificata nell'arcipelago indonesiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Janua">
+                  <placeName ref="#Janua">Giava.</placeName>
+                  <location>
+                     <geo>-7.614529, 110.712246</geo>
+                     <note>Isola indonesiana di Giava (Jawa), tra Sumatra e Bali.</note>
+                  </location>
+               </place>
+               <place xml:id="Talamasin">
+                  <placeName ref="#Talamasin">talamasin.</placeName>
+                  <location>
+                     <note>Località non identificata.</note>
+                  </location>
+               </place>
+               <place xml:id="Çampa">
+                  <placeName ref="#Çampa"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Foço">
+                  <placeName ref="#Foço"/>
+                  <location>
+                     <geo>26.074508, 119.296494</geo>
+                     <note>Fuzhou, capitale della provincia del Fujian, nella Cina orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cunsai">
+                  <placeName ref="#Cunsai"/>
+                  <location>
+                     <geo>30.274085, 120.155070</geo>
+                     <note>Hangzhou, capitale della provincia cinese Zhejiang, sulla costa
+                        orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Chilenso">
+                  <placeName ref="#Chilenso">Nanchino.</placeName>
+                  <location>
+                     <geo>34.797260, 114.307310</geo>
+                     <note>Kāifēng (Nanchino),una città-prefettura nella provincia cinese dello
+                        Henan.</note>
+                  </location>
+               </place>
+               <place xml:id="Ianni">
+                  <placeName ref="#Ianni"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Cambellec">
+                  <placeName ref="#Cambellec"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Khanbaliq, nome turco dell'odierna Beijing/Pechino.</note>
+                  </location>
+               </place>
+               <place xml:id="Taido">
+                  <placeName ref="#Taido"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Città costruita nel 1267 a nordest di Khanbaliq e denominata Ta-tu,
+                        'grande capitale'.</note>
+                  </location>
+               </place>
+               <place xml:id="Gattaio">
+                  <placeName ref="#Gattaio"/>
+                  <location>
+                     <note>Catay, la Cina settentrionale (a nord del Fiume Giallo).</note>
+                  </location>
+               </place>
+               <place xml:id="Tibet">
+                  <placeName ref="#Tibet"/>
+                  <location>
+                     <geo>29.646923, 91.117212</geo>
+                     <note>Tibet, regione storico-geografica dell'Asia orientale, attualmente
+                        annessa dalla Cina.</note>
+                  </location>
+               </place>
+               <place xml:id="Milestert">
+                  <placeName ref="#Milestert"/>
+                  <location>
+                     <note>Toponimo inventato, derivante dalla corruzione dell'arabo "mulhid",
+                        'eretico'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ponto">
+                  <placeName ref="#Ponto"/>
+                  <location>
+                     <geo>45.301672, -73.220689</geo>
+                     <note>Regione storica nella zona nordorientale dell'Asia Minore</note>
+                  </location>
+               </place>
+               <place xml:id="Allesandria">
+                  <placeName ref="#Allesandria"/>
+                  <location>
+                     <geo>31.200092, 29.918739</geo>
+                     <note>Alessandria d'Egitto.</note>
+                  </location>
+               </place>
+               <place xml:id="Marcha">
+                  <placeName ref="#Marcha"/>
+                  <location>
+                     <geo>43.615830, 13.518915</geo>
+                     <note>La Marca Anconitana, dove si trova Tolentino.</note>
+                  </location>
+               </place>
+               <place xml:id="Mecha">
+                  <placeName ref="#Mecha"/>
+                  <location>
+                     <geo>21.389082, 39.857912</geo>
+                     <note>La Mecca, capoluogo dell'omonima provincia, nella regione dell'Hegiaz
+                        dell'attuale Arabia Saudita occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Somatra">
+                  <placeName ref="#Somatra"/>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Sumatra (o Sumatera), la terza isola più grande dell'arcipelago
+                        Indonesiano dopo Nuova Guinea e Borneo.</note>
+                  </location>
+               </place>
+               <place xml:id="Partain">
+                  <placeName ref="#Partain"/>
+                  <location>
+                     <geo>1.136704, 104.425753</geo>
+                     <note>Forse l'isola indonesiana di Bintain, a sud di Singapore.</note>
+                  </location>
+               </place>
+               <place xml:id="mareMorto">
+                  <placeName ref="#mare Morto">mar Morto.</placeName>
+                  <location>
+                     <geo>31.559029, 35.473189</geo>
+                  </location>
+               </place>
+               <place xml:id="Dodin">
+                  <placeName ref="#Dodin"/>
+                  <location>
+                     <note>Isola dell'Oceano Indiano di incerta localizzazione.</note>
+                  </location>
+               </place>
+               <place xml:id="Trevigi">
+                  <placeName ref="#Trevigi"/>
+                  <location>
+                     <geo>45.666889, 12.243044</geo>
+                     <note>Treviso, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Vinçenza">
+                  <placeName ref="#Vinçenza"/>
+                  <location>
+                     <geo>45.542487, 11.533628</geo>
+                     <note>Vicenza, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Çescalam">
+                  <placeName ref="#Çescalam"/>
+                  <location>
+                     <geo>23.129110, 113.264385</geo>
+                     <note>Attuale Canton (Guangzhou, grande città costiera del sud della Cina,
+                        capoluogo della provincia del Guangdong.</note>
+                  </location>
+               </place>
+               <place xml:id="Bologna">
+                  <placeName ref="#Bologna"/>
+                  <location>
+                     <geo>44.494887, 11.342616</geo>
+                  </location>
+               </place>
+               <place xml:id="Talaig">
+                  <placeName ref="#Talaig"/>
+                  <location>
+                     <geo>29.720415, 112.650141</geo>
+                     <note>Nome mongolo dello Yangtsze, il Fiume Azzurro.</note>
+                  </location>
+               </place>
+               <place xml:id="TerraPiemeorum">
+                  <placeName ref="#Terra Piemeorum"/>
+                  <location>
+                     <note>La 'terra dei Pigmei'.</note>
+                  </location>
+               </place>
+               <place xml:id="Cachan">
+                  <placeName ref="#Cachan"/>
+                  <location>
+                     <geo>37.111780, 79.913210</geo>
+                     <note>Forse Khotan, città del Turkestan cinese.</note>
+                  </location>
+               </place>
+               <place xml:id="Mençu">
+                  <placeName ref="#Mençu"/>
+                  <location>
+                     <geo>32.189590, 119.425000</geo>
+                     <note>Chen-kiang,città e porto fluviale della Cina, sulle rive dello
+                        Yangtze.</note>
+                  </location>
+               </place>
+               <place xml:id="Loncin">
+                  <placeName ref="#Loncin"/>
+                  <location>
+                     <geo>31.298974, 120.585297</geo>
+                     <note>Suzhou, città cinese che si trova nella provincia dello Jiangsu.</note>
+                  </location>
+               </place>
+               <place xml:id="Karamoran">
+                  <placeName ref="#Karamoran"/>
+                  <location>
+                     <geo>37.726962, 107.611922</geo>
+                     <note>Nome mongolo dello Huang He, il Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Po">
+                  <placeName ref="#Po"/>
+                  <location>
+                     <geo>44.919889, 9.718583</geo>
+                     <note>Fiume Po'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ferara">
+                  <placeName ref="#Ferara"/>
+                  <location>
+                     <geo>44.838124, 11.619787</geo>
+                     <note>Ferrara, Emilia Romagna, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Suçumaccho">
+                  <placeName ref="#Suçumaccho"/>
+                  <location>
+                     <geo>36.617290, 101.777820</geo>
+                     <note>Xīníng, capitale della provincia cinese di Qinghai.</note>
+                  </location>
+               </place>
+               <place xml:id="MonteVerde">
+                  <placeName ref="#Monte Verde"/>
+                  <location>
+                     <note>Rilievo collinare che, stando a Polo (Devisement dou Monde, LXXXIV 24),
+                        fu ricoperto di pietre verdi dal Gran Khan.</note>
+                  </location>
+               </place>
+               <place xml:id="Necoveran">
+                  <placeName ref="#Necoveran"/>
+                  <location>
+                     <geo>10.744887, 92.499992</geo>
+                     <note>Isole Nicobare, arcipelago dell'oceano indiano orientale, a sud-est del
+                        subcontinente indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Sillan">
+                  <placeName ref="#Sillan">Ceylon.</placeName>
+                  <location>
+                     <geo>7.873054, 80.771797</geo>
+                     <note>Isola di Ceylon, dal 1972 Repubblica Socialista Indipendente dello Sri
+                        Lanka.</note>
+                  </location>
+               </place>
+               <place xml:id="Chausun">
+                  <placeName ref="#Chausun"/>
+                  <location>
+                     <geo>34.341574, 108.939770</geo>
+                     <note>Xi'an, capoluogo della provincia dello Shaanxi nella Cina e città
+                        sub-provinciale.</note>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text n="2" xml:id="Appendice">
+      <body>
+         <div type="prologue" n="3" xml:id="pro3">
+            <head><title><hi rend="italics">[Prologo delle ’<supplied>[n]</supplied>frascripte
+                     meravilliose cose che’l preditto frate <persName ref="#Odorigo"
+                        >Odorigo</persName> avea lasate di fare scrivere. </hi></title></head>
+            <ab n="1" xml:id="com000.1">Per cagione ke’l ditto frate Odorigo disse a boca molte
+               meravilliose cose ch’avea trovate, vedute e udite da persone degne di fede ne’ ditti
+               paesi ov’elli era stato, le quali sono senpre in questo libro o per brevità o per
+               honestà o per dimenticança o per altra cagione, ònne scripte qui appresso alquante
+               ch’io li udii dire uno die una sera ch’io fui co‧llui a Santo Francesco delle Vingne,
+               luogo de’ frati minori di Vinegia, stando a cena a lato a llui mangiando con lui a
+               uno tallieri con molti altri relegiosi e seculari in quelli dì k’elli tornò de ditti
+               paesi.</ab>
+         </div>
+         <div type="Chapter" n="I" xml:id="chap.I">
+            <ab n="1" xml:id="comI.1">Sopra quello k’è scripto nel sedecimo capitolo della nave ke
+               avea VIIc huomini, nella quale andò nell’India <pb n="97rb" corresp="Co_fol_97rb"
+                  facs="data\images\single\Co_fol_97r.png"/>[f. 97rb] Superiore, agiunse e disse ke
+               lla ditta nave avea XVIII vele: le quattro, overo cinque erano le principali e
+               magiori ke l’autre, e aveavi su cinquecento kamere.</ab>
+            <ab n="2" xml:id="comI.2">E andòvi su sei mesi continui.</ab>
+            <ab n="3" xml:id="comI.3">E su questa nave cercò, a<supplied>[n]</supplied>dando per
+               mare, grande parte di quelli paesi.</ab>
+            <ab n="4" xml:id="comI.4">E disse ke quello mare non è tempestoso com’è il nostro di
+               qua, né fortunevole, ançi è tranquillo e bonaccievole.</ab>
+            <ab n="5" xml:id="comI.5">E disse ke, essendo su questa nave, capità a una ysola e quine
+               presero porto.</ab>
+            <ab n="6" xml:id="comI.6">E di questa nave smontaro in terra XIIII huomini e andoro in
+               uno bosco k’era in quella ysola.</ab>
+            <ab n="7" xml:id="comI.7">E subitamente uscirono loro adosso huomini salvatichi ke
+               abitavano in questo bosco, ke aveano una testa dinançi a modo di huomo e dietro a
+               modo di kane. </ab>
+            <ab n="8" xml:id="comI.8">E uccisero e divorarono X de’ ditti huomini k’erano smontati
+               della nave; e lli quattro fugiro loro dinançi e scamparono nella nave.</ab>
+            <ab n="91" xml:id="comI.9">E da costoro seppe queste novelle e altramente no‧lle
+               vidde.</ab>
+         </div>
+         <div type="Chapter" n="II" xml:id="chap.II">
+            <ab n="1" xml:id="comII.1"><pb n="97va" corresp="Co_fol_97va"
+                  facs="data\images\single\Co_fol_97v.png"/> [f. 97va] Tornando io a casa la sera
+               poi k’avemo cenato co uno mercatante veniçano disse ragionando insieme delle
+               meravilliose cose k’avamo udite da frate Odorigo, mi disse questo veniçano k’avea
+               veduto al Torissi uno huomo morto inbalsamato grande come uno garçone ke avea la
+               testa dinançi a modo di huomo e dietro a modo di kane come avea ditto frate
+               Odorigo.</ab>
+         </div>
+         <div type="Chapter" n="III" xml:id="chap.III">
+            <ab n="1" xml:id="comIII.1">Sopra quello k’è scripto nel XVIII capitolo, di Polunbo, ove
+               quando muore lo marito sì l’ardono co lla mollie viva, disse ke fanno per questo
+               modo: ke lla mollie, quando si va ad ardere, è vestita e adornata molto
+               honorevolmente, tutta coperta di fiori, accompangnata da molta gente. </ab>
+            <ab n="2" xml:id="comIII.2">E con molti stormenti ella va cantando e ballando in meço di
+               questa gente fine a una piaçça.</ab>
+            <ab n="3" xml:id="comIII.3">E quine è fatta una gran katasta e monte di legna, ed ella
+               vi monta su e siedevi su una sedia, e‧l marito morto l’è messo in grenbo.</ab>
+            <ab n="4" xml:id="comIII.4">E poi è messo fuoco in <pb n="97vb" corresp="Co_fol_97vb"
+                  facs="data\images\single\Co_fol_97v.png"/>[f. 97vb] queste legne, e arde e muore
+               la mollie viva col marito morto.</ab>
+            <ab n="5" xml:id="comIII.5">E se lla mollie, no avendo filliuoli, no volesse per questo
+               modo morire col marito, serebbe tenuta adultera e vitoperata tra quella gente.</ab>
+         </div>
+         <div type="Chapter" n="IV" xml:id="chap.IV">
+            <ab n="1" xml:id="comIV.1">Sopra quello k’è scripto nel XX capitolo, dell’isola Lamen,
+                  ag<supplied>[i]</supplied>unse e disse ke, volendo smontare in terra della ditta
+               nave e andare in una città habiitata molto popolata, dubitando di smontare perké
+               aveano inteso ke pilliavano li huomini strani ke vi capitavano e mangiava‧li,
+               domandaro fidança al singnore della terra, ed elli mandò loro suoi ambasciadori
+               huomini tutti nudi sença nulla cosa indosso.</ab>
+            <ab n="2" xml:id="comIV.2">E venendo elli a lloro sulla nave, vedendoli tutti vestiti,
+               ed ellino per vergongna della loro nudità si missero lo lor membro da generare tra
+               lle coscie, sì che facevan la fica dietro, di ke, tutti quelli della nave cominciaro
+               a ridere.</ab>
+            <ab n="3" xml:id="comIV.3">Questi ambasciadori li fidaro da parte del singnore.</ab>
+            <ab n="4" xml:id="comIV.4">Poi fra<pb n="98ra" corresp="Co_fol_98ra"
+                  facs="data\images\single\Co_fol_98r.png"/>[f. 98ra]te Hodorigo e molti ke erano
+               sulla nave smontaro in terra e andaro veggendo la terra.</ab>
+            <ab n="5" xml:id="comIV.5">Videro ke tutti erano nudi, maschi e femine, e faceasi beffe
+               di loro perké erano vestiti.</ab>
+            <ab n="6" xml:id="comIV.6">E vide la beccharia ove si vende la carne, così la carne
+               delli huomini e femine e fanciulli talliata a peççi e vedere per mangiare come quella
+               delle bestie insieme l’una coll’autra.</ab>
+            <ab n="7" xml:id="comIV.7">E questa carne humana era di gente loro e nemica, k’aveano
+               presa o di schiavi della autra India k’aveano comprati per uccidere e per mangiare la
+               loro carne come quella delle bestie.</ab>
+         </div>
+         <div type="Chapter" n="V" xml:id="chap.V">
+            <ab n="1" xml:id="comV.1">Sopra quello k’è scripto nel XXIII capitolo della contrada
+               Talamassin, disse ke v’à albori ke producono sevo per questo modo.</ab>
+            <ab n="2" xml:id="comV.2">Sono albori ke fanno frutti a modo di ciriegie con noccioli
+               dentro.</ab>
+            <ab n="3" xml:id="comV.3">Quando sono maturi dive<supplied>[n]</supplied>tano bianchi,
+               colgo‧lli e cavande quelli noccioli e poi li frutti fanno quocere in caldaie al
+               fuoco; e quelli si stemperano e squalliano.</ab>
+            <ab n="4" xml:id="comV.4">E quando <pb n="98rb" corresp="Co_fol_98rb"
+                  facs="data\images\single\Co_fol_98r.png"/>[f. 98rb] sono stemperati doventano
+               sevo, e di quello sevo s’adopera per tutta Ydia nelli loro bisogni.</ab>
+         </div>
+         <div type="Chapter" n="VI" xml:id="chap.VI">
+            <ab n="1" xml:id="comVI.1">Sopra quello k’è scripto nel soprascritto XXIII capitolo, ove
+               dice ke sono canne grandi come albori, disse k’erano si grandi, grosse, ke fendendole
+               per meçço da ll’uno nodo a l’autro, si passerebbe nella meçça uno fiume a modo come
+               in una barcha.</ab>
+         </div>
+         <div type="Chapter" n="VII" xml:id="chap.VII">
+            <ab n="1" xml:id="comVII.1">E disse ke vidde cuoio di serpente ke ssi andava ve[n]dendo,
+               k’era largo più di braccia sei. </ab>
+            <ab n="2" xml:id="comVII.2">E disse ke vidde uccelli grifoni, overo delle loro penne ke
+               sono molto gra<supplied>[n]</supplied>di e meravilliose ; e ke era fatto come si
+               dipinge. </ab>
+            <ab n="3" xml:id="comVII.3">E che l’uccello grifone è il maggiore animale ke sia sopra
+               la terra.</ab>
+         </div>
+         <div type="Chapter" n="VIII" xml:id="chap.VIII">
+            <ab n="1" xml:id="comVIII.1">E disse k’era stato tra genti ke avea veduto mangiare i
+               pidocchi.</ab>
+            <ab n="2" xml:id="comVIII.2">E in fermeçça di ciò, dico k’io trovai scripto in uno libro
+               ke si chiama “Lo speculo de’ re di Francia”, ke frati minori k’erano andati in India
+               al Gran<pb n="98va" corresp="Co_fol_98va" facs="data\images\single\Co_fol_98v.png"
+               />[f. 98va]de Cane, infra molte novità ke contavano di quella gente e di quello paese
+               ke aveano trovate e vedute, contavano ke aveano veduto colli loro propri occhi
+               mangiare li pidocchi humani sença abbominatione a quella gente.</ab>
+            <ab n="3" xml:id="comVIII.3">E disse ck’era stato tra genti, ke lle femine si studiavano
+               con ogni argomento ke possono di fare li piedi piccioli.</ab>
+            <ab n="4" xml:id="comVIII.4">E quella femmina ke lli à minori è riputata più nobile e
+               più gentile ed è più honorata da lloro.</ab>
+            <ab n="5" xml:id="comVIII.5">E àvi di quelle ke ll’ànno sì piccioli ke no vi si
+               sostengono suso.</ab>
+            <ab n="6" xml:id="comVIII.6">Disse ke trovò huomini che con ogni argomento si
+               procuravano d’avere l’unghie del dito grosso delle mani,
+               d’a<supplied>[m]</supplied>dordue overo dell’una, grande e talvolta a modo
+               d’uccello.</ab>
+            <ab n="7" xml:id="comVIII.7">E questi erano tra loro reputati più nobile che lli
+               autri.</ab>
+         </div>
+         <div type="Chapter" n="IX" xml:id="chap.IX">
+            <ab n="1" xml:id="comIX.1">E disse ke fue in una co<supplied>[n]</supplied>trada e paese
+               ke lla gente v’è pessima e ke, se ll’uomo non è bene reo tra lloro di fare grandi
+               mali, no lli fanno honore e no vi truova mollie.</ab>
+            <ab n="2" xml:id="comIX.2">E quando <pb n="98vb" corresp="Co_fol_98vb"
+                  facs="data\images\single\Co_fol_98v.png"/>[f. 98vb] maggiori mali fae, tanto li
+               fanno magiori honori, ed à maggiore e più honorevile mollie.</ab>
+            <ab n="3" xml:id="comIX.3">Quando lo giovane vuole pilliare mollie, vae al padre di
+               quella giovane ke vuole pilliare per mollie, e diceli: «Io vorrei ke tu mi dessi la
+               tua filliuola per mollie».</ab>
+            <ab n="4" xml:id="comIX.4">Ed elli risponde: «Tu non ài fatto quello per ke tu sei degno
+               d’averla per mollie». </ab>
+            <ab n="5" xml:id="comIX.5">E quelli, intendendo quello ke vuole dire, per l’usança si
+               parte e va fuori dell terra e cerca uno giovane o altro qual truova milliore, e
+               assalliscelo e uccidelo.</ab>
+            <ab n="6" xml:id="comIX.6">E quando l’à morto, sì lli tallia lo menbro da generare con
+               tutta la borsa e lle partegnentie, e pollo su uno tallieri e presentalo alla
+               filliuola del padre, la quale elli intende d’avere per mollie.</ab>
+            <ab n="7" xml:id="comIX.7">Il padre prende questo presente e fallo insalare e acconciare
+               che no si corompa, e fane una corona alla filliuola e dalla per mollie a questo
+               giovane ke àe fatto questo homicidio.</ab>
+            <ab n="8" xml:id="comIX.8">E lla filliuola porta in capo questa corona <pb n="99ra"
+               corresp="Co_fol_99ra" facs="data\images\single\Co_fol_99r.png"/>[f. 99ra] per
+               ornamento e onore, come le donne portano le corone come usança.</ab>
+         </div>
+         <div type="Chapter" n="X" xml:id="chap.X">
+            <ab n="1" xml:id="comX.1">E disse ke fue in una terra popolata di molta gente ke usano
+               di fare spulcelare le loro filiuole a huomini forestieri, e poi le maritano tra
+               lloro.</ab>
+            <ab n="2" xml:id="comX.2">E quanto più è strano e religioso, più lo tolgono
+               volentieri.</ab>
+            <ab n="3" xml:id="comX.3">E quando alcuno forestieri di questi vi cpita, è pregato dal
+               padre che vengna a spulcellare la filiola.</ab>
+            <ab n="4" xml:id="comX.4">E questo frate Hodorigo disse ke fue pregato da uno di quelli
+               huomini molto strettamente ke venisse a spulcellare la filliuola.</ab>
+            <ab n="5" xml:id="comX.5">Ed elli, negandoli dicendo k’era religioso, dicendo ke no‧lli
+               era licito, ke pure l’udire sì fatte parole li era grande abominatione, e quelli
+               continuo lo ripregava dicendo ke lla mariterebbe poi mellio e più tosto.</ab>
+            <ab n="6" xml:id="comX.6">E molto si partìo sconsolato perké no‧l volle servire di
+               ciòe.</ab>
+         </div>
+         <div type="Chapter" n="XI" xml:id="chap.XI">
+            <ab n="1" xml:id="comXI.1">Disse ke andando per quelli paesi, vide andare lo Grande Kane
+               da uno paese <pb n="99rb" corresp="Co_fol_99rb"
+                  facs="data\images\single\Co_fol_99r.png"/>[f. 99rb] a un altro per lo modo ke
+               conta nel XXXVIIII capitolo.</ab>
+            <ab n="2" xml:id="comXI.2">E disse k’erano co‧llui XXXM Giorgiani a kvallo, i quali sono
+               cristiani di cintura, ke per baptesmo si fanno incendere il viso con fuoco con ferro
+               kaldo a modo di croce o in altro modo.</ab>
+            <ab n="3" xml:id="comXI.3">Questi Giorgiani sono fortissimi e galliardiddimi kavalieri
+               da essere prima morti ke vinti.</ab>
+            <ab n="4" xml:id="comXI.4">Sono molto amati e honorati dal Grande Cane e a costoro
+               commette la guardia della sua persona più ke ad altra gente ke sia intorno a
+               llui.</ab>
+            <ab n="5" xml:id="comXI.5">Questo frate Hodorigo era con molti cristiani religiosi e
+               secolari, tra’ quali aveva uno vescovo cristiano, e portavano co‧lloro la croce, e’l
+               crucifsso colla bandiera su un’asta.</ab>
+            <ab n="6" xml:id="comXI.6">Come viddero il Gran Cane, li fecero incontro per farli
+               reverença.</ab>
+            <ab n="7" xml:id="comXI.7">Come il Gran Cane li vidde, e vidde la croce col crocifisso
+                  <persName ref="#Cristo">Cristo</persName>, incontenente discese della sua sedia e
+               ginocchioni fece reverentia alla croce di <persName ref="#Cristo"
+               >Cristo</persName>.</ab>
+            <ab n="8" xml:id="comXI.8">E stette uno peçço in oratione <pb n="99va"
+               corresp="Co_fol_99va" facs="data\images\single\Co_fol_99v.png"/>[f. 99va]
+               percotendo spesso il capo e lla fronte intera com’è loro
+               usa<supplied>[n]</supplied>ça quando fanno honore a Dio.</ab>
+            <ab n="9" xml:id="comXI.9">E poi si levò.</ab>
+            <ab n="10" xml:id="comXI.10">E questo vescovo con questi altri cristiani s’appressaro al
+               Gran Cane e presentarli in una taffaria uve passe e dattali e altre frutti e
+               speçarie.</ab>
+            <ab n="11" xml:id="comXI.11">Questi ne prese e mangiòne uno poco mostrando di far karità
+               con loro per amore e averli in sua graçia , e rendéla loro.</ab>
+            <ab n="12" xml:id="comXI.12">E questo vescovo disse certe orationi pregando Dio per lo
+               Gran Cane, e sengnòllo del sengno della croce.</ab>
+            <ab n="13" xml:id="comXI.13">E’l Gram Cane si partìo e andò in suo viaggio.</ab>
+            <ab n="14" xml:id="comXI.14">E frate Hodorigo e lli a[l]tri k’erano con lui stettero a
+               vedere passare la grandissima gente ke andav col Grande Kane.</ab>
+            <ab n="15" xml:id="comXI.15">Poi, dipo’l Grande Kane vennero i ditti XXXM Giorgiani a
+               kavallo.</ab>
+            <ab n="16" xml:id="comXI.16">Costoro. Come videro l’ansengna della croce e del
+               crocifisso <persName ref="#Cristo">Cristo</persName>, incontenente subitamente fuoro
+               tutti a uno tratto smontati da kavallo e gittarsi in terra adorando il crocifisso con
+               grandi voci e reverença.</ab>
+            <ab n="17" xml:id="comXI.17">E stati ke fuorono <pb n="99vb" corresp="Co_fol_99vb"
+                  facs="data\images\single\Co_fol_99v.png"/>[f. 99vb] uno poco in oratione, lo
+               vescovo li segnò e benedisse.</ab>
+            <ab n="18" xml:id="comXI.18">E costoro si levaro e montaro a kavallo e seguiro lo grande
+               Kane.</ab>
+            <ab n="19" xml:id="comXI.19">E frate Hodorigo e’ suoi andorono in loro viaggio.</ab>
+         </div>
+         <div type="Chapter" n="XII" xml:id="chap.XII">
+            <ab n="1" xml:id="comXII.1">E disse ke lli Indiani scriveano in svariato e strano modo
+               da tutte l’autre genti del mondo, cioè da alto in basso, così: BANDINO.</ab>
+            <ab n="2" xml:id="comXII.2">Li cristiani scrivono di mano sinistra in destra così:
+               bandino.</ab>
+            <ab n="3" xml:id="comXII.3">Li Ebrei cioè i Giuei scrivono di destra in sinistra per
+               questo modo: ondinaB.</ab>
+         </div>
+         <div type="Chapter" n="XIII" xml:id="chap.XIII">
+            <ab n="1" xml:id="comXIII.1">Sopra quello k’è scritto nel XXIII capitolo, ove dice ke
+               nella contrada Talamasin àe ysole ove si truovano albori ke fanno veleno k’è il pigio
+               tossico ke sia al mondo, al quale no si truova rimedio se no ke si prende sterco di
+               uomo e stemperasi co aqqua e be’si e incontenente è liberato, disse ke i corsali di
+               quella contrada, quando combatteno alcuna nave o altro navillio, per pilliarlo e
+               rubarlo <pb n="100ra" corresp="Co_fol_100ra" facs="data\images\single\Co_fol_100r.png"
+               />[f. 100ra]sì ànno balestri, e su questi balestri mettono aghi i quali sono bagnati
+               in questo veleno, e balestralli alle persone ke difendono la nave per ucciderli e
+               pilliare la nave e rubbarla.</ab>
+            <ab n="2" xml:id="comXIII.2">E disse ke, essendo sulla preditta nave fuoro assalliti da
+               preditti corsali, e fuoro loro balestrati de’ ditti aghi avelenati.</ab>
+            <ab n="3" xml:id="comXIII.3">Ed ellino, congnoscendoli, ebbono apparecchiate molte
+               scodelle di sterco d’uomo stemperato con aqqua, e puosele su la coverta della nave,
+               acciò ke chi fosse fedito da quelli aghi avelenati ne potesse bere ed essere liberato
+               dal veleno.</ab>
+            <ab n="4" xml:id="comXIII.4">E disse ke vidde bere a più di loro k’erano fediti
+               d’aquelli aghi, e con tanto desiderio lo beveano per essere liberati da quello
+               veleno, ke no parea ke ll’avessoro in abominatione né se ne curassero.</ab>
+            <ab n="5" xml:id="comXIII.5">E adesso ke l’ebbero bevuto, fuoro liberi perfettamente dal
+               ditto veleno.</ab>
+         </div>
+         <div type="Chapter" n="XIV" xml:id="chap.XIV">
+            <ab n="1" xml:id="comXIV.1">E mostròcci uno peçço di karta a modo ke sono le carte
+               nostre di banbagio sa scrivere, k’era più lungo ke <pb n="100rb"
+                  corresp="Co_fol_100rb" facs="data\images\single\Co_fol_100r.png"/>[f. 100rb] largo,
+               e aveavi suso alcuni segni overo karattari ke disse ke earno lettere ke’l Grande Cane
+               v’avea fatte fare. </ab>
+            <ab n="2" xml:id="comXIV.2">E disse ke ll’avea regato d’India del paese del Gran
+               Cane.</ab>
+            <ab n="3" xml:id="comXIV.3">E disse ke questa carta era moneta ke correa nello inpero
+               del Grane Kane, né altra moneta no vi correa ke queste carte; e ke queste karte vi
+               sono minori e maggiori, e lla minore vi corre e si spende per minor pregio, e lla
+               magiore per magiore pregio secondo ke’l Gran Cane àe ordinato.</ab>
+            <ab n="4" xml:id="comXIV.4">E di questa moneta paga il Grande Kane tutti suoi soldati. </ab>
+            <ab n="5" xml:id="comXIV.5">E tolle l’argento e ll’oro ke ànno.</ab>
+            <ab n="6" xml:id="comXIV.6">E nullo, né terriero né forestieri, n’osa avere né tenere né
+               oro né argento in pena della vita, adesso ke lla covien ke’l porti al Gran Kane.</ab>
+            <ab n="7" xml:id="comXIV.7">E quando mercantanti o altre persone ve’l portano, è dato
+               loro per li officiali del Grande Kane la detta moneta delle carte in iniscambio
+               dell’oro e dell’argento ke danno.</ab>
+            <ab n="8" xml:id="comXIV.8">E tutte mercantie e cose ke vollion comprare sono lor
+               vendute e date per le ditte carte.</ab>
+            <ab n="9" xml:id="comXIV.9">In <pb n="100va" corresp="Co_fol_100va"
+                  facs="data\images\single\Co_fol_100v.png"/>[f. 100va] tutto lo
+                  ’<supplied>[m]</supplied>perio del Gran Kane.</ab>
+            <ab n="10" xml:id="comXIV.10">Grande Kane è tanto a dire nella lor lingua quanto grande
+               imperadore nella nostra lingua.</ab>
+         </div>
+         <div type="Chapter" n="XV" xml:id="chap.XV">
+            <ab n="1" xml:id="comXV.1">Sopra quello k’è scripto nel XXXII capitolo, di Cunsai, disse
+               k’avea più gente ke tutta Ytalia.</ab>
+            <ab n="2" xml:id="comXV.2"/>
+            <ab n="3" xml:id="comXV.3"/>
+            <ab n="4" xml:id="comXV.4"/>
+            <ab n="5" xml:id="comXV.5"/>
+            <ab n="6" xml:id="comXV.6"/>
+            <ab n="7" xml:id="comXV.7"/>
+            <ab n="8" xml:id="comXV.8"/>
+            <ab n="9" xml:id="comXV.9"/>
+         </div>
+         <div type="Chapter" n="XVI" xml:id="chap.XVI">
+            <ab n="1" xml:id="comXVI.1"/>
+            <ab n="2" xml:id="comXVI.2"/>
+            <ab n="3" xml:id="comXVI.3"/>
+            <ab n="4" xml:id="comXVI.4"/>
+            <ab n="5" xml:id="comXVI.5"/>
+            <ab n="6" xml:id="comXVI.6"/>
+            <ab n="7" xml:id="comXVI.7"/>
+            <ab n="8" xml:id="comXVI.8"/>
+            <ab n="91" xml:id="comXVI.9"/>
+         </div>
+      </body>
+   </text>
+</TEI>

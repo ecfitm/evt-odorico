@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="Odorico_Critical">
+               <hi rend="italics">Libro delle nuove e strane e meravigliose cose</hi>Edizione
+               critica.</title>
+            <author>Odorico da Pordenone OMin.</author>
+            <respStmt xml:id="AAndreose">
+               <resp>Edizione</resp>
+               <persName>Alvise Andreose</persName>
+            </respStmt>
+            <respStmt xml:id="IReginato">
+               <resp>Edizione e codifica</resp>
+               <persName>Irene Reginato</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <p>Portale dedicato ai volgarizzamenti italiani della <title xml:lang="latin"><hi
+                     rend="italic">Relatio de mirabilibus Orientalium Tatarorum</hi>di <persName
+                     ref="#Odorigo">Odorico da Pordenone OMin.</persName></title></p>
+
+         </publicationStmt>
+         
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="CO">Firenze, Biblioteca Nazionale Centrale, Conventi Soppressi
+                     C.7.1170.<note>Ms. base.</note></witness>
+               <witness xml:id="UR">Città del Vaticano, Biblioteca Apostolica Vaticana, Urbinate
+                  Lat. 1013.</witness>
+               <witness xml:id="M">Venezia, Biblioteca Nazionale Marciana, ms. it. cl. XI n° 32
+                  (6672).</witness>
+               <witness xml:id="An">Roma, Biblioteca Angelica, ms. n° 2212.</witness>
+               <witness xml:id="Ba">Città del Vaticano, Biblioteca Apostolica Vaticana, Barberiniano
+                  lat. 4048. </witness>
+               <witness xml:id="Lu">Lucca, Biblioteca Statale, ms. 1296 (<hi rend="italic">olim</hi>
+                  Lucchesini 26).</witness>
+               <witness xml:id="Man">Mantova, Biblioteca Comunale, ms. 448 <hi rend="italic"
+                     >olim</hi> E.I.10). </witness>
+               <witness xml:id="Va">Città del Vaticano, Biblioteca Apostolica Vaticana,Conventi
+                  Soppressi C.7.1170.</witness>
+            </listWit>  
+            
+            <listPerson>
+               <person xml:id="Odorigo">
+                  <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
+                        >Pordenone</placeName> O.M.</persName>
+               </person>
+               <person xml:id="Noé">
+                  <persName ref="#Noé">Noé, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Job">
+                  <persName ref="#Job">Giobbe, patriarca idumeo protagonista del libro
+                     omonimo.</persName>
+               </person>
+               <person xml:id="Tome">
+                  <persName ref="#Tome">Tommaso, detto Didimo, uno dei dodici apostoli di
+                     Cristo.</persName>
+               </person>
+               <person xml:id="PrestoGiovanni">
+                  <persName ref="#NPresto Giovanni">Prete Gianni, leggendario sovrano cristiano che
+                     la tradizione medievale colloca in Asia, India o Etiopia.</persName>
+               </person>
+               <person xml:id="Francesco">
+                  <persName ref="#Francesco">San Francesco d'Assisi.</persName>
+               </person>
+               <person xml:id="Atanaxio">
+                  <persName ref="#Atanaxio">Atanasio l'Atonita, o Atanasio di Trebisonda (X sec.),
+                     monaco bizantino fondatore della Repubblica del Monte Athos.</persName>
+               </person>
+               <person xml:id="Porro">
+                  <persName ref="#Porro">Poro (IV sec.), sovrano della dinastia dei Paurava,
+                     nell'antica India nord-occidentale.</persName>
+               </person>
+               <person xml:id="Allessandro">
+                  <persName ref="#Allessandro">Alessandro Magno.</persName>
+               </person>
+               <person xml:id="TommasodiTollentino">
+                  <persName ref="#Tommaso di Tollentino">Tommaso da Tolentino (m. Tana, 1321),
+                     missionario francescano martire in India.</persName>
+               </person>
+               <person xml:id="JacopodaPadoa">
+                  <persName ref="#Jacopo da Padoa">Giacomo da Padova (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="DimetrideTofilii">
+                  <persName ref="#DimetrideTofilii">Demetrio da Tiblisi (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="PietrodaSiena">
+                  <persName ref="#Pietro da Siena">Pietro da Siena (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="Magometo">
+                  <persName ref="#NMagometo">Muhammad, profeta dell'Islam.</persName>
+               </person>
+               <person xml:id="Abraam">
+                  <persName ref="#Abraam">Abramo, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Cristofano">
+                  <persName ref="#Cristofano">San Cristoforo (m. 250).</persName>
+               </person>
+               <person xml:id="Adam">
+                  <persName ref="#Adam">Adamo.</persName>
+               </person>
+               <person xml:id="AntoniodaPadua">
+                  <persName ref="#Antonio da Padua">Sant'Antonio da Padova.</persName>
+               </person>
+               <person xml:id="Eva">
+                  <persName ref="#Eva">Eva.</persName>
+               </person>
+               <person xml:id="Vecchiodellamontagna">
+                  <persName ref="#Vecchio della montagna">Ḥasan-i Ṣabbāḥ, maestro della setta
+                     ismailita dei nizariti.</persName>
+               </person>
+               <person xml:id="Cristo">
+                  <persName ref="#Cristo">Gesù Cristo</persName>
+               </person>
+            </listPerson>
+         
+            <listPlace>
+               <place xml:id="Pordenone">
+                  <placeName ref="#Pordenone">Pordenone</placeName>
+                  <location>
+                     <geo>45.956368, 12.661452</geo>
+                  </location>
+                  <note>Pordenone, Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Tollentino">
+                  <placeName ref="#Tollentino">Tolentino</placeName>
+                  <location>
+                     <geo>43.211178, 13.286336</geo>
+                  </location>
+                  <note>Tolentino (MC), Marche, Italia.</note>
+               </place>
+               <place xml:id="Padoa">
+                  <placeName ref="#Padoa">Padova</placeName>
+                  <location>
+                     <geo>45.406435, 11.876761</geo>
+                  </location>
+                  <note>Padova, Veneto, Italia.</note>
+               </place>
+               <place xml:id="Tofilii">
+                  <placeName ref="#Tofilii">Tblisi</placeName>
+                  <location>
+                     <geo>41.715138, 44.827096</geo>
+                  </location>
+                  <note>Tblisi, capitale della Georgia.</note>
+               </place>
+               <place xml:id="Siena">
+                  <placeName ref="#Siena">Tblisi</placeName>
+                  <location>
+                     <geo>43.318809, 11.330757</geo>
+                  </location>
+                  <note>Siena, Toscana, Italia.</note>
+               </place>
+               <place xml:id="Friuli">
+                  <placeName ref="#Friuli">Friuli</placeName>
+                  <location>
+                     <geo>46.225918, 13.103365</geo>
+                  </location>
+                  <note>Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Ytalia">
+                  <placeName ref="#Ytalia">Italia</placeName>
+                  <location>
+                     <geo>441.871940, 12.567380</geo>
+                  </location>
+               </place>
+               <place xml:id="Vinegia">
+                  <placeName ref="#Vinegia">Venezia</placeName>
+                  <location>
+                     <geo>45.440847, 12.315515</geo>
+                     <note>Venezia, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Pisa">
+                  <placeName ref="#Pisa">Pisa</placeName>
+                  <location>
+                     <geo>43.724591, 10.382981</geo>
+                     <note>Pisa, Toscana, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Udine">
+                  <placeName ref="#Udine">Udine</placeName>
+                  <location>
+                     <geo>46.071067, 13.234579</geo>
+                     <note>Udine, Friuli Venezia Giulia, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Trapesonda">
+                  <placeName ref="#Trapesonda">Trebisonda (Trabzon)</placeName>
+                  <location>
+                     <geo>41.002697, 39.716763</geo>
+                     <note>Città della Turchia, capoluogo dell'omonima provincia, sulla costa
+                        nord-orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="ArmeniaMaggiore">
+                  <placeName ref="#Armenia Maggiore"/>
+                  <location>
+                     <geo>40.069099, 45.038189</geo>
+                  </location>
+                  <note>Storicamente, l'Armenia Maggiore coincide con la regione caucasica
+                     delimitata, a nord, dalla valle del Kura (Turchia) a Nord, a sud dal lago di
+                     Van (Turchia orientale), a ovest dalla Colchide (Georgia occidentale), a est
+                     dal mar Caspio.</note>
+               </place>
+               <place xml:id="Torissi">
+                  <placeName ref="#Torissi">Tabriz</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Tabrīz, capoluogo della provincia dell’Azarbaijian.</note>
+                  </location>
+               </place>
+               <place xml:id="Soldania">
+                  <placeName ref="#Soldania"/>
+                  <location>
+                     <geo>36.433988, 48.794642</geo>
+                     <note>Soltaniyeh/Sulṭāniyyah, città iraniana nella provincia di Zanjan, a
+                        nordovest di Teheran.</note>
+                  </location>
+               </place>
+               <place xml:id="Persia">
+                  <placeName ref="#Persia">Persia</placeName>
+                  <location>
+                     <geo>32.427908, 53.688046</geo>
+                     <note>Persia, Iran.</note>
+                  </location>
+               </place>
+               <place xml:id="Cassam">
+                  <placeName ref="#Cassam">Kāshān</placeName>
+                  <location>
+                     <geo>33.991035, 51.423541</geo>
+                     <note>Kāshān, città iraniana nella provincia di Esfahan. </note>
+                  </location>
+               </place>
+               <place xml:id="SecondaYndia">
+                  <placeName ref="#Seconda Yndia">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana, la
+                        "Seconda Yndia" di Odorico indica l'India propriamente detta, ch'egli
+                        situava nella regione dal Golfo Persico al Vietnam meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="IndiaSuperiore">
+                  <placeName ref="#India Superiore">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana,
+                        Odorico indica con "India Superiore" le regioni della Cina meridionale a sud
+                        del Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Grandemare">
+                  <placeName ref="#Grande mare">mar Nero.</placeName>
+                  <location>
+                     <geo>43.413029, 34.299316</geo>
+                  </location>
+               </place>
+               <place xml:id="Çanega">
+                  <placeName ref="#Çanega">Zigana</placeName>
+                  <location>
+                     <geo>40.623056, 39.377778</geo>
+                     <note>Passo di Zigana,valico montano situato sui Monti Pontici nella provincia
+                        di Gümüşhane, vicino al confine con Trebisonda, nella Turchia
+                        nord-orientale. </note>
+                  </location>
+               </place>
+               <place xml:id="Açiron">
+                  <placeName ref="#Açiron">Erzerum</placeName>
+                  <location>
+                     <geo>39.905499, 41.265824</geo>
+                     <note>Odierna Erzerum. Turchia orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Bisacalo">
+                  <placeName ref="#Bisacalo">Aşkale</placeName>
+                  <location>
+                     <geo>339.920188, 40.694704</geo>
+                     <note>Probabilmente Aşkale, distretto della provincia di Erzurum,
+                        Turchia.</note>
+                  </location>
+               </place>
+               <place xml:id="Susis">
+                  <placeName ref="#Susis">Susis</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Dal toponimo biblico "Susi" (Esther 1:2), corrispondente a Tabrīz.</note>
+                  </location>
+               </place>
+               <place xml:id="Geste">
+                  <placeName ref="#Geste">Yazd.</placeName>
+                  <location>
+                     <geo>31.897423, 54.356856</geo>
+                     <note>Yazd, capoluogo dell'omonima provincia iraniana.</note>
+                  </location>
+               </place>
+               <place xml:id="Conio">
+                  <placeName ref="#Conio">Kenareh.</placeName>
+                  <location>
+                     <geo>29.910968, 52.862080</geo>
+                     <note>Forse l'iraniana Kenareh, nella contea di Marvdasht (provincia di
+                        Fars).</note>
+                  </location>
+               </place>
+               <place xml:id="Hus">
+                  <placeName ref="#Hus">Us.</placeName>
+                  <location>
+                     <geo>31.318327, 48.670619</geo>
+                     <note>Denominazione biblica indicante la città di Us, patria di Giobbe (Job
+                        1:1). Identificazione incerta, forse l'iraniana Ahvāz, capoluogo della
+                        provincia del Khūzestān.</note>
+                  </location>
+               </place>
+               <place xml:id="Caldea">
+                  <placeName ref="#Caldea">Caldea.</placeName>
+                  <location>
+                     <geo>32.391690, 44.341584</geo>
+                     <note>Denominazione indicante la valle del Tigri e dell'Eufrate, anche sinonimo
+                        di Babilonia.</note>
+                  </location>
+               </place>
+               <place xml:id="mareOcciano">
+                  <placeName ref="#mare Occiano">Oceano Indiano.</placeName>
+                  <location>
+                     <geo>-33.137551, 81.826172</geo>
+                     <note>Oceano Indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Ormes">
+                  <placeName ref="#Ormes">Hormuz.</placeName>
+                  <location>
+                     <geo>27.092394, 56.451465</geo>
+                     <note>Isola di Hormuz, isola del Golfo Persico al centro dell'omonimo stretto,
+                        parte del territorio iraniano di Hormozgan.</note>
+                  </location>
+               </place>
+               <place xml:id="Tanna">
+                  <placeName ref="#Tana">Thana.</placeName>
+                  <location>
+                     <geo>19.218331, 72.978090</geo>
+                     <note>Thane (o Thana, Tanna), capoluogo del distretto omonimo, collocata
+                        nell'isola di Salsette, nello stato indiano del Maharashtra.</note>
+                  </location>
+               </place>
+               <place xml:id="Aldilo">
+                  <placeName ref="#Aldilo">Dehli.</placeName>
+                  <location>
+                     <geo>28.704059, 77.102490</geo>
+                     <note>Dehli, India.</note>
+                  </location>
+               </place>
+               <place xml:id="Polumbo">
+                  <placeName ref="#Aldilo">Kollam.</placeName>
+                  <location>
+                     <geo>8.893212, 76.614140</geo>
+                     <note>Kollam (o Quilon), capoluogo dell'omonimo distretto indiano, nello stato
+                        federato del Kerala.</note>
+                  </location>
+               </place>
+               <place xml:id="Çaiton">
+                  <placeName ref="#Çaiton">Quánzhōu.</placeName>
+                  <location>
+                     <geo>24.874050, 118.675830</geo>
+                     <note>Ch'üan-chou/Quánzhōu, centro portuale importante nella Cina
+                        meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="Minabar">
+                  <placeName ref="#Minabar">Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Malabar, regione costiera dell'India sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Fadina">
+                  <placeName ref="#Fadina">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città non identificata del Malabar, regione costiera dell'India
+                        sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cingalin">
+                  <placeName ref="#Cingalin">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città del Malabar indiano, forse corrispondente all'odierna Kodungallur
+                        (o Methala o Cranganur/Cranganore).</note>
+                  </location>
+               </place>
+               <place xml:id="Mabar">
+                  <placeName ref="#Mabar">Coromandel.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Coromandel, frangia costiera del sud-est della penisola indiana, negli
+                        stati del Tamil Nadu e dell'Andhra Pradesh.</note>
+                  </location>
+               </place>
+               <place xml:id="Lamen">
+                  <placeName ref="#Lamen">Lamreh.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Villaggio di Lamreh, sulla costa settentrionale di Sumatra. </note>
+                  </location>
+               </place>
+               <place xml:id="Selmetrio">
+                  <placeName ref="#Selmetrio">Sumatra.</placeName>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Antico regno di Sumatra, nella parte meridionale dell'isola.</note>
+                  </location>
+               </place>
+               <place xml:id="Botenigo">
+                  <placeName ref="#Botenigo">Indonesia.</placeName>
+                  <location>
+                     <geo>-0.789275, 113.921327</geo>
+                     <note>Località non identificata nell'arcipelago indonesiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Janua">
+                  <placeName ref="#Janua">Giava.</placeName>
+                  <location>
+                     <geo>-7.614529, 110.712246</geo>
+                     <note>Isola indonesiana di Giava (Jawa), tra Sumatra e Bali.</note>
+                  </location>
+               </place>
+               <place xml:id="Talamasin">
+                  <placeName ref="#Talamasin">talamasin.</placeName>
+                  <location>
+                     <note>Località non identificata.</note>
+                  </location>
+               </place>
+               <place xml:id="Çampa">
+                  <placeName ref="#Çampa"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Foço">
+                  <placeName ref="#Foço"/>
+                  <location>
+                     <geo>26.074508, 119.296494</geo>
+                     <note>Fuzhou, capitale della provincia del Fujian, nella Cina orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cunsai">
+                  <placeName ref="#Cunsai"/>
+                  <location>
+                     <geo>30.274085, 120.155070</geo>
+                     <note>Hangzhou, capitale della provincia cinese Zhejiang, sulla costa
+                        orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Chilenso">
+                  <placeName ref="#Chilenso">Nanchino.</placeName>
+                  <location>
+                     <geo>34.797260, 114.307310</geo>
+                     <note>Kāifēng (Nanchino),una città-prefettura nella provincia cinese dello
+                        Henan.</note>
+                  </location>
+               </place>
+               <place xml:id="Ianni">
+                  <placeName ref="#Ianni"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Cambellec">
+                  <placeName ref="#Cambellec"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Khanbaliq, nome turco dell'odierna Beijing/Pechino.</note>
+                  </location>
+               </place>
+               <place xml:id="Taido">
+                  <placeName ref="#Taido"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Città costruita nel 1267 a nordest di Khanbaliq e denominata Ta-tu,
+                        'grande capitale'.</note>
+                  </location>
+               </place>
+               <place xml:id="Gattaio">
+                  <placeName ref="#Gattaio"/>
+                  <location>
+                     <note>Catay, la Cina settentrionale (a nord del Fiume Giallo).</note>
+                  </location>
+               </place>
+               <place xml:id="Tibet">
+                  <placeName ref="#Tibet"/>
+                  <location>
+                     <geo>29.646923, 91.117212</geo>
+                     <note>Tibet, regione storico-geografica dell'Asia orientale, attualmente
+                        annessa dalla Cina.</note>
+                  </location>
+               </place>
+               <place xml:id="Milestert">
+                  <placeName ref="#Milestert"/>
+                  <location>
+                     <note>Toponimo inventato, derivante dalla corruzione dell'arabo "mulhid",
+                        'eretico'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ponto">
+                  <placeName ref="#Ponto"/>
+                  <location>
+                     <geo>45.301672, -73.220689</geo>
+                     <note>Regione storica nella zona nordorientale dell'Asia Minore</note>
+                  </location>
+               </place>
+               <place xml:id="Allesandria">
+                  <placeName ref="#Allesandria"/>
+                  <location>
+                     <geo>31.200092, 29.918739</geo>
+                     <note>Alessandria d'Egitto.</note>
+                  </location>
+               </place>
+               <place xml:id="Marcha">
+                  <placeName ref="#Marcha"/>
+                  <location>
+                     <geo>43.615830, 13.518915</geo>
+                     <note>La Marca Anconitana, dove si trova Tolentino.</note>
+                  </location>
+               </place>
+               <place xml:id="Mecha">
+                  <placeName ref="#Mecha"/>
+                  <location>
+                     <geo>21.389082, 39.857912</geo>
+                     <note>La Mecca, capoluogo dell'omonima provincia, nella regione dell'Hegiaz
+                        dell'attuale Arabia Saudita occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Somatra">
+                  <placeName ref="#Somatra"/>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Sumatra (o Sumatera), la terza isola più grande dell'arcipelago
+                        Indonesiano dopo Nuova Guinea e Borneo.</note>
+                  </location>
+               </place>
+               <place xml:id="Partain">
+                  <placeName ref="#Partain"/>
+                  <location>
+                     <geo>1.136704, 104.425753</geo>
+                     <note>Forse l'isola indonesiana di Bintain, a sud di Singapore.</note>
+                  </location>
+               </place>
+               <place xml:id="mareMorto">
+                  <placeName ref="#mare Morto">mar Morto.</placeName>
+                  <location>
+                     <geo>31.559029, 35.473189</geo>
+                  </location>
+               </place>
+               <place xml:id="Dodin">
+                  <placeName ref="#Dodin"/>
+                  <location>
+                     <note>Isola dell'Oceano Indiano di incerta localizzazione.</note>
+                  </location>
+               </place>
+               <place xml:id="Trevigi">
+                  <placeName ref="#Trevigi"/>
+                  <location>
+                     <geo>45.666889, 12.243044</geo>
+                     <note>Treviso, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Vinçenza">
+                  <placeName ref="#Vinçenza"/>
+                  <location>
+                     <geo>45.542487, 11.533628</geo>
+                     <note>Vicenza, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Çescalam">
+                  <placeName ref="#Çescalam"/>
+                  <location>
+                     <geo>23.129110, 113.264385</geo>
+                     <note>Attuale Canton (Guangzhou, grande città costiera del sud della Cina,
+                        capoluogo della provincia del Guangdong.</note>
+                  </location>
+               </place>
+               <place xml:id="Bologna">
+                  <placeName ref="#Bologna"/>
+                  <location>
+                     <geo>44.494887, 11.342616</geo>
+                  </location>
+               </place>
+               <place xml:id="Talaig">
+                  <placeName ref="#Talaig"/>
+                  <location>
+                     <geo>29.720415, 112.650141</geo>
+                     <note>Nome mongolo dello Yangtsze, il Fiume Azzurro.</note>
+                  </location>
+               </place>
+               <place xml:id="TerraPiemeorum">
+                  <placeName ref="#Terra Piemeorum"/>
+                  <location>
+                     <note>La 'terra dei Pigmei'.</note>
+                  </location>
+               </place>
+               <place xml:id="Cachan">
+                  <placeName ref="#Cachan"/>
+                  <location>
+                     <geo>37.111780, 79.913210</geo>
+                     <note>Forse Khotan, città del Turkestan cinese.</note>
+                  </location>
+               </place>
+               <place xml:id="Mençu">
+                  <placeName ref="#Mençu"/>
+                  <location>
+                     <geo>32.189590, 119.425000</geo>
+                     <note>Chen-kiang,città e porto fluviale della Cina, sulle rive dello
+                        Yangtze.</note>
+                  </location>
+               </place>
+               <place xml:id="Loncin">
+                  <placeName ref="#Loncin"/>
+                  <location>
+                     <geo>31.298974, 120.585297</geo>
+                     <note>Suzhou, città cinese che si trova nella provincia dello Jiangsu.</note>
+                  </location>
+               </place>
+               <place xml:id="Karamoran">
+                  <placeName ref="#Karamoran"/>
+                  <location>
+                     <geo>37.726962, 107.611922</geo>
+                     <note>Nome mongolo dello Huang He, il Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Po">
+                  <placeName ref="#Po"/>
+                  <location>
+                     <geo>44.919889, 9.718583</geo>
+                     <note>Fiume Po'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ferara">
+                  <placeName ref="#Ferara"/>
+                  <location>
+                     <geo>44.838124, 11.619787</geo>
+                     <note>Ferrara, Emilia Romagna, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Suçumaccho">
+                  <placeName ref="#Suçumaccho"/>
+                  <location>
+                     <geo>36.617290, 101.777820</geo>
+                     <note>Xīníng, capitale della provincia cinese di Qinghai.</note>
+                  </location>
+               </place>
+               <place xml:id="MonteVerde">
+                  <placeName ref="#Monte Verde"/>
+                  <location>
+                     <note>Rilievo collinare che, stando a Polo (Devisement dou Monde, LXXXIV 24),
+                        fu ricoperto di pietre verdi dal Gran Khan.</note>
+                  </location>
+               </place>
+               <place xml:id="Necoveran">
+                  <placeName ref="#Necoveran"/>
+                  <location>
+                     <geo>10.744887, 92.499992</geo>
+                     <note>Isole Nicobare, arcipelago dell'oceano indiano orientale, a sud-est del
+                        subcontinente indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Sillan">
+                  <placeName ref="#Sillan">Ceylon.</placeName>
+                  <location>
+                     <geo>7.873054, 80.771797</geo>
+                     <note>Isola di Ceylon, dal 1972 Repubblica Socialista Indipendente dello Sri
+                        Lanka.</note>
+                  </location>
+               </place>
+               <place xml:id="Chausun">
+                  <placeName ref="#Chausun"/>
+                  <location>
+                     <geo>34.341574, 108.939770</geo>
+                     <note>Xi'an, capoluogo della provincia dello Shaanxi nella Cina e città
+                        sub-provinciale.</note>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text n="1" xml:id="Libro_crit">
+      <front>
+         <head type="main">Libro delle nuove e strane e meravigliose cose</head>
+      </front>
+      <body>
+         <div type="Chapter" n="26" xml:id="chap.26">
+            <head><hi rend="rubric"><app>
+                     <lem>Della isola <placeName ref="#Sillan">Sillan</placeName>, nella quale sono
+                        moltitudine d’animali salvatiche, e tante pietre pretiose. Capitolo
+                        XXVI.</lem>
+                     <rdg wit="#UR"><hi rend="rubric">Del’ysola Silam in la qual è molte novitade
+                           d’animali salvadichi e grande multitudine de piere preciose. Capitollo
+                           26. </hi></rdg>
+                     <rdg wit="#Man">Dela ysola chiamata Sillam e dele cosse notabile che sono in
+                        essa. c<expan>apitolo</expan> 9.</rdg>
+                     <rdg wit="#M, #An #Ba #Va #Lu"><note>I mss M, An, Ba, Va, Lu, Man non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com26.1"><app>
+                  <lem>Èvi <app>
+                        <lem>anco</lem>
+                        <rdg wit="#An #Ba">ancora</rdg>
+                        <rdg wit="#Va">Ha</rdg>
+                        <rdg wit="#Lu">Ad</rdg>
+                     </app> un’altra ysola</lem>
+                  <rdg wit="#Ur">Anchora fui in una ysola</rdg>
+                  <rdg wit="#M">Qui anco à una altra isola</rdg>
+                  <rdg wit="#Man">A<supplied>n</supplied>dai ad un'altra ysola</rdg>
+               </app>
+               <app>
+                  <lem>che si chiama</lem>
+                  <rdg wit="#Lu #Man">chiamata</rdg>
+               </app>
+               <placeName ref="#Sillan"><app>
+                     <lem>Silan</lem>
+                     <rdg wit="#Ba">Salan</rdg>
+                     <rdg wit="#Va #Lu">Silam</rdg>
+                     <rdg wit="#Man">Sillam</rdg>
+                  </app></placeName>, <app>
+                  <lem>ke</lem>
+                  <rdg wit="#Man">la quale</rdg>
+               </app>
+               <app>
+                  <lem>gira</lem>
+                  <rdg wit="#Ur">volge</rdg>
+                  <rdg wit="#Man">volta</rdg>
+               </app>
+               <app>
+                  <lem>più di</lem>
+                  <rdg wit="#Man"/>
+               </app> dumilia milia, <app>
+                  <lem><app>
+                        <lem>nella</lem>
+                        <rdg wit="#Man">ne'</rdg>
+                     </app> quale</lem>
+                  <rdg wit="#Ur">ove</rdg>
+                  <rdg wit="#Lu">andai nela quale</rdg>
+               </app>
+               <app>
+                  <lem>sono</lem>
+                  <rdg wit="#Va">vi sono</rdg>
+               </app> serpenti <app>
+                  <lem>infiniti</lem>
+                  <rdg wit="#Ur">molto infiniti</rdg>
+               </app>, <app>
+                  <lem>e <app>
+                        <lem>molti</lem>
+                        <rdg wit="#Man"/>
+                     </app> altri animali salvatichi <app>
+                        <lem>ed elefanti</lem>
+                        <rdg wit="#Man">lioni <expan>e</expan> halephanti</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu"/>
+               </app>.</ab>
+            <ab n="2" xml:id="com26.2">In <app>
+                  <lem>questa</lem>
+                  <rdg wit="#Ur">quella</rdg>
+                  <rdg wit="#Va #Lu">la dicta</rdg>
+               </app>
+               <app>
+                  <lem>contrada</lem>
+                  <rdg wit="#Lu #Man">ysola</rdg>
+               </app> è <app>
+                  <lem>uno <app>
+                        <lem>grandissimo</lem>
+                        <rdg wit="#Ur">gran</rdg>
+                     </app> monte</lem>
+                  <rdg wit="#Lu">uno mo<expan>n</expan>te altissimo</rdg>
+               </app>, <app>
+                  <lem><app>
+                        <lem>del quale</lem>
+                        <rdg wit="#Lu">sopra il quale</rdg>
+                        <rdg wit="#Man">nel quale ch<expan>e</expan></rdg>
+                     </app>
+                     <app>
+                        <lem>dicono <app>
+                              <lem>le genti</lem>
+                              <rdg wit="#Lu"/>
+                           </app></lem>
+                        <rdg wit="#Man">secu<expan>n</expan>do ch<expan>e</expan>
+                              dico<expan>n</expan> q<expan>uel</expan>li de q<expan>ue</expan>sta
+                           ysola</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">dixe quela gente</rdg>
+               </app>
+               <app>
+                  <lem>che</lem>
+                  <rdg wit="#Lu #Man"/>
+               </app>
+               <persName ref="#Adam"><app>
+                     <lem>Adamo</lem>
+                     <rdg wit="#M">Adan</rdg>
+                     <rdg wit="#Man">Adam</rdg>
+                  </app></persName>
+               <app>
+                  <lem>vi</lem>
+                  <rdg wit="#Va #Lu"/>
+                  <rdg wit="#Man">qui</rdg>
+               </app>
+               <app>
+                  <lem>pianse <app>
+                        <lem>lo filiuolo</lem>
+                        <rdg wit="#Ur">lo so figliol</rdg>
+                        <rdg wit="#Lu">la morte d<expan>e</expan>l suo figliolo Abel</rdg>
+                     </app>
+                     <app>
+                        <lem>bene </lem>
+                        <rdg wit="#Ba"/>
+                     </app>cento anni</lem>
+                  <rdg wit="#Man">p<expan>i</expan>a<supplied>n</supplied>sse ce<expan>n</expan>to
+                        an<expan>n</expan>i la morte del suo filio Abel, ucciso dal suo fratello
+                     Chain</rdg>
+               </app>.</ab>
+            <ab n="3" xml:id="com26.3"><app>
+                  <lem>In meço</lem>
+                  <rdg wit="#Va">nel</rdg>
+                  <rdg wit="#Man">Et in mezo</rdg>
+               </app>
+               <app>
+                  <lem>del</lem>
+                  <rdg wit="#Ur #Lu">di quel</rdg>
+               </app> monte <app>
+                  <lem>è</lem>
+                  <rdg wit="#Ur">à</rdg>
+                  <rdg wit="#Va">sì è</rdg>
+               </app> u<pb n="85v" corresp="Co_fol_85v" facs="data\images\single\Co_fol_85v.png"/>[f.
+               85va]no <app>
+                  <lem>bello</lem>
+                  <rdg wit="#Lu"/>
+               </app> piano, <app>
+                  <lem>nel quale è</lem>
+                  <rdg wit="#Ur">dov'è</rdg>
+                  <rdg wit="#Lu">ci è</rdg>
+               </app>
+               <app>
+                  <lem>uno lago</lem>
+                  <rdg wit="#Ur #Man">uno bello lago</rdg>
+               </app>
+               <app>
+                  <lem>non molto grande</lem>
+                  <rdg wit="#Ur">molto grande</rdg>
+                  <rdg wit="#Lu">no<expan>n</expan> molto largo</rdg>
+                  <rdg wit="#Man">no<expan>n</expan> tropo largo</rdg>
+               </app>, <app>
+                  <lem>ma àvi grande aqqua</lem>
+                  <rdg wit="#Ur"/>
+                  <rdg wit="#Va">ma el gi è gra<expan>n</expan>de aqua</rdg>
+                  <rdg wit="#Lu">ma profondo, pieno d'aqua</rdg>
+                  <rdg wit="#Man">ma p<expan>ro</expan>fu<expan>n</expan>do e pie<expan>n</expan>o
+                     de aqua</rdg>
+               </app>, <app>
+                  <lem><app>
+                        <lem>la quale</lem>
+                        <rdg wit="#Lu">lo qual laco</rdg>
+                        <rdg wit="#Man">dela qual aqua</rdg>
+                     </app> dicono <app>
+                        <lem>quelle genti che</lem>
+                        <rdg wit="#Man">q<expan>ue</expan>lli de q<expan>ue</expan>lla
+                              <expan>con</expan>trata</rdg>
+                     </app>
+                     <app>
+                        <lem>son</lem>
+                        <rdg wit="#An">furono</rdg>
+                        <rdg wit="#Lu">che ess<expan>er</expan> fato dele</rdg>
+                        <rdg wit="#Man">essere</rdg>
+                     </app>
+                     <app>
+                        <lem>lagrime</lem>
+                        <rdg wit="#Va #Man">le lacrime</rdg>
+                     </app>
+                     <app>
+                        <lem>che <persName ref="#Adam"><app>
+                                 <lem>Adam</lem>
+                                 <rdg wit="#M">Adan</rdg>
+                                 <rdg wit="#An">Adamo</rdg>
+                              </app></persName> e <persName ref="#Eva"><app>
+                                 <lem>Eva</lem>
+                                 <rdg wit="#An">Heva</rdg>
+                              </app></persName>
+                           <app>
+                              <lem>feccero e</lem>
+                              <rdg wit="#Ba"/>
+                           </app> sparsero</lem>
+                        <rdg wit="#Va">de Adamo et de Eva ch'eli sp<expan>ar</expan>sseno</rdg>
+                        <rdg wit="#Lu">sparte p<expan>er</expan> Adamo p<expan>er</expan> la morte
+                           di Abel suo fiolo</rdg>
+                        <rdg wit="#Man">quali sparse Adam p<expan>er </expan>el
+                              pianze<supplied>r</supplied> el dicto suo fillo Abel</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">quela gente dixe ch’ele sono lagrime che fé Adamo e Eva</rdg>
+               </app>.</ab>
+            <ab n="4" xml:id="com26.4"><app>
+                  <lem><app>
+                        <lem>La qual cosa non è vera</lem>
+                        <rdg wit="#Man">Et q<expan>ue</expan>sto pe<expan>n</expan>sate
+                              ch<expan>e</expan> no<expan>n</expan> è·l v<expan>er</expan>o</rdg>
+                     </app>, <app>
+                        <lem>però che <app>
+                              <lem><app>
+                                    <lem>quine</lem>
+                                    <rdg wit="#An">quivy</rdg>
+                                    <rdg wit="#Ba">qui</rdg>
+                                 </app> nasce aqqua nel profondo</lem>
+                              <rdg wit="#Ur"/>
+                           </app></lem>
+                        <rdg wit="#Lu">quela aqua resorge dal profundo d<expan>e</expan> quel
+                           lacho</rdg>
+                     </app></lem>
+                  <rdg wit="#Man">p<expan>er</expan>ch<expan>é</expan> q<expan>ue</expan>llo lago è
+                        anch<expan>e</expan> pieno de can<expan>n</expan>e atorno atorno</rdg>
+               </app>.</ab>
+            <ab n="5" xml:id="com26.5"><app>
+                  <lem>E <app>
+                        <lem>il profondo</lem>
+                        <rdg wit="#Ur">in lo fondo</rdg>
+                        <rdg wit="#Lu">el fundo</rdg>
+                     </app>
+                     <app>
+                        <lem>di questa aqqua</lem>
+                        <rdg wit="#Ur">di quel'aqua</rdg>
+                        <rdg wit="#Lu">di questo laco</rdg>
+                     </app>
+                     <app>
+                        <lem>è pieno</lem>
+                        <rdg wit="#Va">sì è piena</rdg>
+                        <rdg wit="#Lu">è coperto</rdg>
+                     </app> di pietre pretiose</lem>
+                  <rdg wit="#Man">e i<expan>n</expan> nel mezo è grando,
+                        p<expan>ro</expan>fu<expan>n</expan>do et resorze i<expan>n</expan> suso
+                        cu<expan>m</expan>o s'el fusse un boio, e geta suso pietre
+                        p<expan>re</expan>ciosci ch<expan>e</expan> se vede</rdg>
+               </app>.</ab>
+            <ab n="6" xml:id="com26.6"><app>
+                  <lem>E quest’aqqua è molto piena di kanne</lem>
+                  <rdg wit="#Ur">e piena di canne</rdg>
+                  <rdg wit="#Va">e di chane</rdg>
+                  <rdg wit="#Lu">e di cane ch<expan>e</expan> ivi nasce</rdg>
+                  <rdg wit="#Man"><note>Man anticipa questa informazione alla pericope
+                        precedente</note></rdg>
+               </app>
+               <ab n="7" xml:id="com26.7"><app>
+                     <lem>E questo lago</lem>
+                     <rdg wit="#Ur">In quelo lago</rdg>
+                     <rdg wit="#Lu ">In questo lacho</rdg>
+                     <rdg wit="#Man">In questo lacho sono a<expan>n</expan>i<expan>m</expan>ali
+                        venenosi i q<expan>ua</expan>li occideno q<expan>ue</expan>lli che pescano
+                           i<expan>n</expan> q<expan>ue</expan>sto lago se no<expan>n</expan>
+                           trova<expan>n</expan>o che siano <choice>
+                           <sic>octi</sic>
+                           <corr>onti</corr>
+                        </choice>, p<expan>er</expan>ché se ongeno de sugo de alcuna herba la
+                           q<expan>ua</expan>le se chiama limona; <expan>e</expan> questi
+                           a<expan>n</expan>i<expan>m</expan>ali se chiama<expan>n</expan>o le
+                        mignate.</rdg>
+                  </app>
+                  <app>
+                     <lem>lo re <app>
+                           <lem>della contrada</lem>
+                           <rdg wit="#Ur"/>
+                           <rdg wit="#Man">de questa ysola</rdg>
+                        </app>
+                        <app>
+                           <lem>non fa pescare</lem>
+                           <rdg wit="#Ur">no li fa peschar</rdg>
+                           <rdg wit="#Man">no<expan>n</expan> lasa peçcare ad alcuno
+                                 i<expan>n</expan> questo lago quelle pietre p<expan>re</expan>ciosi
+                              acceto p<expan>er</expan> luy</rdg>
+                        </app></lem>
+                     <rdg wit="#Lu">mai no<expan>n</expan> si pescha</rdg>
+                  </app>, <app>
+                     <lem><app>
+                           <lem>ma</lem>
+                           <rdg wit="#Lu">ma il re d<expan>e</expan>la <expan>con</expan>trata</rdg>
+                        </app>
+                        <app>
+                           <lem>permette</lem>
+                           <rdg wit="#Ur">vole</rdg>
+                           <rdg wit="#Lu">concede</rdg>
+                        </app>
+                        <app>
+                           <lem>che <app>
+                                 <lem>i</lem>
+                                 <rdg wit="#Va"/>
+                              </app> poveri</lem>
+                           <rdg wit="#Man">salvo q<expan>ua</expan>ndo ch<expan>e</expan> i poveri
+                              ge doma<expan>n</expan>da helimosina el ge <expan>con</expan>cede
+                                 ch<expan>e</expan> pescano i<expan>n</expan> q<expan>ue</expan>sto
+                              lago</rdg>
+                        </app></lem>
+                     <rdg wit="#Lu">ai poveri</rdg>
+                  </app><app>
+                     <lem><app>
+                           <lem> vi vadano <app>
+                                 <lem>sott’aqqua</lem>
+                                 <rdg wit="#Va">soto l'aqua</rdg>
+                              </app></lem>
+                           <rdg wit="#Ur">vada sotto l'aqua a pescar</rdg>
+                           <rdg wit="#Lu">ch<expan>e</expan> si sumerga i<expan>n</expan> quel
+                              laco</rdg>
+                        </app>, <app>
+                           <lem><app>
+                                 <lem>e <app>
+                                       <lem>tutto ciò che posono prendere</lem>
+                                       <rdg wit="#An">tutto quello che possano
+                                          p<expan>re</expan>ndere</rdg>
+                                       <rdg wit="#Va">ciò che p<expan>re</expan>ndono</rdg>
+                                       <rdg wit="#Lu">e togliano de quele pietre
+                                          p<expan>re</expan>ciose</rdg>
+                                    </app>, <app>
+                                       <lem>dà loro</lem>
+                                       <rdg wit="#Lu"/>
+                                    </app>
+                                    <app>
+                                       <lem>per l’anima dello re</lem>
+                                       <rdg wit="#Lu">p<expan>er</expan> loro vivere
+                                             p<expan>er</expan> a<expan>n</expan>i<expan>m</expan>a
+                                          soa</rdg>
+                                    </app></lem>
+                                 <rdg wit="#Ur">de quele piere p<expan>er</expan> anema del re</rdg>
+                              </app></lem>
+                           <rdg wit="#Man"/>
+                        </app></lem>
+                     <rdg wit="#Ba"/>
+                  </app>.</ab>
+               <ab n="8" xml:id="com26.8"><app>
+                     <lem><app>
+                           <lem><app>
+                                 <lem>E così vanno i poveri</lem>
+                                 <rdg wit="#Ba"/>
+                                 <rdg wit="#Lu">q<expan>ue</expan>li poveri, vogliando
+                                       i<expan>n</expan>trare i<expan>n</expan> quel lacho,</rdg>
+                              </app>
+                              <app>
+                                 <lem><app>
+                                       <lem>e pilliano lo limone</lem>
+                                       <rdg wit="#Va">e p<expan>re</expan>ndono le limona</rdg>
+                                    </app></lem>
+                                 <rdg wit="#Ur">Allora li pov<expan>e</expan>ri tole limoni</rdg>
+                              </app>, <app>
+                                 <lem>cioè uno frutto</lem>
+                                 <rdg wit="#Ur"/>
+                              </app>, <app>
+                                 <lem>ch’ellino <app>
+                                       <lem>pestano</lem>
+                                       <rdg wit="#M #An">peschano</rdg>
+                                    </app> bene</lem>
+                                 <rdg wit="#Ur">e pestali ben</rdg>
+                                 <rdg wit="#Ba"/>
+                                 <rdg wit="#Va"><expan>con</expan> el qual pesschano</rdg>
+                              </app>
+                              <app>
+                                 <lem>e ungosene <app>
+                                       <lem>bene</lem>
+                                       <rdg wit="#Ba #Va"/>
+                                    </app></lem>
+                                 <rdg wit="#Ur">e onçese del sugo perqué le sansughe non li façça
+                                    mal</rdg>
+                              </app></lem>
+                           <rdg wit="#Lu">se u<expan>n</expan>geno la p<expan>er</expan>sona
+                                 <expan>con</expan> sugo d<expan>e</expan> limoni p<expan>er</expan>
+                              non esse<expan>re</expan> offesi dali pessi d<expan>e</expan> quel
+                              lago</rdg>
+                        </app>
+                        <app>
+                           <lem>e gittansi nell’aqqua</lem>
+                           <rdg wit="#Ur">e calase in l'aqua apresso o' ella dessende al mar</rdg>
+                           <rdg wit="#Lu">e così lib<expan>er</expan>amente i<expan>n</expan>trano
+                              queli</rdg>
+                        </app></lem>
+                     <rdg wit="#Man">Et loro se spoliano nudi <expan>e</expan> u<expan>n</expan>zesi
+                        del sugo de qu<expan>e</expan>lla h<expan>er</expan>ba limo<expan>n</expan>a
+                        e s<expan>u</expan>bmergese i<expan>n</expan> nel p<expan>ro</expan>fundo de
+                           q<expan>ue</expan>llo lago una o doe fiate q<expan>ua</expan>nte gie
+                           <expan>con</expan>cede el re</rdg>
+                  </app>.</ab>
+               <ab n="9" xml:id="com26.9"><app>
+                     <lem><app>
+                           <lem>Per la qual cosa</lem>
+                           <rdg wit="#Va">P<expan>er</expan> lo quale unger</rdg>
+                        </app> le mignatte no fanno <app>
+                           <lem>lor</lem>
+                           <rdg wit="#Va">a lor</rdg>
+                        </app> male</lem>
+                     <rdg wit="#Ur #Lu"/>
+                     <rdg wit="#Man">senza paura de q<expan>ue</expan>li
+                           a<expan>n</expan>i<expan>m</expan>ali, le megate</rdg>
+                  </app>.</ab>
+               <ab n="9" xml:id="com26.10">
+                  <app>
+                     <lem>E per questo modo li poveri <app>
+                           <lem>le pilliano e partensi</lem>
+                           <rdg wit="#Va">le trovano nel fondo</rdg>
+                           <rdg wit="#Lu">e togliono d<expan>e</expan> quele pietre
+                                 p<expan>re</expan>ciose p<expan>er</expan> suo viver</rdg>
+                        </app></lem>
+                     <rdg wit="#Ur"/>
+                     <rdg wit="#Man">Et q<expan>ue</expan>lle pietre p<expan>re</expan>ciose che
+                        essi piliano sono sue p<expan>er</expan> helemosi<expan>n</expan>a
+                           ch<expan>e</expan> ge fa lo re p<expan>er</expan>
+                           l'a<expan>n</expan>i<expan>m</expan>a dei suy passati</rdg>
+                  </app>.</ab>
+               <ab n="11" xml:id="com26.11"><app>
+                     <lem>L’aqqua che discende del monte di questo lago esce <app>
+                           <lem>e va</lem>
+                           <rdg wit="#Ba">e va via</rdg>
+                        </app></lem>
+                     <rdg wit="#Ur #Va #Lu #Man"/>
+                  </app>, <app>
+                     <lem><app>
+                           <lem>e cavanvisi</lem>
+                           <rdg wit="#Ba">Quivi si cavano</rdg>
+                           <rdg wit="#Va">ne q<expan>ua</expan>l se trovano</rdg>
+                           <rdg wit="#Lu">fra le qual pietre se trova</rdg>
+                           <rdg wit="#Man">Nel p<expan>ro</expan>fundo de q<expan>ue</expan>sto se
+                              trova</rdg>
+                        </app>
+                        <app>
+                           <lem>di</lem>
+                           <rdg wit="#M #An #Ba #Lu #Man"/>
+                        </app>
+                        <app>
+                           <lem>buoni</lem>
+                           <rdg wit="#Lu #Man"/>
+                        </app> rubini, e <app>
+                           <lem>trovanvisi</lem>
+                           <rdg wit="#Ba #Va #Lu #Man"/>
+                        </app>
+                        <app>
+                           <lem>di</lem>
+                           <rdg wit="#M #Va #Lu #Man"/>
+                        </app>
+                        <app>
+                           <lem>buoni</lem>
+                           <rdg wit="#Lu #Man"/>
+                        </app> diamanti <app>
+                           <lem>e molti</lem>
+                           <rdg wit="#Ba #Va #Lu"/>
+                           <rdg wit="#Man">fini</rdg>
+                        </app>, <app>
+                           <lem>e molte altre <app>
+                                 <lem><app>
+                                       <lem>buone</lem>
+                                       <rdg wit="#An #Ba"/>
+                                    </app>
+                                    <app>
+                                       <lem>pietre pretiose</lem>
+                                       <rdg wit="#Ba">pietre pretiose</rdg>
+                                       <rdg wit="#Va">p<expan>i</expan>edre</rdg>
+                                    </app></lem>
+                              </app></lem>
+                           <rdg wit="#Lu"/>
+                           <rdg wit="#Man"><expan>e</expan> altre div<expan>er</expan>se pietre de
+                                 gra<expan>n</expan>do valore</rdg>
+                        </app></lem>
+                     <rdg wit="#Ur">E’ trovalli de’ molti boni rubini e diama<expan>n</expan>ti e
+                        molte altre bone piere p<expan>re</expan>ciose e de’ bone
+                        p<expan>er</expan>le. </rdg>
+                  </app>.</ab>
+               <ab n="12" xml:id="com26.12"><app>
+                     <!-- Man 19/40 da qui -->
+                     <lem><app>
+                           <lem>E buone perle[f. 85vb] <app>
+                                 <lem>si trovano quine</lem>
+                                 <rdg wit="#An">vi si truova</rdg>
+                              </app></lem>
+                           <rdg wit="#Ba">et perle</rdg>
+                           <rdg wit="#Va"><expan>et</expan> bone p<expan>er</expan>le</rdg>
+                           <rdg wit="#Lu">e perle i<expan>n</expan> suma
+                              p<expan>er</expan>fectione</rdg>
+                        </app>, <app>
+                           <lem>ove quest’aqua discende a mare</lem>
+                           <rdg wit="#Ur"/>
+                           <rdg wit="#Va">là donde q<expan>ue</expan>sta aqua
+                              desce<expan>n</expan>de al mare</rdg>
+                           <rdg wit="#Lu">e p<expan>er</expan> lo simile se trova d<expan>e</expan>
+                              dite pietre p<expan>er</expan> lo fiume qual escie di questo lacho e
+                              fa discorso in mare</rdg>
+                        </app></lem>
+                     <rdg wit="#Ba"/>
+                  </app>, <app>
+                     <lem><app>
+                           <lem>sì che</lem>
+                           <rdg wit="#Ba">Et però</rdg>
+                        </app>
+                        <app>
+                           <lem>si dice</lem>
+                           <rdg wit="#M">dicesi</rdg>
+                           <rdg wit="#Lu">per quelo se dize</rdg>
+                        </app>
+                        <app>
+                           <lem>che questo re àe più pietre pretiose</lem>
+                           <rdg wit="#Lu">questo re è più rico d<expan>e</expan> pietre
+                                 p<expan>re</expan>ciose</rdg>
+                        </app> che <app>
+                           <lem>nullo</lem>
+                           <rdg wit="#Va #Lu"/>
+                        </app> altro <app>
+                           <lem>re</lem>
+                           <rdg wit="#An">re o signore</rdg>
+                        </app>
+                        <app>
+                           <lem><app>
+                                 <lem>ke</lem>
+                                 <rdg wit="#Lu"/>
+                              </app> sia <app>
+                                 <lem>al</lem>
+                                 <rdg wit="#M #Lu">nel</rdg>
+                              </app> mondo</lem>
+                           <rdg wit="#Va">che si trova nel mo<expan>n</expan>do</rdg>
+                        </app></lem>
+                     <rdg wit="#Ur">Sì che questo re à più piere preciosse ch’à re che sia al
+                        mondo.</rdg>
+                  </app>.</ab>
+               <ab n="13" xml:id="com26.13">In questa isola <app>
+                     <lem>sono</lem>
+                     <rdg wit="#Ur">sì è</rdg>
+                  </app>
+                  <app>
+                     <lem><app>
+                           <lem>gran diversità</lem>
+                           <rdg wit="#Ur">molte diversità</rdg>
+                        </app> d’animali e d’uccelli</lem>
+                     <rdg wit="#Lu">a<expan>n</expan>im<expan/>ali e uceli i<expan>n</expan> grande
+                        varietà</rdg>
+                  </app>.</ab>
+               <ab n="14" xml:id="com26.14"><app>
+                     <lem><app>
+                           <lem>Dicono</lem>
+                           <rdg wit="#An">E dicono</rdg>
+                        </app> quelli della contrada</lem>
+                     <rdg wit="#Ur">Queli dela contrada dixe</rdg>
+                     <rdg wit="#M">Et dichono quello dela cho<expan>n</expan>trada</rdg>
+                     <rdg wit="#Lu"/>
+                  </app>, <app>
+                     <lem><app>
+                           <lem>che</lem>
+                           <rdg wit="#Lu">i quali</rdg>
+                        </app> non fano male</lem>
+                     <rdg wit="#Ur">ch'egliono no fa mal</rdg>
+                  </app>
+                  <app>
+                     <lem>ad alcuno forestieri</lem>
+                     <rdg wit="#M #An">a nulo foristier</rdg>
+                     <rdg wit="#Ba">a niuno forestieri</rdg>
+                     <rdg wit="#Va #Lu">a homeni forestieri</rdg>
+                  </app>
+                  <app>
+                     <lem>se no a quelli ke sono nati nella contrada e nell’isola</lem>
+                     <rdg wit="#Ur">se no<expan>n</expan> a queli che son<expan>n</expan>o nasudi in
+                        l'isola</rdg>
+                     <rdg wit="#Va">sallvo a q<expan>ue</expan>lli dela <expan>con</expan>trata che
+                           q<expan>ui</expan>vi sono natti</rdg>
+                     <rdg wit="#Lu">ma sì a queli d<expan>e</expan>la <expan>con</expan>trata</rdg>
+                  </app>.</ab>
+               <ab n="15" xml:id="com26.15"><app>
+                     <lem><app>
+                           <lem>Nella quale sono</lem>
+                           <rdg wit="#An #Va">vi sono</rdg>
+                           <rdg wit="#Lu">e fra li altri ci sono</rdg>
+                        </app> uccelli grandi <app>
+                           <lem>come oche</lem>
+                           <rdg wit="#Va"/>
+                        </app></lem>
+                     <rdg wit="#Ur">E sì li sono oseli grandi como ocche</rdg>
+                  </app>, <app>
+                     <lem>e ànno due capi</lem>
+                     <rdg wit="#Ur">che ànno II cavi</rdg>
+                     <rdg wit="#Lu"><expan>con</expan> duo capi</rdg>
+                  </app>.</ab>
+               <ab n="16" xml:id="com26.16"><app>
+                     <lem>In questa isola</lem>
+                     <rdg wit="#Ur">In quela ysola</rdg>
+                     <rdg wit="#Va">In q<expan>ue</expan>sta</rdg>
+                     <rdg wit="#Lu">questa ysola</rdg>
+                  </app>
+                  <app>
+                     <lem><app>
+                           <lem>àe</lem>
+                           <rdg wit="#Va">sì è</rdg>
+                        </app> grande <app>
+                           <lem>copia</lem>
+                           <rdg wit="#Ur">mercado</rdg>
+                        </app></lem>
+                     <rdg wit="#Lu">è copiosa</rdg>
+                  </app>
+                  <app>
+                     <lem>di vittuallia</lem>
+                     <rdg wit="#Ba">di vettovaglia</rdg>
+                     <rdg wit="#Lu">d'oni vituaria
+                        abu<expan>n</expan>dantem<expan>en</expan>te</rdg>
+                  </app>
+                  <app>
+                     <lem>e <app>
+                           <lem>molte altre cose</lem>
+                           <rdg wit="#Va">de alltre m<expan>o</expan>lte cosse</rdg>
+                        </app> che no sono da scrivere</lem>
+                     <rdg wit="#Ur #Lu"/>
+                  </app>.</ab></ab>
+         </div>
+         <div type="Chapter" n="27" xml:id="chap.27">
+            <head><hi rend="rubric"><app>
+                     <lem>Della grande ysola <placeName ref="#Dodin">Dodin</placeName>, ove lo padre
+                        mangia il filliolo e‧l filliuolo lo padre, el marito la mollie e lla mollie
+                        lo marito. Capitolo XXVII.</lem>
+                     <rdg wit="#UR"><hi rend="rubric">Dela grande ysola Dodim, ch’el fio manduca el
+                           pare, el pare el fio, el marido la moglie e la moglie el marido.
+                           Capitollo 27.</hi></rdg>
+                     <rdg wit="#M, #An #Ba #Va #Lu #Man"><note>I mss M, An, Ba, Va, Lu, Man non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com27.1">Partendomi <app>
+                  <lem>da questa ysola</lem>
+                  <rdg wit="#Ur">da quel'ysola</rdg>
+               </app> andai verso Oriente, e <app>
+                  <lem><app>
+                        <lem>venni</lem>
+                        <rdg wit="#Ur">çunsi</rdg>
+                        <rdg wit="#Lu">capitai</rdg>
+                     </app>
+                     <app>
+                        <lem>a</lem>
+                        <rdg wit="#Ba">trovai una</rdg>
+                     </app> una</lem>
+                  <rdg wit="#Ur">alla</rdg>
+               </app> grande ysola <app>
+                  <lem>che si chiama</lem>
+                  <rdg wit="#Ur"/>
+                  <rdg wit="#An #Lu">chiamata</rdg>
+               </app>
+               <placeName ref="#Dodin"><app>
+                     <lem>Dodin</lem>
+                     <rdg wit="#Ur">Dodim</rdg>
+                     <rdg wit="#M">Dondin</rdg>
+                  </app></placeName>, <app>
+                  <lem><app>
+                        <lem>che vale tanto a dire</lem>
+                        <rdg wit="#An #Lu">che è tanto a dire</rdg>
+                     </app> quanto immondo</lem>
+                  <rdg wit="#Ur"/>
+               </app>.</ab>
+            <ab n="2" xml:id="com27.2">In questa ysola <app>
+                  <lem>sono</lem>
+                  <rdg wit="#Ur">è</rdg>
+               </app> mali huomini.</ab>
+            <ab n="3" xml:id="com27.3"><app>
+                  <lem>Ellino</lem>
+                  <rdg wit="#Ur">che</rdg>
+                  <rdg wit="#Va">e</rdg>
+                  <rdg wit="#Lu">i quali</rdg>
+               </app> mangiano <app>
+                  <lem>la carne <supplied>cruda</supplied></lem>
+                  <rdg wit="#Ur #Va">carne cruda</rdg>
+               </app>
+               <app>
+                  <lem>e ongni <app>
+                        <lem>altra</lem>
+                        <rdg wit="#M"/>
+                     </app> imonditia</lem>
+                  <rdg wit="#Ur"/>
+               </app>.</ab>
+            <ab n="4" xml:id="com27.4"><app>
+                  <lem>Costoro</lem>
+                  <rdg wit="#Ur">Questi</rdg>
+               </app> ànno <app>
+                  <lem>soçça consuetudine</lem>
+                  <rdg wit="#Ur">soçço costume</rdg>
+               </app>
+               <app>
+                  <lem>tra <pb n="86r" corresp="Co_fol_86r" facs="data\images\single\Co_fol_86r.png"
+                     />[f. 86ra] lloro</lem>
+                  <rdg wit="#Ur">infra lor</rdg>
+                  <rdg wit="#An">fra loro</rdg>
+               </app>.</ab>
+            <ab n="5" xml:id="com27.5"><app>
+                  <lem><app>
+                        <lem>Il padre</lem>
+                        <rdg wit="#Va">i p<expan>ad</expan>ri</rdg>
+                     </app> mangia il filiuolo <app>
+                        <lem>e</lem>
+                        <rdg wit="#Ba"/>
+                     </app> lo filliuolo lo padre, <app>
+                        <lem>il marito la mollie <app>
+                              <lem>e</lem>
+                              <rdg wit="#Ba"/>
+                           </app> lla mollie lo marito</lem>
+                        <rdg wit="#M #Lu">la moglie lo marito et lo marito la moglie</rdg>
+                        <rdg wit="#An">il marito mangia la mogle e la mogle il marito e così
+                           universalmente l'uno l'altro</rdg>
+                     </app>
+                     <app>
+                        <lem>per questo modo</lem>
+                        <rdg wit="#An">e ma<expan>n</expan>gianly p<expan>er</expan> questo
+                           modo</rdg>
+                        <rdg wit="#Va #Lu">i<expan>n</expan> q<expan>ue</expan>sto modo</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">che ’gli se mançano l’uno l’atro p<expan>er</expan> questo
+                     modo</rdg>
+               </app>.</ab>
+            <ab n="6" xml:id="com27.6">Quando <app>
+                  <lem>il padre loro</lem>
+                  <rdg wit="#Ur #Lu">lo padre</rdg>
+               </app>
+               <app>
+                  <lem>inferma</lem>
+                  <rdg wit="#Ur">s'è infermato</rdg>
+                  <rdg wit="#Va">è i<expan>n</expan>fermo</rdg>
+                  <rdg wit="#Lu">se inferma</rdg>
+               </app>, <app>
+                  <lem>allora vanno a l’astrologo, cioè al sacerdote, <app>
+                        <lem>e dico‧li i filiuoli</lem>
+                        <rdg wit="#Ba">et dicono <del rend="strikethrough">e nostri</del>
+                           <add place="above">loro</add> figluoli</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">el figlio va al suo prete e dixe</rdg>
+                  <rdg wit="#An">alora van<expan>n</expan>o al sacierdote e dicono y figliuoly</rdg>
+                  <rdg wit="#Va">el figiolo va alo astrologo cioè al sacerdote e dice</rdg>
+                  <rdg wit="#Lu">el fiolo va dalo astrologo zoè a lopro sacerdote e dize a lui</rdg>
+               </app>: <app>
+                  <lem>«Andate a sapere dal <app>
+                        <lem>nostro</lem>
+                        <rdg wit="#M">v<expan>ost</expan>ro</rdg>
+                     </app> dio <app>
+                        <lem>se’l</lem>
+                        <rdg wit="#Ba">se</rdg>
+                     </app>
+                     <app>
+                        <lem>nostro padre</lem>
+                        <rdg wit="#Va">padre nost<expan>r</expan>o</rdg>
+                     </app> può guarire e liberare»</lem>
+                  <rdg wit="#Ur">«Mess<expan>er</expan>, andate a saper dal nostro dio se mio par
+                     chi è infermo di’ guarir»</rdg>
+                  <rdg wit="#Lu">andate al nost<expan>r</expan>o idio a sapere sa lui sel
+                        nost<expan>r</expan>o padre può lib<expan>er</expan>are da questa
+                        i<expan>n</expan>fermità</rdg>
+               </app>.</ab>
+            <ab n="7" xml:id="com27.7"><app>
+                  <lem>Allora <app>
+                        <lem>il</lem>
+                        <rdg wit="#Lu">quel</rdg>
+                     </app> sacerdote <app>
+                        <lem>co’ filiuoli</lem>
+                        <rdg wit="#Va #Lu"><expan>con</expan> el filgiollo</rdg>
+                     </app>
+                     <app>
+                        <lem><app>
+                              <lem>di questo padre</lem>
+                              <rdg wit="#An">del ditto padre</rdg>
+                           </app>
+                           <app>
+                              <lem>ch’è infermo</lem>
+                              <rdg wit="#An"/>
+                              <rdg wit="#Va">i<expan>n</expan>fermo</rdg>
+                           </app></lem>
+                        <rdg wit="#Lu">d<expan>e</expan> l'infermo</rdg>
+                     </app>
+                     <app>
+                        <lem>vanno</lem>
+                        <rdg wit="#An">insieme van<expan>n</expan>o</rdg>
+                        <rdg wit="#Lu">va</rdg>
+                     </app>
+                     <app>
+                        <lem>a questo ydolo</lem>
+                        <rdg wit="#M">a quello idolo</rdg>
+                        <rdg wit="#Lu">al suo ydolo</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">Alora lo prete va co<expan>n</expan> li figlioli del’infermo al so
+                     ydolo</rdg>
+               </app>
+               <app>
+                  <lem>ke è</lem>
+                  <rdg wit="#Va">el qual sì è</rdg>
+               </app> d’oro e d’argento, <app>
+                  <lem>e fannoli orationi</lem>
+                  <rdg wit="#Ur">e fali oration</rdg>
+                  <rdg wit="#An #Ba #Va">e fan<expan>n</expan>oly oratione</rdg>
+                  <rdg wit="#Lu">e facta a lui rivere<expan>n</expan>tia <expan/>e oratione</rdg>
+               </app>
+               <app>
+                  <lem><app>
+                        <lem>e</lem>
+                        <rdg wit="#M"/>
+                     </app> domandano così e dicono</lem>
+                  <rdg wit="#Ur">s'el domanda</rdg>
+                  <rdg wit="#An">e doma<expan>n</expan>danly cosy e dicono</rdg>
+                  <rdg wit="#Ba">et domandando dicono</rdg>
+                  <rdg wit="#Lu">dicono i<expan>n</expan> questa forma</rdg>
+               </app>: <app>
+                  <lem>«<app>
+                        <lem>Tu se’ nostro dio e nostro signore</lem>
+                        <rdg wit="#Ba">Tu se' nostro signore et nostro dio</rdg>
+                        <rdg wit="#Lu">Tu se' el nost<expan>r</expan>o dio, el nost<expan>r</expan>o
+                           signore</rdg>
+                     </app>
+                     <app>
+                        <lem>e</lem>
+                        <rdg wit="#Lu"/>
+                     </app> te adoriamo <app>
+                        <lem>per dio</lem>
+                        <rdg wit="#Ba">però</rdg>
+                        <rdg wit="#Lu"/>
+                     </app>. <app>
+                        <lem>Rispondici</lem>
+                        <rdg wit="#Lu">Respo<expan>n</expan>di a noi</rdg>
+                     </app>
+                     <app>
+                        <lem>del cotale huomo</lem>
+                        <rdg wit="#An">di tale homo</rdg>
+                        <rdg wit="#Va">di cotale homo</rdg>
+                        <rdg wit="#Lu">se tal homo</rdg>
+                     </app>
+                     <app>
+                        <lem>ch’è infermato</lem>
+                        <rdg wit="#An">che è infermo</rdg>
+                        <rdg wit="#Va #Lu">i<expan>n</expan>fermo</rdg>
+                     </app>
+                     <app>
+                        <lem>s’elli de’ guarire o morire</lem>
+                        <rdg wit="#Lu">die guarir o morir</rdg>
+                     </app>».</lem>
+                  <rdg wit="#Ur">Tu è’ nostro dio e sì te adoremo per dio; respondene del cotal homo
+                     chi è infermo s’el de’ guarire o morir.</rdg>
+               </app>.</ab>
+            <ab n="8" xml:id="com27.8">Allora <app>
+                  <lem>quello dimonio</lem>
+                  <rdg wit="#Ur #An #Lu">il demonio</rdg>
+               </app>
+               <app>
+                  <lem>risponde per <app>
+                        <lem>la</lem>
+                        <rdg wit="#M"/>
+                     </app> bocca <app>
+                        <lem>dell’idolo</lem>
+                        <rdg wit="#Lu">d<expan>e</expan> quel ydolo</rdg>
+                     </app> e dice</lem>
+                  <rdg wit="#Ur">responde per la bocha del’ydolo <supplied>a</supplied>lo
+                     cotal</rdg>
+               </app>: <app>
+                  <lem>«<app>
+                        <lem>Al</lem>
+                        <rdg wit="#Va">A</rdg>
+                     </app> cotale <app>
+                        <lem>fa’</lem>
+                        <rdg wit="#Va">fate</rdg>
+                     </app>
+                     <app>
+                        <lem>la tal</lem>
+                        <rdg wit="#M">cotal</rdg>
+                        <rdg wit="#An #Ba">la cotale</rdg>
+                     </app> cosa e <app>
+                        <lem>allora</lem>
+                        <rdg wit="#Va"/>
+                     </app> serà guarito e <app>
+                        <lem>libero</lem>
+                        <rdg wit="#Va">liberato</rdg>
+                     </app>»</lem>
+                  <rdg wit="#Ur">Fa’ la cotal cosa: serà guarito</rdg>
+                  <rdg wit="#Lu">A quel i<expan>n</expan>fermo fate la tal cossa e
+                        s<expan>er</expan>a guarido</rdg>
+               </app>. </ab>
+            <ab n="9" xml:id="com27.9"><app>
+                  <lem>E allora anderanno i filiuoli e serviranno il padre</lem>
+                  <rdg wit="#Ur"/>
+                  <rdg wit="#Ba">Allora van<expan>n</expan>o i figliuoli et servono el padre</rdg>
+                  <rdg wit="#Va">Alora va el filgiollo et serve el padre</rdg>
+                  <rdg wit="#Lu">el fiolo ritorna al padre e s<expan>er</expan>velo come a dito lo
+                     ydolo</rdg>
+               </app>
+               <app>
+                  <lem>fin a tanto ch’elli fie guarito e liberato</lem>
+                  <rdg wit="#Ur">fin tanto ch'el serà gua<expan>r</expan>ito</rdg>
+                  <rdg wit="#An">fino alla sua sanità, cioè tanto sia guarito</rdg>
+                  <rdg wit="#Ba">tanto ch'egli è guarito et liberato</rdg>
+                  <rdg wit="#Va #Lu">fina che l'è guarito</rdg>
+               </app>.</ab>
+            <ab n="10" xml:id="com27.10"><app>
+                  <lem><app>
+                        <lem>Se</lem>
+                        <rdg wit="#Va">S'el</rdg>
+                        <rdg wit="#Lu">e se</rdg>
+                     </app>
+                     <app>
+                        <lem>aviene</lem>
+                        <rdg wit="#An">avenisse</rdg>
+                        <rdg wit="#Lu"/>
+                     </app>
+                     <app>
+                        <lem>che questo ydolo</lem>
+                        <rdg wit="#Lu">l'idolo</rdg>
+                     </app>
+                     <app>
+                        <lem>dice</lem>
+                        <rdg wit="#M #Ba #Va">dica</rdg>
+                        <rdg wit="#An">dicesse</rdg>
+                     </app>
+                     <app>
+                        <lem>che</lem>
+                        <rdg wit="#Va">ch'el</rdg>
+                        <rdg wit="#Lu">che l'infermo</rdg>
+                     </app> debba morire</lem>
+                  <rdg wit="#Ur">E se l’ydolo dirà ch’el debia morir</rdg>
+               </app>, <app>
+                  <lem><app>
+                        <lem>allora</lem>
+                        <rdg wit="#Lu"/>
+                     </app> il <app>
+                        <lem>prete</lem>
+                        <rdg wit="#Va #Lu">sacerdote</rdg>
+                     </app>
+                     <app>
+                        <lem>vae allo <app>
+                              <lem>‘<supplied>n</supplied>fermo</lem>
+                              <rdg wit="#M">inferno</rdg>
+                           </app></lem>
+                        <rdg wit="#Lu">va a lui</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">alora ’li va al’infermo</rdg>
+               </app>, <app>
+                  <lem>e pongo‧lli uno panno sopra la bocca e affoga‧llo</lem>
+                  <rdg wit="#Ur">e meteli un drappo ala gola e sofegalo</rdg>
+                  <rdg wit="#Ba #Va">e pongli uno panno sopra la boccha et affogalo</rdg>
+                  <rdg wit="#Lu">e metegli sopra la bocha uno pan<expan>n</expan>o e tienlo afogato
+                        <expan>con</expan> quel pan<expan>n</expan>o</rdg>
+               </app>, <app>
+                  <lem>sì ke [f. 86rb] muore</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#M #Va">sì che elli muore</rdg>
+                  <rdg wit="#Lu">fin ch'<expan>e</expan>l muore</rdg>
+               </app>.</ab>
+            <ab n="11" xml:id="com27.11"><app>
+                  <lem>Essendo morto</lem>
+                  <rdg wit="#Ur">Como ’lo è morto</rdg>
+                  <rdg wit="#An #Ba #Va">Et essendo morto</rdg>
+                  <rdg wit="#Lu">Essendo lui morto</rdg>
+               </app>, <app>
+                  <lem>sì’ tagliano per peççi</lem>
+                  <rdg wit="#Ur">sì lo taia in peççi</rdg>
+                  <rdg wit="#An">lo taglano im peçe</rdg>
+                  <rdg wit="#Ba">sì lo tagliano per pezzi</rdg>
+                  <rdg wit="#Va">sì lo talgiano a peçe</rdg>
+                  <rdg wit="#Lu">el taliano a pezi</rdg>
+               </app>, <app>
+                  <lem>e invitano <app>
+                        <lem>a mangiarlo</lem>
+                        <rdg wit="#Va">a mangiare</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">e convidano a mançar</rdg>
+               </app>
+               <app>
+                  <lem>amici e parenti</lem>
+                  <rdg wit="#M #Ba">parenti e amici</rdg>
+                  <rdg wit="#Va">tutti parenti <expan>e</expan> amici</rdg>
+                  <rdg wit="#Lu">pare<expan>n</expan>ti amici</rdg>
+               </app> e <app>
+                  <lem>giocolari</lem>
+                  <rdg wit="#An #Ba">giullari</rdg>
+               </app>
+               <app>
+                  <lem>e tutti quelli della contrada</lem>
+                  <rdg wit="#Va">d<expan>e</expan>la <expan>con</expan>trata <expan>e</expan>
+                     tutti</rdg>
+                  <rdg wit="#Lu">e i vicini</rdg>
+               </app>, e mangia‧llo <app>
+                  <lem>con grandi canti</lem>
+                  <rdg wit="#Lu"><expan>con</expan> canti e soni</rdg>
+               </app>
+               <app>
+                  <lem>e grande allegreçça</lem>
+                  <rdg wit="#Ur">e allegreçe</rdg>
+                  <rdg wit="#M">e grande alegreze</rdg>
+                  <rdg wit="#An">e alegreça</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com27.12"><app>
+                  <lem><app>
+                        <lem>E</lem>
+                        <rdg wit="#M"/>
+                     </app> poi pilliano l’ossa <app>
+                        <lem>e metto‧lle sotto terra</lem>
+                        <rdg wit="#An">et mettono sotter<expan>r</expan>a</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">Poi metteno l’ossa sotto terra</rdg>
+                  <rdg wit="#Lu">e le soe osse soterano</rdg>
+               </app>
+               <app>
+                  <lem>con grande solennitate</lem>
+                  <rdg wit="#Ur">con grande sollicitudine</rdg>
+               </app>.</ab>
+            <ab n="13" xml:id="com27.13"><app>
+                  <lem><app>
+                        <lem>E</lem>
+                        <rdg wit="#Lu"/>
+                     </app>
+                     <app>
+                        <lem>quelli</lem>
+                        <rdg wit="#An">li</rdg>
+                     </app> parenti che no sono <app>
+                        <lem>invitati</lem>
+                        <rdg wit="#M">inviati</rdg>
+                     </app></lem>
+                  <rdg wit="#Va">e quel pare<expan>n</expan>te che no<expan>n</expan> fosse
+                        i<expan>n</expan>vitato</rdg>
+               </app>
+               <app>
+                  <lem>a <app>
+                        <lem>queste</lem>
+                        <rdg wit="#Ur">quelle</rdg>
+                     </app> noççe</lem>
+                  <rdg wit="#Va"/>
+                  <rdg wit="#Lu">a questo fato</rdg>
+               </app>, <app>
+                  <lem>se lo regano</lem>
+                  <rdg wit="#Ur">se ’l te<supplied>n</supplied>ghon </rdg>
+                  <rdg wit="#Va">se recha</rdg>
+                  <rdg wit="#Lu">se n'è</rdg>
+               </app>
+               <app>
+                  <lem>a grande vitoperio</lem>
+                  <rdg wit="#Lu">di gra<expan/>n v<expan>er</expan>gogna</rdg>
+               </app>.</ab>
+            <ab n="14" xml:id="com27.14"><app>
+                  <lem>Costoro ripresi e dissi loro</lem>
+                  <rdg wit="#Ur">E nu' li dixemo</rdg>
+                  <rdg wit="#An">Costoro io li ripresi e dissi</rdg>
+                  <rdg wit="#Ba">Costoro io ripresi e dissi</rdg>
+                  <rdg wit="#Lu">Io ripresi costoso e dissi</rdg>
+               </app>: «<app>
+                  <lem><app>
+                        <lem>Voi</lem>
+                        <rdg wit="#Ur">Mo voi</rdg>
+                     </app> siete dimoni a fare queste cose</lem>
+                  <rdg wit="#Va #Lu">Voi sete homeni <expan>e</expan> fate q<expan>ue</expan>ste
+                     cosse</rdg>
+               </app>. <app>
+                  <lem>Questo è contra ogni ragione e natura</lem>
+                  <rdg wit="#Ur">questo è contra natura</rdg>
+                  <rdg wit="#Ba #Va">questo è contra ragione et contra natura</rdg>
+                  <rdg wit="#Lu">che sono <expan>con</expan>tra ragione e <expan>con</expan>tra
+                     natura</rdg>
+               </app>. <app>
+                  <lem>Se’l cane</lem>
+                  <rdg wit="#Lu">se uno cane</rdg>
+               </app> fosse morto <app>
+                  <lem>e fosse posto dinançi a l’autro cane</lem>
+                  <rdg wit="#Ur">e meterlo inanci a un altro can</rdg>
+                  <rdg wit="#An #Va">e posto davante al altro cane</rdg>
+                  <rdg wit="#Lu">e fusse posto i<expan>n</expan>anzi uno alt<expan>r</expan>o
+                     chane</rdg>
+               </app>, <app>
+                  <lem>no‧ne mangierebbe</lem>
+                  <rdg wit="#Ur">no<expan>n</expan> mançarave</rdg>
+                  <rdg wit="#Lu">no<expan>n</expan> ge m<supplied>an</supplied>gerabe</rdg>
+               </app>».</ab>
+            <ab n="15" xml:id="com27.15"><app>
+                  <lem>Ed elli mi rispuosero e dissero</lem>
+                  <rdg wit="#Ur">Eli respondia</rdg>
+                  <rdg wit="#An">Rispusermy</rdg>
+                  <rdg wit="#Va">me resposseno et disse</rdg>
+                  <rdg wit="#Lu">Loro me risposeno</rdg>
+               </app>: «Noi facciamo questo però che <app>
+                  <lem>se vermi</lem>
+                  <rdg wit="#Ur #M #Va">se li vermi</rdg>
+               </app> mangiassero <app>
+                  <lem>la carne</lem>
+                  <rdg wit="#An">la carne sua</rdg>
+                  <rdg wit="#Lu">la soa carne</rdg>
+               </app>, <app>
+                  <lem>la sua anima</lem>
+                  <rdg wit="#Ur">l'anema</rdg>
+                  <rdg wit="#Va #Lu">l'a<expan>n</expan>i<expan>m</expan>a sua</rdg>
+               </app>
+               <app>
+                  <lem>sosterrebe pena</lem>
+                  <rdg wit="#Ur">sofrirave pena</rdg>
+                  <rdg wit="#Lu">ge patirebe pena</rdg>
+               </app>. <app>
+                  <lem>E però</lem>
+                  <rdg wit="#Lu">i<expan>m</expan>p<expan>er</expan>ò</rdg>
+               </app> mangiamo la sua carne, acciò <app>
+                  <lem>ch’ella no sostenga pena</lem>
+                  <rdg wit="#Va">che la no<expan>n</expan> sostengeno pena</rdg>
+                  <rdg wit="#Lu">ch<expan>e</expan> l'a<expan>n</expan>i<expan>m</expan>a soa
+                        no<expan>n</expan> patischa pene</rdg>
+               </app>»</ab>
+            <ab n="16" xml:id="com27.16"><app>
+                  <lem><app>
+                        <lem>Non potei</lem>
+                        <rdg wit="#Ba">Io non potetti</rdg>
+                     </app>
+                     <app>
+                        <lem>loro</lem>
+                        <rdg wit="#Va">a loro</rdg>
+                     </app> tanto dire che mi volessero <app>
+                        <lem>credere</lem>
+                        <rdg wit="#An">intendere</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">E no<expan>n</expan> li poti tanto dir chi lo volesseno
+                     creder.</rdg>
+                  <rdg wit="#Lu">Io puti predicare a loro cerca questo qua<expan>n</expan>to io
+                     volsi ch<expan>e</expan> mai nulla volsero credere</rdg>
+               </app>.</ab>
+         </div>
+         <div type="Chapter" n="28" xml:id="chap.28">
+            <head><hi rend="rubric"><app>
+                     <lem>Della <placeName ref="#Seconda Yndia">Seconda Yndia </placeName>ke è
+                        XXIIII ysole e LXIIII re. Capitolo XXVIII</lem>
+                     <rdg wit="#UR"><hi rend="rubric">Dela seconda India chi sono XXIIIIM ysole.
+                           Capitollo 28.</hi></rdg>
+                     <rdg wit="#M, #An #Ba #Va #Lu #Man"><note>I mss M, An, Ba, Va, Lu, Man non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com28.1"><app>
+                  <lem>Molte novitadi</lem>
+                  <rdg wit="#Va">m<expan>o</expan>lte cosse</rdg>
+                  <rdg wit="#Lu">Molte cosse mirabile</rdg>
+               </app> sono in <placeName ref="#India"><app>
+                     <lem>India</lem>
+                     <rdg wit="#An">Y<expan>n</expan>dia</rdg>
+                  </app></placeName>, <app>
+                  <lem><app>
+                        <lem>sopra le quali</lem>
+                        <rdg wit="#Ur #An #Va #Lu">le qual</rdg>
+                     </app>
+                     <app>
+                        <lem>io no scrivo</lem>
+                        <rdg wit="#An">no<expan>n</expan> le scrivo</rdg>
+                        <rdg wit="#Va #Lu">no<expan>n</expan> schrivo</rdg>
+                     </app></lem>
+                  <rdg wit="#Ba"/>
+               </app>, <app>
+                  <lem>che se uomo no‧lle <pb n="86v" corresp="Co_fol_86v"
+                        facs="data\images\single\Co_fol_86v.png"/>[f. 86va] vedesse, no‧lle potrebbe
+                     credere</lem>
+                  <rdg wit="#Ur">che se l’homo no<expan>n</expan> lo vedesse no<expan>n</expan> lo
+                     poria creder</rdg>
+                  <rdg wit="#An">che chy no<expan>n</expan> le vedesse no<expan>n</expan> le porebbe
+                     credere</rdg>
+                  <rdg wit="#Ba">che se l'uomo non le vede non le crederebbe</rdg>
+                  <rdg wit="#Va">che se l'uomo no<expan>n</expan> le vedesse no<expan>n</expan> le
+                     crederebbe</rdg>
+                  <rdg wit="#Lu">p<expan>er</expan>ch<expan>é</expan> se l'omo no<expan>n</expan> le
+                     vedesse, mai no<expan>n</expan> le crederebe</rdg>
+               </app>.</ab>
+            <ab n="2" xml:id="com28.2"><app>
+                  <lem><app>
+                        <lem>In tutto</lem>
+                        <rdg wit="#M">in tanto</rdg>
+                     </app> ’l mondo</lem>
+                  <rdg wit="#Lu">In tuto lo risto d<expan>e</expan>l mo<expan>n</expan>do</rdg>
+               </app>
+               <app>
+                  <lem>no sono</lem>
+                  <rdg wit="#Ur">no<expan>n</expan> se trova<expan>r</expan>ia</rdg>
+                  <rdg wit="#Va">no<expan>n</expan> vi sono</rdg>
+               </app> tante <app>
+                  <lem>novitadi</lem>
+                  <rdg wit="#Lu">novità e varietà di cosse</rdg>
+               </app> quante sono <app>
+                  <lem>in questa <placeName ref="#India"><app>
+                           <lem>Yndia</lem>
+                           <rdg wit="#M #An #Ba #Lu">India</rdg>
+                        </app></placeName></lem>
+                  <rdg wit="#Ur">in quel'India</rdg>
+                  <rdg wit="#Va">in India</rdg>
+               </app>.</ab>
+            <ab n="3" xml:id="com28.3"><app>
+                  <lem><app>
+                        <lem>Queste</lem>
+                        <rdg wit="#Ur"/>
+                        <rdg wit="#Va">Q<expan>ue</expan>sto</rdg>
+                     </app>
+                     <app>
+                        <lem>òe fatto scrivere</lem>
+                        <rdg wit="#Ur">i’ò fate scriver</rdg>
+                     </app>
+                     <app>
+                        <lem>perché ne sono certo che così è la verità</lem>
+                        <rdg wit="#Ur">p<expan>er</expan> ch’io ne son certo e cossì è
+                              v<expan>er</expan>itade.</rdg>
+                        <rdg wit="#An">p<expan>er</expan>ò che ne sono certo cosy essere la
+                           verità</rdg>
+                        <rdg wit="#Va">p<expan>er</expan>ò che so<expan>n</expan> certo che cussì è
+                           la veritade</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">ma tuto quelo ò scrito è certissimo e vero
+                        p<expan>er</expan>ch<expan>é</expan> io <expan>con</expan> li ochi mei l'ò
+                     veduto</rdg>
+               </app>.</ab>
+            <ab n="4" xml:id="com28.4"><app>
+                  <lem>Allora <app>
+                        <lem>domandai</lem>
+                        <rdg wit="#Ur">domando</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">Io doma<expan>n</expan>dai in più logi</rdg>
+               </app> diligentemente di questa <placeName ref="#India">India</placeName>.</ab>
+            <ab n="5" xml:id="com28.5"><app>
+                  <lem><app>
+                        <lem>E</lem>
+                        <rdg wit="#Ba #Lu"/>
+                     </app>
+                     <app>
+                        <lem>tutti <app>
+                              <lem>comunemente</lem>
+                              <rdg wit="#Va">chomunevolme<expan>n</expan>te</rdg>
+                           </app> parlano</lem>
+                        <rdg wit="#Ur">Tuti me dichono</rdg>
+                        <rdg wit="#An">E tutte comunem<expan>en</expan>te dicono</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">fome dito g<ab>e</ab>n<ab>er</ab>alm<ab>en</ab>te
+                        p<expan>er</expan> tuti</rdg>
+               </app>
+               <app>
+                  <lem>che questa <placeName ref="#India"><app>
+                           <lem>Yndia</lem>
+                           <rdg wit="#Ur #M #Ba">India</rdg>
+                        </app></placeName> àe</lem>
+                  <rdg wit="#Va">che i<expan>n</expan> q<expan>ue</expan>sta India hè</rdg>
+                  <rdg wit="#Lu">ch<expan>e</expan> in q<expan>ue</expan>sta India el zì è</rdg>
+               </app> ventiquattro millia <app>
+                  <lem>d’isole</lem>
+                  <rdg wit="#Ur #Va #Lu">ysole</rdg>
+               </app> e <app>
+                  <lem>più di</lem>
+                  <rdg wit="#An"/>
+               </app>
+               <app>
+                  <lem>LXIIII</lem>
+                  <rdg wit="#Va">LXXIIII</rdg>
+               </app>
+               <app>
+                  <lem>re</lem>
+                  <rdg wit="#Ur">re di corona</rdg>
+                  <rdg wit="#Lu">regni</rdg>
+               </app>, e lla <app>
+                  <lem>magior</lem>
+                  <rdg wit="#Va">minor</rdg>
+               </app> parte <app>
+                  <lem>è bene habitata</lem>
+                  <rdg wit="#Ur #Va">bene habitade</rdg>
+                  <rdg wit="#Lu">be<expan>n</expan> habitata</rdg>
+               </app>.</ab>
+            <ab n="6" xml:id="com28.6"><app>
+                  <lem>Questo scrivo di questa <app>
+                        <lem>India</lem>
+                        <rdg wit="#An">Yndia</rdg>
+                     </app> e <app>
+                        <lem>nesun’altra</lem>
+                        <rdg wit="#M">et nulla altra chossa</rdg>
+                        <rdg wit="#An">e nullo altro</rdg>
+                     </app> ne dico</lem>
+                  <rdg wit="#Ur">E questo scrivo de questa India e no<expan>n</expan> altro.</rdg>
+                  <rdg wit="#Ba"/>
+                  <rdg wit="#Va">Q<expan>ue</expan>sto de q<expan>ue</expan>sta India, e
+                        no<expan>n</expan> altra cossa ve dico.</rdg>
+                  <rdg wit="#Lu"/>
+               </app>.</ab>
+         </div>
+         <div type="Chapter" n="29" xml:id="chap.29">
+            <head><hi rend="rubric"><app>
+                     <lem>Dell’<placeName ref="#India Superiore">India Superiore</placeName> e della
+                        provincia del <placeName ref="#Mançi">Mançi</placeName>, ke a II citadi.
+                           <supplied>Capitolo</supplied> XXVIIII.</lem>
+                     <rdg wit="#UR">Dela India Sup<expan>er</expan>ior e dela
+                        p<expan>ro</expan>vintia del Mançi che à IIM citade gra<expan>n</expan>de e
+                        molte altre novitade. Capitollo 29.<hi rend="rubric"/></rdg>
+                     <rdg wit="#M, #An #Ba #Va #Lu #Man"><note>I mss M, An, Ba, Va, Lu, Man non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com29.1"><app>
+                  <lem><app>
+                        <lem>A</lem>
+                        <rdg wit="#M">Di</rdg>
+                     </app> l’<placeName ref="#India Superiore">India Superiore</placeName>
+                     passamo</lem>
+                  <rdg wit="#Ur"/>
+                  <rdg wit="#Ba">Passai nell'India Superiore</rdg>
+               </app>
+               <app>
+                  <lem><app>
+                        <lem>e</lem>
+                        <rdg wit="#Ba #Lu"/>
+                     </app>, navicando</lem>
+                  <rdg wit="#Ur">e navegando nui</rdg>
+               </app> verso oriente per lo <placeName ref="#mare Occiano"><app>
+                     <lem>mare Occeano</lem>
+                     <rdg wit="#Ur">mar Ocian</rdg>
+                  </app></placeName>
+               <app>
+                  <lem>molti dì</lem>
+                  <rdg wit="#Ur #Ba">i<expan>n</expan> molti dì</rdg>
+                  <rdg wit="#Lu">molte giornate</rdg>
+               </app>, <app>
+                  <lem>venni</lem>
+                  <rdg wit="#Ur">io çunsi</rdg>
+                  <rdg wit="#Lu">i<expan>n</expan> tanto ch<expan>e</expan> gionzesemo</rdg>
+               </app>
+               <app>
+                  <lem>alla</lem>
+                  <rdg wit="#Lu">ad una</rdg>
+               </app>
+               <app>
+                  <lem>nobile</lem>
+                  <rdg wit="#Ur"/>
+               </app> provincia <app>
+                  <lem>del <placeName ref="#Mançi"><app>
+                           <lem>Mançi</lem>
+                           <rdg wit="#An">Mançy</rdg>
+                        </app></placeName></lem>
+                  <rdg wit="#Lu">chiamata Ma<expan>n</expan>zi</rdg>
+               </app>, <app>
+                  <lem>la quale <app>
+                        <lem>chiamiamo</lem>
+                        <rdg wit="#Ur">se chiama</rdg>
+                        <rdg wit="#M">chiama</rdg>
+                        <rdg wit="#An">chiamano</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">la qual p<expan>ro</expan>vintia fi apelata i<expan>n</expan></rdg>
+               </app>
+               <placeName ref="#India Superiore"><app>
+                     <lem>India Sup<supplied>er</supplied>iore</lem>
+                     <rdg wit="#Ur">India Sup<expan>er</expan>ior</rdg>
+                     <rdg wit="#An">Yndia Sup<expan>er</expan>iore</rdg>
+                  </app></placeName></ab>
+            <ab n="2" xml:id="com29.2"><app>
+                  <lem>Onde per certo è da sape<supplied>r</supplied> ch’io domandai</lem>
+                  <rdg wit="#Ur">Io domandà certamente</rdg>
+                  <rdg wit="#An">Et è da sapere ch'yo domanday</rdg>
+                  <rdg wit="#Lu">Unde io doma<expan>n</expan>dai</rdg>
+               </app>
+               <app>
+                  <lem>cristiani e saracini e idolatri</lem>
+                  <rdg wit="#Ur"><expan>crist</expan>iani, saraxini, ydolatri</rdg>
+               </app> e <app>
+                  <lem>lli</lem>
+                  <rdg wit="#An #Ba #Lu"/>
+               </app> oficiali <app>
+                  <lem>del Grade Cane</lem>
+                  <rdg wit="#Lu">d<expan>e</expan>l gra<expan>n</expan> chane ch<expan>e</expan>
+                        q<expan>ui</expan>vi signoreza</rdg>
+               </app>
+               <app>
+                  <lem>diligentissimamente</lem>
+                  <rdg wit="#Ur #An #Ba">diligenteme<expan>n</expan>te</rdg>
+                  <rdg wit="#Lu"/>
+               </app>
+               <app>
+                  <lem>di questa provincia</lem>
+                  <rdg wit="#Lu">d<expan>e</expan>la <expan>con</expan>ditione di questa
+                        provi<expan>n</expan>zia</rdg>
+               </app>, <app>
+                  <lem>li quali mi rispuosero tutti <app>
+                        <lem>di</lem>
+                        <rdg wit="#M #An #Ba">in</rdg>
+                     </app> concordia</lem>
+                  <rdg wit="#Ur">Eli me respoxeno tuti</rdg>
+                  <rdg wit="#Lu">fome dito comunamente p<expan>er</expan> tuti</rdg>
+               </app>, che questa provincia <app>
+                  <lem>del</lem>
+                  <rdg wit="#Lu"/>
+               </app>
+               <placeName ref="#Mançi"><app>
+                     <lem>Mançi</lem>
+                     <rdg wit="#An">Mançy</rdg>
+                     <rdg wit="#Ba">Manzi</rdg>
+                     <rdg wit="#Lu">Manci</rdg>
+                  </app></placeName>
+               <app>
+                  <lem>àe</lem>
+                  <rdg wit="#M">et</rdg>
+                  <rdg wit="#Lu">in sè contiene</rdg>
+               </app> duomilia [f. 86vb] <app>
+                  <lem>grandi <app>
+                        <lem>cittadi</lem>
+                        <rdg wit="#An"/>
+                     </app></lem>
+                  <rdg wit="#Ur">citade grande</rdg>
+                  <rdg wit="#Lu">cità sì grande</rdg>
+               </app>.</ab>
+            <ab n="3" xml:id="com29.3"><app>
+                  <lem><app>
+                        <lem>E in</lem>
+                        <rdg wit="#Ba"/>
+                     </app> tanto sono grandi <app>
+                        <lem>quelle</lem>
+                        <rdg wit="#M">queste</rdg>
+                     </app> cittadi</lem>
+                  <rdg wit="#Ur #Lu"/>
+                  <rdg wit="#An">E sono sì grande</rdg>
+               </app>
+               <app>
+                  <lem>che <app>
+                        <lem>né</lem>
+                        <rdg wit="#M">no è</rdg>
+                        <rdg wit="#Ba #Lu"/>
+                     </app>
+                     <placeName ref="#Trivigi"><app>
+                           <lem>Trivigi</lem>
+                           <rdg wit="#Ur">Trevixo</rdg>
+                           <rdg wit="#M">Trivisi</rdg>
+                           <rdg wit="#Ba">Trevigi</rdg>
+                           <rdg wit="#Lu">Treviso</rdg>
+                        </app></placeName>
+                     <app>
+                        <lem>né</lem>
+                        <rdg wit="#Lu">e</rdg>
+                     </app>
+                     <placeName ref="#Vincença"><app>
+                           <lem>Vincença</lem>
+                           <rdg wit="#Ur">Padova</rdg>
+                           <rdg wit="#M">Vicença</rdg>
+                           <rdg wit="#Ba">Vinegia</rdg>
+                           <rdg wit="#Lu">Vizenza</rdg>
+                        </app></placeName>
+                     <app>
+                        <lem>non si porrebbero in <app>
+                              <lem>novero</lem>
+                              <rdg wit="#M #Ba">numero</rdg>
+                           </app> di cittadi</lem>
+                        <rdg wit="#Ur">no<expan>n</expan> seraveno in numero de cità</rdg>
+                        <rdg wit="#Lu">vi si <expan>con</expan>terebe per cità></rdg>
+                     </app></lem>
+                  <rdg wit="#An">che in tale numero no<expan>n</expan> si porebbe Trivigy né
+                     Viciença</rdg>
+               </app>.</ab>
+            <ab n="4" xml:id="com29.4"><app>
+                  <lem>Onde tanta moltitudine di gente è in quella contrada</lem>
+                  <rdg wit="#Ur">Et èlli tanta multitudine de gente in quella terra</rdg>
+                  <rdg wit="#Lu">Unde i<expan>n</expan> quela <expan>con</expan>trata è tanta
+                     zente</rdg>
+               </app><app>
+                  <lem> che appo noi è una cosa incredibile</lem>
+                  <rdg wit="#Ur">che a uno serave una cossa i<expan>m</expan>possibile a
+                     oldire</rdg>
+                  <rdg wit="#Lu">che è cossa i<expan>n</expan>credibile ad audirlo</rdg>
+               </app>.</ab>
+            <ab n="5" xml:id="com29.5"><app>
+                  <lem>Nella quale</lem>
+                  <rdg wit="#M">nele quali</rdg>
+                  <rdg wit="#An">cui</rdg>
+                  <rdg wit="#Lu">in questa p<expan>ro</expan>vi<expan>n</expan>tia</rdg>
+               </app>
+               <app>
+                  <lem>àe</lem>
+                  <rdg wit="#An"/>
+               </app> grande copia di pane <app>
+                  <lem>e</lem>
+                  <rdg wit="#Ba #Lu"/>
+               </app> di vino <app>
+                  <lem><app>
+                        <lem>e di riso</lem>
+                        <rdg wit="#Ur"/>
+                        <rdg wit="#An">d'orço</rdg>
+                     </app>
+                     <app>
+                        <lem>e di carne e di pesci</lem>
+                        <rdg wit="#Ur">de pesce</rdg>
+                        <rdg wit="#Ba">et di carne</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">di carne, di risi</rdg>
+               </app>
+               <app>
+                  <lem>e d’ongni vittuallia</lem>
+                  <rdg wit="#Ur">e d'ogn'altra vittualia</rdg>
+                  <rdg wit="#Ba">et d'ogni vettovaglia</rdg>
+                  <rdg wit="#Lu">e di spetie</rdg>
+               </app>, <app>
+                  <lem>sì come sia oggi in terra del mondo</lem>
+                  <rdg wit="#Ur">che sia in ter<expan>r</expan>a</rdg>
+                  <rdg wit="#An">come sia in tera del mo<expan>n</expan>do</rdg>
+                  <rdg wit="#Ba">sì come oggi in terra del mondo</rdg>
+                  <rdg wit="#Lu">quanto sia ozi i<expan>n</expan> p<expan>ro</expan>vi<expan/>ntia
+                        d<expan>e</expan>l mu<expan>n</expan>do</rdg>
+               </app>.</ab>
+            <ab n="6" xml:id="com29.6"><app>
+                  <lem>Tutti li huomini</lem>
+                  <rdg wit="#Ba">tucti i nomi</rdg>
+               </app>
+               <app>
+                  <lem>di <app>
+                        <lem>questa</lem>
+                        <rdg wit="#Ba">quella</rdg>
+                     </app> provincia</lem>
+                  <rdg wit="#Ur">de quella contrada</rdg>
+               </app> sono <app>
+                  <lem>artefici</lem>
+                  <rdg wit="#Ur">artixani</rdg>
+               </app> e mercatanti, <app>
+                  <lem>unde</lem>
+                  <rdg wit="#Ur #Ba #Lu">unde may</rdg>
+               </app>
+               <app>
+                  <lem>per <app>
+                        <lem>nulla</lem>
+                        <rdg wit="#Ur">alchuna</rdg>
+                        <rdg wit="#An #Ba">niuna</rdg>
+                     </app> povertà <app>
+                        <lem>che abiano <app>
+                              <lem>costoro</lem>
+                              <rdg wit="#Ba">che costoro habbiano</rdg>
+                           </app></lem>
+                        <rdg wit="#An"/>
+                     </app></lem>
+                  <rdg wit="#Lu">no<expan>n</expan> patischono pov<expan>er</expan>tà</rdg>
+               </app>
+               <app>
+                  <lem>no</lem>
+                  <rdg wit="#Lu">né</rdg>
+               </app> domandano <app>
+                  <lem>elemosina</lem>
+                  <rdg wit="#Ba">carità</rdg>
+               </app>
+               <app>
+                  <lem><app>
+                        <lem>fine</lem>
+                        <rdg wit="#Ba">infino</rdg>
+                     </app> a tanto <app>
+                        <lem>ke</lem>
+                        <rdg wit="#Lu">finché</rdg>
+                     </app>
+                     <app>
+                        <lem>colle mani</lem>
+                        <rdg wit="#M">non le mani (<hi rend="italic">sic</hi>)</rdg>
+                        <rdg wit="#An #Ba">colle loro mano</rdg>
+                     </app>
+                     <app>
+                        <lem>loro</lem>
+                        <rdg wit="#An #Ba #Lu"/>
+                     </app> si possono atare</lem>
+                  <rdg wit="#Ur">fina a tanto che ’li si pòno aiutar co<expan>n</expan> le man</rdg>
+               </app>.</ab>
+            <ab n="7" xml:id="com29.7">Li huomini <app>
+                  <lem>di questa <app>
+                        <lem>contrada</lem>
+                        <rdg wit="#An #Lu">p<expan>ro</expan>vincya</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur"/>
+               </app>
+               <app>
+                  <lem>sono assai belli del corpo</lem>
+                  <rdg wit="#Lu">sono d<expan>e</expan>l corpo be<expan>n</expan>
+                     <expan>com</expan>plesionati</rdg>
+               </app>, ma sono <app>
+                  <lem>palidi</lem>
+                  <rdg wit="#Lu">palidi nel volto</rdg>
+               </app>, <app>
+                  <lem>avendo barba</lem>
+                  <rdg wit="#Ur #An">e àno barbe</rdg>
+                  <rdg wit="#Lu">e àno le barbe loro</rdg>
+               </app> a modo <app>
+                  <lem>di gatte</lem>
+                  <rdg wit="#An">di ghatti</rdg>
+               </app>. </ab>
+            <ab n="8" xml:id="com29.8"><app>
+                  <lem>Le femine <app>
+                        <lem>sono</lem>
+                        <rdg wit="#An">vi sono</rdg>
+                     </app>
+                     <app>
+                        <lem>le</lem>
+                        <rdg wit="#Ur">dele</rdg>
+                        <rdg wit="#An"/>
+                     </app> più belle <app>
+                        <lem>del mondo</lem>
+                        <rdg wit="#An">che in altra parte del mo<expan>n</expan>do</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">Le fe<expan>m</expan>i<expan>n</expan>e i<expan>n</expan> beleze
+                     passano tute le altre d<expan>e</expan>l mondo</rdg>
+               </app>.</ab>
+            <ab n="9" xml:id="com29.9"><app>
+                  <lem>In questa <app>
+                        <lem>provincia</lem>
+                        <rdg wit="#Ba">contrada</rdg>
+                     </app> la prima città ch’io trovai</lem>
+                  <rdg wit="#Ur">La p<expan>ri</expan>ma citade ch’io trovay i<expan>n</expan> quela
+                        p<expan>ro</expan>vi<expan>n</expan>cia </rdg>
+                  <rdg wit="#An #Lu">La prima ciptà ch'yo trovay in questa
+                     p<expan>ro</expan>vincya</rdg>
+               </app> si chiama <placeName ref="#Cescalam"><app>
+                     <lem>Cescalam</lem>
+                     <rdg wit="#Ur">Toscalaz</rdg>
+                     <rdg wit="#M">Cesschalon</rdg>
+                     <rdg wit="#An">Tostalaz</rdg>
+                     <rdg wit="#Ba">Teschalam</rdg>
+                     <rdg wit="#Lu">Cieschalon</rdg>
+                  </app></placeName>.</ab>
+            <ab n="10" xml:id="com29.10"><app>
+                  <lem>Questa città</lem>
+                  <rdg wit="#Ur">E quella citade</rdg>
+               </app>
+               <app>
+                  <lem><app>
+                        <lem>secondo ch’io credo</lem>
+                        <rdg wit="#Ur">sì come io credo</rdg>
+                        <rdg wit="#An">a mio vede<expan>re</expan></rdg>
+                     </app>
+                     <app>
+                        <lem>è grande bene</lem>
+                        <rdg wit="#Ur">è ben grande</rdg>
+                        <rdg wit="#An">è grande</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">è gra<expan>n</expan>de al mio vedere</rdg>
+               </app>
+               <app>
+                  <lem>per tre Vinegie</lem>
+                  <rdg wit="#An">tre volte Vinegia</rdg>
+               </app>, <app>
+                  <lem>di lu<supplied>n</supplied>gi</lem>
+                  <rdg wit="#Ur #M">ed è longi</rdg>
+                  <rdg wit="#Lu">longiqua</rdg>
+               </app>
+               <app>
+                  <lem>dal</lem>
+                  <rdg wit="#M">del</rdg>
+               </app> mare <app>
+                  <lem>una giornata</lem>
+                  <rdg wit="#Ba"/>
+               </app>.</ab>
+            <ab n="11" xml:id="com29.11"><app>
+                  <lem>Ed è posta</lem>
+                  <rdg wit="#Ur"/>
+                  <rdg wit="#An">è posta</rdg>
+                  <rdg wit="#Lu">posta</rdg>
+               </app> sopra uno fiume <app>
+                  <lem><app>
+                     <lem>la cui <pb n="87r" corresp="Co_fol_87r"
+                              facs="data\images\single\Co_fol_87r.png"/>[f. 87ra] aqqua</lem>
+                        <rdg wit="#Ur">la qual acqua</rdg>
+                     </app>
+                     <app>
+                        <lem>per quello mare</lem>
+                        <rdg wit="#Ur">p<expan>er</expan> lo mar</rdg>
+                     </app>
+                     <app>
+                        <lem>monta</lem>
+                        <rdg wit="#Ur">passa</rdg>
+                     </app> oltra la terra bene VII giornate</lem>
+                  <rdg wit="#Lu">el quale nascie d<expan>e</expan> sopra questa cità sei
+                     giornate</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com29.12"> Tutto il popolo <app>
+                  <lem><app>
+                        <lem>di questa città e provincia</lem>
+                        <rdg wit="#Lu">di questa cità e di questa provi<expan>n</expan>zia</rdg>
+                     </app>
+                     <app>
+                        <lem>di tutto questo</lem>
+                        <rdg wit="#An">e tutto di questa</rdg>
+                        <rdg wit="#Lu"/>
+                     </app>
+                     <placeName ref="#Mançi"><app>
+                           <lem>Mançi</lem>
+                           <rdg wit="#An">Mançy</rdg>
+                           <rdg wit="#Lu">Manci</rdg>
+                        </app></placeName>
+                     <app>
+                        <lem>e <placeName ref="#India Superiore">India Superiore</placeName></lem>
+                        <rdg wit="#Ur">dela p<expan>ro</expan>vintia del Ma<expan>n</expan>çi
+                           del'India Sup<expan>er</expan>ior</rdg>
+                        <rdg wit="#Ba">di q<expan>ue</expan>sta città et provincia et tutto di India
+                           Superiore</rdg>
+                     </app>
+                     <app>
+                        <lem>è</lem>
+                        <rdg wit="#Ur"/>
+                        <rdg wit="#Ba">sono</rdg>
+                     </app>
+                     <app>
+                        <lem>idolatra</lem>
+                        <rdg wit="#An">idolatria</rdg>
+                        <rdg wit="#Ba">ydolatri</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">è ydolatro, e p<expan>er</expan> lo simile d<expan>e</expan> tuta
+                     India Sup<expan>er</expan>iore</rdg>
+               </app>.</ab>
+            <ab n="13" xml:id="com29.13"><app>
+                  <lem><app>
+                        <lem>Questa città</lem>
+                        <rdg wit="#Ur">Quela citade</rdg>
+                     </app> àe</lem>
+                  <rdg wit="#Lu">In questa cità sono</rdg>
+               </app>
+               <app>
+                  <lem>tanto navilio</lem>
+                  <rdg wit="#Ur #Lu">tantti navilii</rdg>
+                  <rdg wit="#An">uno sì grande naviglio</rdg>
+               </app>
+               <app>
+                  <lem><app>
+                        <lem>e sì grande</lem>
+                        <rdg wit="#Ur #An"/>
+                     </app>
+                     <app>
+                        <lem><app>
+                              <lem>ch’è una incredibile cosa</lem>
+                              <rdg wit="#Ur">ch'el è incredibile cosa</rdg>
+                              <rdg wit="#Ba">che è incredibile cosa</rdg>
+                           </app>, <app>
+                              <lem>onde</lem>
+                              <rdg wit="#Ur"/>
+                           </app> tutta <placeName ref="#Ytalia"><app>
+                                 <lem>Italia</lem>
+                                 <rdg wit="#Ur #Ba">Ytalia</rdg>
+                              </app></placeName> non à <app>
+                              <lem>>tanto <app>
+                                    <lem>navilio</lem>
+                                    <rdg wit="#Ba"/>
+                                 </app></lem>
+                              <rdg wit="#Ur #An">tanti navilii</rdg>
+                           </app></lem>
+                        <rdg wit="#M"/>
+                     </app>
+                     <app>
+                        <lem>quanto <app>
+                              <lem>questa <app>
+                                    <lem>città</lem>
+                                    <rdg wit="#An"/>
+                                 </app> sola</lem>
+                              <rdg wit="#Ur"/>
+                              <rdg wit="#M">che è chomo questa zittà sola</rdg>
+                           </app></lem>
+                        <rdg wit="#Ba">ha questa città grande</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">e sì gra<expan>n</expan>di qua<expan>n</expan>ti è forsi
+                        i<expan>n</expan> tuta Italia ch'<expan>è</expan> cossa incredibile ma pur è
+                     vero</rdg>
+               </app>.</ab>
+            <ab n="14" xml:id="com29.14"><app>
+                  <lem>E in questa città</lem>
+                  <rdg wit="#Ur #Ba">In quella cità</rdg>
+                  <rdg wit="#Ba #Lu">In questa città</rdg>
+               </app>
+               <app>
+                  <lem>si possono avere</lem>
+                  <rdg wit="#Ur">se trova</rdg>
+                  <rdg wit="#An">si dà</rdg>
+                  <rdg wit="#Ba">si può havere</rdg>
+                  <rdg wit="#Lu">si <expan>com</expan>prano</rdg>
+               </app>
+               <app>
+                  <lem>bene</lem>
+                  <rdg wit="#Lu"/>
+               </app> trecento libre di gengevo <app>
+                  <lem>fresco <app>
+                        <lem>e ricente</lem>
+                        <rdg wit="#Lu"/>
+                     </app></lem>
+                  <rdg wit="#Ur">seccho</rdg>
+                  <rdg wit="#An">fresco e bello</rdg>
+               </app>
+               <app>
+                  <lem>per meno d’uno grosso</lem>
+                  <rdg wit="#Ur">p<expan>er</expan> niente</rdg>
+                  <rdg wit="#Lu">p<expan>er</expan> meno d<expan>e</expan> u<expan>n</expan> grosso
+                     venetiano</rdg>
+               </app>.</ab>
+            <ab n="15" xml:id="com29.15"><app>
+                  <lem>In questa città sono le più belle e <app>
+                        <lem>lle</lem>
+                        <rdg wit="#An"/>
+                     </app> magiori oche <app>
+                        <lem><app>
+                              <lem>e milliore</lem>
+                              <rdg wit="#An">e·l miglore</rdg>
+                           </app> mercato </lem>
+                        <rdg wit="#Lu"/>
+                     </app><app>
+                        <lem>del mondo</lem>
+                        <rdg wit="#M #An #Ba #Lu">ch<expan>e</expan> sia al mondo</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur"/>
+               </app>.</ab>
+            <ab n="16" xml:id="com29.16"><app>
+                  <lem>Onde una delle loro oche è ben magiore che due delle nostre</lem>
+                  <rdg wit="#Ur">E una dele soe ocche è <expan>grande</expan> p<expan>er</expan> doe
+                     dele nostre</rdg>
+                  <rdg wit="#An">che una di quelle è magiore che due dele nostre</rdg>
+                  <rdg wit="#Lu">Unde una di quele oche è granda per due d<expan>e</expan>le
+                     nostre</rdg>
+               </app>. </ab>
+            <ab n="17" xml:id="com29.17">E sono bianche <app>
+                  <lem>come latte</lem>
+                  <rdg wit="#Lu">tute come late</rdg>
+               </app> e ànno <app>
+                  <lem>uno osso sopra’l capo</lem>
+                  <rdg wit="#An">sopra il capo uno osso</rdg>
+               </app>
+               <app>
+                  <lem>come uno uovo</lem>
+                  <rdg wit="#Ur">a modo d'uno ovo</rdg>
+                  <rdg wit="#Lu">gra<expan>n</expan>de come uno ovo</rdg>
+               </app>
+               <app>
+                  <lem>di tale colore qual è il sangue</lem>
+                  <rdg wit="#Ur">et è roso come sangue</rdg>
+                  <rdg wit="#M">di tale colore chome il sangue</rdg>
+                  <rdg wit="#Ba">di tale colore quale el sangue</rdg>
+                  <rdg wit="#Lu">u<expan>n</expan> milio come sangue</rdg>
+               </app>.</ab>
+            <ab n="18" xml:id="com29.18">E sotto la gola <app>
+                  <lem>una pelle pende bene</lem>
+                  <rdg wit="#Ur">à una pelle che pende bene</rdg>
+                  <rdg wit="#M">una pelle pendente bene</rdg>
+                  <rdg wit="#An #Ba">pende una pelle b<expan>e</expan>n</rdg>
+                  <rdg wit="#Lu">à una pele ch<expan>e</expan> dipende</rdg>
+               </app>
+               <app>
+                  <lem>per uno sommesso</lem>
+                  <rdg wit="#Ur #An #Lu">uno somesso</rdg>
+               </app>.</ab>
+            <ab n="19" xml:id="com29.19"><app>
+                  <lem><app>
+                        <lem>Sono grassisime</lem>
+                        <rdg wit="#Ur">E sono molte grasse</rdg>
+                        <rdg wit="#M #Lu">Et sono grassissime</rdg>
+                        <rdg wit="#An"/>
+                     </app>
+                     <app>
+                        <lem>e àssi l’una <app>
+                              <lem>cotta</lem>
+                              <rdg wit="#M">chatta (<hi rend="italic">sic</hi>)</rdg>
+                           </app> per uno grosso</lem>
+                        <rdg wit="#Ur">e àssene una p<expan>er</expan> uno d'i nostri grossi</rdg>
+                        <rdg wit="#An">àssene la cotta p<expan>er</expan> uno grosso</rdg>
+                        <rdg wit="#Lu">ve<expan>n</expan>dese una di quele oche uno grosso
+                           venetiano</rdg>
+                     </app></lem>
+                  <rdg wit="#Ba">et hassi l'una p<expan>er</expan> uno grosso et sono
+                     grassissime</rdg>
+               </app>
+            </ab>
+            <ab n="20" xml:id="com29.20"><app>
+                  <lem>E come dell’oche</lem>
+                  <rdg wit="#Ur">Sì como son<expan>n</expan>o dele ocche</rdg>
+                  <rdg wit="#Ba">Et sì come dell'oche</rdg>
+               </app>, <app>
+                  <lem>così dell’anatre e <app>
+                        <lem>delle</lem>
+                        <rdg wit="#Lu"/>
+                     </app> galline</lem>
+                  <rdg wit="#Ur">così sono dele galine</rdg>
+                  <rdg wit="#An">cosy dell'altre cose</rdg>
+               </app>, <app>
+                  <lem><app>
+                        <lem>che</lem>
+                        <rdg wit="#An">le ghalliny</rdg>
+                     </app> vi sono <app>
+                        <lem>sì</lem>
+                        <rdg wit="#An #Lu"/>
+                     </app>
+                     <app>
+                        <lem>grandi</lem>
+                        <rdg wit="#Lu">grande e i<expan>n</expan> qua<expan>n</expan>tità
+                           mirabile</rdg>
+                     </app>
+                     <app>
+                        <lem>ch’è cosa meravilliosa</lem>
+                        <rdg wit="#An">fuori si misura</rdg>
+                        <rdg wit="#Ba">ch'è maravigla</rdg>
+                        <rdg wit="#Lu"/>
+                     </app></lem>
+                  <rdg wit="#Ur"/>
+               </app>.</ab>
+            <ab n="21" xml:id="com29.21"><app>
+                  <lem>In questa contrada</lem>
+                  <rdg wit="#Ur">In quela contrada</rdg>
+                  <rdg wit="#Lu">Unde i<expan>n</expan> questa contrata</rdg>
+               </app> sono <app>
+                  <lem>li</lem>
+                  <rdg wit="#Lu"/>
+               </app> magior serpenti <app>
+                  <lem>che siano al mondo</lem>
+                  <rdg wit="#Ur">del mondo</rdg>
+               </app>, <app>
+                  <lem>i quali pilliano e mangi<supplied>a</supplied>‧lli tutti</lem>
+                  <rdg wit="#Ur"/>
+                  <rdg wit="#Lu">i quali da loro vie<expan>n</expan> ma<expan>n</expan>giati</rdg>
+               </app>.</ab>
+            <ab n="22" xml:id="com29.22"><app>
+                  <lem><app>
+                        <lem>Onde se facessero uno grande convito [f. 87rb] <app>
+                              <lem>o mangiare</lem>
+                              <rdg wit="#M">et mangiarle</rdg>
+                              <rdg wit="#An"/>
+                           </app>
+                           <app>
+                              <lem>e no vi avesse</lem>
+                              <rdg wit="#M #Ba">et non avesseno</rdg>
+                              <rdg wit="#An">e no<expan>n</expan> vi fussy</rdg>
+                           </app> di questi serpenti</lem>
+                        <rdg wit="#Lu">Unde se ad uno <expan>con</expan>vito no<expan>n</expan>
+                           fosse dato a man<expan/>giare d<expan>e</expan> queli
+                           s<expan>er</expan>penti</rdg>
+                     </app>
+                     <app>
+                        <lem>non</lem>
+                        <rdg wit="#Lu"/>
+                     </app> serebbe riputato <app>
+                        <lem>che facessero neiente</lem>
+                        <rdg wit="#An">da nie<expan>n</expan>te</rdg>
+                        <rdg wit="#Ba">che facesse niente</rdg>
+                        <rdg wit="#Lu">quel <expan>con</expan>vito pe<expan>r</expan> nulla</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">E fane grande conto a mangiarli, e chi no à de ‘sti
+                        s<expan>er</expan>penti no<expan>n</expan> se reputa niente in quela
+                     citade</rdg>
+               </app>.</ab>
+            <ab n="23" xml:id="com29.23"><app>
+                  <lem>In questa città àe grande abondança <app>
+                        <lem>d’ogni vittuallia</lem>
+                        <rdg wit="#An">de vituaglia</rdg>
+                        <rdg wit="#Ba">d'ogni vettovaglia</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">Ed èvi grande habundantia de vitualia</rdg>
+                  <rdg wit="#Lu"><expan>e</expan> altre cosse meravegliose asai ci è sono le qual
+                     sebere lunghe a scrivere però p<expan>er</expan> abreviare mi passo</rdg>
+               </app>.</ab>
+         </div>
+         <div type="Chapter" n="30" xml:id="chap.30">
+            <head><hi rend="rubric"><app>
+                     <lem>Della nobile città ke si chiama <placeName ref="#Çaiton"
+                           >Çaiton</placeName>, ove sono mollte novitadi. Capitolo XXX.</lem>
+                     <rdg wit="#UR"><hi rend="rubric">Dela nobel cità de Gaytum dove sono molte
+                           novitade. Capitollo 30.</hi></rdg>
+                     <rdg wit="#M, #An #Ba #Va #Lu #Man"><note>I mss M, An, Ba, Va, Lu, Man non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com30.1"><app>
+                  <lem><app>
+                        <lem>Di questa contrada</lem>
+                        <rdg wit="#Ur">De questa citade</rdg>
+                        <rdg wit="#An">In questa contrada</rdg>
+                     </app> mi parti’<app>
+                        <lem> e venni</lem>
+                        <rdg wit="#Ur">e andai</rdg>
+                     </app> per XXXVI giornate</lem>
+                  <rdg wit="#Lu">Partandomi da questa citade camina<expan>n</expan>do
+                        p<expan>er</expan> spatio de trentasei giornate</rdg>
+               </app>
+               <app>
+                  <lem>passando</lem>
+                  <rdg wit="#Lu">passai</rdg>
+               </app>
+               <app>
+                  <lem>per molte cittadi <app>
+                        <lem>et terre</lem>
+                        <rdg wit="#Ur">e contrade</rdg>
+                     </app></lem>
+                  <rdg wit="#Ba">p<expan>er</expan> molte città et terre</rdg>
+                  <rdg wit="#Lu">p<expan>er</expan> molte gra<expan>n</expan> cità</rdg>
+               </app>.</ab>
+            <ab n="2" xml:id="com30.2"><app>
+                  <lem>E venni</lem>
+                  <rdg wit="#Ur">vene</rdg>
+                  <rdg wit="#Lu">e capitai</rdg>
+               </app>
+               <app>
+                  <lem>a una nobile cittad<supplied>e</supplied> ch’àe nome</lem>
+                  <rdg wit="#Lu">ad una cità chiamata</rdg>
+               </app>
+               <placeName ref="#Çaiton"><app>
+                     <lem>Çaiton</lem>
+                     <rdg wit="#Ur">Gaytu<expan>n</expan></rdg>
+                     <rdg wit="#M">Zaiton</rdg>
+                     <rdg wit="#An">Çayton</rdg>
+                     <rdg wit="#Lu">Zato</rdg>
+                  </app></placeName>, <app>
+                  <lem>nella quale i nostri frati minori ànno due luoghii</lem>
+                  <rdg wit="#Ur">dove son<expan>n</expan>o II loghi de fra menori. </rdg>
+                  <rdg wit="#Lu">nel quale li nostri frati ne à due monesterii</rdg>
+               </app>.</ab>
+            <ab n="3" xml:id="com30.3"><app>
+                  <lem>E in <app>
+                        <lem>questa</lem>
+                        <rdg wit="#Ur">quela</rdg>
+                     </app> terra</lem>
+                  <rdg wit="#Lu">In questa cità</rdg>
+               </app>
+               <app>
+                  <lem>noi</lem>
+                  <rdg wit="#An #Ba"/>
+               </app> portamo l’ossa <app>
+                  <lem>di quelli frati</lem>
+                  <rdg wit="#Ur">di questi IIIIor fra meno<expan>r</expan>i </rdg>
+                  <rdg wit="#M #An">di questi frati</rdg>
+                  <rdg wit="#Lu">di queli frati d'i quali parlai de sopra</rdg>
+               </app> che fuoron passionati <app>
+                  <lem>per <persName ref="#Cristo">Cristo</persName></lem>
+                  <rdg wit="#Ur"/>
+                  <rdg wit="#Lu">ch<expan>e</expan> furono passionati e morti p<expan>er</expan> la
+                     fede de <expan>Yhesu</expan>
+                     <expan>Cristo</expan></rdg>
+               </app>.</ab>
+            <ab n="4" xml:id="com30.4"><app>
+                  <lem>In questa terra</lem>
+                  <rdg wit="#Ur">In quela citade <surplus>et</surplus></rdg>
+                  <rdg wit="#M">In questa</rdg>
+                  <rdg wit="#Lu">In questa cità</rdg>
+               </app> àe <app>
+                  <lem>grade</lem>
+                  <rdg wit="#Ur #An"/>
+                  <rdg wit="#Lu">gra<expan>n</expan>dissima</rdg>
+               </app> abondança <app>
+                  <lem>di tutte quelle cose</lem>
+                  <rdg wit="#Ur">de tute le cose</rdg>
+                  <rdg wit="#An #Lu">di tutte cose</rdg>
+               </app>
+               <app>
+                  <lem>che sono necessarie alla vita humana</lem>
+                  <rdg wit="#An">da viveri</rdg>
+                  <rdg wit="#Ba">che sono necessarie alla vita dell'uomo cioè vita humana</rdg>
+                  <rdg wit="#Lu">necessarie al vivere humano</rdg>
+               </app>.</ab>
+            <ab n="5" xml:id="com30.5"><app>
+                  <lem>Tre libre e VII oncie <app>
+                        <lem>di zuccharo</lem>
+                        <rdg wit="#Lu"/>
+                     </app>
+                     <app>
+                        <lem>vi s’ànno</lem>
+                        <rdg wit="#Ur">se gli trova</rdg>
+                        <rdg wit="#Ba">vi s'à</rdg>
+                        <rdg wit="#Lu">ivi si an<expan>n</expan>o</rdg>
+                     </app></lem>
+                  <rdg wit="#An">àvise l<expan>ibre</expan> 3 oncy 7 de çuchero</rdg>
+               </app> per meno di meço <app>
+                  <lem>grosso</lem>
+                  <rdg wit="#Lu">grosso venetiano</rdg>
+               </app>.</ab>
+            <ab n="6" xml:id="com30.6"><app>
+                  <lem><app>
+                        <lem>Questa città</lem>
+                        <rdg wit="#Ur">Quella citade</rdg>
+                     </app> è grande per due volte <placeName ref="#Bologna"><app>
+                           <lem>Bologna</lem>
+                           <rdg wit="#Ur #An">Bolo<expan>n</expan>gna</rdg>
+                        </app></placeName></lem>
+                  <rdg wit="#Ba #Lu"/>
+               </app>.</ab>
+            <ab n="7" xml:id="com30.7"><app>
+                  <lem>In questa città</lem>
+                  <rdg wit="#Ur">In quella citade</rdg>
+                  <rdg wit="#An">o'</rdg>
+                  <rdg wit="#Lu">In questa terra</rdg>
+               </app>
+               <app>
+                  <lem>sono</lem>
+                  <rdg wit="#An">sonvi</rdg>
+               </app> molti monesteri di religiosi che adorano <app>
+                  <lem>l’idoli</lem>
+                  <rdg wit="#Lu">u<expan>n</expan>deci millia ydoli</rdg>
+               </app>.</ab>
+            <ab n="8" xml:id="com30.8"><app>
+                  <lem><app>
+                        <lem>Nell’uno de’ quali</lem>
+                        <rdg wit="#Ur">et in ciaschuno di questi monastie<expan>r</expan>i</rdg>
+                        <rdg wit="#An">Nell'uno di quelly</rdg>
+                        <rdg wit="#Ba">In uno di q<expan>ue</expan>lli</rdg>
+                     </app>
+                     <app>
+                        <lem>avea</lem>
+                        <rdg wit="#Ur #Ba">à</rdg>
+                        <rdg wit="#An">era bene </rdg>
+                     </app> bene IIM religiosi <app>
+                        <lem>che aveano <app>
+                              <lem>bene</lem>
+                              <rdg wit="#An"/>
+                           </app> XIM ydoli</lem>
+                        <rdg wit="#Ur">e ben XM ydole</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu"/>
+               </app>, <app>
+                  <lem>i quali erano</lem>
+                  <rdg wit="#Ur">li qual son<expan>n</expan>o</rdg>
+               </app> sì grandi <app>
+                  <lem>che quello che tra loro era minore era grande <app>
+                     <lem>com uno <persName>san <pb n="87v" corresp="Co_fol_87v"
+                                 facs="data\images\single\Co_fol_87v.png"/> [f. 87va]
+                              Cristofano</persName> grande</lem>
+                        <rdg wit="#M">chome uno grande san <expan>Crist</expan>ofano</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">ch’el menore è sì grande como Santo Cristofano qua; et io me trovai
+                     là.</rdg>
+                  <rdg wit="#An">che il minore era come uno grande s<expan>an</expan>to
+                        <expan>Cristo</expan>fero</rdg>
+                  <rdg wit="#Ba">come uno gran San Cristofano</rdg>
+                  <rdg wit="#Lu">ch'<expan>e</expan>l minore era
+                        gra<expan>n</expan>d<expan>e</expan> come santo
+                     <expan>Crist</expan>oforo</rdg>
+               </app>.</ab>
+            <ab n="9" xml:id="com30.9"><app>
+                  <lem>In quello tempo <app>
+                        <lem>ch’elli</lem>
+                        <rdg wit="#An #Ba">che</rdg>
+                        <rdg wit="#Lu">che coloro</rdg>
+                     </app> danno <app>
+                        <lem>mangiare</lem>
+                        <rdg wit="#Lu">a ma<expan>n</expan>giare</rdg>
+                     </app>
+                     <app>
+                        <lem>a quelli loro dii</lem>
+                        <rdg wit="#An">a questi ydoli</rdg>
+                        <rdg wit="#Lu">a queli ydoli</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">Quando eli voleva dar mangiar a quelli soi dei</rdg>
+               </app>, <app>
+                  <lem>io v’andai</lem>
+                  <rdg wit="#Ur">io andà là</rdg>
+                  <rdg wit="#Ba">et io v'andai</rdg>
+                  <rdg wit="#Lu">io ci andai</rdg>
+               </app>.</ab>
+            <ab n="10" xml:id="com30.10"><app>
+                  <lem><app>
+                        <lem><app>
+                              <lem>Danno loro <app>
+                                    <lem>a</lem>
+                                    <rdg wit="#M #Ba"/>
+                                 </app> mangiare</lem>
+                              <rdg wit="#Ur">Egliono li dano da ma<expan>n</expan>giar </rdg>
+                           </app> per questo modo</lem>
+                        <rdg wit="#An"/>
+                     </app></lem>
+                  <rdg wit="#Lu"/>
+               </app>: <app>
+                  <lem>ongni cosa che possono mangiar <app>
+                        <lem>danno loro <app>
+                              <lem>sì</lem>
+                              <rdg wit="#M #An #Ba"/>
+                           </app>
+                           <app>
+                              <lem>caldo</lem>
+                              <rdg wit="#An">calda</rdg>
+                           </app></lem>
+                        <rdg wit="#Ur">danglilo caldo</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">I pone le vivande aparechiate caldissime ap<expan>re</expan>sso
+                     queli ydoli</rdg>
+               </app>
+               <app>
+                  <lem><app>
+                        <lem>che’l fumo</lem>
+                        <rdg wit="#M #An">sì ch<expan>e</expan> il fummo</rdg>
+                     </app> monta <app>
+                        <lem>a l’idoli loro</lem>
+                        <rdg wit="#An">a loro ydoli</rdg>
+                     </app></lem>
+                  <rdg wit="#Ur">sì che ’li fano onta ali soi dei</rdg>
+                  <rdg wit="#Ba">sì che agl'idoli monta questo fumo</rdg>
+                  <rdg wit="#Lu">e come vedono ch<expan>e</expan>l fumo d<expan>e</expan> quel cibo
+                     caldo ascende ala bocha di queli ydoli</rdg>
+               </app>; <app>
+                  <lem><app>
+                        <lem>l’autro mangiano <app>
+                              <lem>ellino</lem>
+                              <rdg wit="#An">essy</rdg>
+                           </app></lem>
+                        <rdg wit="#Ur">mo mangiano elli e no li ydoli</rdg>
+                        <rdg wit="#Ba">et l'aktro mangiano egli</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">dicono ch<expan>e</expan> li soi ydoli ma<expan>n</expan>giano
+                        <expan>e</expan> i<expan>n</expan> questo modo pascono li soi idoli
+                        d<expan>e</expan> fumo</rdg>
+               </app>.</ab>
+            <ab n="11" xml:id="com30.11"><app>
+                  <lem>E per questo modo <app>
+                        <lem>dicono che pascono <app>
+                              <lem>i lloro dii</lem>
+                              <rdg wit="#An">i loro ydoli</rdg>
+                           </app></lem>
+                        <rdg wit="#Ur">eli li dan paxe ali soi dei</rdg>
+                        <rdg wit="#Ba">dicono ch<expan>e</expan> danno mangiare a loro dii</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">e loro mangiano le vivande</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com30.12"><app>
+                  <lem><app>
+                        <lem>Und’è da sapere che</lem>
+                        <rdg wit="#Ur"/>
+                        <rdg wit="#An">Et è da sapere che</rdg>
+                     </app> questa terra è <app>
+                        <lem>delle milliori</lem>
+                        <rdg wit="#An">dele miglore ter<expan>r</expan>e</rdg>
+                     </app>
+                     <app>
+                        <lem><app>
+                              <lem>che siano</lem>
+                              <rdg wit="#Ur #M">che sia</rdg>
+                           </app> al mondo</lem>
+                        <rdg wit="#An">del mo<expan>n</expan>do</rdg>
+                     </app>
+                     <app>
+                        <lem>in tutte quelle cose che’l corpo humano puote avere</lem>
+                        <rdg wit="#Ur">de tute quelle cose ch’el corpo vuole.</rdg>
+                        <rdg wit="#An">p<expan>er</expan> ogny cosa bisogna al corpo umano</rdg>
+                        <rdg wit="#Ba">di tutte quelle cose che corpo humano puù vivere</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu"/>
+               </app>.</ab>
+            <ab n="13" xml:id="com30.13"><app>
+                  <lem>Molte altre cose si possono dire di questa terra che no‧lle scrivo</lem>
+                  <rdg wit="#Ur">E molte altre cose se poravene dir di quella citade.</rdg>
+                  <rdg wit="#An">Molte altre cose si potrebbono dire che no<expan>n</expan> le
+                     scrivo</rdg>
+                  <rdg wit="#Ba">Altre cose v'è assai</rdg>
+                  <rdg wit="#Lu">Molte cosse mirabile poria scrivere di questa cità, le qual io taso
+                        p<expan>er</expan> breviare</rdg>
+               </app>.</ab>
+         </div>
+      </body>
+   </text>
+   
+</TEI>

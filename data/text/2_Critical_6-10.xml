@@ -1,0 +1,1676 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="Odorico_Critical">
+               <hi rend="italics">Libro delle nuove e strane e meravigliose cose</hi>Edizione
+               critica.</title>
+            <author>Odorico da Pordenone OMin.</author>
+            <respStmt xml:id="AAndreose">
+               <resp>Edizione</resp>
+               <persName>Alvise Andreose</persName>
+            </respStmt>
+            <respStmt xml:id="IReginato">
+               <resp>Edizione e codifica</resp>
+               <persName>Irene Reginato</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <p>Portale dedicato ai volgarizzamenti italiani della <title xml:lang="latin"><hi
+                     rend="italic">Relatio de mirabilibus Orientalium Tatarorum</hi>di <persName
+                     ref="#Odorigo">Odorico da Pordenone OMin.</persName></title></p>
+
+         </publicationStmt>
+         
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="CO">Firenze, Biblioteca Nazionale Centrale, Conventi Soppressi
+                     C.7.1170.<note>Ms. base.</note></witness>
+               <witness xml:id="UR">Città del Vaticano, Biblioteca Apostolica Vaticana, Urbinate
+                  Lat. 1013.</witness>
+               <witness xml:id="M">Venezia, Biblioteca Nazionale Marciana, ms. it. cl. XI n° 32
+                  (6672).</witness>
+               <witness xml:id="An">Roma, Biblioteca Angelica, ms. n° 2212.</witness>
+               <witness xml:id="Ba">Città del Vaticano, Biblioteca Apostolica Vaticana, Barberiniano
+                  lat. 4048. </witness>
+               <witness xml:id="Lu">Lucca, Biblioteca Statale, ms. 1296 (<hi rend="italic">olim</hi>
+                  Lucchesini 26).</witness>
+               <witness xml:id="Man">Mantova, Biblioteca Comunale, ms. 448 <hi rend="italic"
+                     >olim</hi> E.I.10). </witness>
+               <witness xml:id="Va">Città del Vaticano, Biblioteca Apostolica Vaticana,Conventi
+                  Soppressi C.7.1170.</witness>
+            </listWit>  
+            
+            <listPerson>
+               <person xml:id="Odorigo">
+                  <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
+                        >Pordenone</placeName> O.M.</persName>
+               </person>
+               <person xml:id="Noé">
+                  <persName ref="#Noé">Noé, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Job">
+                  <persName ref="#Job">Giobbe, patriarca idumeo protagonista del libro
+                     omonimo.</persName>
+               </person>
+               <person xml:id="Tome">
+                  <persName ref="#Tome">Tommaso, detto Didimo, uno dei dodici apostoli di
+                     Cristo.</persName>
+               </person>
+               <person xml:id="PrestoGiovanni">
+                  <persName ref="#NPresto Giovanni">Prete Gianni, leggendario sovrano cristiano che
+                     la tradizione medievale colloca in Asia, India o Etiopia.</persName>
+               </person>
+               <person xml:id="Francesco">
+                  <persName ref="#Francesco">San Francesco d'Assisi.</persName>
+               </person>
+               <person xml:id="Atanaxio">
+                  <persName ref="#Atanaxio">Atanasio l'Atonita, o Atanasio di Trebisonda (X sec.),
+                     monaco bizantino fondatore della Repubblica del Monte Athos.</persName>
+               </person>
+               <person xml:id="Porro">
+                  <persName ref="#Porro">Poro (IV sec.), sovrano della dinastia dei Paurava,
+                     nell'antica India nord-occidentale.</persName>
+               </person>
+               <person xml:id="Allessandro">
+                  <persName ref="#Allessandro">Alessandro Magno.</persName>
+               </person>
+               <person xml:id="TommasodiTollentino">
+                  <persName ref="#Tommaso di Tollentino">Tommaso da Tolentino (m. Tana, 1321),
+                     missionario francescano martire in India.</persName>
+               </person>
+               <person xml:id="JacopodaPadoa">
+                  <persName ref="#Jacopo da Padoa">Giacomo da Padova (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="DimetrideTofilii">
+                  <persName ref="#DimetrideTofilii">Demetrio da Tiblisi (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="PietrodaSiena">
+                  <persName ref="#Pietro da Siena">Pietro da Siena (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="Magometo">
+                  <persName ref="#NMagometo">Muhammad, profeta dell'Islam.</persName>
+               </person>
+               <person xml:id="Abraam">
+                  <persName ref="#Abraam">Abramo, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Cristofano">
+                  <persName ref="#Cristofano">San Cristoforo (m. 250).</persName>
+               </person>
+               <person xml:id="Adam">
+                  <persName ref="#Adam">Adamo.</persName>
+               </person>
+               <person xml:id="AntoniodaPadua">
+                  <persName ref="#Antonio da Padua">Sant'Antonio da Padova.</persName>
+               </person>
+               <person xml:id="Eva">
+                  <persName ref="#Eva">Eva.</persName>
+               </person>
+               <person xml:id="Vecchiodellamontagna">
+                  <persName ref="#Vecchio della montagna">Ḥasan-i Ṣabbāḥ, maestro della setta
+                     ismailita dei nizariti.</persName>
+               </person>
+               <person xml:id="Cristo">
+                  <persName ref="#Cristo">Gesù Cristo</persName>
+               </person>
+            </listPerson>
+         
+            <listPlace>
+               <place xml:id="Pordenone">
+                  <placeName ref="#Pordenone">Pordenone</placeName>
+                  <location>
+                     <geo>45.956368, 12.661452</geo>
+                  </location>
+                  <note>Pordenone, Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Tollentino">
+                  <placeName ref="#Tollentino">Tolentino</placeName>
+                  <location>
+                     <geo>43.211178, 13.286336</geo>
+                  </location>
+                  <note>Tolentino (MC), Marche, Italia.</note>
+               </place>
+               <place xml:id="Padoa">
+                  <placeName ref="#Padoa">Padova</placeName>
+                  <location>
+                     <geo>45.406435, 11.876761</geo>
+                  </location>
+                  <note>Padova, Veneto, Italia.</note>
+               </place>
+               <place xml:id="Tofilii">
+                  <placeName ref="#Tofilii">Tblisi</placeName>
+                  <location>
+                     <geo>41.715138, 44.827096</geo>
+                  </location>
+                  <note>Tblisi, capitale della Georgia.</note>
+               </place>
+               <place xml:id="Siena">
+                  <placeName ref="#Siena">Tblisi</placeName>
+                  <location>
+                     <geo>43.318809, 11.330757</geo>
+                  </location>
+                  <note>Siena, Toscana, Italia.</note>
+               </place>
+               <place xml:id="Friuli">
+                  <placeName ref="#Friuli">Friuli</placeName>
+                  <location>
+                     <geo>46.225918, 13.103365</geo>
+                  </location>
+                  <note>Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Ytalia">
+                  <placeName ref="#Ytalia">Italia</placeName>
+                  <location>
+                     <geo>441.871940, 12.567380</geo>
+                  </location>
+               </place>
+               <place xml:id="Vinegia">
+                  <placeName ref="#Vinegia">Venezia</placeName>
+                  <location>
+                     <geo>45.440847, 12.315515</geo>
+                     <note>Venezia, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Pisa">
+                  <placeName ref="#Pisa">Pisa</placeName>
+                  <location>
+                     <geo>43.724591, 10.382981</geo>
+                     <note>Pisa, Toscana, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Udine">
+                  <placeName ref="#Udine">Udine</placeName>
+                  <location>
+                     <geo>46.071067, 13.234579</geo>
+                     <note>Udine, Friuli Venezia Giulia, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Trapesonda">
+                  <placeName ref="#Trapesonda">Trebisonda (Trabzon)</placeName>
+                  <location>
+                     <geo>41.002697, 39.716763</geo>
+                     <note>Città della Turchia, capoluogo dell'omonima provincia, sulla costa
+                        nord-orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="ArmeniaMaggiore">
+                  <placeName ref="#Armenia Maggiore"/>
+                  <location>
+                     <geo>40.069099, 45.038189</geo>
+                  </location>
+                  <note>Storicamente, l'Armenia Maggiore coincide con la regione caucasica
+                     delimitata, a nord, dalla valle del Kura (Turchia) a Nord, a sud dal lago di
+                     Van (Turchia orientale), a ovest dalla Colchide (Georgia occidentale), a est
+                     dal mar Caspio.</note>
+               </place>
+               <place xml:id="Torissi">
+                  <placeName ref="#Torissi">Tabriz</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Tabrīz, capoluogo della provincia dell’Azarbaijian.</note>
+                  </location>
+               </place>
+               <place xml:id="Soldania">
+                  <placeName ref="#Soldania"/>
+                  <location>
+                     <geo>36.433988, 48.794642</geo>
+                     <note>Soltaniyeh/Sulṭāniyyah, città iraniana nella provincia di Zanjan, a
+                        nordovest di Teheran.</note>
+                  </location>
+               </place>
+               <place xml:id="Persia">
+                  <placeName ref="#Persia">Persia</placeName>
+                  <location>
+                     <geo>32.427908, 53.688046</geo>
+                     <note>Persia, Iran.</note>
+                  </location>
+               </place>
+               <place xml:id="Cassam">
+                  <placeName ref="#Cassam">Kāshān</placeName>
+                  <location>
+                     <geo>33.991035, 51.423541</geo>
+                     <note>Kāshān, città iraniana nella provincia di Esfahan. </note>
+                  </location>
+               </place>
+               <place xml:id="SecondaYndia">
+                  <placeName ref="#Seconda Yndia">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana, la
+                        "Seconda Yndia" di Odorico indica l'India propriamente detta, ch'egli
+                        situava nella regione dal Golfo Persico al Vietnam meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="IndiaSuperiore">
+                  <placeName ref="#India Superiore">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana,
+                        Odorico indica con "India Superiore" le regioni della Cina meridionale a sud
+                        del Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Grandemare">
+                  <placeName ref="#Grande mare">mar Nero.</placeName>
+                  <location>
+                     <geo>43.413029, 34.299316</geo>
+                  </location>
+               </place>
+               <place xml:id="Çanega">
+                  <placeName ref="#Çanega">Zigana</placeName>
+                  <location>
+                     <geo>40.623056, 39.377778</geo>
+                     <note>Passo di Zigana,valico montano situato sui Monti Pontici nella provincia
+                        di Gümüşhane, vicino al confine con Trebisonda, nella Turchia
+                        nord-orientale. </note>
+                  </location>
+               </place>
+               <place xml:id="Açiron">
+                  <placeName ref="#Açiron">Erzerum</placeName>
+                  <location>
+                     <geo>39.905499, 41.265824</geo>
+                     <note>Odierna Erzerum. Turchia orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Bisacalo">
+                  <placeName ref="#Bisacalo">Aşkale</placeName>
+                  <location>
+                     <geo>339.920188, 40.694704</geo>
+                     <note>Probabilmente Aşkale, distretto della provincia di Erzurum,
+                        Turchia.</note>
+                  </location>
+               </place>
+               <place xml:id="Susis">
+                  <placeName ref="#Susis">Susis</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Dal toponimo biblico "Susi" (Esther 1:2), corrispondente a Tabrīz.</note>
+                  </location>
+               </place>
+               <place xml:id="Geste">
+                  <placeName ref="#Geste">Yazd.</placeName>
+                  <location>
+                     <geo>31.897423, 54.356856</geo>
+                     <note>Yazd, capoluogo dell'omonima provincia iraniana.</note>
+                  </location>
+               </place>
+               <place xml:id="Conio">
+                  <placeName ref="#Conio">Kenareh.</placeName>
+                  <location>
+                     <geo>29.910968, 52.862080</geo>
+                     <note>Forse l'iraniana Kenareh, nella contea di Marvdasht (provincia di
+                        Fars).</note>
+                  </location>
+               </place>
+               <place xml:id="Hus">
+                  <placeName ref="#Hus">Us.</placeName>
+                  <location>
+                     <geo>31.318327, 48.670619</geo>
+                     <note>Denominazione biblica indicante la città di Us, patria di Giobbe (Job
+                        1:1). Identificazione incerta, forse l'iraniana Ahvāz, capoluogo della
+                        provincia del Khūzestān.</note>
+                  </location>
+               </place>
+               <place xml:id="Caldea">
+                  <placeName ref="#Caldea">Caldea.</placeName>
+                  <location>
+                     <geo>32.391690, 44.341584</geo>
+                     <note>Denominazione indicante la valle del Tigri e dell'Eufrate, anche sinonimo
+                        di Babilonia.</note>
+                  </location>
+               </place>
+               <place xml:id="mareOcciano">
+                  <placeName ref="#mare Occiano">Oceano Indiano.</placeName>
+                  <location>
+                     <geo>-33.137551, 81.826172</geo>
+                     <note>Oceano Indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Ormes">
+                  <placeName ref="#Ormes">Hormuz.</placeName>
+                  <location>
+                     <geo>27.092394, 56.451465</geo>
+                     <note>Isola di Hormuz, isola del Golfo Persico al centro dell'omonimo stretto,
+                        parte del territorio iraniano di Hormozgan.</note>
+                  </location>
+               </place>
+               <place xml:id="Tanna">
+                  <placeName ref="#Tana">Thana.</placeName>
+                  <location>
+                     <geo>19.218331, 72.978090</geo>
+                     <note>Thane (o Thana, Tanna), capoluogo del distretto omonimo, collocata
+                        nell'isola di Salsette, nello stato indiano del Maharashtra.</note>
+                  </location>
+               </place>
+               <place xml:id="Aldilo">
+                  <placeName ref="#Aldilo">Dehli.</placeName>
+                  <location>
+                     <geo>28.704059, 77.102490</geo>
+                     <note>Dehli, India.</note>
+                  </location>
+               </place>
+               <place xml:id="Polumbo">
+                  <placeName ref="#Aldilo">Kollam.</placeName>
+                  <location>
+                     <geo>8.893212, 76.614140</geo>
+                     <note>Kollam (o Quilon), capoluogo dell'omonimo distretto indiano, nello stato
+                        federato del Kerala.</note>
+                  </location>
+               </place>
+               <place xml:id="Çaiton">
+                  <placeName ref="#Çaiton">Quánzhōu.</placeName>
+                  <location>
+                     <geo>24.874050, 118.675830</geo>
+                     <note>Ch'üan-chou/Quánzhōu, centro portuale importante nella Cina
+                        meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="Minabar">
+                  <placeName ref="#Minabar">Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Malabar, regione costiera dell'India sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Fadina">
+                  <placeName ref="#Fadina">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città non identificata del Malabar, regione costiera dell'India
+                        sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cingalin">
+                  <placeName ref="#Cingalin">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città del Malabar indiano, forse corrispondente all'odierna Kodungallur
+                        (o Methala o Cranganur/Cranganore).</note>
+                  </location>
+               </place>
+               <place xml:id="Mabar">
+                  <placeName ref="#Mabar">Coromandel.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Coromandel, frangia costiera del sud-est della penisola indiana, negli
+                        stati del Tamil Nadu e dell'Andhra Pradesh.</note>
+                  </location>
+               </place>
+               <place xml:id="Lamen">
+                  <placeName ref="#Lamen">Lamreh.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Villaggio di Lamreh, sulla costa settentrionale di Sumatra. </note>
+                  </location>
+               </place>
+               <place xml:id="Selmetrio">
+                  <placeName ref="#Selmetrio">Sumatra.</placeName>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Antico regno di Sumatra, nella parte meridionale dell'isola.</note>
+                  </location>
+               </place>
+               <place xml:id="Botenigo">
+                  <placeName ref="#Botenigo">Indonesia.</placeName>
+                  <location>
+                     <geo>-0.789275, 113.921327</geo>
+                     <note>Località non identificata nell'arcipelago indonesiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Janua">
+                  <placeName ref="#Janua">Giava.</placeName>
+                  <location>
+                     <geo>-7.614529, 110.712246</geo>
+                     <note>Isola indonesiana di Giava (Jawa), tra Sumatra e Bali.</note>
+                  </location>
+               </place>
+               <place xml:id="Talamasin">
+                  <placeName ref="#Talamasin">talamasin.</placeName>
+                  <location>
+                     <note>Località non identificata.</note>
+                  </location>
+               </place>
+               <place xml:id="Çampa">
+                  <placeName ref="#Çampa"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Foço">
+                  <placeName ref="#Foço"/>
+                  <location>
+                     <geo>26.074508, 119.296494</geo>
+                     <note>Fuzhou, capitale della provincia del Fujian, nella Cina orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cunsai">
+                  <placeName ref="#Cunsai"/>
+                  <location>
+                     <geo>30.274085, 120.155070</geo>
+                     <note>Hangzhou, capitale della provincia cinese Zhejiang, sulla costa
+                        orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Chilenso">
+                  <placeName ref="#Chilenso">Nanchino.</placeName>
+                  <location>
+                     <geo>34.797260, 114.307310</geo>
+                     <note>Kāifēng (Nanchino),una città-prefettura nella provincia cinese dello
+                        Henan.</note>
+                  </location>
+               </place>
+               <place xml:id="Ianni">
+                  <placeName ref="#Ianni"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Cambellec">
+                  <placeName ref="#Cambellec"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Khanbaliq, nome turco dell'odierna Beijing/Pechino.</note>
+                  </location>
+               </place>
+               <place xml:id="Taido">
+                  <placeName ref="#Taido"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Città costruita nel 1267 a nordest di Khanbaliq e denominata Ta-tu,
+                        'grande capitale'.</note>
+                  </location>
+               </place>
+               <place xml:id="Gattaio">
+                  <placeName ref="#Gattaio"/>
+                  <location>
+                     <note>Catay, la Cina settentrionale (a nord del Fiume Giallo).</note>
+                  </location>
+               </place>
+               <place xml:id="Tibet">
+                  <placeName ref="#Tibet"/>
+                  <location>
+                     <geo>29.646923, 91.117212</geo>
+                     <note>Tibet, regione storico-geografica dell'Asia orientale, attualmente
+                        annessa dalla Cina.</note>
+                  </location>
+               </place>
+               <place xml:id="Milestert">
+                  <placeName ref="#Milestert"/>
+                  <location>
+                     <note>Toponimo inventato, derivante dalla corruzione dell'arabo "mulhid",
+                        'eretico'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ponto">
+                  <placeName ref="#Ponto"/>
+                  <location>
+                     <geo>45.301672, -73.220689</geo>
+                     <note>Regione storica nella zona nordorientale dell'Asia Minore</note>
+                  </location>
+               </place>
+               <place xml:id="Allesandria">
+                  <placeName ref="#Allesandria"/>
+                  <location>
+                     <geo>31.200092, 29.918739</geo>
+                     <note>Alessandria d'Egitto.</note>
+                  </location>
+               </place>
+               <place xml:id="Marcha">
+                  <placeName ref="#Marcha"/>
+                  <location>
+                     <geo>43.615830, 13.518915</geo>
+                     <note>La Marca Anconitana, dove si trova Tolentino.</note>
+                  </location>
+               </place>
+               <place xml:id="Mecha">
+                  <placeName ref="#Mecha"/>
+                  <location>
+                     <geo>21.389082, 39.857912</geo>
+                     <note>La Mecca, capoluogo dell'omonima provincia, nella regione dell'Hegiaz
+                        dell'attuale Arabia Saudita occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Somatra">
+                  <placeName ref="#Somatra"/>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Sumatra (o Sumatera), la terza isola più grande dell'arcipelago
+                        Indonesiano dopo Nuova Guinea e Borneo.</note>
+                  </location>
+               </place>
+               <place xml:id="Partain">
+                  <placeName ref="#Partain"/>
+                  <location>
+                     <geo>1.136704, 104.425753</geo>
+                     <note>Forse l'isola indonesiana di Bintain, a sud di Singapore.</note>
+                  </location>
+               </place>
+               <place xml:id="mareMorto">
+                  <placeName ref="#mare Morto">mar Morto.</placeName>
+                  <location>
+                     <geo>31.559029, 35.473189</geo>
+                  </location>
+               </place>
+               <place xml:id="Dodin">
+                  <placeName ref="#Dodin"/>
+                  <location>
+                     <note>Isola dell'Oceano Indiano di incerta localizzazione.</note>
+                  </location>
+               </place>
+               <place xml:id="Trevigi">
+                  <placeName ref="#Trevigi"/>
+                  <location>
+                     <geo>45.666889, 12.243044</geo>
+                     <note>Treviso, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Vinçenza">
+                  <placeName ref="#Vinçenza"/>
+                  <location>
+                     <geo>45.542487, 11.533628</geo>
+                     <note>Vicenza, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Çescalam">
+                  <placeName ref="#Çescalam"/>
+                  <location>
+                     <geo>23.129110, 113.264385</geo>
+                     <note>Attuale Canton (Guangzhou, grande città costiera del sud della Cina,
+                        capoluogo della provincia del Guangdong.</note>
+                  </location>
+               </place>
+               <place xml:id="Bologna">
+                  <placeName ref="#Bologna"/>
+                  <location>
+                     <geo>44.494887, 11.342616</geo>
+                  </location>
+               </place>
+               <place xml:id="Talaig">
+                  <placeName ref="#Talaig"/>
+                  <location>
+                     <geo>29.720415, 112.650141</geo>
+                     <note>Nome mongolo dello Yangtsze, il Fiume Azzurro.</note>
+                  </location>
+               </place>
+               <place xml:id="TerraPiemeorum">
+                  <placeName ref="#Terra Piemeorum"/>
+                  <location>
+                     <note>La 'terra dei Pigmei'.</note>
+                  </location>
+               </place>
+               <place xml:id="Cachan">
+                  <placeName ref="#Cachan"/>
+                  <location>
+                     <geo>37.111780, 79.913210</geo>
+                     <note>Forse Khotan, città del Turkestan cinese.</note>
+                  </location>
+               </place>
+               <place xml:id="Mençu">
+                  <placeName ref="#Mençu"/>
+                  <location>
+                     <geo>32.189590, 119.425000</geo>
+                     <note>Chen-kiang,città e porto fluviale della Cina, sulle rive dello
+                        Yangtze.</note>
+                  </location>
+               </place>
+               <place xml:id="Loncin">
+                  <placeName ref="#Loncin"/>
+                  <location>
+                     <geo>31.298974, 120.585297</geo>
+                     <note>Suzhou, città cinese che si trova nella provincia dello Jiangsu.</note>
+                  </location>
+               </place>
+               <place xml:id="Karamoran">
+                  <placeName ref="#Karamoran"/>
+                  <location>
+                     <geo>37.726962, 107.611922</geo>
+                     <note>Nome mongolo dello Huang He, il Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Po">
+                  <placeName ref="#Po"/>
+                  <location>
+                     <geo>44.919889, 9.718583</geo>
+                     <note>Fiume Po'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ferara">
+                  <placeName ref="#Ferara"/>
+                  <location>
+                     <geo>44.838124, 11.619787</geo>
+                     <note>Ferrara, Emilia Romagna, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Suçumaccho">
+                  <placeName ref="#Suçumaccho"/>
+                  <location>
+                     <geo>36.617290, 101.777820</geo>
+                     <note>Xīníng, capitale della provincia cinese di Qinghai.</note>
+                  </location>
+               </place>
+               <place xml:id="MonteVerde">
+                  <placeName ref="#Monte Verde"/>
+                  <location>
+                     <note>Rilievo collinare che, stando a Polo (Devisement dou Monde, LXXXIV 24),
+                        fu ricoperto di pietre verdi dal Gran Khan.</note>
+                  </location>
+               </place>
+               <place xml:id="Necoveran">
+                  <placeName ref="#Necoveran"/>
+                  <location>
+                     <geo>10.744887, 92.499992</geo>
+                     <note>Isole Nicobare, arcipelago dell'oceano indiano orientale, a sud-est del
+                        subcontinente indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Sillan">
+                  <placeName ref="#Sillan">Ceylon.</placeName>
+                  <location>
+                     <geo>7.873054, 80.771797</geo>
+                     <note>Isola di Ceylon, dal 1972 Repubblica Socialista Indipendente dello Sri
+                        Lanka.</note>
+                  </location>
+               </place>
+               <place xml:id="Chausun">
+                  <placeName ref="#Chausun"/>
+                  <location>
+                     <geo>34.341574, 108.939770</geo>
+                     <note>Xi'an, capoluogo della provincia dello Shaanxi nella Cina e città
+                        sub-provinciale.</note>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text n="1" xml:id="Libro_crit">
+      <front>
+         <head type="main">Libro delle nuove e strane e meravigliose cose</head>
+      </front>
+      <body>
+         <div type="Chapter" n="6" xml:id="chap.6">
+            <head><hi rend="rubric"><app>
+                     <lem>Di <placeName ref="#Cassan">Cassan</placeName>, città di tre Magi.
+                        Capitolo VI.</lem>
+                     <rdg wit="#UR"><hi rend="rubric">De Cassam, <surplus>e</surplus> citade d’i III
+                           magi. Cap<expan>itollo</expan> 6.</hi></rdg>
+                     <rdg wit="#Man"><hi rend="rubric">De Chassan, fu cità de uno di tre magi
+                              <expan>et</expan> altre cità et cosse stranie andando verso India
+                              c<expan>apitolo</expan> II </hi></rdg>
+                     <rdg wit="#M, #An #Ba #Lu #Va"><note>I mss M, An, Ba, Lu, Man, Va non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com6.1"><app>
+                  <lem>Di</lem>
+                  <rdg wit="#Lu #Man">Da</rdg>
+               </app><placeName ref="#Soldania">Soldania</placeName>
+               <app>
+                  <lem>mi parti’</lem>
+                  <rdg wit="Man">me spartite (<hi rend="italic">sic</hi>) et ’ndai </rdg>
+               </app>
+               <app>
+                  <lem>con le karovane</lem>
+                  <rdg wit="#Lu">con la caravana di mercadanti</rdg>
+                  <rdg wit="#Man #Va">cun la charavana <!-- con VA --></rdg>
+               </app>, <app>
+                  <lem>cioè con la compagnia</lem>
+                  <rdg wit="#UR">çoé con le compagnie </rdg>
+                  <rdg wit="#Lu #Man"/>
+               </app>
+               <app>
+                  <lem>d’alcuni</lem>
+                  <rdg wit="#UR">d'algune persone </rdg>
+                  <rdg wit="#Lu #Man"/>
+               </app>, <app>
+                  <lem>e andai</lem>
+                  <rdg wit="#An"> e andai in</rdg>
+                  <rdg wit="#Man"/>
+               </app> verso <placeName ref="#India"><app>
+                     <lem>Yndia</lem>
+                     <rdg wit="#UR #An #Ba #Lu #Man #Va">India</rdg>
+                  </app></placeName>. </ab>
+            <ab n="1" xml:id="com6.2"><app>
+                  <lem>E così, andando per molte giornate</lem>
+                  <rdg wit="#Man">Et camina<expan>n</expan>do multe gornate </rdg>
+               </app>, <app>
+                  <lem>capitai</lem>
+                  <rdg wit="#UR">ariva'</rdg>
+               </app>
+               <app>
+                  <lem>a una</lem>
+                  <rdg wit="#UR">alla</rdg>
+               </app> città <app>
+                  <lem>d'i tre Magi</lem>
+                  <rdg wit="#UR">d'i IIII magi </rdg>
+                  <rdg wit="#Lu">d’i tre magi ch<expan>e</expan> adorono Yh<expan>es</expan>u Cristo
+                  </rdg>
+               </app>
+               <app>
+                  <lem>che si chiama</lem>
+                  <rdg wit="#An #Lu #Man">chiamata</rdg>
+                  <rdg wit="#Va">la qual se chiama</rdg>
+               </app>
+               <placeName ref="#Cassam"><app>
+                     <lem>Cassam</lem>
+                     <rdg wit="#M">Chasan</rdg>
+                     <rdg wit="#An #Lu">Chassam</rdg>
+                     <rdg wit="#Ba">Cassan</rdg>
+                     <rdg wit="#Man #Va">Chassan</rdg>
+                  </app></placeName>, <app>
+                  <lem>città reale e di grande honore</lem>
+                  <rdg wit="#Man">cità magn<expan/>ifica <expan>et</expan> regale </rdg>
+               </app>; <app>
+                  <lem>veramente</lem>
+                  <rdg wit="#UR #Lu #Man">mo <!-- ma Lu Man --></rdg>
+               </app>
+               <app>
+                  <lem>i Tartari</lem>
+                  <rdg wit="#Lu">p<expan>er i Tartari</expan></rdg>
+               </app>
+               <app>
+                  <lem>la distrussero molto</lem>
+                  <rdg wit="#UR">la destruçe </rdg>
+                  <rdg wit="#Lu">molto fu destruta </rdg>
+                  <rdg wit="#Man">molto l’àno dissipata </rdg>
+               </app>. </ab>
+            <ab n="1" xml:id="com6.3">Questa città abonda molto di <app>
+                  <lem>pan</lem>
+                  <rdg wit="#An">pany</rdg>
+               </app>
+               <app>
+                  <lem>e</lem>
+                  <rdg wit="#Man"/>
+               </app> di vino <app>
+                  <lem>e</lem>
+                  <rdg wit="#Man"/>
+               </app> di molti altri beni. </ab>
+            <ab n="1" xml:id="com6.4">Da questa città <app>
+                  <lem>fine in</lem>
+                  <rdg wit="#UR">infine in </rdg>
+                  <rdg wit="#An">infino in </rdg>
+                  <rdg wit="#Ba">a</rdg>
+                  <rdg wit="#Man">ala cità de </rdg>
+               </app>
+               <placeName ref="#Gerusalem"><app>
+                     <lem>Gerusalem</lem>
+                     <rdg wit="#UR">Ierupsalem</rdg>
+                     <rdg wit="#M">Yerusalen</rdg>
+                     <rdg wit="#An #Ba">Jerusalem</rdg>
+                     <rdg wit="#Lu #Man #Va">Yerusalem</rdg>
+                  </app></placeName>
+               <app>
+                  <lem>àe</lem>
+                  <rdg wit="#Lu #Man #Va">sono</rdg>
+               </app>
+               <app>
+                  <lem>bene</lem>
+                  <rdg wit="#Lu #Man"/>
+               </app> cinquanta <pb n="74v" corresp="Co_fol_74v"
+                  facs="data\images\single\Co_fol_74v.png"/>[f. 74va]<app>
+                  <lem>giornate</lem>
+                  <rdg wit="#Man">boni gornati</rdg>
+               </app>, <app>
+                  <lem>ove i Magi andoro</lem>
+                  <rdg wit="#UR">li Magi li andè </rdg>
+                  <rdg wit="#Lu">le quale i tre magi </rdg>
+                  <rdg wit="#Man">onde se sp<expan>ar</expan>tì i Magi</rdg>
+                  <rdg wit="#Va">onde i Magi andareono</rdg>
+               </app>
+               <app>
+                  <lem>no per virtù humana</lem>
+                  <rdg wit="#An">pe<expan>r</expan> virtù divina </rdg>
+                  <rdg wit="#Man"/>
+               </app>
+               <app>
+                  <lem>ma</lem>
+                  <rdg wit="#Man"/>
+               </app>
+               <app>
+                  <lem>miraculosamente</lem>
+                  <rdg wit="#UR">meraveiosamente</rdg>
+                  <rdg wit="#Lu">p<expan>er</expan> v<expan>er</expan>tù d<expan>e</expan> Dio
+                     miracolosamente </rdg>
+               </app>
+               <app>
+                  <lem>in XIII dì</lem>
+                  <rdg wit="#UR #M #Ba #Va"/>
+                  <rdg wit="#Lu">fezeron i<expan>n</expan> tredese giornate </rdg>
+                  <rdg wit="#Man">et andòe i<expan>n</expan> Yerusale<expan>m</expan> ad
+                        ado<supplied>ra</supplied>re <expan>Cristo Jesù</expan> i<expan>n</expan>
+                     tredeci giornate</rdg>
+               </app>. </ab>
+            <ab n="1" xml:id="com6.5"><app>
+                  <lem><app>
+                        <lem>Molte cose</lem>
+                        <rdg wit="#Man">molte cosse notabile </rdg>
+                        <rdg wit="#Va">molte molte cose </rdg>
+                     </app>
+                     <app>
+                        <lem>sono in questa città</lem>
+                        <rdg wit="#Man">se trovano in<expan/> q<expan>ue</expan>ste
+                              <expan>con</expan>trade </rdg>
+                     </app></lem>
+                  <rdg wit="#Lu">In questa cità sono tante notabel cosse </rdg>
+               </app>, <app>
+                  <lem>che no bisogna</lem>
+                  <rdg wit="#UR #Ba">che non bisognano </rdg>
+                  <rdg wit="#M">che no<expan>n</expan> bisogna molto </rdg>
+                  <rdg wit="#Lu">che<expan/> no<expan>n</expan> si potrebe </rdg>
+                  <rdg wit="#Man">le q<expan>ua</expan>l no<expan>n</expan> naro </rdg>
+               </app>
+               <app>
+                  <lem>di narare</lem>
+                  <rdg wit="#UR">dire</rdg>
+                  <rdg wit="#An #Lu">narare</rdg>
+                  <rdg wit="#Ba">molto di narare</rdg>
+                  <rdg wit="#Man">p<expan>er</expan> no<expan>n</expan> atichare i lectori </rdg>
+               </app>.</ab>
+         </div>
+         <div type="Chapter" n="7" xml:id="chap.7">
+            <head><hi rend="rubric"><app>
+                     <lem>Di <placeName ref="#Geste">Gest</placeName>, ov’è il <geogName>Mare
+                           Arenoso</geogName>, e nullo cristiano vi puote vivere oltra uno anno.
+                        Capitollo VII.</lem>
+                     <rdg wit="#UR"><hi rend="rubric">De Gest o’ è ’l mar Arenoxo; alchun cristian
+                           no li pò vivere plù d’‹uno› anno. Cap<expan>itollo</expan> 7.</hi>
+                     </rdg>
+                     <rdg wit="#M, #An #Ba #Lu #Man #Va"><note>I mss M, An, Ba, Lu, Man e Va non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com7.1"><app>
+                  <lem>Di <placeName ref="#Cassam">Cassam</placeName> mi parti’</lem>
+                  <rdg wit="#M">Di Chassan mi partii </rdg>
+                  <rdg wit="#Man">Partendome da Cassan </rdg>
+                  <rdg wit="#Va">Da Cassa<expan>n</expan> mi partì’ </rdg>
+               </app> e andai a una città <app>
+                  <lem>che si chiama</lem>
+                  <rdg wit="#M #An #Lu #Man">chiamata</rdg>
+               </app>
+               <placeName ref="#Geste">
+                  <app>
+                     <lem>Gest</lem>
+                     <rdg wit="#An #Lu">Giesse</rdg>
+                     <rdg wit="#Ba">Gessy</rdg>
+                     <rdg wit="#Man #Va">Giest</rdg>
+                  </app></placeName>. </ab>
+            <ab n="2" xml:id="com7.2"><app>
+                  <lem>Da questa città al <geogName><app>
+                           <lem>Mare Arenoso</lem>
+                           <rdg wit="#UR">mar Renoxo</rdg>
+                           <rdg wit="#Ba">mare Renoso </rdg>
+                           <rdg wit="#Va">Mare Arenosso </rdg>
+                        </app></geogName>
+                     <app>
+                        <lem>àe</lem>
+                        <rdg wit="#Lu">è</rdg>
+                        <rdg wit="#Va">sì à</rdg>
+                     </app> I giornata ch’è molto <app>
+                        <lem><choice><sic>picola</sic><corr resp="#UR #M #An #Ba">pericoloso</corr></choice></lem>
+                        <rdg wit="#UR #M #An #Ba">p<expan>er</expan>igoloso
+                           <!-- pericoloso AN BA ; pericholosso M  --></rdg>
+                        <rdg wit="#Va">p<expan>er</expan>icolosa</rdg>
+                     </app></lem>
+                  <rdg wit="#Man">una via molto peric<supplied>o</supplied>lossa </rdg>
+               </app>. </ab>
+            <ab n="3" xml:id="com7.3"><app>
+                  <lem>In</lem>
+                  <rdg wit="#UR"/>
+               </app> questa città <app>
+                  <lem>è</lem>
+                  <rdg wit="#Ba">ha</rdg>
+               </app>
+               <app>
+                  <lem>copia grande</lem>
+                  <rdg wit="#UR">ubertà</rdg>
+                  <rdg wit="#An #Man">grande <!-- gran Man -->copia </rdg>
+                  <rdg wit="#Lu">abunda<expan>n</expan>tia gra<expan>n</expan>dissima </rdg>
+               </app><app>
+                  <lem>di vittuallia</lem>
+                  <rdg wit="#UR">de vianda </rdg>
+                  <rdg wit="#M">di vituaglie </rdg>
+                  <rdg wit="#An">di vettovaglia </rdg>
+                  <rdg wit="#Ba">di vettovagle </rdg>
+                  <rdg wit="#Man">d’ogni victualia </rdg>
+               </app> e di tutti <app>
+                  <lem>li</lem>
+                  <rdg wit="#Man"/>
+               </app> altri beni che si possono dire, e speciale di fichi. </ab>
+            <ab n="4" xml:id="com7.4"><app>
+                  <lem><app>
+                        <lem>E</lem>
+                        <rdg wit="#Ba"/>
+                     </app> d’uve passe <supplied resp="#UR #M #An #Ba #Man">[verdi]</supplied>ome erba</lem>
+                  <rdg wit="#UR">d'uva passa: è verde como herba </rdg>
+                  <rdg wit="#M #Ba #Man">d’uve passe verdi chomo erba
+                     <!-- come erba BA; cumo herba Man --></rdg>
+                  <rdg wit="#An">e d’uve passole verde come erba </rdg>
+                  <rdg wit="#Ba">d’uve passe verdi come erba </rdg>
+                  <rdg wit="#Va">e d’uve passe che sono … <!-- rivedere ms -->chome erba </rdg>
+               </app>, e <app>
+                  <lem>minute </lem>
+                  <rdg wit="#UR">minuda</rdg>
+                  <rdg wit="#Man #Va"/>
+               </app><app>
+                  <lem>quive si trovano più</lem>
+                  <rdg wit="#UR">qui sì n’è più </rdg>
+                  <rdg wit="#Man">se ne trova assai </rdg>
+               </app>
+               <app>
+                  <lem>e mellio</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#An">e miglore</rdg>
+                  <rdg wit="#Ba">e miglori</rdg>
+                  <rdg wit="#Man"><expan>et</expan> li più meliori</rdg>
+               </app>
+               <app>
+                  <lem>che in altra parte del mondo</lem>
+                  <rdg wit="#UR">cha in altra parte </rdg>
+                  <rdg wit="#Ba">che in niuna altra parte del mondo </rdg>
+                  <rdg wit="#Man">del mo<expan>n</expan>do</rdg>
+                  <rdg wit="#Va">che in altre parte del mondo </rdg>
+               </app>. </ab>
+            <ab n="5" xml:id="com7.5"><app>
+                  <lem>Questa città è la <surplus reason="repeated">è la</surplus> terça milliore </lem>
+                  <rdg wit="#UR">Questa citade è la terça menor </rdg>
+                  <rdg wit="#Man">Q<expan>ue</expan>sta hè la te<expan>r</expan>za mior cità </rdg>
+                  <rdg wit="#Va">Questa citade sì è la terça milgiore </rdg>
+               </app>
+               <app>
+                  <lem>che llo mperadore di <placeName ref="#Persia">Persia</placeName>
+                     possega</lem>
+                  <rdg wit="#UR">che lo imperador de Persia poscieda </rdg>
+                  <rdg wit="#Ba">che lo inperadore possegga in Persia</rdg>
+                  <rdg wit="#Man">q<expan>ua</expan>l habia el re de P<expan>er</expan>sia </rdg>
+                  <rdg wit="#Va">che possiede l'imperadore de perssia </rdg>
+               </app>
+               <app>
+                  <lem>in tutto lo suo regno</lem>
+                  <rdg wit="#UR">tuto lo so regno </rdg>
+                  <rdg wit="#M"/>
+                  <rdg wit="#An"/>
+                  <rdg wit="#Ba">di tutto el suo reame </rdg>
+                  <rdg wit="#Lu">del tuto el suo regno </rdg>
+                  <rdg wit="#Man">soto el suo domi<expan>n</expan>io </rdg>
+                  <rdg wit="#Va">in el suo regno tuto </rdg>
+               </app>. </ab>
+            <ab n="6" xml:id="com7.6"><app>
+                  <lem>Della quale città</lem>
+                  <rdg wit="#Lu #Va">nela qual cità <!-- citade VA --></rdg>
+                  <rdg wit="#Man"/>
+               </app>
+               <app>
+                  <lem>dicono</lem>
+                  <rdg wit="#UR">dixi</rdg>
+                  <rdg wit="#Man">et dicono</rdg>
+               </app>
+               <app>
+                  <lem>i</lem>
+                  <rdg wit="#Lu"/>
+               </app> saracini che <app>
+                  <lem>nullo cristiano</lem>
+                  <rdg wit="#UR #Va">alchun <expan>crist</expan>ian
+                     <!-- alghuno cristiano Va --></rdg>
+                  <rdg wit="#Ba #Lu">niuno cristiano</rdg>
+                  <rdg wit="#Man">c<expan>ri</expan>stiani</rdg>
+               </app> vi può vivere <app>
+                  <lem>più d’uno anno</lem>
+                  <rdg wit="#UR">plu ch'a uno anno</rdg>
+                  <rdg wit="#Lu">più ch<expan>e</expan> uno anno</rdg>
+                  <rdg wit="#Man">più de uno an<expan>n</expan>o i<expan>n</expan>
+                        q<expan>ue</expan>sta cità </rdg>
+               </app>. </ab>
+            <ab n="7" xml:id="com7.7"><app>
+                  <lem><app>
+                        <lem>E</lem>
+                        <rdg wit="#UR #An"/>
+                     </app>
+                     <app>
+                        <lem>molte cose</lem>
+                        <rdg wit="#Ba">molte altre cose</rdg>
+                     </app>
+                     <app>
+                        <lem>sono</lem>
+                        <rdg wit="#Va">vi sono</rdg>
+                     </app> in <app>
+                        <lem>questa</lem>
+                        <rdg wit="#UR">quella</rdg>
+                        <rdg wit="#An">detta</rdg>
+                     </app> città che <app>
+                        <lem>non è necessità</lem>
+                        <rdg wit="#UR">no à mestier </rdg>
+                        <rdg wit="#Ba">no<expan>n</expan> è necessario </rdg>
+                        <rdg wit="#Lu">non sono di necessià </rdg>
+                        <rdg wit="#Va">non sono necessarie </rdg>
+                     </app>
+                     <app>
+                        <lem>di scrivere</lem>
+                        <rdg wit="#UR">de dir </rdg>
+                        <rdg wit="#M">di scriverle </rdg>
+                        <rdg wit="#An #Lu">a scrivere <!-- a scriver Lu --></rdg>
+                        <rdg wit="#Ba">scriverle </rdg>
+                        <rdg wit="#Lu"/>
+                        <rdg wit="#Man"/>
+                        <rdg wit="#Va">ad scriverle </rdg>
+                     </app></lem>
+                  <rdg wit="#Man">Credo che q<expan>ue</expan>sto dicano p<expan>er</expan>ché
+                        no<expan>n</expan> li vageno ad habitare </rdg>
+               </app>.</ab>
+         </div>
+         <div type="Chapter" n="8" xml:id="chap.8">
+            <head><hi rend="rubric"><app>
+                     <lem>Di <placeName ref="#Conio">Conio</placeName>, città le cui mura [f. 74vb]
+                        girano L millia. Capitolo VIII.</lem>
+                     <rdg wit="#UR"><hi rend="rubric">Di Conio, che le soe mure volce L mia.
+                              Cap<expan>itollo</expan> 8</hi></rdg>
+                     <rdg wit="#M, #An #Ba #Va #Lu #Man "><note>I mss M, An, Ba, Va, Lu e Man non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com8.1"><app>
+                  <lem>Di</lem>
+                  <rdg wit="#Va #Lu">Da</rdg>
+               </app>
+               <placeName ref="#Geste"><app>
+                     <lem>Gest</lem>
+                     <rdg wit="#UR">Gesto</rdg>
+                     <rdg wit="#An #Lu">Giesse</rdg>
+                     <rdg wit="#Ba">Gesse</rdg>
+                     <rdg wit="#Va #Man">Giest</rdg>
+                  </app></placeName> mi parti’ e andai per molte terre e<app>
+                  <lem>città</lem>
+                  <rdg wit="#Man">casteli</rdg>
+               </app>, e andai a una città <app>
+                  <lem>che si chiama</lem>
+                  <rdg wit="#Lu #Man">chiamata</rdg>
+               </app>
+               <placeName ref="#Conio"><app>
+                     <lem>Conio</lem>
+                     <rdg wit="#M #An">Chonio</rdg>
+                     <rdg wit="#Lu">Chomon</rdg>
+                     <rdg wit="#Man">Chonie <!-- rivedere lettura vocale finale --></rdg>
+                  </app></placeName>. </ab>
+            <ab n="2" xml:id="com8.2"><app>
+                  <lem>Questo <placeName ref="#Conio"><choice>
+                           <sic>Conia</sic>
+                           <corr>Conio</corr>
+                        </choice></placeName></lem>
+                  <rdg wit="#UR">chi</rdg>
+                  <rdg wit="#M">Questo Chonio</rdg>
+                  <rdg wit="#An">Questa</rdg>
+                  <rdg wit="#Lu #Man">Questa cità <!-- Q<expan>ue</expan>sta Man --></rdg>
+                  <rdg wit="#Man"/>
+               </app>
+               <app>
+                  <lem>fue</lem>
+                  <rdg wit="#UR">è</rdg>
+                  <rdg wit="#Man">anthigame<expan>n</expan>te fu</rdg>
+               </app>
+               <app>
+                  <lem>grande città</lem>
+                  <rdg wit="#Lu">grande e potente</rdg>
+                  <rdg wit="#Man">gra<expan>n</expan> cità e pote<expan>n</expan>te</rdg>
+               </app>
+               <app>
+                  <lem>che nel tempo passato</lem>
+                  <rdg wit="#Ur">per li tenpi passadi</rdg>
+                  <rdg wit="#Va">e nel tempo passato</rdg>
+                  <rdg wit="#Lu">e p<expan>er</expan> lo te<expan>m</expan>po passato</rdg>
+                  <rdg wit="#Man"/>
+               </app>
+               <app>
+                  <lem>diede grande danno a Roma</lem>
+                  <rdg wit="#UR">fé gran danno a Roma</rdg>
+                  <rdg wit="#Lu">p<expan>er</expan> gra<expan>n</expan> molestia a' Romani</rdg>
+                  <rdg wit="#Man"/>
+               </app>, <app>
+                  <lem>le cui mura girano</lem>
+                  <rdg wit="#UR">le soe mura volçe</rdg>
+                  <rdg wit="#Va">le sue mura girano</rdg>
+                  <rdg wit="#Lu">le cui mura volze</rdg>
+                  <rdg wit="#Man">voltava el mu<expan>r</expan>o de essa</rdg>
+               </app>
+               <app>
+                  <lem>L <app>
+                        <lem>miglia</lem>
+                        <rdg wit="#UR"/>
+                     </app></lem>
+                  <rdg wit="#Lu">milia cinquanta</rdg>
+               </app>, <app>
+                  <lem><app>
+                        <lem>nella quale ancora sono</lem>
+                        <rdg wit="#UR">anchora sono</rdg>
+                        <rdg wit="#An">sonvy anchora</rdg>
+                        <rdg wit="#Va">nela quale citade sono anchora</rdg>
+                        <rdg wit="#Man">piena de</rdg>
+                     </app> i palaççi interi <app>
+                        <lem>disabitadi</lem>
+                        <rdg wit="#UR">çitadi</rdg>
+                        <rdg wit="#Man">d'i q<expan>ua</expan>li n'è par anchora desabitadi</rdg>
+                     </app>.</lem>
+                  <rdg wit="#Lu">questa cità habunda de vitualia</rdg>
+               </app></ab>
+            <ab n="3" xml:id="com8.3"><app>
+                  <lem><app>
+                        <lem>Abonda di</lem>
+                        <rdg wit="#UR">Et è molto abundada de</rdg>
+                        <rdg wit="#Va">Et habunda di</rdg>
+                        <rdg wit="#Man">Et hè abun<expan/>da<expan>n</expan>te de</rdg>
+                     </app>
+                     <app>
+                        <lem>molta vituallia</lem>
+                        <rdg wit="#UR">vituaria</rdg>
+                        <rdg wit="#Ba">molta vettovaglia</rdg>
+                        <rdg wit="#Va">molte vitualie</rdg>
+                        <rdg wit="#Man">ogni vituale. Questa cità antichame<expan>n</expan>te dete
+                              gra<expan>n</expan>de rote ad Romani qua<expan>n</expan>do
+                              v<supplied>i</supplied>sitaveno i<expan/>n
+                           Orie<expan>n</expan>te</rdg>
+                     </app></lem>
+                  <rdg wit="#Lu"><expan>e</expan> in essa sono molti gra<expan>n</expan> palazi
+                     desabitadi</rdg>
+               </app></ab>
+         </div>
+         <div type="Chapter" n="9" xml:id="chap.9">
+            <head><hi rend="rubric"><app>
+                     <lem>Di <placeName ref="#Hus">Hus</placeName>, terra di <persName ref="#Job"
+                           >Job</persName>, ov’è manna e li uomini filano e no le femmine. Capitolo
+                        VIIII.</lem>
+                     <rdg wit="#UR"><hi rend="rubric">Di Chus, tera de Iob, o’ li
+                              ho<expan>m</expan>i<expan>n</expan>i fila e le femene no.
+                              Cap<expan>itollo</expan> 9</hi></rdg>
+                     <rdg wit="#M, #An #Ba #Va #Lu #Man"><note>I mss M, An, Ba, Va Lu, Man non
+                           presentano la rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com9.1"><app>
+                  <lem>Di</lem>
+                  <rdg wit="#Ba">Et di </rdg>
+                  <rdg wit="#Va">Da</rdg>
+               </app>
+               <placeName ref="#Conio"><app>
+                     <lem>Conio</lem>
+                     <rdg wit="#M #Va">Chonio</rdg>
+                  </app></placeName> mi parti’ <app>
+                  <lem>e</lem>
+                  <rdg wit="#UR"/>
+               </app>, trapassando <app>
+                  <lem>per</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>terre e città</lem>
+                  <rdg wit="#Lu">terre et asai citade</rdg>
+                  <rdg wit="#Man">assai citade <expan>et</expan> castelle</rdg>
+               </app>, <app>
+                  <lem>veni</lem>
+                  <rdg wit="#UR">e vene</rdg>
+                  <rdg wit="#Lu">zonsi</rdg>
+                  <rdg wit="#Man">p<expan>er</expan>vene</rdg>
+               </app>
+               <app>
+                  <lem>alla <placeName ref="#Terra di Job">terra di <persName ref="#Job"
+                           >Job</persName></placeName></lem>
+                  <rdg wit="#UR">ala tera di Iob</rdg>
+                  <rdg wit="#An #Ba">ala terra di Giob</rdg>
+                  <rdg wit="#Va">ala tera che si chiama Job</rdg>
+                  <rdg wit="#Lu">ala terra di Gob</rdg>
+                  <rdg wit="#Man">ad una cità de Gob</rdg>
+               </app>, <app>
+                  <lem>che si chiama</lem>
+                  <rdg wit="#An #Lu #Man">chiamata</rdg>
+                  <rdg wit="#Va">che vie<expan>n</expan> a dire</rdg>
+               </app>
+               <placeName ref="#Hus"><app>
+                     <lem>Hus</lem>
+                     <rdg wit="#Ur #Va #Man">Chus</rdg>
+                     <rdg wit="#Lu">Cus</rdg>
+                  </app></placeName>, <app>
+                  <lem>ch’è molto bel sito</lem>
+                  <rdg wit="#UR">che è bella</rdg>
+                  <rdg wit="#Lu">molto ben situada</rdg>
+                  <rdg wit="#Man">molto bella</rdg>
+               </app>, <app>
+                  <lem>di tutte vitualle abondevile</lem>
+                  <rdg wit="#UR">e grassa de tute vitua<expan>r</expan>ie </rdg>
+                  <rdg wit="#M">di tutte vittuaglie </rdg>
+                  <rdg wit="#An">di tutte vittuagle </rdg>
+                  <rdg wit="#Ba"/>
+                  <rdg wit="#Va">et a/con? <!-- verificare --> molte vitualie</rdg>
+                  <rdg wit="#Lu">e fornita de vituarie </rdg>
+                  <rdg wit="#Man">et fornita de … <!-- verificare --></rdg>
+               </app>.</ab>
+            <ab n="2" xml:id="com9.2"><app>
+                  <lem>Al lato a</lem>
+                  <rdg wit="#UR">Appresso</rdg>
+                  <rdg wit="#Va">A lato</rdg>
+                  <rdg wit="#Lu Man">Allato de</rdg>
+               </app> questa <app>
+                  <lem>terra</lem>
+                  <rdg wit="#Lu">cità</rdg>
+                  <rdg wit="#Man">ter<expan>r</expan>ra ov<expan>er</expan> cità</rdg>
+               </app>
+               <app>
+                  <lem>presso sono</lem>
+                  <rdg wit="#UR">è</rdg>
+                  <rdg wit="#M">è presso</rdg>
+                  <rdg wit="#An #Ba">sono presso</rdg>
+                  <rdg wit="#Va">sì è p<expan>re</expan>sso</rdg>
+                  <rdg wit="#Lu">trovai</rdg>
+                  <rdg wit="#Ma">sono</rdg>
+               </app>
+               <app>
+                  <lem>monti</lem>
+                  <rdg wit="#Ur #An">lli monti <!-- i monti An --></rdg>
+                  <rdg wit="#Lu">gra<expan>n</expan> monti</rdg>
+               </app>
+               <app>
+                  <lem>ne’ quali</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#Man">sopra i q<expan>ua</expan>li</rdg>
+               </app>
+               <app>
+                  <lem>sono</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>molto belli paschi</lem>
+                  <rdg wit="#Lu">gran palazi</rdg>
+                  <rdg wit="#Man">bellissimi palazzi</rdg>
+               </app>
+               <app>
+                  <lem>per bestie</lem>
+                  <rdg wit="#UR">e eo non vitti may de mior</rdg>
+                  <rdg wit="#Va">et bestie</rdg>
+                  <rdg wit="#Lu">e div<expan>er</expan>se bestie</rdg>
+                  <rdg wit="#Man">et salvaticine assai</rdg>
+               </app>. </ab>
+            <ab n="3" xml:id="com9.3"><app>
+                  <lem>Ne’ quali monti</lem>
+                  <rdg wit="#UR">Et è molto ben habundada</rdg>
+                  <rdg wit="#Va">ne' monti d'i quali</rdg>
+                  <rdg wit="#Man">Sopra q<expan>ue</expan>sti monti</rdg>
+               </app>
+               <app>
+                  <lem>trovai</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#Va">vi trovai</rdg>
+               </app>
+               <app>
+                  <lem>manna</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#Ba">monti manna (<hi rend="italic">sic</hi>)</rdg>
+                  <rdg wit="#Man">dela man<expan>n</expan>a</rdg>
+               </app>
+               <app>
+                  <lem>milliore e in magiore habundança</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#Man">i<expan>n</expan> qua<expan>n</expan>tità, de la miore</rdg>
+               </app>
+               <app>
+                  <lem>che sia nel mondo</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#Man">del mun<expan/>do</rdg>
+               </app>. </ab>
+            <ab n="4" xml:id="com9.4"><app>
+                  <lem>Quine</lem>
+                  <rdg wit="#UR">e qua</rdg>
+                  <rdg wit="#An #Ba">Quivi</rdg>
+                  <rdg wit="#Va">Qui</rdg>
+                  <rdg wit="#Man">Or</rdg>
+               </app>
+               <app>
+                  <lem>si truovano</lem>
+                  <rdg wit="#UR #An #Ba #Va #Lu #Man">se trova
+                     <!-- verificare pertinenza di questa variante; si truova AN, si trova BA --></rdg>
+               </app>
+               <app>
+                  <lem>IIII</lem>
+                  <rdg wit="#UR">molte</rdg>
+                  <rdg wit="#Va">quattromilia</rdg>
+               </app><app>
+                  <lem>buone</lem>
+                  <rdg wit="#UR #Lu"/>
+                  <rdg wit="#Man">boni <!-- verificare la pertinenza --></rdg>
+               </app> pernice <app>
+                  <lem>per meno</lem>
+                  <rdg wit="#UR">ben X p<expan>er</expan> men</rdg>
+                  <rdg wit="#Lu">per</rdg>
+               </app>
+               <app>
+                  <lem>di</lem>
+                  <rdg wit="#Lu"/>
+               </app>uno grosso <app>
+                  <lem>veniçano</lem>
+                  <rdg wit="#Lu"/>
+               </app>. </ab>
+            <ab n="5" xml:id="com9.5">In questa contrada sono <app>
+                  <lem>molto belli vecchi</lem>
+                  <rdg wit="#Lu">belissimi vechi</rdg>
+                  <rdg wit="#Man">asai vegchi <expan>et</expan> belli
+                        ho<expan>m</expan>i<expan>n</expan>i</rdg>
+               </app> e <pb n="75r" corresp="Co_fol_75r" facs="data\images\single\Co_fol_75r.png"/>
+               [f. 75ra]<app>
+                  <lem>quivi</lem>
+                  <rdg wit="#UR">qua</rdg>
+                  <rdg wit="#M">quine</rdg>
+                  <rdg wit="#Va #Man">qui</rdg>
+               </app> li uomini filano <app>
+                  <lem>e <app>
+                        <lem>no</lem>
+                        <rdg wit="#An #Lu">non
+                           <!-- verificare la pertinenza di questa variante --></rdg>
+                     </app> le femmine</lem>
+                  <rdg wit="#UR">e le femene no</rdg>
+               </app>. </ab>
+            <ab n="6" xml:id="com9.6">Questa <app>
+                  <lem>terra</lem>
+                  <rdg wit="#Lu">contrata</rdg>
+               </app>
+               <app>
+                  <lem>corresponde</lem>
+                  <rdg wit="#UR #An #Ba #Va #Lu">responde
+                     <!-- risponde AN LU ; ressponde VA ; risponde BA --></rdg>
+                  <rdg wit="#Man">hè</rdg>
+               </app>
+               <app>
+                  <lem>al capo della <placeName ref="#Caldea">Caldea</placeName></lem>
+                  <rdg wit="#UR">al Gran Cane</rdg>
+                  <rdg wit="#M #An">al capo della Chaldea </rdg>
+                  <rdg wit="#Va">al capo de Caldea</rdg>
+                  <rdg wit="#Lu">a capo di Caldea</rdg>
+               </app>
+               <app>
+                  <lem>verso</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#An">in verso</rdg>
+               </app> tramontana. </ab>
+         </div>
+         <div type="Chapter" n="10" xml:id="chap.10">
+            <head><hi rend="rubric"><app>
+                     <lem>Di <placeName ref="#Caldea">Caldea</placeName> e della torre Babel, nella
+                        quale li homeni vanno ornati come di qua le femmine, e lle femine vanno
+                        despecte. X</lem>
+                     <rdg wit="#UR"><hi rend="rubric">De Caldea in la tramontana, di Candia e de la
+                           tore di Babel, o’ li ho<expan>m</expan>e<expan>n</expan>i va conçadi e le
+                           femene no. Cap<expan>itollo</expan> X</hi></rdg>
+                     <rdg wit="#Man">Dela tore de Babel <expan>et</expan> altre cosse notabile
+                           ch<expan>e</expan> sono i<expan>n</expan> Caldea. C<expan>apitol</expan>o
+                        III.</rdg>
+                     <rdg wit="#M, #An #Ba #Lu #Va"><note>I mss M, An, Ba, Lu e Va non presentano la
+                           rubrica.</note></rdg>
+                  </app></hi></head>
+            <ab n="1" xml:id="com10.1"><app>
+                  <lem><app>
+                        <lem>Di </lem>
+                        <rdg wit="#Ba">Et di</rdg>
+                        <rdg wit="#Lu">da</rdg>
+                     </app><placeName ref="#Hus"><app>
+                           <lem>Hus</lem>
+                           <rdg wit="#Ba"><del rend="strikethrough">ud</del>Hus</rdg>
+                           <rdg wit="#UR #Va #Lu #Man">Chus</rdg>
+                        </app></placeName> mi parti’ e andai in <placeName ref="#Caldea"><app>
+                           <lem>Caldea</lem>
+                           <rdg wit="#M #Va">Chaldea</rdg>
+                           <rdg wit="#Lu">le Calde</rdg>
+                        </app></placeName>, che è <app>
+                        <lem>grande</lem>
+                        <rdg wit="#Lu"/>
+                     </app> regno e</lem>
+                  <rdg wit="#Man">Intrato in Chaldea</rdg>
+               </app> andai <app>
+                  <lem>presso</lem>
+                  <rdg wit="#Ur #Lu">appresso</rdg>
+                  <rdg wit="#Man">pe<expan>r</expan> ap<expan>re</expan>sso</rdg>
+               </app><app>
+                  <lem>alla torre</lem>
+                  <rdg wit="#UR #Man #Va">la tore <!-- la torre Va --></rdg>
+               </app> Babel forsi quattro giornate.</ab>
+            <ab n="2" xml:id="com10.2"><app>
+                  <lem>In questa</lem>
+                  <rdg wit="#Va #Lu">Questa</rdg>
+                  <rdg wit="#Man">Et q<expan>ue</expan>sta</rdg>
+               </app>
+               <placeName ref="#Caldea"><app>
+                     <lem>Caldea</lem>
+                     <rdg wit="#An #Va">Chaldea</rdg>
+                  </app></placeName>
+               <app>
+                  <lem>àe</lem>
+                  <rdg wit="#UR">è</rdg>
+               </app>
+               <app>
+                  <lem>propria lingua,</lem>
+                  <rdg wit="#UR #M #An #Ba #Va">soa propria lengua
+                     <!-- sua propria lingua M An Ba Va --></rdg>
+                  <rdg wit="#Lu">la sua propria lingua </rdg>
+                  <rdg wit="#Man">li<expan>n</expan>gua da pe<expan>r</expan> sì pe<expan>r</expan>
+                     Caldea </rdg>
+               </app>
+               <app>
+                  <lem>e sonvi</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#Lu">et essa sono</rdg>
+                  <rdg wit="#Man">sono </rdg>
+               </app>belli hoi homeni e <app>
+                  <lem>soççe</lem>
+                  <rdg wit="#UR">brutte</rdg>
+               </app>
+               <app>
+                  <lem>femine<!-- verificare assenza titulus nel ms --></lem>
+                  <rdg wit="#Ba">donne</rdg>
+               </app>. </ab>
+            <ab n="3" xml:id="com10.3"><app>
+                  <lem>Quine</lem>
+                  <rdg wit="#UR #Man">E <!-- Et Man --></rdg>
+                  <rdg wit="#An #Ba #Va">Quivi</rdg>
+               </app>
+               <app>
+                  <lem>li homeni vanno</lem>
+                  <rdg wit="#UR">vano li homini</rdg>
+                  <rdg wit="#Lu">ho<expan>m</expan>e<expan>n</expan>i van<expan>n</expan>o</rdg>
+                  <rdg wit="#Man">vano i ho<expan>min</expan>i</rdg>
+               </app><app>
+                  <lem>ornati e</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#Ba">addornati et</rdg>
+                  <rdg wit="#Man">politi <expan>et</expan> adornati</rdg>
+               </app>
+               <app>
+                  <lem>conci</lem>
+                  <rdg wit="#UR">conçadi</rdg>
+                  <rdg wit="#Lu">aconzi</rdg>
+               </app> come <app>
+                  <lem>di qua da noi</lem>
+                  <rdg wit="#UR">qua da noi</rdg>
+                  <rdg wit="#An #Ba">qui fra noi</rdg>
+                  <rdg wit="#Va">qui tra noi</rdg>
+                  <rdg wit="#Lu">da nui</rdg>
+                  <rdg wit="#Man">tra nui</rdg>
+               </app><app>
+                  <lem>vanno </lem>
+                  <rdg wit="#Va #Lu"/>
+                  <rdg wit="#Man">va <!-- valutare pertinenza --></rdg>
+               </app>le femine <!-- verificare assenza titulus nel ms -->, e portano <app>
+                  <lem>in capo</lem>
+                  <rdg wit="#Ba #Va"/>
+               </app> tovallie d’oro <app>
+                  <lem>e</lem>
+                  <rdg wit="#Man"/>
+               </app>
+               <app>
+                  <lem>di perle</lem>
+                  <rdg wit="#An #Ba #Va">di perle in capo</rdg>
+               </app>; <app>
+                  <lem>e</lem>
+                  <rdg wit="#Man"/>
+               </app> lle femmine portano <app>
+                  <lem>solamente</lem>
+                  <rdg wit="#Va">solo</rdg>
+               </app>
+               <app>
+                  <lem>una vile camiscia</lem>
+                  <rdg wit="#Lu">una camisa</rdg>
+                  <rdg wit="#Man">camise ville</rdg>
+               </app><app>
+                  <lem>che</lem>
+                  <rdg wit="#UR">e</rdg>
+                  <rdg wit="#Man">le q<expan>ua</expan>le</rdg>
+               </app>
+               <app>
+                  <lem>no‧ragiunge </lem>
+                  <rdg wit="#UR">no le çunge </rdg>
+                  <rdg wit="#M #An #Ba #Va">no agiunge
+                     <!-- no adiunge VA ; no agiungne AN non adgiugne BA --></rdg>
+                  <rdg wit="#Lu">non li azonze </rdg>
+                  <rdg wit="#Man">non giongeno</rdg>
+               </app><app>
+                  <lem>al</lem>
+                  <rdg wit="#An #Ba">a</rdg>
+               </app> ginochio, <app>
+                  <lem>avendo</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#An #Va #Man">et àn<expan>n</expan>o</rdg>
+                  <!-- hammo Va Man -->
+                  <rdg wit="#Lu">che ha</rdg>
+               </app>
+               <app>
+                  <lem>maniche larghe e lunghe</lem>
+                  <rdg wit="#UR #Man">le maneghe longhe e larghe
+                     <!-- le manech[e] lunge et large Man --></rdg>
+                  <rdg wit="#Va">maniche longe <surplus>maniche longe</surplus> et large </rdg>
+                  <rdg wit="#Lu">manege longe e large </rdg>
+                  <rdg wit="#Man"/>
+               </app><app>
+                  <lem>che attingono</lem>
+                  <rdg wit="#Ur #An #Ba #Man"/>
+                  <rdg wit="#M">che agiungono</rdg>
+                  <rdg wit="#Lu">che zo<expan>n</expan>geno</rdg>
+               </app>
+               <app>
+                  <lem>fine a terra</lem>
+                  <rdg wit="#UR">fin in terra</rdg>
+                  <rdg wit="#An #Ba">infino a terra</rdg>
+                  <rdg wit="#Va">fina in terra</rdg>
+                  <!-- pertinenza varianti -->
+                  <rdg wit="#Lu">fin terra</rdg>
+                  <rdg wit="#Man">i<expan>n</expan>fina a ter<expan>r</expan>a</rdg>
+               </app>
+               <app>
+                  <lem><app>
+                        <lem>e</lem>
+                        <rdg wit="#M #An #Ba #Lu #Man">queste femine</rdg>
+                     </app> portano <app>
+                        <lem>brache</lem>
+                        <rdg wit="#Lu">le brache</rdg>
+                     </app> lunghe <app>
+                        <lem>fine a terra</lem>
+                        <rdg wit="#M">fine ala terra </rdg>
+                        <rdg wit="#An">fino ala terra </rdg>
+                        <rdg wit="#Ba #Va">i<expan>n</expan>fino a terra</rdg>
+                        <rdg wit="#Man">fi<expan>n</expan>a a ter<expan>r</expan>a</rdg>
+                     </app></lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>e vanno scalçe</lem>
+                  <rdg wit="#UR">e vano descalçe </rdg>
+                  <rdg wit="#Lu">e vano i<expan>n</expan> calze</rdg>
+                  <rdg wit="#Man"><expan>et</expan> porteno calce</rdg>
+               </app>. E <app>
+                  <lem>no portano treccie</lem>
+                  <rdg wit="#UR">e no portano treçe; e queste femene portano brache fin in terra </rdg>
+                  <rdg wit="#Lu">non portano dreze</rdg>
+                  <rdg wit="#Man">vane senza treze</rdg>
+               </app>, <app>
+                  <lem><app>
+                        <lem>ançi</lem>
+                        <rdg wit="#Ur #Man">e</rdg>
+                        <rdg wit="#An">ma</rdg>
+                     </app>portano li capelli <app>
+                        <lem>sparti intorno.</lem>
+                        <rdg wit="#Man">to<expan>n</expan>di <expan>et</expan> sparti</rdg>
+                     </app>
+                     <app>
+                        <lem>sì come li uomini vanno di qua</lem> <!-- rivedere questa lezione -->
+                        <rdg wit="#CO">sparti intorno sì come gli uomini va<expan>n</expan>no di
+                           qua</rdg>
+                        <rdg wit="#UR #Ba"/>
+                        <rdg wit="#M">sparti intorno sì chome li ho<expan>min</expan>i vanno qui </rdg>
+                        <rdg wit="#An">si come a noy gli uomeni </rdg>
+                        <rdg wit="#Va">si chome l’huomeni portano qua </rdg>
+                        <rdg wit="#Man">como i ho<ex>men</ex>i da nuui </rdg>
+                     </app></lem>
+                  <rdg wit="#Ba">ma portano li ho<expan>m</expan>i<expan>n</expan>i </rdg>
+               </app>.</ab>
+            <ab n="4" xml:id="com10.4"><app>
+                  <lem>E sì come li uomini vanno qui dipo’ lle femm[f. 75rb]ine guardandole e
+                     vagheggiandole, così vanno qui le femine
+                     <!-- verificare assenza titulus nel ms --> dipo’ li uomini, gardandoli e
+                     vaghegiandoli</lem>
+                  <rdg wit="#UR">Si como li ho<expan>min</expan>i vano qua da noi domando le femene,
+                     così vano qui le femene domando li ho<expan>min</expan>i e vaghiçando </rdg>
+                  <rdg wit="#M">et sì chome li homeni vanno qui dipo’ le femine guardandole e
+                     vaghegiandole, così vanno quine le femine dipo’ li uomini, gardandoli e
+                     vaghegiandolli </rdg>
+                  <rdg wit="#An">e van<expan>n</expan>o dopo gli uomini guardandogli e
+                        vaghegia<expan>n</expan>dogli come qui a noy vanno gli uomini guardando le
+                        don<expan>n</expan>e</rdg>
+                  <rdg wit="#Ba">Et sì come gl’uomini vanno qui, così vanno quivi le
+                        fem<expan>m</expan>ine doppo gl’huomini garda<expan>n</expan>doli et
+                     vagheggiandoli </rdg>
+                  <rdg wit="#Va">E<expan>t</expan> cussì como quivi le fem<expan>m</expan>ene diedo
+                     l’huomeni guardandolli <expan>et</expan> vageça<expan/>ndolli, sì come
+                        <surplus>como</surplus> qui l’huomeni diedo le femene</rdg>
+                  <rdg wit="#Lu">E q<expan>ui</expan>vi vano le fe<expan>m</expan>i<expan>n</expan>e
+                     drieto ali homeni vagizandoli come van<expan>n</expan>o q<expan>ui</expan> li
+                        ho<expan>m</expan>i<expan>n</expan>i drieto de le
+                        fe<expan>m</expan>i<expan>n</expan>e vazilandole</rdg>
+                  <rdg wit="#Man">Q<expan>ue</expan>lle femi<expan>n</expan>e vagizano
+                        <expan>et</expan> va<expan>n</expan>o dreto ai ho<expan>min</expan>i como in
+                     Ytalia i ho<expan>min</expan>i vagizano e va<expan>n</expan>o dreto alle
+                     femine</rdg>
+               </app>.</ab>
+            <ab n="5" xml:id="com10.5"><app>
+                  <lem>Molte</lem>
+                  <rdg wit="#UR">E</rdg>
+                  <rdg wit="#Lu #Va">E molte</rdg>
+               </app>
+               <app>
+                  <lem>altre</lem>
+                  <rdg wit="#Va"/>
+               </app> cose <app>
+                  <lem>vi</lem>
+                  <rdg wit="#UR #Man">lì</rdg>
+               </app>
+               <app>
+                  <lem>sono</lem>
+                  <rdg wit="#Man">se fano desoneste</rdg>
+               </app>
+               <app>
+                  <lem>che serebbe lungo a nararle</lem>
+                  <rdg wit="#UR">che seriano desoneste a dir </rdg>
+                  <rdg wit="#Ba #Lu">che sarebbono lunghe a narare
+                     <!-- serebeno lunghe a narrare Lu --></rdg>
+                  <rdg wit="#Va">che sarebono longissime a narare </rdg>
+                  <rdg wit="#Man">le q<expan>ua</expan>le p<expan>er</expan> honestà volio tacere
+                  </rdg>
+               </app>. </ab>
+         </div> 
+      </body>
+   </text>
+   
+</TEI>

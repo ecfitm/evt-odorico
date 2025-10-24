@@ -1,0 +1,1516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:id="Odorico_Critical">
+               <hi rend="italics">Libro delle nuove e strane e meravigliose cose</hi>Edizione
+               critica.</title>
+            <author>Odorico da Pordenone OMin.</author>
+            <respStmt xml:id="AAndreose">
+               <resp>Edizione</resp>
+               <persName>Alvise Andreose</persName>
+            </respStmt>
+            <respStmt xml:id="IReginato">
+               <resp>Edizione e codifica</resp>
+               <persName>Irene Reginato</persName>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <p>Portale dedicato ai volgarizzamenti italiani della <title xml:lang="latin"><hi
+                     rend="italic">Relatio de mirabilibus Orientalium Tatarorum</hi>di <persName
+                     ref="#Odorigo">Odorico da Pordenone OMin.</persName></title></p>
+
+         </publicationStmt>
+         
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="CO">Firenze, Biblioteca Nazionale Centrale, Conventi Soppressi
+                     C.7.1170.<note>Ms. base.</note></witness>
+               <witness xml:id="UR">Città del Vaticano, Biblioteca Apostolica Vaticana, Urbinate
+                  Lat. 1013.</witness>
+               <witness xml:id="M">Venezia, Biblioteca Nazionale Marciana, ms. it. cl. XI n° 32
+                  (6672).</witness>
+               <witness xml:id="An">Roma, Biblioteca Angelica, ms. n° 2212.</witness>
+               <witness xml:id="Ba">Città del Vaticano, Biblioteca Apostolica Vaticana, Barberiniano
+                  lat. 4048. </witness>
+               <witness xml:id="Lu">Lucca, Biblioteca Statale, ms. 1296 (<hi rend="italic">olim</hi>
+                  Lucchesini 26).</witness>
+               <witness xml:id="Man">Mantova, Biblioteca Comunale, ms. 448 <hi rend="italic"
+                     >olim</hi> E.I.10). </witness>
+               <witness xml:id="Va">Città del Vaticano, Biblioteca Apostolica Vaticana,Conventi
+                  Soppressi C.7.1170.</witness>
+            </listWit>  
+            
+            <listPerson>
+               <person xml:id="Odorigo">
+                  <persName ref="#Odorigo">Odorico da <placeName ref="#Pordenone"
+                        >Pordenone</placeName> O.M.</persName>
+               </person>
+               <person xml:id="Noé">
+                  <persName ref="#Noé">Noé, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Job">
+                  <persName ref="#Job">Giobbe, patriarca idumeo protagonista del libro
+                     omonimo.</persName>
+               </person>
+               <person xml:id="Tome">
+                  <persName ref="#Tome">Tommaso, detto Didimo, uno dei dodici apostoli di
+                     Cristo.</persName>
+               </person>
+               <person xml:id="PrestoGiovanni">
+                  <persName ref="#NPresto Giovanni">Prete Gianni, leggendario sovrano cristiano che
+                     la tradizione medievale colloca in Asia, India o Etiopia.</persName>
+               </person>
+               <person xml:id="Francesco">
+                  <persName ref="#Francesco">San Francesco d'Assisi.</persName>
+               </person>
+               <person xml:id="Atanaxio">
+                  <persName ref="#Atanaxio">Atanasio l'Atonita, o Atanasio di Trebisonda (X sec.),
+                     monaco bizantino fondatore della Repubblica del Monte Athos.</persName>
+               </person>
+               <person xml:id="Porro">
+                  <persName ref="#Porro">Poro (IV sec.), sovrano della dinastia dei Paurava,
+                     nell'antica India nord-occidentale.</persName>
+               </person>
+               <person xml:id="Allessandro">
+                  <persName ref="#Allessandro">Alessandro Magno.</persName>
+               </person>
+               <person xml:id="TommasodiTollentino">
+                  <persName ref="#Tommaso di Tollentino">Tommaso da Tolentino (m. Tana, 1321),
+                     missionario francescano martire in India.</persName>
+               </person>
+               <person xml:id="JacopodaPadoa">
+                  <persName ref="#Jacopo da Padoa">Giacomo da Padova (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="DimetrideTofilii">
+                  <persName ref="#DimetrideTofilii">Demetrio da Tiblisi (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="PietrodaSiena">
+                  <persName ref="#Pietro da Siena">Pietro da Siena (m. Tana, 1321), missionario
+                     francescano martire in India.</persName>
+               </person>
+               <person xml:id="Magometo">
+                  <persName ref="#NMagometo">Muhammad, profeta dell'Islam.</persName>
+               </person>
+               <person xml:id="Abraam">
+                  <persName ref="#Abraam">Abramo, patriarca biblico.</persName>
+               </person>
+               <person xml:id="Cristofano">
+                  <persName ref="#Cristofano">San Cristoforo (m. 250).</persName>
+               </person>
+               <person xml:id="Adam">
+                  <persName ref="#Adam">Adamo.</persName>
+               </person>
+               <person xml:id="AntoniodaPadua">
+                  <persName ref="#Antonio da Padua">Sant'Antonio da Padova.</persName>
+               </person>
+               <person xml:id="Eva">
+                  <persName ref="#Eva">Eva.</persName>
+               </person>
+               <person xml:id="Vecchiodellamontagna">
+                  <persName ref="#Vecchio della montagna">Ḥasan-i Ṣabbāḥ, maestro della setta
+                     ismailita dei nizariti.</persName>
+               </person>
+               <person xml:id="Cristo">
+                  <persName ref="#Cristo">Gesù Cristo</persName>
+               </person>
+            </listPerson>
+         
+            <listPlace>
+               <place xml:id="Pordenone">
+                  <placeName ref="#Pordenone">Pordenone</placeName>
+                  <location>
+                     <geo>45.956368, 12.661452</geo>
+                  </location>
+                  <note>Pordenone, Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Tollentino">
+                  <placeName ref="#Tollentino">Tolentino</placeName>
+                  <location>
+                     <geo>43.211178, 13.286336</geo>
+                  </location>
+                  <note>Tolentino (MC), Marche, Italia.</note>
+               </place>
+               <place xml:id="Padoa">
+                  <placeName ref="#Padoa">Padova</placeName>
+                  <location>
+                     <geo>45.406435, 11.876761</geo>
+                  </location>
+                  <note>Padova, Veneto, Italia.</note>
+               </place>
+               <place xml:id="Tofilii">
+                  <placeName ref="#Tofilii">Tblisi</placeName>
+                  <location>
+                     <geo>41.715138, 44.827096</geo>
+                  </location>
+                  <note>Tblisi, capitale della Georgia.</note>
+               </place>
+               <place xml:id="Siena">
+                  <placeName ref="#Siena">Tblisi</placeName>
+                  <location>
+                     <geo>43.318809, 11.330757</geo>
+                  </location>
+                  <note>Siena, Toscana, Italia.</note>
+               </place>
+               <place xml:id="Friuli">
+                  <placeName ref="#Friuli">Friuli</placeName>
+                  <location>
+                     <geo>46.225918, 13.103365</geo>
+                  </location>
+                  <note>Friuli Venezia Giulia, Italia.</note>
+               </place>
+               <place xml:id="Ytalia">
+                  <placeName ref="#Ytalia">Italia</placeName>
+                  <location>
+                     <geo>441.871940, 12.567380</geo>
+                  </location>
+               </place>
+               <place xml:id="Vinegia">
+                  <placeName ref="#Vinegia">Venezia</placeName>
+                  <location>
+                     <geo>45.440847, 12.315515</geo>
+                     <note>Venezia, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Pisa">
+                  <placeName ref="#Pisa">Pisa</placeName>
+                  <location>
+                     <geo>43.724591, 10.382981</geo>
+                     <note>Pisa, Toscana, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Udine">
+                  <placeName ref="#Udine">Udine</placeName>
+                  <location>
+                     <geo>46.071067, 13.234579</geo>
+                     <note>Udine, Friuli Venezia Giulia, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Trapesonda">
+                  <placeName ref="#Trapesonda">Trebisonda (Trabzon)</placeName>
+                  <location>
+                     <geo>41.002697, 39.716763</geo>
+                     <note>Città della Turchia, capoluogo dell'omonima provincia, sulla costa
+                        nord-orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="ArmeniaMaggiore">
+                  <placeName ref="#Armenia Maggiore"/>
+                  <location>
+                     <geo>40.069099, 45.038189</geo>
+                  </location>
+                  <note>Storicamente, l'Armenia Maggiore coincide con la regione caucasica
+                     delimitata, a nord, dalla valle del Kura (Turchia) a Nord, a sud dal lago di
+                     Van (Turchia orientale), a ovest dalla Colchide (Georgia occidentale), a est
+                     dal mar Caspio.</note>
+               </place>
+               <place xml:id="Torissi">
+                  <placeName ref="#Torissi">Tabriz</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Tabrīz, capoluogo della provincia dell’Azarbaijian.</note>
+                  </location>
+               </place>
+               <place xml:id="Soldania">
+                  <placeName ref="#Soldania"/>
+                  <location>
+                     <geo>36.433988, 48.794642</geo>
+                     <note>Soltaniyeh/Sulṭāniyyah, città iraniana nella provincia di Zanjan, a
+                        nordovest di Teheran.</note>
+                  </location>
+               </place>
+               <place xml:id="Persia">
+                  <placeName ref="#Persia">Persia</placeName>
+                  <location>
+                     <geo>32.427908, 53.688046</geo>
+                     <note>Persia, Iran.</note>
+                  </location>
+               </place>
+               <place xml:id="Cassam">
+                  <placeName ref="#Cassam">Kāshān</placeName>
+                  <location>
+                     <geo>33.991035, 51.423541</geo>
+                     <note>Kāshān, città iraniana nella provincia di Esfahan. </note>
+                  </location>
+               </place>
+               <place xml:id="SecondaYndia">
+                  <placeName ref="#Seconda Yndia">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana, la
+                        "Seconda Yndia" di Odorico indica l'India propriamente detta, ch'egli
+                        situava nella regione dal Golfo Persico al Vietnam meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="IndiaSuperiore">
+                  <placeName ref="#India Superiore">India.</placeName>
+                  <location>
+                     <geo>20.593684, 78.962880</geo>
+                     <note>Seguendo la classica tripartizione medievale della regione indiana,
+                        Odorico indica con "India Superiore" le regioni della Cina meridionale a sud
+                        del Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Grandemare">
+                  <placeName ref="#Grande mare">mar Nero.</placeName>
+                  <location>
+                     <geo>43.413029, 34.299316</geo>
+                  </location>
+               </place>
+               <place xml:id="Çanega">
+                  <placeName ref="#Çanega">Zigana</placeName>
+                  <location>
+                     <geo>40.623056, 39.377778</geo>
+                     <note>Passo di Zigana,valico montano situato sui Monti Pontici nella provincia
+                        di Gümüşhane, vicino al confine con Trebisonda, nella Turchia
+                        nord-orientale. </note>
+                  </location>
+               </place>
+               <place xml:id="Açiron">
+                  <placeName ref="#Açiron">Erzerum</placeName>
+                  <location>
+                     <geo>39.905499, 41.265824</geo>
+                     <note>Odierna Erzerum. Turchia orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Bisacalo">
+                  <placeName ref="#Bisacalo">Aşkale</placeName>
+                  <location>
+                     <geo>339.920188, 40.694704</geo>
+                     <note>Probabilmente Aşkale, distretto della provincia di Erzurum,
+                        Turchia.</note>
+                  </location>
+               </place>
+               <place xml:id="Susis">
+                  <placeName ref="#Susis">Susis</placeName>
+                  <location>
+                     <geo>38.096239, 46.273801</geo>
+                     <note>Dal toponimo biblico "Susi" (Esther 1:2), corrispondente a Tabrīz.</note>
+                  </location>
+               </place>
+               <place xml:id="Geste">
+                  <placeName ref="#Geste">Yazd.</placeName>
+                  <location>
+                     <geo>31.897423, 54.356856</geo>
+                     <note>Yazd, capoluogo dell'omonima provincia iraniana.</note>
+                  </location>
+               </place>
+               <place xml:id="Conio">
+                  <placeName ref="#Conio">Kenareh.</placeName>
+                  <location>
+                     <geo>29.910968, 52.862080</geo>
+                     <note>Forse l'iraniana Kenareh, nella contea di Marvdasht (provincia di
+                        Fars).</note>
+                  </location>
+               </place>
+               <place xml:id="Hus">
+                  <placeName ref="#Hus">Us.</placeName>
+                  <location>
+                     <geo>31.318327, 48.670619</geo>
+                     <note>Denominazione biblica indicante la città di Us, patria di Giobbe (Job
+                        1:1). Identificazione incerta, forse l'iraniana Ahvāz, capoluogo della
+                        provincia del Khūzestān.</note>
+                  </location>
+               </place>
+               <place xml:id="Caldea">
+                  <placeName ref="#Caldea">Caldea.</placeName>
+                  <location>
+                     <geo>32.391690, 44.341584</geo>
+                     <note>Denominazione indicante la valle del Tigri e dell'Eufrate, anche sinonimo
+                        di Babilonia.</note>
+                  </location>
+               </place>
+               <place xml:id="mareOcciano">
+                  <placeName ref="#mare Occiano">Oceano Indiano.</placeName>
+                  <location>
+                     <geo>-33.137551, 81.826172</geo>
+                     <note>Oceano Indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Ormes">
+                  <placeName ref="#Ormes">Hormuz.</placeName>
+                  <location>
+                     <geo>27.092394, 56.451465</geo>
+                     <note>Isola di Hormuz, isola del Golfo Persico al centro dell'omonimo stretto,
+                        parte del territorio iraniano di Hormozgan.</note>
+                  </location>
+               </place>
+               <place xml:id="Tanna">
+                  <placeName ref="#Tana">Thana.</placeName>
+                  <location>
+                     <geo>19.218331, 72.978090</geo>
+                     <note>Thane (o Thana, Tanna), capoluogo del distretto omonimo, collocata
+                        nell'isola di Salsette, nello stato indiano del Maharashtra.</note>
+                  </location>
+               </place>
+               <place xml:id="Aldilo">
+                  <placeName ref="#Aldilo">Dehli.</placeName>
+                  <location>
+                     <geo>28.704059, 77.102490</geo>
+                     <note>Dehli, India.</note>
+                  </location>
+               </place>
+               <place xml:id="Polumbo">
+                  <placeName ref="#Aldilo">Kollam.</placeName>
+                  <location>
+                     <geo>8.893212, 76.614140</geo>
+                     <note>Kollam (o Quilon), capoluogo dell'omonimo distretto indiano, nello stato
+                        federato del Kerala.</note>
+                  </location>
+               </place>
+               <place xml:id="Çaiton">
+                  <placeName ref="#Çaiton">Quánzhōu.</placeName>
+                  <location>
+                     <geo>24.874050, 118.675830</geo>
+                     <note>Ch'üan-chou/Quánzhōu, centro portuale importante nella Cina
+                        meridionale.</note>
+                  </location>
+               </place>
+               <place xml:id="Minabar">
+                  <placeName ref="#Minabar">Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Malabar, regione costiera dell'India sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Fadina">
+                  <placeName ref="#Fadina">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città non identificata del Malabar, regione costiera dell'India
+                        sud-occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cingalin">
+                  <placeName ref="#Cingalin">Città nel Malabar.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Città del Malabar indiano, forse corrispondente all'odierna Kodungallur
+                        (o Methala o Cranganur/Cranganore).</note>
+                  </location>
+               </place>
+               <place xml:id="Mabar">
+                  <placeName ref="#Mabar">Coromandel.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Coromandel, frangia costiera del sud-est della penisola indiana, negli
+                        stati del Tamil Nadu e dell'Andhra Pradesh.</note>
+                  </location>
+               </place>
+               <place xml:id="Lamen">
+                  <placeName ref="#Lamen">Lamreh.</placeName>
+                  <location>
+                     <geo>13.042222, 80.255643</geo>
+                     <note>Villaggio di Lamreh, sulla costa settentrionale di Sumatra. </note>
+                  </location>
+               </place>
+               <place xml:id="Selmetrio">
+                  <placeName ref="#Selmetrio">Sumatra.</placeName>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Antico regno di Sumatra, nella parte meridionale dell'isola.</note>
+                  </location>
+               </place>
+               <place xml:id="Botenigo">
+                  <placeName ref="#Botenigo">Indonesia.</placeName>
+                  <location>
+                     <geo>-0.789275, 113.921327</geo>
+                     <note>Località non identificata nell'arcipelago indonesiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Janua">
+                  <placeName ref="#Janua">Giava.</placeName>
+                  <location>
+                     <geo>-7.614529, 110.712246</geo>
+                     <note>Isola indonesiana di Giava (Jawa), tra Sumatra e Bali.</note>
+                  </location>
+               </place>
+               <place xml:id="Talamasin">
+                  <placeName ref="#Talamasin">talamasin.</placeName>
+                  <location>
+                     <note>Località non identificata.</note>
+                  </location>
+               </place>
+               <place xml:id="Çampa">
+                  <placeName ref="#Çampa"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Foço">
+                  <placeName ref="#Foço"/>
+                  <location>
+                     <geo>26.074508, 119.296494</geo>
+                     <note>Fuzhou, capitale della provincia del Fujian, nella Cina orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Cunsai">
+                  <placeName ref="#Cunsai"/>
+                  <location>
+                     <geo>30.274085, 120.155070</geo>
+                     <note>Hangzhou, capitale della provincia cinese Zhejiang, sulla costa
+                        orientale.</note>
+                  </location>
+               </place>
+               <place xml:id="Chilenso">
+                  <placeName ref="#Chilenso">Nanchino.</placeName>
+                  <location>
+                     <geo>34.797260, 114.307310</geo>
+                     <note>Kāifēng (Nanchino),una città-prefettura nella provincia cinese dello
+                        Henan.</note>
+                  </location>
+               </place>
+               <place xml:id="Ianni">
+                  <placeName ref="#Ianni"/>
+                  <location>
+                     <geo/>
+                     <note/>
+                  </location>
+               </place>
+               <place xml:id="Cambellec">
+                  <placeName ref="#Cambellec"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Khanbaliq, nome turco dell'odierna Beijing/Pechino.</note>
+                  </location>
+               </place>
+               <place xml:id="Taido">
+                  <placeName ref="#Taido"/>
+                  <location>
+                     <geo>39.904200, 116.407396</geo>
+                     <note>Città costruita nel 1267 a nordest di Khanbaliq e denominata Ta-tu,
+                        'grande capitale'.</note>
+                  </location>
+               </place>
+               <place xml:id="Gattaio">
+                  <placeName ref="#Gattaio"/>
+                  <location>
+                     <note>Catay, la Cina settentrionale (a nord del Fiume Giallo).</note>
+                  </location>
+               </place>
+               <place xml:id="Tibet">
+                  <placeName ref="#Tibet"/>
+                  <location>
+                     <geo>29.646923, 91.117212</geo>
+                     <note>Tibet, regione storico-geografica dell'Asia orientale, attualmente
+                        annessa dalla Cina.</note>
+                  </location>
+               </place>
+               <place xml:id="Milestert">
+                  <placeName ref="#Milestert"/>
+                  <location>
+                     <note>Toponimo inventato, derivante dalla corruzione dell'arabo "mulhid",
+                        'eretico'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ponto">
+                  <placeName ref="#Ponto"/>
+                  <location>
+                     <geo>45.301672, -73.220689</geo>
+                     <note>Regione storica nella zona nordorientale dell'Asia Minore</note>
+                  </location>
+               </place>
+               <place xml:id="Allesandria">
+                  <placeName ref="#Allesandria"/>
+                  <location>
+                     <geo>31.200092, 29.918739</geo>
+                     <note>Alessandria d'Egitto.</note>
+                  </location>
+               </place>
+               <place xml:id="Marcha">
+                  <placeName ref="#Marcha"/>
+                  <location>
+                     <geo>43.615830, 13.518915</geo>
+                     <note>La Marca Anconitana, dove si trova Tolentino.</note>
+                  </location>
+               </place>
+               <place xml:id="Mecha">
+                  <placeName ref="#Mecha"/>
+                  <location>
+                     <geo>21.389082, 39.857912</geo>
+                     <note>La Mecca, capoluogo dell'omonima provincia, nella regione dell'Hegiaz
+                        dell'attuale Arabia Saudita occidentale.</note>
+                  </location>
+               </place>
+               <place xml:id="Somatra">
+                  <placeName ref="#Somatra"/>
+                  <location>
+                     <geo>-0.589724, 101.343106</geo>
+                     <note>Sumatra (o Sumatera), la terza isola più grande dell'arcipelago
+                        Indonesiano dopo Nuova Guinea e Borneo.</note>
+                  </location>
+               </place>
+               <place xml:id="Partain">
+                  <placeName ref="#Partain"/>
+                  <location>
+                     <geo>1.136704, 104.425753</geo>
+                     <note>Forse l'isola indonesiana di Bintain, a sud di Singapore.</note>
+                  </location>
+               </place>
+               <place xml:id="mareMorto">
+                  <placeName ref="#mare Morto">mar Morto.</placeName>
+                  <location>
+                     <geo>31.559029, 35.473189</geo>
+                  </location>
+               </place>
+               <place xml:id="Dodin">
+                  <placeName ref="#Dodin"/>
+                  <location>
+                     <note>Isola dell'Oceano Indiano di incerta localizzazione.</note>
+                  </location>
+               </place>
+               <place xml:id="Trevigi">
+                  <placeName ref="#Trevigi"/>
+                  <location>
+                     <geo>45.666889, 12.243044</geo>
+                     <note>Treviso, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Vinçenza">
+                  <placeName ref="#Vinçenza"/>
+                  <location>
+                     <geo>45.542487, 11.533628</geo>
+                     <note>Vicenza, Veneto, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Çescalam">
+                  <placeName ref="#Çescalam"/>
+                  <location>
+                     <geo>23.129110, 113.264385</geo>
+                     <note>Attuale Canton (Guangzhou, grande città costiera del sud della Cina,
+                        capoluogo della provincia del Guangdong.</note>
+                  </location>
+               </place>
+               <place xml:id="Bologna">
+                  <placeName ref="#Bologna"/>
+                  <location>
+                     <geo>44.494887, 11.342616</geo>
+                  </location>
+               </place>
+               <place xml:id="Talaig">
+                  <placeName ref="#Talaig"/>
+                  <location>
+                     <geo>29.720415, 112.650141</geo>
+                     <note>Nome mongolo dello Yangtsze, il Fiume Azzurro.</note>
+                  </location>
+               </place>
+               <place xml:id="TerraPiemeorum">
+                  <placeName ref="#Terra Piemeorum"/>
+                  <location>
+                     <note>La 'terra dei Pigmei'.</note>
+                  </location>
+               </place>
+               <place xml:id="Cachan">
+                  <placeName ref="#Cachan"/>
+                  <location>
+                     <geo>37.111780, 79.913210</geo>
+                     <note>Forse Khotan, città del Turkestan cinese.</note>
+                  </location>
+               </place>
+               <place xml:id="Mençu">
+                  <placeName ref="#Mençu"/>
+                  <location>
+                     <geo>32.189590, 119.425000</geo>
+                     <note>Chen-kiang,città e porto fluviale della Cina, sulle rive dello
+                        Yangtze.</note>
+                  </location>
+               </place>
+               <place xml:id="Loncin">
+                  <placeName ref="#Loncin"/>
+                  <location>
+                     <geo>31.298974, 120.585297</geo>
+                     <note>Suzhou, città cinese che si trova nella provincia dello Jiangsu.</note>
+                  </location>
+               </place>
+               <place xml:id="Karamoran">
+                  <placeName ref="#Karamoran"/>
+                  <location>
+                     <geo>37.726962, 107.611922</geo>
+                     <note>Nome mongolo dello Huang He, il Fiume Giallo.</note>
+                  </location>
+               </place>
+               <place xml:id="Po">
+                  <placeName ref="#Po"/>
+                  <location>
+                     <geo>44.919889, 9.718583</geo>
+                     <note>Fiume Po'.</note>
+                  </location>
+               </place>
+               <place xml:id="Ferara">
+                  <placeName ref="#Ferara"/>
+                  <location>
+                     <geo>44.838124, 11.619787</geo>
+                     <note>Ferrara, Emilia Romagna, Italia.</note>
+                  </location>
+               </place>
+               <place xml:id="Suçumaccho">
+                  <placeName ref="#Suçumaccho"/>
+                  <location>
+                     <geo>36.617290, 101.777820</geo>
+                     <note>Xīníng, capitale della provincia cinese di Qinghai.</note>
+                  </location>
+               </place>
+               <place xml:id="MonteVerde">
+                  <placeName ref="#Monte Verde"/>
+                  <location>
+                     <note>Rilievo collinare che, stando a Polo (Devisement dou Monde, LXXXIV 24),
+                        fu ricoperto di pietre verdi dal Gran Khan.</note>
+                  </location>
+               </place>
+               <place xml:id="Necoveran">
+                  <placeName ref="#Necoveran"/>
+                  <location>
+                     <geo>10.744887, 92.499992</geo>
+                     <note>Isole Nicobare, arcipelago dell'oceano indiano orientale, a sud-est del
+                        subcontinente indiano.</note>
+                  </location>
+               </place>
+               <place xml:id="Sillan">
+                  <placeName ref="#Sillan">Ceylon.</placeName>
+                  <location>
+                     <geo>7.873054, 80.771797</geo>
+                     <note>Isola di Ceylon, dal 1972 Repubblica Socialista Indipendente dello Sri
+                        Lanka.</note>
+                  </location>
+               </place>
+               <place xml:id="Chausun">
+                  <placeName ref="#Chausun"/>
+                  <location>
+                     <geo>34.341574, 108.939770</geo>
+                     <note>Xi'an, capoluogo della provincia dello Shaanxi nella Cina e città
+                        sub-provinciale.</note>
+                  </location>
+               </place>
+            </listPlace>
+         </sourceDesc>
+      </fileDesc>
+      
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+      </encodingDesc>
+
+   </teiHeader>
+
+   <text n="1" xml:id="Libro_crit">
+      <front>
+         <head type="main">Libro delle nuove e strane e meravigliose cose</head>
+      </front>  
+      <body>
+         <div type="Chapter" n="46" xml:id="chap.46">
+            <head><app>
+                  <lem><hi rend="rubric"/>Della provincia del <placeName ref="#Mançi"
+                        >Mançi</placeName> e <supplied>[del]</supplied> pretioso palaçço e delle
+                     meravilliose cose e nuove ke quine sono e si fanno. Capitolo XLVI</lem>
+                  <rdg wit="#UR">Dela provintia del Mançi e del precioso palaço e altre cosse.
+                     Capitollo XLVI</rdg>
+               </app>.</head>
+            <ab n="1" xml:id="com46.1"> Nella provincia del <placeName ref="#Mançi"
+                  >Mançi</placeName>
+               <app>
+                  <lem>venni</lem>
+                  <rdg wit="#UR">çunsi</rdg>
+               </app>
+               <app>
+                  <lem>a llato al piede d’uno palagio</lem>
+                  <rdg wit="#UR">al palaço</rdg>
+               </app>
+               <app>
+                  <lem>d’un huomo popolare</lem>
+                  <rdg wit="#UR">d'uno povulano</rdg>
+               </app>
+               <app>
+                  <lem>la cui vita è per questo modo</lem>
+                  <rdg wit="#UR">la vita soa è per questo modo</rdg>
+               </app>.</ab>
+            <ab n="2" xml:id="com46.2">Elli <app>
+                  <lem>àe</lem>
+                  <rdg wit="#UR">sì à</rdg>
+               </app> L donçelle vergini, <app>
+                  <lem>le quali servono</lem>
+                  <rdg wit="#UR">che li portano le vivande</rdg>
+               </app> quando elli <app>
+                  <lem>viene a mangiare</lem>
+                  <rdg wit="#UR">mança</rdg>
+               </app>.</ab>
+            <ab n="3" xml:id="com46.3"><app>
+                  <lem>Ongni vivanda e inbandigione</lem>
+                  <rdg wit="#UR">E ogni inbandixone</rdg>
+               </app>
+               <app>
+                  <lem>si</lem>
+                  <rdg wit="#UR">la</rdg>
+               </app> porta <app>
+                  <lem>da</lem>
+                  <rdg wit="#UR"/>
+               </app> cinque di queste donçelle <app>
+                  <lem>vergini</lem>
+                  <rdg wit="#UR"/>
+               </app> con <app>
+                  <lem>diverse g<supplied>[e]</supplied>nerationi di</lem>
+                  <rdg wit="#UR">diversi</rdg>
+               </app> stormenti <app>
+                  <lem>e di canti</lem>
+                  <rdg wit="#UR"/>
+               </app>, <app>
+                  <lem>e continuo cantano</lem>
+                  <rdg wit="#UR"><supplied>[d]</supplied>e continuo sona<expan>n</expan>do e
+                     cantando</rdg>
+               </app> dinançi da llui <app>
+                  <lem>fi a tanto ke quella vivanda e inbandigione è mangiata</lem>
+                  <rdg wit="#UR"/>
+               </app>.</ab>
+            <ab n="4" xml:id="com46.4"><app>
+                  <lem>Poi costoro si parteno e altre cinqye donçelle vengnono coll’autra vivanda e
+                     inbandigione, co altre <pb n="95rb" corresp="Co_fol_95rb"
+                        facs="data\images\single\Co_fol_95r.png"/>[f. 95rb] diverse generationi di
+                     stormenti e canti</lem>
+                  <rdg wit="#UR">E chosì fa ale altre vivande</rdg>
+               </app>.</ab>
+            <ab n="5" xml:id="com46.5">E per questo modo conduce <app>
+                  <lem>la sua vita</lem>
+                  <rdg wit="#UR">soa vita questo homo</rdg>
+               </app>.</ab>
+            <ab n="6" xml:id="com46.6"><app>
+                  <lem>Questo huomo </lem>
+                  <rdg wit="#UR"/>
+               </app>àe <app>
+                  <lem>di rendita</lem>
+                  <rdg wit="#UR">de rendida ogn'ano</rdg>
+               </app> XXX <app>
+                  <lem>tuman <hi rend="italic">tangai</hi> di riso</lem>
+                  <rdg wit="#UR">tuman de tangi d'oro</rdg>
+               </app>; e ogni tuman <app>
+                  <lem>è numero diecemilia</lem>
+                  <rdg wit="#UR">val Xm flor<expan>ini</expan></rdg>
+               </app>, <app>
+                  <lem>uno <hi rend="italic">tagar</hi> è peso quanto porta uno asino</lem>
+                  <rdg wit="#UR"/>
+               </app>. </ab>
+            <ab n="7" xml:id="com46.7">Lo <app>
+                  <lem>cortivo</lem>
+                  <rdg wit="#UR">cortile</rdg>
+               </app> del suo palaço <app>
+                  <lem>gira</lem>
+                  <rdg wit="#UR">volge</rdg>
+               </app>
+               <app>
+                  <lem>quasi</lem>
+                  <rdg wit="#UR"/>
+               </app> due millia.</ab>
+            <ab n="8" xml:id="com46.8"><app>
+                  <lem>Lo suo palagio</lem>
+                  <rdg wit="#UR">E lo palaço</rdg>
+               </app>
+               <app>
+                  <lem>ov’elli dimora</lem>
+                  <rdg wit="#UR"/>
+               </app> è fatto per questo modo.</ab>
+            <ab n="9" xml:id="com46.9"><app>
+                  <lem>Lo spaçço àe l’uno marrone, overo pietra cotta d’oro</lem>
+                  <rdg wit="#UR">uno d'i cantoni d'oro</rdg>
+               </app>, e l’autro d’argento.</ab>
+            <ab n="10" xml:id="com46.10"><app>
+                  <lem>Nel cortivo</lem>
+                  <rdg wit="#UR">In lo cortile</rdg>
+               </app>
+               <app>
+                  <lem>di questo</lem>
+                  <rdg wit="#UR">del</rdg>
+               </app> palaçço è uno monte d’oro e d’argento.</ab>
+            <ab n="11" xml:id="com46.11"><app>
+                  <lem>Sopra questo</lem>
+                  <rdg wit="#UR">Su quel</rdg>
+               </app> monte sono fatti monesteri <app>
+                  <lem>e</lem>
+                  <rdg wit="#UR"/>
+               </app> campanili che lli uomini fanno per lor diletto.</ab>
+            <ab n="12" xml:id="com46.12">Onde dicesi <app>
+                  <lem>e comunemente si parla</lem>
+                  <rdg wit="#UR"/>
+               </app> ke <app>
+                  <lem>in questo <placeName ref="#Mançi">Mançi</placeName> sono quattro huomini per
+                     lo modo k’è questi</lem>
+                  <rdg wit="#UR"/>
+               </app>.</ab>
+            <ab n="12" xml:id="com46.13">La nobilità <app>
+                  <lem>di questo</lem>
+                  <rdg wit="#UR">del</rdg>
+               </app>
+               <placeName ref="#Mançi">Mançi</placeName>
+               <app>
+                  <lem>si è dell’uomini avere</lem>
+                  <rdg wit="#UR">e la belleça d' homini è ad aver</rdg>
+               </app>
+               <app>
+                  <lem>l’unghie lunghe</lem>
+                  <rdg wit="#UR">longhe le ongle</rdg>
+               </app>, e lla belleçça delle femmine è d’avere <app>
+                  <lem>piccioli piccioli piedi</lem>
+                  <rdg wit="#UR">li piè piçoli</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com46.14"><app>
+                  <lem>E questa usança ànno le loro madri</lem>
+                  <rdg wit="#UR">Ell'è uxança dele mare</rdg>
+               </app>: <app>
+                  <lem>quando nascono loro alcune pulcelle</lem>
+                  <rdg wit="#UR">’le nascono</rdg>
+               </app>, <app>
+                  <lem>sì lle legano i piedi</lem>
+                  <rdg wit="#UR">li ligano li piè</rdg>
+               </app>
+               <app>
+                  <lem>onde mai</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>no‧lli lasano loro crescere</lem>
+                  <rdg wit="#UR">’li non li crescano</rdg>
+               </app>.</ab>
+         </div>
+         <div type="Chapter" n="47" xml:id="chap.47">
+            <head><app>
+                  <lem><hi rend="rubric"/>Della contrada <placeName ref="#Milestert"
+                        >Mileterre</placeName> ove lo <persName ref="#Vecchio della montagna"
+                           >Vecchio della <pb n="95va" corresp="Co_fol_95va"
+                           facs="data\images\single\Co_fol_95v.png"/>[f. 95va] montagna</persName>
+                     habitava, e delle novitadi k’elli facea. Capitolo XLVII</lem>
+                  <rdg wit="#UR">Dela contrada Millisterte dove habita el Vecchio dala Montagna e
+                     dele novitade ch’el faxia. Capitollo XLVII</rdg>
+               </app></head>
+            <ab n="1" xml:id="com47.1">Partendomi <app>
+                  <lem>delle terre del <persName ref="#PrestoGiovanni">Prete
+                     Giovanni</persName></lem>
+                  <rdg wit="#UR">de là</rdg>
+               </app> e venendo verso ponente, <app>
+                  <lem>venni</lem>
+                  <rdg wit="#UR">çonsi</rdg>
+               </app> a una contrada che <app>
+                  <lem>si chiamava</lem>
+                  <rdg wit="#UR">se chiama</rdg>
+               </app>
+               <placeName ref="#Milestert">Milesterre</placeName>.</ab>
+            <ab n="2" xml:id="com47.2"><app>
+                  <lem>È</lem>
+                  <rdg wit="#UR"/>
+               </app> bella contrada <app>
+                  <lem>e abondevile</lem>
+                  <rdg wit="#UR">plena</rdg>
+               </app> d’ogni bene.</ab>
+            <ab n="3" xml:id="com47.3">In questa contrada si dicea k’era uno ke si chiamava il
+                  <persName ref="#Vecchio della montagna">Vecchio della montangna</persName>.</ab>
+            <ab n="4" xml:id="com47.4">Elli avea fatto <app>
+                  <lem>tra</lem>
+                  <rdg wit="#UR">infra</rdg>
+               </app> due monti <app>
+                  <lem>di quella contrada</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>uno muro</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>ke gira</lem>
+                  <rdg wit="#UR">chi andava</rdg>
+               </app> intorno intorno, e <app>
+                  <lem>infra questo muro</lem>
+                  <rdg wit="#UR">in meço de quel muro</rdg>
+               </app> erano le più belle <app>
+                  <lem>fonti</lem>
+                  <rdg wit="#UR">fontane</rdg>
+               </app> del mondo.</ab>
+            <ab n="5" xml:id="com47.5"><app>
+                  <lem>E quine erano poste</lem>
+                  <rdg wit="#UR">E sì li avia <surplus>[{de più belle fontane del mondo e sì li
+                        avia}]</surplus>
+                  </rdg>
+               </app>
+               <app>
+                  <lem>bellissime donçelle vergini delle più belle</lem>
+                  <rdg wit="#UR">dele più bele poncelle</rdg>
+               </app>
+               <app>
+                  <lem>del mondo</lem>
+                  <rdg wit="#UR">ch'el podia aver</rdg>
+               </app>
+               <app>
+                  <lem>e cavalli bellissimi</lem>
+                  <rdg wit="#UR">e de' belli cavali</rdg>
+               </app> e <app>
+                  <lem>tutte</lem>
+                  <rdg wit="#UR">de tute</rdg>
+               </app> quelle cose <app>
+                  <lem>che potessero</lem>
+                  <rdg wit="#UR">che se pò</rdg>
+               </app> delectare <app>
+                  <lem>corpo</lem>
+                  <rdg wit="#UR">el corpo</rdg>
+               </app> humano.</ab>
+            <ab n="6" xml:id="com47.6">E facea dire ke <app>
+                  <lem>questo</lem>
+                  <rdg wit="#UR">quel</rdg>
+               </app> luogo era paradiso.</ab>
+            <ab n="7" xml:id="com47.7"><app>
+                  <lem>E quand’elli vedea uno giovane d’alcuno valore, elli lo ponea in questo suo
+                     paradiso nel quale facea andare per conducto vino e latte.</lem>
+                  <rdg wit="#UR">In quel çardino ello faxia andar per condutto vino e latte. Quando
+                     ’lo vedeva alchuno çovene de valor, sì ’l fassea intrar in quel paradixo</rdg>
+               </app></ab>
+            <ab n="8" xml:id="com47.8"><app>
+                  <lem>E quand’elli volea fare uccidere</lem>
+                  <rdg wit="#UR">Quando el volea far morir</rdg>
+               </app><app>
+                  <lem>alcuno re o barone</lem>
+                  <rdg wit="#UR">alghuno re o baron, chi fosse vignuto a questo so paradixo</rdg>
+               </app>, <app>
+                  <lem>faceva domandare</lem>
+                  <rdg wit="#UR">el domandava</rdg>
+               </app> lo so<pb n="95vb" corresp="Co_fol_95vb"
+                  facs="data\images\single\Co_fol_95v.png"/>[f. 95vb]oprastate <app>
+                  <lem>di quello paradiso</lem>
+                  <rdg wit="#UR"/>
+               </app>, che <app>
+                  <lem>lli facesse trovare</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>quello</lem>
+                  <rdg wit="#UR">a colu'</rdg>
+               </app> k’era più <app>
+                  <lem>atto e</lem>
+                  <rdg wit="#UR"/>
+               </app> valontaroso <app>
+                  <lem>a’ dilecti e</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>a dimorare</lem>
+                  <rdg wit="#UR">de voler star</rdg>
+               </app>
+               <app>
+                  <lem>in questo</lem>
+                  <rdg wit="#UR">in lo</rdg>
+               </app> paradiso, <app>
+                  <lem>al quale faceva dare</lem>
+                  <rdg wit="#UR">ello si feva</rdg>
+               </app> uno beveraggio <app>
+                  <lem>ch’el facea</lem>
+                  <rdg wit="#UR">chi li fasia</rdg>
+               </app>
+               <app>
+                  <lem>fortemente</lem>
+                  <rdg wit="#UR"/>
+               </app> adormentare.</ab>
+            <ab n="9" xml:id="com47.9"><app>
+                  <lem>E allora costui così addormentato</lem>
+                  <rdg wit="#UR">po'</rdg>
+               </app>
+               <app>
+                  <lem>facea kavare</lem>
+                  <rdg wit="#UR">li faxia portar fuora</rdg>
+               </app>
+               <app>
+                  <lem>di quello paradiso</lem>
+                  <rdg wit="#UR">del çardino</rdg>
+               </app>, <app>
+                  <lem>e </lem>
+                  <rdg wit="#UR"/>
+               </app>quando <app>
+                  <lem>quelli</lem>
+                  <rdg wit="#UR">ello</rdg>
+               </app>
+               <app>
+                  <lem>sera svelliato</lem>
+                  <rdg wit="#UR">era desedato</rdg>
+               </app> e vedeasi fuor del paradiso, era <app>
+                  <lem>posto</lem>
+                  <rdg wit="#UR"/>
+               </app> in tanta <app>
+                  <lem>agonia</lem>
+                  <rdg wit="#UR">malinconia</rdg>
+               </app> ke no sapea ke <app>
+                  <lem>sì</lem>
+                  <rdg wit="#UR"/>
+               </app> fare.</ab>
+            <ab n="10" xml:id="com47.10">E <app>
+                  <lem>allora</lem>
+                  <rdg wit="#UR"/>
+               </app> pregava continuamente <app>
+                  <lem>questo</lem>
+                  <rdg wit="#UR">quel</rdg>
+               </app>
+               <persName ref="#Vecchio della montagna">Vecchio <app>
+                     <lem>della montagna</lem>
+                     <rdg wit="#UR"/>
+                  </app></persName> ke llo facesse ritornare in quello paradiso ov’era prima.</ab>
+            <ab n="11" xml:id="com47.11">E allora questo <persName ref="#Vecchio della montagna"
+                  >vecchio</persName> li diceva: «<app>
+                  <lem>Quine</lem>
+                  <rdg wit="#UR">Qua</rdg>
+               </app>
+               <app>
+                  <lem>no puoi andare </lem>
+                  <rdg wit="#UR">no pò' tu intrar</rdg>
+               </app>se tu no uccidi <app>
+                  <lem>prima</lem>
+                  <rdg wit="#UR">inprima</rdg>
+               </app> cotale persona, onde se <app>
+                  <lem>tu</lem>
+               </app> mori<supplied>[r]</supplied>ai o no‧morrai, sì <app>
+                  <lem>ti poròe</lem>
+                  <rdg wit="#UR">te metterò</rdg>
+               </app> i<supplied>[n]</supplied>
+               <app>
+                  <lem>quello</lem>
+                  <rdg wit="#UR">lo</rdg>
+               </app> paradiso.</ab>
+            <ab n="12" xml:id="com47.12">E per questo modo <app>
+                  <lem>faceva uccidere</lem>
+                  <rdg wit="#UR">el feva morir</rdg>
+               </app> tutti quelli ke voleva.</ab>
+            <ab n="12" xml:id="com47.13"><app>
+                  <lem>Per</lem>
+                  <rdg wit="#UR">e per</rdg>
+               </app> questa cagione tutti li re d’Oriente lo temeano <app>
+                  <lem>e mandava‧lli</lem>
+                  <rdg wit="#UR">e sì gli mandavano</rdg>
+               </app> tributo.</ab>
+            <ab n="12" xml:id="com47.14">Quando i Tartari <app>
+                  <lem>cominciaro</lem>
+                  <rdg wit="#UR">començano</rdg>
+               </app> a <app>
+                  <lem>pilliare</lem>
+                  <rdg wit="#UR">conquistar</rdg>
+               </app>
+               <app>
+                  <lem>il</lem>
+                  <rdg wit="#UR">lo</rdg>
+               </app> mondo, <app>
+                  <lem>venoro a costui</lem>
+                  <rdg wit="#UR"/>
+                  <rdg wit="#UR">’li andèno</rdg>
+               </app>
+               <app>
+                  <lem>e pilliaro</lem>
+                  <rdg wit="#UR">p<expan>er</expan> tor</rdg>
+               </app>
+               <app>
+                  <lem>la sua singnoria</lem>
+                  <rdg wit="#UR">la signoria a chostui</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com47.15"><app>
+                  <lem>E</lem>
+                  <rdg wit="#UR"/>
+               </app> allora <app>
+                  <lem>questi</lem>
+                  <rdg wit="#UR">ello</rdg>
+               </app> mandò <app>
+                  <lem>molti</lem>
+                  <rdg wit="#UR">asai</rdg>
+               </app> di questi suoi assesini <app>
+                  <lem>di</lem>
+                  <rdg wit="#UR">del</rdg>
+               </app> paradiso e face<pb n="96ra" corresp="Co_fol_96ra"
+                  facs="data\images\single\Co_fol_96r.png"/>[f. 96ra] uccidere molti <app>
+                  <lem>di questi</lem>
+                  <rdg wit="#UR"/>
+               </app> Tartari.</ab>
+            <ab n="12" xml:id="com47.16"><app>
+                  <lem>Vedendo questo</lem>
+                  <rdg wit="#UR">Veçando questi ço ch'el faxia</rdg>
+               </app>, <app>
+                  <lem>li Tartari vennero</lem>
+                  <rdg wit="#UR">sì ’li venne in grande qua<expan>n</expan>tità</rdg>
+               </app> a questa <app>
+                  <lem>cittade</lem>
+                  <rdg wit="#UR">soa citade</rdg>
+               </app>
+               <app>
+                  <lem>nella quale questo <persName ref="#Vecchio della montagna">Vecchio della
+                        montangna</persName> era</lem>
+                  <rdg wit="#UR"/>
+               </app>, <app>
+                  <lem>e assediarla</lem>
+                  <rdg wit="#UR">e asedià el Vechio</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com47.17"><app>
+                  <lem>E quinde non si partiro</lem>
+                  <rdg wit="#UR">Mai no<expan>n</expan> se partite dala
+                     mo<expan>n</expan>tagna</rdg>
+               </app>
+               <app>
+                  <lem>fin a tanto</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>ke questa città con questo <persName ref="#Vecchio della montagna">Vecchio
+                        della montangna</persName> no presero</lem>
+                  <rdg wit="#UR">ch’eli prese la cità e lui e féllo morir de mala morte</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com47.18">E poi lo legaro e fecerlo morire di mala morte.</ab>
+         </div>
+         <div type="Chapter" n="48" xml:id="chap.48">
+            <head><hi rend="rubric"/><app>
+                  <lem>Della gratia ke Dio àe data a’ frati minori in questa contrada. Capitolo
+                     XLVIII</lem>
+                  <rdg wit="#UR">Dela graccia che Dio à data ali fra Menori in quella contrada.
+                     Capitollo XLVIII</rdg>
+               </app></head>
+            <ab n="1" xml:id="com48.1">In <app>
+                  <lem>questa</lem>
+                  <rdg wit="#UR">quella</rdg>
+               </app> contrada Dio àe data questa graça a’ frati minori che nella <placeName
+                  ref="#Grande Tartaria">Grande Tartaria</placeName>
+               <app>
+                  <lem>elli ànno così per nulla</lem>
+                  <rdg wit="#UR">alchuno non podeva</rdg>
+               </app> cacciare <app>
+                  <lem>uno</lem>
+                  <rdg wit="#UR">alchuno</rdg>
+               </app> dimonio <app>
+                  <lem>del</lem>
+                  <rdg wit="#UR">de</rdg>
+               </app> corpo <app>
+                  <lem>d’uno huomo</lem>
+                  <rdg wit="#UR">d'omo o de femena</rdg>
+               </app>
+               <app>
+                  <lem>come kacciano uno kane della casa</lem>
+                  <rdg wit="#UR">se no lor</rdg>
+               </app>.</ab>
+            <ab n="2" xml:id="com48.2"><app>
+                  <lem>Molti huomini e femine</lem>
+                  <rdg wit="#UR">E molti di queli Tartari</rdg>
+               </app> sono indimoniati, onde incontenente, <app>
+                  <lem>s’elli sono da lungha X millia giornate</lem>
+                  <rdg wit="#UR">si li è X o XX çornade longi</rdg>
+               </app>, sì li legano e mena‧li <app>
+                  <lem>a’ frati</lem>
+                  <rdg wit="#UR">ali fra menori</rdg>
+               </app>.</ab>
+            <ab n="3" xml:id="com48.3"><app>
+                  <lem>Allora</lem>
+                  <rdg wit="#UR">E alora</rdg>
+               </app> i frati dalla parte di Dio comandano a quelli dimoni <app>
+                  <lem>ke dobbiano uscire</lem>
+                  <rdg wit="#UR">che escano fora</rdg>
+               </app> di quelli corpi, e incontenente <app>
+                  <lem>n’escono</lem>
+                  <rdg wit="#UR">eschono fora</rdg>
+               </app>.</ab>
+            <ab n="4" xml:id="com48.4">Poi coloro <app>
+                  <lem>ke sono liberati</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>si</lem>
+                  <rdg wit="#UR">li</rdg>
+               </app> fanno bapteçare.</ab>
+            <ab n="5" xml:id="com48.5">E allora i frati <app>
+                  <lem>pillino</lem>
+                  <rdg wit="#UR">togliono</rdg>
+            </app> li loro yd<pb n="96rb" corresp="Co_fol_96rba"
+                  facs="data\images\single\Co_fol_96r.png"/>[f. 96rb]oli <app>
+                  <lem>di feltro</lem>
+                  <rdg wit="#UR"><supplied>[d]</supplied>e feltri</rdg>
+               </app> k’ellino ànno. </ab>
+            <ab n="6" xml:id="com48.6"><app>
+                  <lem>Allora li frati</lem>
+                  <rdg wit="#UR">E dala parte de Dio, digando oration</rdg>
+               </app> colla croce e coll’aqqua santa <app>
+                  <lem>vanno e portalli</lem>
+                  <rdg wit="#UR">vqno e portano queste ydole</rdg>
+               </app> al fuoco.</ab>
+            <ab n="7" xml:id="com48.7"><app>
+                  <lem>E allora</lem>
+                  <rdg wit="#UR">alora</rdg>
+               </app> tutti quelli della contrada vengnono <app>
+                  <lem>a vedere ardere li dii de lloro vicini</lem>
+                  <rdg wit="#UR">a veder le ydole: digli so vixini</rdg>
+               </app>.</ab>
+            <ab n="8" xml:id="com48.8">Allora <app>
+                  <lem>vanno i frati e pilliano questi ydoli</lem>
+                  <rdg wit="#UR">li fra pigliano le ydole</rdg>
+               </app> e <app>
+                  <lem>mettolli</lem>
+                  <rdg wit="#UR">mettele</rdg>
+               </app> nel fuoco, <app>
+                  <lem>e allora l’idolo incontenente</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>si gitta del fuoco</lem>
+                  <rdg wit="#UR"/>
+               </app>.</ab>
+            <ab n="9" xml:id="com48.9"><app>
+                  <lem>E poi i frati pilliano della aqqua santa la quale gittano sopra’l fuoco</lem>
+                  <rdg wit="#UR"/>
+               </app>, e incontenente <app>
+                  <lem>lo dimonio</lem>
+                  <rdg wit="#UR">l'ydolo</rdg>
+               </app>
+               <app>
+                  <lem>fugge</lem>
+                  <rdg wit="#UR">saglie fora</rdg>
+               </app> del fuoco.</ab>
+            <ab n="10" xml:id="com48.10">E <app>
+                  <lem>allora</lem>
+                  <rdg wit="#UR"/>
+               </app> li frati <app>
+                  <lem>gittano lo ydolo</lem>
+                  <rdg wit="#UR">gietano da cavo l’ydolo</rdg>
+               </app> nel fuoco <app>
+                  <lem>e così arde</lem>
+                  <rdg wit="#UR"> e incontinente si arde</rdg>
+               </app>
+            </ab>
+            <ab n="11" xml:id="com48.11">E‧l dimonio clama <app>
+                  <lem>in are</lem>
+                  <rdg wit="#UR">Maria</rdg>
+               </app>
+               <app>
+                  <lem>e dice</lem>
+                  <rdg wit="#UR"/>
+               </app>: «<app>
+                  <lem>Vedi, vedi che cacciato sono</lem>
+                  <rdg wit="#UR">Perch'io son cagçado</rdg>
+               </app> della mia habitatione!».</ab>
+            <ab n="12" xml:id="com48.12">E così <app>
+                  <lem>per questo modo</lem>
+                  <rdg wit="#UR"/>
+               </app> i nostri frati ne bacteççano molti.</ab>
+         </div>
+         <div type="Chapter" n="49" xml:id="chap.49">
+            <head><app>
+                  <lem><hi rend="rubric"/>Delle meravilliose cose ke sono in una valle posta sopra
+                     il fiume kiamato fiume delle delitie. Capitolo XLVIIII</lem>
+                  <rdg wit="#UR">Dele meraviglioxe cose che sonno in una vale chi è sovra ’l fiume
+                     chi à nome ‘dele Delitie’. Capitollo XLVIIII</rdg>
+               </app>.</head>
+            <ab n="1" xml:id="com49.1">Un’altra <app>
+                  <lem>terribile</lem>
+                  <rdg wit="#UR">molto teribile</rdg>
+               </app> cosa <app>
+                  <lem>vidi</lem>
+                  <rdg wit="#UR">io viti</rdg>
+               </app> andando per una valle <app>
+                  <lem>posta</lem>
+                  <rdg wit="#UR">chi è</rdg>
+               </app> sopra uno fiume <app>
+                  <lem>delle delitie</lem>
+                  <rdg wit="#UR"/>
+               </app>.</ab>
+            <ab n="2" xml:id="com49.2"><app>
+                  <lem>Vidi in quella valle molti corpi morti</lem>
+                  <rdg wit="#UR"/>
+               </app>.</ab>
+            <ab n="3" xml:id="com49.3"><app>
+                  <lem>Nel quale luogo vidi</lem>
+                  <rdg wit="#UR">E l<supplied>[ì]</supplied> odeti</rdg>
+               </app> diversi strumenti che [f. 96va] <app>
+                  <lem>quine pare ke sonassero</lem>
+                  <rdg wit="#UR">parivano sonar</rdg>
+               </app>, onde <app>
+                  <lem>quine</lem>
+                  <rdg wit="#UR">qua</rdg>
+               </app> era tanto <app>
+                  <lem>timore</lem>
+                  <rdg wit="#UR">tremor</rdg>
+               </app> e paura ke no si porrebbe dire.</ab>
+            <ab n="4" xml:id="com49.4">Questa valle <app>
+                  <lem>era</lem>
+                  <rdg wit="#UR">sì è</rdg>
+               </app> lunga <app>
+                  <lem>forsi</lem>
+                  <rdg wit="#UR"/>
+               </app> sette <app>
+                  <lem>overo</lem>
+                  <rdg wit="#UR">o</rdg>
+               </app> otto millia, <app>
+                  <lem>e chiunque</lem>
+                  <rdg wit="#UR">chi</rdg>
+               </app> entra in quella valle <app>
+                  <lem>incontenente</lem>
+                  <rdg wit="#UR">adesso</rdg>
+               </app> muore.</ab>
+            <ab n="5" xml:id="com49.5"><app>
+                  <lem>Nella quale volli entrare</lem>
+                  <rdg wit="#UR">Io ne volsi entrar</rdg>
+               </app> per vedere <app>
+                  <lem>quello</lem>
+                  <rdg wit="#UR"/>
+               </app> ke questo era.</ab>
+            <ab n="6" xml:id="com49.6"><app>
+                  <lem>Entrando quine</lem>
+                  <rdg wit="#UR">E, intrando dentro</rdg>
+               </app>, trovai molti corpi morti, ond’<app>
+                  <lem>è</lem>
+                  <rdg wit="#UR">serave</rdg>
+               </app> incredibile cosa a imaginare <app>
+                  <lem>quant’erano</lem>
+                  <rdg wit="#UR">quanti ’gli erano</rdg>
+               </app>.</ab>
+            <ab n="7" xml:id="com49.7">In questa valle trovai una testa d’uomo sul monte, <app>
+                  <lem>tanto terribile</lem>
+                  <rdg wit="#UR">sì forte e teribille a vederla</rdg>
+               </app>
+               <app>
+                  <lem>ke misse sì grandissima paura</lem>
+                  <rdg wit="#UR">ch'io ebe grande paura</rdg>
+               </app>
+               <app>
+                  <lem>ke pareva</lem>
+                  <rdg wit="#UR">ch'el parete</rdg>
+               </app> ke’l <app>
+                  <lem>mio</lem>
+                  <rdg wit="#UR"/>
+               </app> spirito si volesse <app>
+                  <lem>partire da me</lem>
+                  <rdg wit="#UR">da me partire</rdg>
+               </app>.</ab>
+            <ab n="8" xml:id="com49.8">E per questa paura sempre andava dicendo: «<app>
+                  <lem>Verbum caro factum est et caetera</lem>
+                  <rdg wit="#UR">V<expan>er</expan>bum caro f<expan>actu</expan>m est et habitavit
+                     in nobis et vidimus gloriam eius</rdg>
+               </app>».</ab>
+            <ab n="9" xml:id="com49.9"><app>
+                  <lem>Poi</lem>
+                  <rdg wit="#UR">E così anda<expan>n</expan>do</rdg>
+               </app> montai sopra uno monte arenoso <app>
+                  <lem>nel quale guardai</lem>
+                  <rdg wit="#UR">io guardai</rdg>
+               </app> d’ogni parte <app>
+                  <lem>e neuna cosa del mondo vidi</lem>
+                  <rdg wit="#UR">io non vidi alchuna cosa</rdg>
+               </app>, <app>
+                  <lem>se no ke molte naccare udia</lem>
+                  <rdg wit="#UR">ma io oldiva nachar e ’sai strumenti sonar</rdg>
+               </app>.</ab>
+            <ab n="10" xml:id="com49.10"><app>
+                  <lem>Essendo</lem>
+                  <rdg wit="#UR">E vigna<expan>n</expan>do</rdg>
+               </app>
+               <app>
+                  <lem>nel</lem>
+                  <rdg wit="#UR">a</rdg>
+               </app> capo del monte <app>
+                  <lem>quine</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>trovai</lem>
+                  <rdg wit="#UR"/>
+               </app>
+               <app>
+                  <lem>tanto argento k’era in grande quantitade</lem>
+                  <rdg wit="#UR">grande qua<expan>n</expan>tità d'argento</rdg>
+               </app>, <app>
+                  <lem>de quale no presi cosa del mondo</lem>
+                  <rdg wit="#UR">Io no ne volle tocchar niente</rdg>
+               </app>.</ab>
+            <ab n="11" xml:id="com49.11"><app>
+                  <lem>E così sença danno alcuno mi partii</lem>
+                  <rdg wit="#UR">e sença far alghun danno vene ala mia via</rdg>
+               </app>.</ab>
+            <ab n="12" xml:id="com49.12"><app>
+                  <lem>Quello</lem>
+                  <rdg wit="#UR">E quello</rdg>
+               </app> argento <app>
+                  <lem>era quasi come</lem>
+                  <rdg wit="#UR">era fatto a modo de</rdg>
+               </app> squame di pesci.</ab>
+            <ab n="12" xml:id="com49.13">E per questa cagione <pb n="96vb" corresp="Co_fol_96vb"
+                  facs="data\images\single\Co_fol_96v.png"/>[f. 96vb] tutti i saracini <app>
+                  <lem>m’avevano in grande reverentia</lem>
+                  <rdg wit="#UR">me fevano honor</rdg>
+               </app>, dicendo k’io era batteçato e santo, <app>
+                  <lem>e quelli ke erano morti in quella valle erano stati huomini del diaulo
+                     d’inferno</lem>
+                  <rdg wit="#UR">p<expan>er</expan>ch’io era tornà de quella valle</rdg>
+               </app>.</ab>
+         </div>
+         <div type="Chapter" n="50" xml:id="chap.50">
+            <head><app>
+                  <lem><hi rend="rubric"/>Della testimoniança e fermeçça che frate <persName
+                        ref="#Odorigo">Odorigo</persName> preditto, ke vide e disse e fece scrivere
+                     queste cose, àe date a queste cose approvandole altenticamente essere vere.
+                     Capitolo L</lem>
+                  <rdg wit="#UR">Dela testimonianza e fermeça ch’io fra Odorigho viti
+                        <supplied>[queste chosse]</supplied>. I’ò fato scriver queste cose
+                     provandole utintigamente esser veritade. Capitollo L</rdg>
+               </app></head>
+            <ab n="1" xml:id="com50.1">Io, frate <persName ref="#Odorigo">Odorigo</persName> di
+                  <placeName ref="#Friuli">Friuli</placeName>, di una terra ke si kiama <placeName
+                  ref="#Pordenone">Porto Naoni</placeName>, dell’ordine de’ frati minori, <app>
+                  <lem>testifico e testimoniança rendo</lem>
+                  <rdg wit="#UR">digo in testimoniança</rdg>
+               </app>
+               <app>
+                  <lem>e rispondo al mio ministro</lem>
+                  <rdg wit="#UR">ch'io rendo al mio monasterio</rdg>
+               </app> per <app>
+                  <lem>vera</lem>
+                  <rdg wit="#UR"/>
+               </app> obedientia, ke tutte le predette cose ke sono scritte in questo libro, io le
+               vidi co’ miei <app>
+                  <lem>propri</lem>
+                  <rdg wit="#UR"/>
+               </app> occhi <app>
+                  <lem>o io l’udi’</lem>
+                  <rdg wit="#UR">e sì le oldeti</rdg>
+               </app> da <app>
+                  <lem>huomini degni</lem>
+                  <rdg wit="#UR">persone digne</rdg>
+               </app> di fede; e dal comune parlare di queste contrade quelle ke no vidi <app>
+                  <lem>apare ke sono vere</lem>
+                  <rdg wit="#UR">ess<supplied>[er]</supplied> veritade</rdg>
+               </app>.</ab>
+            <ab n="2" xml:id="com50.2"><app>
+                  <lem>Molt’altre cose</lem>
+                  <rdg wit="#UR">E molte altre cose</rdg>
+               </app>
+               <app>
+                  <lem>ò lasciate</lem>
+                  <rdg wit="#UR">io lassai</rdg>
+               </app>
+               <app>
+                  <lem>di no fare scrivere</lem>
+                  <rdg wit="#UR">de che io no<expan>n</expan> le ò fatte scrivere</rdg>
+               </app>
+               <app>
+                  <lem>perké</lem>
+                  <rdg wit="#UR">che</rdg>
+               </app> sono <app>
+                  <lem>quasi</lem>
+                  <rdg wit="#UR"/>
+               </app> incredibili apo alquanti <app>
+                  <lem>se</lem>
+                  <rdg wit="#UR">s'eli</rdg>
+               </app> no lle vedessero colli loro propri occhi. </ab>
+            <ab n="3" xml:id="com50.3">E <app>
+                  <lem>di dì in die</lem>
+                  <rdg wit="#UR">anchora</rdg>
+               </app> m’aparecchio d’andare in quelle contrade, nelle quali <pb n="97ra"
+                  corresp="Co_fol_97ra" facs="data\images\single\Co_fol_97r.png"/>[f. 97ra] mi
+               dispongno di morire e <app>
+                  <lem>di vivere</lem>
+                  <rdg wit="#UR">de viver e de morir</rdg>
+               </app>
+               <app>
+                  <lem>secondo la volontà di Dio</lem>
+                  <rdg wit="#UR">alla voluntade de Dio. Am<expan>en</expan>,
+                     Am<expan>en</expan>.</rdg>
+               </app>. </ab>
+         </div>
+      </body>
+   </text>
+   
+</TEI>
