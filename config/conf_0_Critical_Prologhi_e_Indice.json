@@ -2,7 +2,7 @@
     "indexTitle": "Odorico da Pordenone, Libro delle nuove e strane e meravigliose cose",
     "webSite": "",
     "logoUrl": "data/icons/myLogo.jpg",
-    "dataUrl": "data/text/0_Critical_Prologhi_e_Indice.json",
+    "dataUrl": "data/text/0_Critical_Prologhi_e_Indice.xml",
     "analoguesUrl": "",
     "sourcesTextsUrl": "data/text/sources/",
     "singleImagesUrl": "data/images/single/",
